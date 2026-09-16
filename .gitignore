@@ -1,0 +1,5 @@
+*.7z
+unencrypted.xp3
+unencrypted/
+version.dll
+.DS_Store

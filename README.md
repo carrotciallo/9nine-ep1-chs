@@ -5,19 +5,21 @@ Steam 版《9-nine-:Episode 1》（九次九日九重色）的简体中文补丁
 [![Release](https://img.shields.io/github/v/release/carrotciallo/9nine-ep1-chs)](https://github.com/carrotciallo/9nine-ep1-chs/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/carrotciallo/9nine-ep1-chs/total)](https://github.com/carrotciallo/9nine-ep1-chs/releases)
 
-- 文本基于樱空汉化组 Ver1.0，菜单图已汉化，字体为思源黑体
+- 文本基于樱空汉化组 Ver1.0，正文、设置页与菜单均为简体中文，字体为思源黑体
 - 不替换 `nine_kokoiro.exe` 和 `steam_api.dll`，从 Steam 正常启动，成就和云存档照常可用
 
 ## 下载
 
-**[⬇ 下载 v1.1.0（7z，约 86 MB）](https://github.com/carrotciallo/9nine-ep1-chs/releases/download/v1.1.0/9nine-ep1-chs-v1.1.0.7z)**
+**[⬇ 下载 v1.2.0（7z，约 86 MB）](https://github.com/carrotciallo/9nine-ep1-chs/releases/download/v1.2.0/9nine-ep1-chs-v1.2.0.7z)**
 
 历史版本见 [Releases](https://github.com/carrotciallo/9nine-ep1-chs/releases)。
 
 ## 安装
 
+Windows 可以一键安装：解压下载的 7z 后双击 `install.bat`，脚本会自动定位 Steam 游戏目录、备份将被覆盖的文件并完成安装。手动安装：
+
 1. 在 Steam 库里右键游戏 →「管理」→「浏览本地文件」，打开游戏目录。
-2. 解压下载的 7z，把里面三项直接放进游戏目录，和 `nine_kokoiro.exe` 放在同一层，提示覆盖时选覆盖：
+2. 把解压出的三项直接放进游戏目录，和 `nine_kokoiro.exe` 放在同一层，提示覆盖时选覆盖：
    - `version.dll`
    - `unencrypted.xp3`
    - `unencrypted` 文件夹
@@ -60,6 +62,14 @@ WINEDLLOVERRIDES="version=n,b" %command%
 ```
 
 ## 更新日志
+
+### v1.2.0
+
+- 剧本重构：补丁只覆盖繁体中文轨道（游戏里该轨道的显示名已改为「简体中文」），日语、英语轨道恢复官方原文。主/副语言可以混搭，例如日语主文本＋简中副文本。
+- 设置页全部简体化：顶部菜单、六个设置页的选项文字、帮助说明、确认弹窗均为简体中文。
+- 修复启动警告屏：樱空汉化组的警告页此前因文件名对不上从未生效，现在会正常显示；其余界面贴图同理按语言变体名对齐。
+- 新增一键安装脚本 `install.bat`（自动定位游戏目录、安装前备份）。
+- 构建工具开源：剧本重构、文本编解码、解包与打包脚本及格式文档见 `tools/`、`docs/`。
 
 ### v1.1.0
 

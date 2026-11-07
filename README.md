@@ -10,14 +10,14 @@ Steam 版《9-nine-:Episode 1》（九次九日九重色）的简体中文补丁
 
 ## 下载
 
-**[⬇ 下载 v1.0.0（7z，约 85 MB）](https://github.com/carrotciallo/9nine-ep1-chs/releases/download/v1.0.0/9nine-ep1-chs.7z)**
+**[⬇ 下载 v1.1.0（7z，约 86 MB）](https://github.com/carrotciallo/9nine-ep1-chs/releases/download/v1.1.0/9nine-ep1-chs-v1.1.0.7z)**
 
 历史版本见 [Releases](https://github.com/carrotciallo/9nine-ep1-chs/releases)。
 
 ## 安装
 
 1. 在 Steam 库里右键游戏 →「管理」→「浏览本地文件」，打开游戏目录。
-2. 解压下载的 7z，打开解压出来的 `9nine-ep1-chs` 文件夹，把里面三项放进游戏目录，和 `nine_kokoiro.exe` 放在同一层，提示覆盖时选覆盖（别把 `9nine-ep1-chs` 整个文件夹拷进去，那样不会生效）：
+2. 解压下载的 7z，把里面三项直接放进游戏目录，和 `nine_kokoiro.exe` 放在同一层，提示覆盖时选覆盖：
    - `version.dll`
    - `unencrypted.xp3`
    - `unencrypted` 文件夹
@@ -44,7 +44,7 @@ WINEDLLOVERRIDES="version=n,b" %command%
 ## 常见问题
 
 **点开始游戏没反应，或报错缺 `VCRUNTIME140.dll` / `MSVCP140.dll`？**
-补丁的 `version.dll` 需要微软 VC++ 运行库，系统里没装就会这样。装一下 [VC++ 2015–2022 运行库（x86 版）](https://aka.ms/vs/17/release/vc_redist.x86.exe) 再开游戏。注意要 x86 版，只装 x64 版没用。
+这是 1.0 版的问题：旧版 `version.dll` 需要微软 VC++ 运行库，系统里没装就起不来。更新到 v1.1.0 即可（1.1 起不再需要运行库）；暂时不想更新的话，装一下 [VC++ 2015–2022 运行库（x86 版）](https://aka.ms/vs/17/release/vc_redist.x86.exe) 再开游戏，注意要 x86 版。
 
 **装完进游戏还是日文？**
 先看三项是不是和 `nine_kokoiro.exe` 在同一层目录，放进子文件夹不会生效；Linux / Deck 再检查启动选项有没有加对。
@@ -56,8 +56,16 @@ WINEDLLOVERRIDES="version=n,b" %command%
 这个 DLL 没有数字签名，个别杀软会误报。先核对它的 SHA-256，对得上就从杀软的隔离区恢复，并把游戏目录加入白名单：
 
 ```
-52745037818beb55ef3c3006342658080b652f81fc652020780904ed2cf358d2
+09d19ed2c5f472a7aaef893f7380ba44b65ea5d8bf416d67b65c100446d55270
 ```
+
+## 更新日志
+
+### v1.1.0
+
+- 换了新的 `version.dll`：不再依赖微软 VC++ 运行库，没装运行库的电脑也能直接启动（1.0 最常见的起不来就是这个）。
+- 修复繁体中文轨道的字体：繁中轨之前用不上补丁自带的思源简中、会掉回系统繁体字体，现在会正确加载简体思源。
+- 剧本内容与 1.0 相同（三条语言轨仍都显示简体中文），设置页仍是官方繁体。这两处放到 v1.2：剧本改为只覆盖繁中轨（日/英轨恢复官方原文）、设置页简体化。
 
 ## 来源
 

@@ -93,4 +93,5 @@ WINEDLLOVERRIDES="version=n,b" %command%
 
 本仓库同时提供从头构建本补丁的工具与格式文档（`tools/`、`docs/`）：
 剧本重构、系统文本编解码、樱空汉化包解包与打包脚本。需要自备正版游戏
-文件与樱空原汉化包，仓库不包含游戏素材。管线说明见 `docs/building.md`。
+文件与樱空原汉化包，仓库不包含游戏素材。管线说明见 `docs/building.md`；
+工具代码以 MIT 许可证开源，范围说明见 `LICENSE` 与 `NOTICE`。

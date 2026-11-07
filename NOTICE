@@ -1,0 +1,10 @@
+许可范围说明
+
+- 本仓库的 MIT 许可证（见 LICENSE）覆盖 `tools/` 与 `docs/` 中的代码与
+  文档，以及 README 等仓库文本。
+- 补丁所用的汉化译文版权归樱空汉化组所有，游戏本体素材版权归其权利方
+  所有；两者均不包含在本仓库内，也不在本许可证的授权范围内。
+- `tools/momo_xor1024.bin` 是为互操作目的从樱空汉化包的 kokoiro_chs.dll
+  中提取的数据表；`tools/unpack_momo.py` 内的文件索引表同理。
+- `tools/psb_parse.py`、`tools/xp3pack.py` 参考的上游项目 FreeMote 与
+  KirikiriTools 均为 MIT 许可证，其版权归各自作者所有。

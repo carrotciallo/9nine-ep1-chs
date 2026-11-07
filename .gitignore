@@ -3,3 +3,5 @@ unencrypted.xp3
 unencrypted/
 version.dll
 .DS_Store
+
+__pycache__/

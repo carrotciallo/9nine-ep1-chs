@@ -1,35 +1,62 @@
 # 9-nine-:Episode 1 简中补丁
 
-Steam 版《9-nine-:Episode 1》（九次九日九重色）的汉化补丁。文本基于樱空汉化组 Ver1.0，菜单图换过了，字体是思源黑体。
+Steam 版《9-nine-:Episode 1》（九次九日九重色）的简体中文补丁。
 
-不换 `nine_kokoiro.exe` 和 `steam_api.dll`。Steam 点开始游戏就行，成就和云存档还能用。
+[![Release](https://img.shields.io/github/v/release/carrotciallo/9nine-ep1-chs)](https://github.com/carrotciallo/9nine-ep1-chs/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/carrotciallo/9nine-ep1-chs/total)](https://github.com/carrotciallo/9nine-ep1-chs/releases)
 
-[下载 7z](https://github.com/carrotciallo/9nine-ep1-chs/releases/latest)
+- 文本基于樱空汉化组 Ver1.0，菜单图已汉化，字体为思源黑体
+- 不替换 `nine_kokoiro.exe` 和 `steam_api.dll`，从 Steam 正常启动，成就和云存档照常可用
 
-## 怎么装
+## 下载
 
-Steam 库里右键游戏 → 管理 → 浏览本地文件。解压后把这三个丢进游戏目录，跟 `nine_kokoiro.exe` 放一起，提示覆盖就覆盖：
+**[⬇ 下载 v1.0.0（7z，约 85 MB）](https://github.com/carrotciallo/9nine-ep1-chs/releases/download/v1.0.0/9nine-ep1-chs.7z)**
 
-- `version.dll`
-- `unencrypted.xp3`
-- `unencrypted` 文件夹
+历史版本见 [Releases](https://github.com/carrotciallo/9nine-ep1-chs/releases)。
 
-进游戏如果能选字体，选思源黑体。
+## 安装
 
-Proton / Linux / Deck 要加启动项，写在原有内容前面：
+1. 在 Steam 库里右键游戏 →「管理」→「浏览本地文件」，打开游戏目录。
+2. 解压下载的 7z，把下面三项放进游戏目录，和 `nine_kokoiro.exe` 放在同一层，提示覆盖时选覆盖：
+   - `version.dll`
+   - `unencrypted.xp3`
+   - `unencrypted` 文件夹
+3. 从 Steam 启动游戏。游戏里能选字体时，选思源黑体。
+
+### Linux / Steam Deck（Proton）
+
+在游戏的启动选项里，把下面这行加在原有内容的最前面（Windows 不用加）：
 
 ```
 WINEDLLOVERRIDES="version=n,b" %command%
 ```
 
-Windows 不用改这项。
+## 注意事项
 
-别点「验证游戏文件完整性」，官方文件会把补丁顶掉。自动更新最好改成「仅在启动时更新」。
+- 别对游戏点「验证游戏文件完整性」，Steam 会把补丁文件顶回官方原版；真点了，重新按上面步骤拷一遍即可。
+- 自动更新建议改成「仅在启动时更新」，避免更新把补丁覆盖掉。
+- 补丁不包含 R18 的 `adult.xp3`，已有这个文件的自己放进游戏目录。
 
-包里没有 R18 的 `adult.xp3`，有的话自己丢进游戏目录。
+## 卸载
 
-卸的时候删掉上面那三个，启动项里的 `WINEDLLOVERRIDES` 也清掉。
+删掉装进去的三项（`version.dll`、`unencrypted.xp3`、`unencrypted` 文件夹），Proton 用户再把启动选项里的 `WINEDLLOVERRIDES` 清掉。
 
-文本：樱空汉化组  
-字体：[思源黑体](https://github.com/adobe-fonts/source-han-sans)  
-`version.dll`：[KirikiriTools](https://github.com/arcusmaximus/KirikiriTools)
+## 常见问题
+
+**装完进游戏还是日文？**
+先看三项是不是和 `nine_kokoiro.exe` 在同一层目录，放进子文件夹不会生效；Linux / Deck 再检查启动选项有没有加对。
+
+**游戏更新后汉化没了？**
+更新覆盖了补丁文件，重新解压拷一遍三项就行，存档不受影响。
+
+## 来源
+
+| 内容 | 出处 |
+| --- | --- |
+| 汉化文本 | 樱空汉化组 Ver1.0 |
+| 字体 | [思源黑体](https://github.com/adobe-fonts/source-han-sans) |
+| `version.dll` | [KirikiriTools](https://github.com/arcusmaximus/KirikiriTools) |
+
+## 免责声明
+
+非官方补丁，与游戏开发商、发行商无关。游戏本体请自行在 Steam 购买。汉化文本版权归原汉化组所有，如有侵权请联系删除。

@@ -1,0 +1,729 @@
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 0, "speaker": null, "name": null, "text": "起床。", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 1, "speaker": null, "name": null, "text": "洗完脸刷完牙。", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 2, "speaker": null, "name": null, "text": "用完简单的早餐。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 3, "speaker": null, "name": null, "text": "换好衣服。", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 4, "speaker": null, "name": null, "text": "正当我把书包挎在肩上准备出门之时，眼前的空间扭曲了。", "plain": ["正当我把书包挎在肩上准备出门之时，眼前的空间扭曲了。", "正当我把书包挎在肩上准备出门之时，眼前的空间扭曲了。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 5, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「哎呀，是要出门了吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 6, "speaker": null, "name": null, "text": "空间分裂开，索菲缇娅出现在眼前。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 7, "speaker": null, "name": null, "text": "……依旧是那样无用地大费排场呢。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 8, "speaker": "翔", "name": "翔", "text": "「是的，我差不多该出门了。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 9, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「啊，对了。我帮你查过了哦。\\n　首先是第一位。」", "plain": ["「啊，对了。我帮你查过了哦。\\n　首先是第一位。」", "「啊，对了。我帮你查过了哦。\\n　首先是第一位。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 10, "speaker": "翔", "name": "翔", "text": "「诶，真快啊。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 11, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「不是说了吗？　我和你这种人不一样。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 12, "speaker": "翔", "name": "翔", "text": "「怎么了。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 13, "speaker": null, "name": null, "text": "我轻描淡写的对应，让索菲不满地皱起了眉头。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 14, "speaker": null, "name": null, "text": "然后她叹了口气，倦怠地继续说道。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 15, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「很简单。\\n　我是从你过去的行动中所推导出来的。\\n　同你给出的条件相符合的人物、很快就找到了。」", "plain": ["「很简单。\\n　我是从你过去的行动中所推导出来的。\\n　同你给出的条件相符合的人物、很快就找到了。」", "「很简单。\\n　我是从你过去的行动中所推导出来的。\\n　同你给出的条件相符合的人物、很快就找到了。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 16, "speaker": "翔", "name": "翔", "text": "「过去的行动吗……\\n　也就是说你在严密地监视着我吧。」", "plain": ["「过去的行动吗……\\n　也就是说你在严密地监视着我吧。」", "「过去的行动吗……\\n　也就是说你在严密地监视着我吧。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 17, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「当然了，没有自觉的使用者是很有趣%p-1;%fＭＳ ゴシック;――\\n%p;%fuser;　咳咳，很危险的。」", "plain": ["「当然了，没有自觉的使用者是很有趣%p-1;%fＭＳ ゴシック;――\\n%p;%fuser;　咳咳，很危险的。」", "「当然了，没有自觉的使用者是很有趣%p-1;%fＭＳ ゴシック;――\\n%p;%fuser;　咳咳，很危险的。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 18, "speaker": "翔", "name": "翔", "text": "「喂，真心话说出口了哦。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 19, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「烦死了，\\n　给我好好闭上嘴听着。」", "plain": ["「烦死了，\\n　给我好好闭上嘴听着。」", "「烦死了，\\n　给我好好闭上嘴听着。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 20, "speaker": "翔", "name": "翔", "text": "「行行。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 21, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「我所调查的是长头发的那位女孩。名字叫香坂　春风。\\n　不知道用你们世界的文字怎么写。\\n　年龄比你大一岁。」", "plain": ["「我所调查的是长头发的那位女孩。名字叫香坂　春风。\\n　不知道用你们世界的文字怎么写。\\n　年龄比你大一岁。」", "「我所调查的是长头发的那位女孩。名字叫香坂　春风。\\n　不知道用你们世界的文字怎么写。\\n　年龄比你大一岁。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 22, "speaker": "翔", "name": "翔", "text": "「比我大，果然是学姐吗。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 23, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「从对她的行动的观察来看，你们的猜想是猜中了呢。\\n　那个女孩，她相当地可疑。」", "plain": ["「从对她的行动的观察来看，你们的猜想是猜中了呢。\\n　那个女孩，她相当地可疑。」", "「从对她的行动的观察来看，你们的猜想是猜中了呢。\\n　那个女孩，她相当地可疑。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 24, "speaker": "翔", "name": "翔", "text": "「原来如此……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 25, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 26, "speaker": "翔", "name": "翔", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 27, "speaker": "翔", "name": "翔", "text": "「诶？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 28, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「怎么了？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 29, "speaker": "翔", "name": "翔", "text": "「只有这么点？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 30, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「对啊。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 31, "speaker": "翔", "name": "翔", "text": "「不会吧。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 32, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「不是很赶时间吗？\\n　我就简单地给你们整理了下。」", "plain": ["「不是很赶时间吗？\\n　我就简单地给你们整理了下。」", "「不是很赶时间吗？\\n　我就简单地给你们整理了下。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 33, "speaker": "翔", "name": "翔", "text": "「劳你费心了。\\n　另一位也拜托了。」", "plain": ["「劳你费心了。\\n　另一位也拜托了。」", "「劳你费心了。\\n　另一位也拜托了。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 34, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「自不用你说。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 35, "speaker": null, "name": null, "text": "是对我的说辞感到不爽吗，\\n索菲有些不快地消失了。", "plain": ["是对我的说辞感到不爽吗，\\n索菲有些不快地消失了。", "是对我的说辞感到不爽吗，\\n索菲有些不快地消失了。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 36, "speaker": null, "name": null, "text": "由于索菲外表看上去很可爱的缘故，我就不知不觉不客气地讲话了……\\n还真是难以取悦，不好伺候呢。", "plain": ["由于索菲外表看上去很可爱的缘故，我就不知不觉不客气地讲话了……\\n还真是难以取悦，不好伺候呢。", "由于索菲外表看上去很可爱的缘故，我就不知不觉不客气地讲话了……\\n还真是难以取悦，不好伺候呢。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 37, "speaker": "翔", "name": "翔", "text": "「接下来……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 38, "speaker": null, "name": null, "text": "总之，名字是知道了。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 39, "speaker": null, "name": null, "text": "之后就由自己去调查下班级什么的吧。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 40, "speaker": "天", "name": "天", "text": "「啊，来了来了。老哥你好慢啊～！」", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 41, "speaker": "都", "name": "都", "text": "「新海君，早安～」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 42, "speaker": null, "name": null, "text": "天在车站旁等候着。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 43, "speaker": null, "name": null, "text": "不知为何与我家所在反方向的九条也在，这使我有些惊讶。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 44, "speaker": "翔", "name": "翔", "text": "「为什么九条你也在？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 45, "speaker": "天", "name": "天", "text": "「因为九条说她对于那个超级欢迎的人很在意。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 46, "speaker": "都", "name": "都", "text": "「我只是想见识一下，究竟会是位怎样的人呢。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 47, "speaker": "翔", "name": "翔", "text": "「索菲很快就帮我们查到了。\\n是说叫作香坂　春风同学来着。\\n　年级是比我们大一届的高三，是个学姐呢。」", "plain": ["「索菲很快就帮我们查到了。\\n是说叫作香坂　春风同学来着。\\n　年级是比我们大一届的高三，是个学姐呢。」", "「索菲很快就帮我们查到了。\\n是说叫作香坂　春风同学来着。\\n　年级是比我们大一届的高三，是个学姐呢。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 48, "speaker": "都", "name": "都", "text": "「香坂学姐……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 49, "speaker": "翔", "name": "翔", "text": "「你认识吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 50, "speaker": "都", "name": "都", "text": "「对不起，我不认识。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 51, "speaker": "天", "name": "天", "text": "「总而言之，我们走吧。\\n　逆后宫队，已经先走掉了哦？」", "plain": ["「总而言之，我们走吧。\\n　逆后宫队，已经先走掉了哦？」", "「总而言之，我们走吧。\\n　逆后宫队，已经先走掉了哦？」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 52, "speaker": "翔", "name": "翔", "text": "「啊呀，这可糟了，我们快追上吧。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 53, "speaker": "都", "name": "都", "text": "「啊，书包请放在车筐里吧～」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 54, "speaker": "天", "name": "天", "text": "「谢啦～！」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 55, "speaker": "翔", "name": "翔", "text": "「九条，你见过她了没有？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 56, "speaker": "都", "name": "都", "text": "「与其说是见过……。\\n　不如说她被男生们团团围住，没能见到她本人……」", "plain": ["「与其说是见过……。\\n　不如说她被男生们团团围住，没能见到她本人……」", "「与其说是见过……。\\n　不如说她被男生们团团围住，没能见到她本人……」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 57, "speaker": "天", "name": "天", "text": "「真是越来越出名了呢。\\n　我觉得他们没走多远，应该很快就能追上吧。」", "plain": ["「真是越来越出名了呢。\\n　我觉得他们没走多远，应该很快就能追上吧。」", "「真是越来越出名了呢。\\n　我觉得他们没走多远，应该很快就能追上吧。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 58, "speaker": null, "name": null, "text": "我们小跑了十几秒。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 59, "speaker": null, "name": null, "text": "正如天所说的那样，我们立刻就看到了显眼的队伍。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 60, "speaker": "春風", "name": "ㄔㄨㄣㄈㄥ", "text": "「我说啊，能好好提着我的东西吗？\\n　你看便当这不是都要洒出来了吗。」", "plain": ["「我说啊，能好好提着我的东西吗？\\n　你看便当这不是都要洒出来了吗。」", "「我说啊，能好好提着我的东西吗？\\n　你看便当这不是都要洒出来了吗。」"], "flag": 80}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 61, "speaker": "春風", "name": "ㄔㄨㄣㄈㄥ", "text": "「哎呀，不能再靠近我了哦。\\n　可千万别碰我哦。\\n　我可不是随意风尘的女生哦。」", "plain": ["「哎呀，不能再靠近我了哦。\\n　可千万别碰我哦。\\n　我可不是随意风尘的女生哦。」", "「哎呀，不能再靠近我了哦。\\n　可千万别碰我哦。\\n　我可不是随意风尘的女生哦。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 62, "speaker": null, "name": null, "text": "众男簇拥的公主大人……不，在揭示板上是『乐园的女王』吗。", "plain": ["众男簇拥的公主大人……不，在揭示板上是『乐园的女王』吗。", "众男簇拥的公主大人……不，在揭示板上是『乐园的女王』吗。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 63, "speaker": null, "name": null, "text": "让簇拥着的男生提着包，\\n她矫揉造作般地迈着优雅的步子。", "plain": ["让簇拥着的男生提着包，\\n她矫揉造作般地迈着优雅的步子。", "让簇拥着的男生提着包，\\n她矫揉造作般地迈着优雅的步子。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 64, "speaker": "翔", "name": "翔", "text": "「第一次见到她的时候……明明是一副感到为难地怯生生的模样……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 65, "speaker": "天", "name": "天", "text": "「十足的女王范儿呢。\\n　制服的胸口也是！　敞开得那么大。」", "plain": ["「十足的女王范儿呢。\\n　制服的胸口也是！　敞开得那么大。」", "「十足的女王范儿呢。\\n　制服的胸口也是！　敞开得那么大。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 66, "speaker": "都", "name": "都", "text": "「不过……怎么说呢。\\n　虽然这么说有些失礼……」", "plain": ["「不过……怎么说呢。\\n　虽然这么说有些失礼……」", "「不过……怎么说呢。\\n　虽然这么说有些失礼……」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 67, "speaker": "天", "name": "天", "text": "「总有种她是在强行地塑造着自己的角色的感觉。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 68, "speaker": "都", "name": "都", "text": "「啊，嗯，对的。\\n　感觉她言辞很僵硬啊……」", "plain": ["「啊，嗯，对的。\\n　感觉她言辞很僵硬啊……」", "「啊，嗯，对的。\\n　感觉她言辞很僵硬啊……」"], "flag": 80}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 69, "speaker": "翔", "name": "翔", "text": "「我觉得吧，果然只是因为突然间大受欢迎起来就得意忘形了吧。\\n　同Artifact没什么关系。」", "plain": ["「我觉得吧，果然只是因为突然间大受欢迎起来就得意忘形了吧。\\n　同Artifact没什么关系。」", "「我觉得吧，果然只是因为突然间大受欢迎起来就得意忘形了吧。\\n　同Artifact没什么关系。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 70, "speaker": "天", "name": "天", "text": "「突然就大受欢迎起来不觉得奇怪吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 71, "speaker": "都", "name": "都", "text": "「是周遭的人们觉察到了她的魅力吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 72, "speaker": "翔", "name": "翔", "text": "「是中了彩票了吗。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 73, "speaker": "天", "name": "天", "text": "「都学姐太纯洁了，\\n　哥哥太肮脏了。」", "plain": ["「都学姐太纯洁了，\\n　哥哥太肮脏了。」", "「都学姐太纯洁了，\\n　哥哥太肮脏了。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 74, "speaker": "翔", "name": "翔", "text": "「什么嘛。要是能给我百万的话我也会去跪舔鞋子的。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 75, "speaker": "都", "name": "都", "text": "「诶。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 76, "speaker": "天", "name": "天", "text": "「确实会舔呢。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 77, "speaker": "都", "name": "都", "text": "「诶。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 78, "speaker": "翔", "name": "翔", "text": "「嘛，玩笑先到这里……。\\n　虽然我刚刚那么说……不过那个受欢迎的方式\\n　确实很异常啊。」", "plain": ["「嘛，玩笑先到这里……。\\n　虽然我刚刚那么说……不过那个受欢迎的方式\\n　确实很异常啊。」", "「嘛，玩笑先到这里……。\\n　虽然我刚刚那么说……不过那个受欢迎的方式\\n　确实很异常啊。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 79, "speaker": "都", "name": "都", "text": "「她本来的性格%p-1;%fＭＳ ゴシック;――%p;%fuser;我虽然不知道……\\n　前后反差如此之大的话，\\n　也许是环境的变化导致的呢。」", "plain": ["「她本来的性格%p-1;%fＭＳ ゴシック;――%p;%fuser;我虽然不知道……\\n　前后反差如此之大的话，\\n　也许是环境的变化导致的呢。」", "「她本来的性格%p-1;%fＭＳ ゴシック;――%p;%fuser;我虽然不知道……\\n　前后反差如此之大的话，\\n　也许是环境的变化导致的呢。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 80, "speaker": "翔", "name": "翔", "text": "「你是说引发这环境的变化的，\\n　就是Artifact吧。」", "plain": ["「你是说引发这环境的变化的，\\n　就是Artifact吧。」", "「你是说引发这环境的变化的，\\n　就是Artifact吧。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 81, "speaker": "天", "name": "天", "text": "「受男性欢迎的Artifact吗。\\n　该说是让人羡慕呢还是怎样都好呢。\\n　总之，来确认下试试吧～」", "plain": ["「受男性欢迎的Artifact吗。\\n　该说是让人羡慕呢还是怎样都好呢。\\n　总之，来确认下试试吧～」", "「受男性欢迎的Artifact吗。\\n　该说是让人羡慕呢还是怎样都好呢。\\n　总之，来确认下试试吧～」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 82, "speaker": "都", "name": "都", "text": "「怎么做？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 83, "speaker": "天", "name": "天", "text": "「交给我吧。\\n　知道名字的话，就能营造出意味深长的感觉～」", "plain": ["「交给我吧。\\n　知道名字的话，就能营造出意味深长的感觉～」", "「交给我吧。\\n　知道名字的话，就能营造出意味深长的感觉～」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 84, "speaker": "天", "name": "天", "text": "「老哥，能不能借用一下你的后背？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 85, "speaker": "翔", "name": "翔", "text": "「？　嗯」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 86, "speaker": null, "name": null, "text": "天从书包里取出笔和记事本，小心地撕下一页。\\n贴在我的背上开始写起什么。", "plain": ["天从书包里取出笔和记事本，小心地撕下一页。\\n贴在我的背上开始写起什么。", "天从书包里取出笔和记事本，小心地撕下一页。\\n贴在我的背上开始写起什么。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 87, "speaker": "天", "name": "天", "text": "「啊，糟糕，真难写字。\\n　早知在本子上写完再撕就好了。」", "plain": ["「啊，糟糕，真难写字。\\n　早知在本子上写完再撕就好了。」", "「啊，糟糕，真难写字。\\n　早知在本子上写完再撕就好了。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 88, "speaker": "都", "name": "都", "text": "「要用垫板吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 89, "speaker": "天", "name": "天", "text": "「啊，没关系的没关系的。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 90, "speaker": "翔", "name": "翔", "text": "「是写信吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 91, "speaker": "天", "name": "天", "text": "「对。嗯～…………OK、就这样吧～。\\n　我去交给她～」", "plain": ["「对。嗯～…………OK、就这样吧～。\\n　我去交给她～」", "「对。嗯～…………OK、就这样吧～。\\n　我去交给她～」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 92, "speaker": "都", "name": "都", "text": "「去交给她……诶、没关系吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 93, "speaker": "天", "name": "天", "text": "「你忘了我的能力了吗～？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 94, "speaker": null, "name": null, "text": "天边将信折叠起来，边径直向着队伍奔去。", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 95, "speaker": null, "name": null, "text": "然后，在周遭簇拥着的人们谁都不知，\\n连本人都未察觉的情况下、将信偷偷藏在香坂学姐的口袋里，\\n一脸得意洋洋地归来。", "plain": ["然后，在周遭簇拥着的人们谁都不知，\\n连本人都未察觉的情况下、将信偷偷藏在香坂学姐的口袋里，\\n一脸得意洋洋地归来。", "然后，在周遭簇拥着的人们谁都不知，\\n连本人都未察觉的情况下、将信偷偷藏在香坂学姐的口袋里，\\n一脸得意洋洋地归来。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 96, "speaker": "天", "name": "天", "text": "「哼……小菜一碟。」", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 97, "speaker": "都", "name": "都", "text": "「原来如此，操作了自己的存在感吗。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 98, "speaker": "天", "name": "天", "text": "「对，虽然被紧紧盯着的话是不行的，\\n　但对于没有注意到这边的对方而言我几乎等同于透明人。\\n　简直是现代的忍者、我真是到手了个好能力呢，嘿嘿。」", "plain": ["「对，虽然被紧紧盯着的话是不行的，\\n　但对于没有注意到这边的对方而言我几乎等同于透明人。\\n　简直是现代的忍者、我真是到手了个好能力呢，嘿嘿。」", "「对，虽然被紧紧盯着的话是不行的，\\n　但对于没有注意到这边的对方而言我几乎等同于透明人。\\n　简直是现代的忍者、我真是到手了个好能力呢，嘿嘿。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 99, "speaker": "翔", "name": "翔", "text": "「虽然在我看来老土而又没用，\\n　没想到意外地厉害呢。」", "plain": ["「虽然在我看来老土而又没用，\\n　没想到意外地厉害呢。」", "「虽然在我看来老土而又没用，\\n　没想到意外地厉害呢。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 100, "speaker": "天", "name": "天", "text": "「喂，你原来是那么想的吗。\\n　如果现在立马道歉的话，只给你一拳就了事了哦。」", "plain": ["「喂，你原来是那么想的吗。\\n　如果现在立马道歉的话，只给你一拳就了事了哦。」", "「喂，你原来是那么想的吗。\\n　如果现在立马道歉的话，只给你一拳就了事了哦。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 101, "speaker": "翔", "name": "翔", "text": "「信里都写了什么？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 102, "speaker": "天", "name": "天", "text": "「啊，无视我吗？‘乐园的女王是你吧？\\n　我是你的同伴，可以的话\\n　请联络我～。’我是这么写的，ID也附上了。」", "plain": ["「啊，无视我吗？‘乐园的女王是你吧？\\n　我是你的同伴，可以的话\\n　请联络我～。’我是这么写的，ID也附上了。」", "「啊，无视我吗？‘乐园的女王是你吧？\\n　我是你的同伴，可以的话\\n　请联络我～。’我是这么写的，ID也附上了。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 103, "speaker": "都", "name": "都", "text": "「哇，真是大胆的行为呢。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 104, "speaker": "天", "name": "天", "text": "「哎，不行吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 105, "speaker": "翔", "name": "翔", "text": "「如果不是她的话应该会被无视掉……\\n　就算是她大概也会被警戒…\\n　不过如果回信了就是血赚了。」", "plain": ["「如果不是她的话应该会被无视掉……\\n　就算是她大概也会被警戒…\\n　不过如果回信了就是血赚了。」", "「如果不是她的话应该会被无视掉……\\n　就算是她大概也会被警戒…\\n　不过如果回信了就是血赚了。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 106, "speaker": "翔", "name": "翔", "text": "「干得好，天。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 107, "speaker": "天", "name": "天", "text": "「诶嘿嘿～、再多夸我一些。\\n　啊，喂，不要碰头发啊，\\n　发型要散掉啦。」", "plain": ["「诶嘿嘿～、再多夸我一些。\\n　啊，喂，不要碰头发啊，\\n　发型要散掉啦。」", "「诶嘿嘿～、再多夸我一些。\\n　啊，喂，不要碰头发啊，\\n　发型要散掉啦。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 108, "speaker": null, "name": null, "text": "本来想要摸头的手被妹妹甩开了。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 109, "speaker": null, "name": null, "text": "哥哥我好悲伤啊。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 110, "speaker": "翔", "name": "翔", "text": "「总而言之，先静观其变吧。\\n　如果到放学后还没回讯的话，那再想其他办法吧。」", "plain": ["「总而言之，先静观其变吧。\\n　如果到放学后还没回讯的话，那再想其他办法吧。」", "「总而言之，先静观其变吧。\\n　如果到放学后还没回讯的话，那再想其他办法吧。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 111, "speaker": "都", "name": "都", "text": "「ID的话，告诉她的是小天的ID吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 112, "speaker": "天", "name": "天", "text": "「嗯？　唔……、嗯」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 113, "speaker": "翔", "name": "翔", "text": "「喂，刚才那支吾是怎么回事。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 114, "speaker": "天", "name": "天", "text": "「怎么了？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 115, "speaker": "翔", "name": "翔", "text": "「你写的是谁的ID啊。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 116, "speaker": "天", "name": "天", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 117, "speaker": "翔", "name": "翔", "text": "「啊，可以了，我已经明白了。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 118, "speaker": "天", "name": "天", "text": "「对不住啦～！　别发火嘛～！」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 119, "speaker": "翔", "name": "翔", "text": "「不，我没生气。不如说那样反而好。\\n　即便ID暴露给了簇拥着的家伙们，\\n　对我而言也没损害。」", "plain": ["「不，我没生气。不如说那样反而好。\\n　即便ID暴露给了簇拥着的家伙们，\\n　对我而言也没损害。」", "「不，我没生气。不如说那样反而好。\\n　即便ID暴露给了簇拥着的家伙们，\\n　对我而言也没损害。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 120, "speaker": "天", "name": "天", "text": "「喂，搞什么呀！　快发火呀！\\n　不然话就接不上了呀！」", "plain": ["「喂，搞什么呀！　快发火呀！\\n　不然话就接不上了呀！」", "「喂，搞什么呀！　快发火呀！\\n　不然话就接不上了呀！」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 121, "speaker": "翔", "name": "翔", "text": "「什么啊你真是难缠哪。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 122, "speaker": "都", "name": "都", "text": "「呵呵，新海君虽然一副冷淡的模样对应着，\\n　不过其实是个非常关心妹妹的哥哥呢。」", "plain": ["「呵呵，新海君虽然一副冷淡的模样对应着，\\n　不过其实是个非常关心妹妹的哥哥呢。」", "「呵呵，新海君虽然一副冷淡的模样对应着，\\n　不过其实是个非常关心妹妹的哥哥呢。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 123, "speaker": "翔", "name": "翔", "text": "「诶，不，没有那回事。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 124, "speaker": "天", "name": "天", "text": "「什么呀～其实喜欢我呀～」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 125, "speaker": "翔", "name": "翔", "text": "「你想多了。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 126, "speaker": "都", "name": "都", "text": "「但是如果不喜欢的话\\n　我想是不会舍身跃入火场的吧。」", "plain": ["「但是如果不喜欢的话\\n　我想是不会舍身跃入火场的吧。」", "「但是如果不喜欢的话\\n　我想是不会舍身跃入火场的吧。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 127, "speaker": "天", "name": "天", "text": "「啊呀啊呀，超喜欢我的呀～」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 128, "speaker": "翔", "name": "翔", "text": "「吵死了闭嘴。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 129, "speaker": "天", "name": "天", "text": "「坦率一点呀～」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 130, "speaker": "翔", "name": "翔", "text": "「去死吧你。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 131, "speaker": "天", "name": "天", "text": "「好过分！」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 132, "speaker": "都", "name": "都", "text": "「呵呵，真好啊～、你们关系真好啊。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 133, "speaker": "翔", "name": "翔", "text": "「诶，刚才的对话是被这么看待的？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 134, "speaker": "天", "name": "天", "text": "「哪些地方？　哪些地方看出来我们关系很好？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 135, "speaker": "都", "name": "都", "text": "「会说出那样的话，\\n　也是因为对对方知根知底吧？\\n　新海君对我不会说去死吧你～这样的话的。」", "plain": ["「会说出那样的话，\\n　也是因为对对方知根知底吧？\\n　新海君对我不会说去死吧你～这样的话的。」", "「会说出那样的话，\\n　也是因为对对方知根知底吧？\\n　新海君对我不会说去死吧你～这样的话的。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 136, "speaker": "翔", "name": "翔", "text": "「不，那是，不会的。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 137, "speaker": "都", "name": "都", "text": "「嘿嘿，你们之间这样的距离感、让我有点羡慕呢～」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 138, "speaker": "天", "name": "天", "text": "「诶……想要被说去死吗？　你是抖M吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 139, "speaker": "都", "name": "都", "text": "「不是的，因为我是独生子女\\n　所以有点想要新海君那样可以依靠的哥哥啊。」", "plain": ["「不是的，因为我是独生子女\\n　所以有点想要新海君那样可以依靠的哥哥啊。」", "「不是的，因为我是独生子女\\n　所以有点想要新海君那样可以依靠的哥哥啊。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 140, "speaker": "翔", "name": "翔", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 141, "speaker": "天", "name": "天", "text": "「喂，不要摆出一副喜形于色的表情啊，喂。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 142, "speaker": "翔", "name": "翔", "text": "「吵死人了笨蛋。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 143, "speaker": "天", "name": "天", "text": "「你才是笨蛋啊笨蛋！」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 144, "speaker": "都", "name": "都", "text": "「呵呵，感情真系好呢～」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 145, "speaker": "天", "name": "天", "text": "「诶？　刚才咬到舌头了吧？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 146, "speaker": "都", "name": "都", "text": "「……」", "plain": [], "flag": 88}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 147, "speaker": "天", "name": "天", "text": "「咬到舌头了对吧？」", "plain": [], "flag": 72}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 148, "speaker": "都", "name": "都", "text": "「……感情真是好……」", "plain": [], "flag": 72}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 149, "speaker": "天", "name": "天", "text": "「真系好呢？」", "plain": [], "flag": 72}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 150, "speaker": "都", "name": "都", "text": "「…………对不起，请原谅我。」", "plain": [], "flag": 72}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 151, "speaker": "天", "name": "天", "text": "「满脸通红地！　好可爱啊！　学姐好可爱啊！」", "plain": [], "flag": 72}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 152, "speaker": "翔", "name": "翔", "text": "「……你啊，真的是不放过别人的过失呢。」", "plain": [], "flag": 72}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 153, "speaker": "天", "name": "天", "text": "「近来老哥整日唉声叹气的让人难受，\\n　所以接下来我就调戏都学姐了。」", "plain": ["「近来老哥整日唉声叹气的让人难受，\\n　所以接下来我就调戏都学姐了。」", "「近来老哥整日唉声叹气的让人难受，\\n　所以接下来我就调戏都学姐了。」"], "flag": 72}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 154, "speaker": "都", "name": "都", "text": "「……请不要那样，对不起……」", "plain": [], "flag": 72}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 155, "speaker": null, "name": null, "text": "九条满脸通红地低下头去。", "plain": [], "flag": 72}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 156, "speaker": null, "name": null, "text": "无法大声喝止是因为……\\n那样的九条、也让我觉得分外可爱。", "plain": ["无法大声喝止是因为……\\n那样的九条、也让我觉得分外可爱。", "无法大声喝止是因为……\\n那样的九条、也让我觉得分外可爱。"], "flag": 72}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 157, "speaker": null, "name": null, "text": "……抱歉，对九条而言靠谱的哥哥，我是做不到了！", "plain": [], "flag": 72}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 158, "speaker": "都", "name": "都", "text": "「回，回讯要是有就好了……」", "plain": [], "flag": 72}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 159, "speaker": "天", "name": "天", "text": "「即便岔开话题我也要继续调戏学姐。」", "plain": [], "flag": 72}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 160, "speaker": "都", "name": "都", "text": "「呜……小天你也有咬到舌头的时候的吧？」", "plain": [], "flag": 72}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 161, "speaker": "天", "name": "天", "text": "「不～、我才没有咧～。\\n　我绕口令系……啊。」", "plain": ["「不～、我才没有咧～。\\n　我绕口令系……啊。」", "「不～、我才没有咧～。\\n　我绕口令系……啊。」"], "flag": 72}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 162, "speaker": "都", "name": "都", "text": "「啊，咬到舌头了呢。」", "plain": [], "flag": 72}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 163, "speaker": "天", "name": "天", "text": "「诶？　我没咬到呀？」", "plain": [], "flag": 72}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 164, "speaker": "都", "name": "都", "text": "「咬到了哟～！　你说的是绕口令系！」", "plain": [], "flag": 72}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 165, "speaker": "天", "name": "天", "text": "「诶，我才没有说过那样的话呀\\n　学姐你应该去看耳鼻科了啦。」", "plain": ["「诶，我才没有说过那样的话呀\\n　学姐你应该去看耳鼻科了啦。」", "「诶，我才没有说过那样的话呀\\n　学姐你应该去看耳鼻科了啦。」"], "flag": 72}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 166, "speaker": "都", "name": "都", "text": "「真是的，小天好狡猾。」", "plain": [], "flag": 72}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 167, "speaker": null, "name": null, "text": "退后一步，注视着玩得很欢的两人。", "plain": [], "flag": 72}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 168, "speaker": null, "name": null, "text": "能看到九条这样的神情…也是多亏了天的功劳呢。", "plain": ["能看到九条这样的神情…也是多亏了天的功劳呢。", "能看到九条这样的神情…也是多亏了天的功劳呢。"], "flag": 72}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 169, "speaker": null, "name": null, "text": "我在内心里感谢着，边欣赏着两人的对话、\\n边向学校走去。", "plain": ["我在内心里感谢着，边欣赏着两人的对话、\\n边向学校走去。", "我在内心里感谢着，边欣赏着两人的对话、\\n边向学校走去。"], "flag": 72}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 170, "speaker": "与一", "name": "與一", "text": "「总觉得啊，最近翔君你，\\n　不怎么陪我了呢～？」", "plain": ["「总觉得啊，最近翔君你，\\n　不怎么陪我了呢～？」", "「总觉得啊，最近翔君你，\\n　不怎么陪我了呢～？」"], "flag": 80}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 171, "speaker": null, "name": null, "text": "午休时，\\n嚼着面包，与一露出不满的表情。", "plain": ["午休时，\\n嚼着面包，与一露出不满的表情。", "午休时，\\n嚼着面包，与一露出不满的表情。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 172, "speaker": "翔", "name": "翔", "text": "「有吗～？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 173, "speaker": "与一", "name": "與一", "text": "「有啊～。\\n　邀你一起去玩也是立马就回去了。」", "plain": ["「有啊～。\\n　邀你一起去玩也是立马就回去了。」", "「有啊～。\\n　邀你一起去玩也是立马就回去了。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 174, "speaker": "翔", "name": "翔", "text": "「是和女孩子去卡拉OK之类的吧？\\n　那种我就不奉陪了，之前我不是说过了吗。」", "plain": ["「是和女孩子去卡拉OK之类的吧？\\n　那种我就不奉陪了，之前我不是说过了吗。」", "「是和女孩子去卡拉OK之类的吧？\\n　那种我就不奉陪了，之前我不是说过了吗。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 175, "speaker": "与一", "name": "與一", "text": "「果然……是那样吗。\\n　翔你……」", "plain": ["「果然……是那样吗。\\n　翔你……」", "「果然……是那样吗。\\n　翔你……」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 176, "speaker": "翔", "name": "翔", "text": "「怎么了嘛。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 177, "speaker": "与一", "name": "與一", "text": "「原来是基佬啊……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 178, "speaker": "翔", "name": "翔", "text": "「你傻吗。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 179, "speaker": "与一", "name": "與一", "text": "「对不起，朋友，我没有搞基的兴趣……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 180, "speaker": "翔", "name": "翔", "text": "「我也没有啦。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 181, "speaker": null, "name": null, "text": "吃完炒面面包后，我将手伸向蛋黄酱金枪鱼面包。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 182, "speaker": null, "name": null, "text": "……就在这时，摆在桌子上的手机震动了起来、\\n弹出的窗口显示LING有消息来了。", "plain": ["……就在这时，摆在桌子上的手机震动了起来、\\n弹出的窗口显示LING有消息来了。", "……就在这时，摆在桌子上的手机震动了起来、\\n弹出的窗口显示LING有消息来了。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 183, "speaker": "与一", "name": "與一", "text": "「真好啊，翔你家伙。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 184, "speaker": "翔", "name": "翔", "text": "「怎么了。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 185, "speaker": "与一", "name": "與一", "text": "「和九条同学关系那么好。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 186, "speaker": "翔", "name": "翔", "text": "「怎么了啊突然这么说。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 187, "speaker": "与一", "name": "與一", "text": "「是九条同学对吧？　发来消息。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 188, "speaker": "翔", "name": "翔", "text": "「才不是呢。\\n　那边连手机都没掏出来吧。」", "plain": ["「才不是呢。\\n　那边连手机都没掏出来吧。」", "「才不是呢。\\n　那边连手机都没掏出来吧。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 189, "speaker": "与一", "name": "與一", "text": "「啊，真的耶。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 190, "speaker": null, "name": null, "text": "嘴里咀嚼着食物，与一回头看去。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 191, "speaker": null, "name": null, "text": "九条和几位朋友围在桌子边，一边用着午餐一边谈笑着。", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 192, "speaker": null, "name": null, "text": "虽然惯例来说，不是天就是老妈给我的来信……。", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 193, "speaker": "翔", "name": "翔", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 194, "speaker": null, "name": null, "text": "我确认了下消息，稍稍有些动摇。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 195, "speaker": null, "name": null, "text": "『请问你是谁？\\n　是同我一样的AF使用者吗？』", "plain": ["『请问你是谁？\\n　是同我一样的AF使用者吗？』", "『请问你是谁？\\n　是同我一样的AF使用者吗？』"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 196, "speaker": null, "name": null, "text": "没想到真的会来信呢……。\\n看来，天送去的信是有成效的样子。", "plain": ["没想到真的会来信呢……。\\n看来，天送去的信是有成效的样子。", "没想到真的会来信呢……。\\n看来，天送去的信是有成效的样子。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 197, "speaker": null, "name": null, "text": "消息中所说的AF，大概指的是Artifact吧。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 198, "speaker": null, "name": null, "text": "这是干脆地坦白……了么。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 199, "speaker": null, "name": null, "text": "就和在咖啡店里款款而谈的我们一样，\\n属于稀里糊涂的的性格呢。", "plain": ["就和在咖啡店里款款而谈的我们一样，\\n属于稀里糊涂的的性格呢。", "就和在咖啡店里款款而谈的我们一样，\\n属于稀里糊涂的的性格呢。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 200, "speaker": null, "name": null, "text": "虽然现在立马回复也行……。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 201, "speaker": "与一", "name": "與一", "text": "「怎么了吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 202, "speaker": "翔", "name": "翔", "text": "「没什么，第一次收到垃圾短信让我有点惊讶。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 203, "speaker": "与一", "name": "與一", "text": "「哦，让你买卡然后告诉他号码，之类的那种？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 204, "speaker": "翔", "name": "翔", "text": "「对，就是那个。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 205, "speaker": "与一", "name": "與一", "text": "「原来还有啊～。\\n　我会不会也收到呢。」", "plain": ["「原来还有啊～。\\n　我会不会也收到呢。」", "「原来还有啊～。\\n　我会不会也收到呢。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 206, "speaker": "翔", "name": "翔", "text": "「我本想着要是收到的话就娱乐下吧，\\n　不过还挺难做到的呢。」", "plain": ["「我本想着要是收到的话就娱乐下吧，\\n　不过还挺难做到的呢。」", "「我本想着要是收到的话就娱乐下吧，\\n　不过还挺难做到的呢。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 207, "speaker": null, "name": null, "text": "怀揣着撒了谎的些许的罪恶感，\\n我放下手机，瞥了九条一眼。", "plain": ["怀揣着撒了谎的些许的罪恶感，\\n我放下手机，瞥了九条一眼。", "怀揣着撒了谎的些许的罪恶感，\\n我放下手机，瞥了九条一眼。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 208, "speaker": null, "name": null, "text": "还是先和九条谈谈比较好吧。\\n用完午餐后我发消息过去吧。", "plain": ["还是先和九条谈谈比较好吧。\\n用完午餐后我发消息过去吧。", "还是先和九条谈谈比较好吧。\\n用完午餐后我发消息过去吧。"], "flag": 80}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 209, "speaker": "与一", "name": "與一", "text": "「我说，翔啊～」", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 210, "speaker": "翔", "name": "翔", "text": "「怎么了。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 211, "speaker": "与一", "name": "與一", "text": "「我能去你家玩吗～？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 212, "speaker": "翔", "name": "翔", "text": "「嗯？　可以是可以，什么时候？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 213, "speaker": "与一", "name": "與一", "text": "「今天。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 214, "speaker": "翔", "name": "翔", "text": "「今天啊……。\\n　今天放学我妹妹要来啊。」", "plain": ["「今天啊……。\\n　今天放学我妹妹要来啊。」", "「今天啊……。\\n　今天放学我妹妹要来啊。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 215, "speaker": "与一", "name": "與一", "text": "「那就明天！」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 216, "speaker": "翔", "name": "翔", "text": "「周末我想悠闲地度过啊。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 217, "speaker": "与一", "name": "與一", "text": "「那什么时候才可以啊～。\\n　和我玩玩嘛～」", "plain": ["「那什么时候才可以啊～。\\n　和我玩玩嘛～」", "「那什么时候才可以啊～。\\n　和我玩玩嘛～」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 218, "speaker": "翔", "name": "翔", "text": "「嘛，改天吧。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 219, "speaker": "与一", "name": "與一", "text": "「呜……最近翔你好冷淡……。\\n　高一的时候明明天天陪我玩的……」", "plain": ["「呜……最近翔你好冷淡……。\\n　高一的时候明明天天陪我玩的……」", "「呜……最近翔你好冷淡……。\\n　高一的时候明明天天陪我玩的……」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 220, "speaker": "翔", "name": "翔", "text": "「明明是你擅自来我家的吧。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 221, "speaker": "与一", "name": "與一", "text": "「光顾太频繁了有一回被翔给赶走了呢。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 222, "speaker": "翔", "name": "翔", "text": "「你把我的PC给弄中毒的那次呢。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 223, "speaker": "与一", "name": "與一", "text": "「因为压抑不住自己青涩的冲动了啊……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 224, "speaker": "翔", "name": "翔", "text": "「给我去自己的房间干啊……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 225, "speaker": "与一", "name": "與一", "text": "「我给父母的印象是毫无那方面知识的小天使啊。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 226, "speaker": "翔", "name": "翔", "text": "「如果你在学校也是那副天使模样的话\\n　早有一两个妹子投怀送抱了」", "plain": ["「如果你在学校也是那副天使模样的话\\n　早有一两个妹子投怀送抱了」", "「如果你在学校也是那副天使模样的话\\n　早有一两个妹子投怀送抱了」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 227, "speaker": "与一", "name": "與一", "text": "「我可不想在学校都要隐忍着啊。\\n　而且，女朋友什么的我也不想要。」", "plain": ["「我可不想在学校都要隐忍着啊。\\n　而且，女朋友什么的我也不想要。」", "「我可不想在学校都要隐忍着啊。\\n　而且，女朋友什么的我也不想要。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 228, "speaker": "翔", "name": "翔", "text": "「咦？　你不是说过想要吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 229, "speaker": "与一", "name": "與一", "text": "「现在想要的是方便能干的女性朋友。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 230, "speaker": "翔", "name": "翔", "text": "「……正因为你这种人渣发言，\\n　才总是在把妹就要成功的时候前功尽弃啊，你这家伙。」", "plain": ["「……正因为你这种人渣发言，\\n　才总是在把妹就要成功的时候前功尽弃啊，你这家伙。」", "「……正因为你这种人渣发言，\\n　才总是在把妹就要成功的时候前功尽弃啊，你这家伙。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 231, "speaker": "与一", "name": "與一", "text": "「老实说，我已经谁都可以了。\\n　只要是个妹子就好，谁都可以，来者不拒。\\n　所以说请把令妹介绍给我吧。」", "plain": ["「老实说，我已经谁都可以了。\\n　只要是个妹子就好，谁都可以，来者不拒。\\n　所以说请把令妹介绍给我吧。」", "「老实说，我已经谁都可以了。\\n　只要是个妹子就好，谁都可以，来者不拒。\\n　所以说请把令妹介绍给我吧。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 232, "speaker": "翔", "name": "翔", "text": "「妹妹来的时候我绝对不会把你叫到我家的。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 233, "speaker": "与一", "name": "與一", "text": "「可恶……！　我要全力阻止你和九条同学进一步的发展……！」", "plain": ["「可恶……！　我要全力阻止你和九条同学进一步的发展……！」", "「可恶……！　我要全力阻止你和九条同学进一步的发展……！」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 234, "speaker": "翔", "name": "翔", "text": "「哈啊，做得到的话就来试试看呀。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 235, "speaker": "与一", "name": "與一", "text": "「翔拉肚子的时候一直把内裤染上一层棕色\\n　把这个给说出去……！」", "plain": ["「翔拉肚子的时候一直把内裤染上一层棕色\\n　把这个给说出去……！」", "「翔拉肚子的时候一直把内裤染上一层棕色\\n　把这个给说出去……！」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 236, "speaker": "翔", "name": "翔", "text": "「你丫的……！\\n　别散布这种让人容易相信的传言……！！」", "plain": ["「你丫的……！\\n　别散布这种让人容易相信的传言……！！」", "「你丫的……！\\n　别散布这种让人容易相信的传言……！！」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 237, "speaker": null, "name": null, "text": "一时间，我将香坂学姐的事情忘在脑后、\\n沉浸在没有内容的对话之中。", "plain": ["一时间，我将香坂学姐的事情忘在脑后、\\n沉浸在没有内容的对话之中。", "一时间，我将香坂学姐的事情忘在脑后、\\n沉浸在没有内容的对话之中。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 238, "speaker": null, "name": null, "text": "要行动的话也该在放学后吧。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 239, "speaker": null, "name": null, "text": "在那之前先琢磨下作战吧。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 240, "speaker": "都", "name": "都", "text": "「倘若香坂学姐的能力是魅惑他人的话、\\n　那就……不是魔眼的使用者了吧？」", "plain": ["「倘若香坂学姐的能力是魅惑他人的话、\\n　那就……不是魔眼的使用者了吧？」", "「倘若香坂学姐的能力是魅惑他人的话、\\n　那就……不是魔眼的使用者了吧？」"], "flag": 80}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 241, "speaker": "翔", "name": "翔", "text": "「不……Artifact也许能同时拥有多个也说不定」", "plain": ["「不……Artifact也许能同时拥有多个也说不定」", "「不……Artifact也许能同时拥有多个也说不定」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 242, "speaker": "都", "name": "都", "text": "「诶，是那样的吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 243, "speaker": "翔", "name": "翔", "text": "「索菲好像提到过她拥有多个。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 244, "speaker": "都", "name": "都", "text": "「这样啊……。\\n　不是全部都和动漫里相一致的呢……」", "plain": ["「这样啊……。\\n　不是全部都和动漫里相一致的呢……」", "「这样啊……。\\n　不是全部都和动漫里相一致的呢……」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 245, "speaker": null, "name": null, "text": "放学后，和九条两个人前往『NINE　BALL』咖啡馆。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 246, "speaker": null, "name": null, "text": "同香坂学姐在那之后稍微聊了聊，就决定在这里碰面了。", "plain": ["同香坂学姐在那之后稍微聊了聊，就决定在这里碰面了。", "同香坂学姐在那之后稍微聊了聊，就决定在这里碰面了。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 247, "speaker": null, "name": null, "text": "虽然从字面上来看，对方并没有完全信任这边，不过……。", "plain": ["虽然从字面上来看，对方并没有完全信任这边，不过……。", "虽然从字面上来看，对方并没有完全信任这边，不过……。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 248, "speaker": "翔", "name": "翔", "text": "「感觉不像是坏人呢。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 249, "speaker": "都", "name": "都", "text": "「但是……警戒是必要的。\\n　我们之后要接触的，可能是杀人犯也说不定。」", "plain": ["「但是……警戒是必要的。\\n　我们之后要接触的，可能是杀人犯也说不定。」", "「但是……警戒是必要的。\\n　我们之后要接触的，可能是杀人犯也说不定。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 250, "speaker": "翔", "name": "翔", "text": "「嗯……确实如此。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 251, "speaker": null, "name": null, "text": "听了九条的话……虽然有些没面子，不过让我的心中升腾起了不安。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 252, "speaker": null, "name": null, "text": "……我压倒性地缺乏觉悟。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 253, "speaker": null, "name": null, "text": "但是……至少在九条面前，我不想露出丑态。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 254, "speaker": "都", "name": "都", "text": "「不知道学姐是不是已经来了。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 255, "speaker": "翔", "name": "翔", "text": "「也许是我们先到吧。一开始先让我一个人和她谈谈。\\n　九条你就装作不认识我的样子\\n　同平常一样打工就行。」", "plain": ["「也许是我们先到吧。一开始先让我一个人和她谈谈。\\n　九条你就装作不认识我的样子\\n　同平常一样打工就行。」", "「也许是我们先到吧。一开始先让我一个人和她谈谈。\\n　九条你就装作不认识我的样子\\n　同平常一样打工就行。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 256, "speaker": "都", "name": "都", "text": "「……。对不起，一直让你以身犯险……」", "plain": ["「……。对不起，一直让你以身犯险……」", "「……。对不起，一直让你以身犯险……」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 257, "speaker": "翔", "name": "翔", "text": "「这是适材适所。\\n　倘若有什么异动的话，就拜托九条你的力量来解决吧。」", "plain": ["「这是适材适所。\\n　倘若有什么异动的话，就拜托九条你的力量来解决吧。」", "「这是适材适所。\\n　倘若有什么异动的话，就拜托九条你的力量来解决吧。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 258, "speaker": "都", "name": "都", "text": "「嗯，我明白了。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 259, "speaker": null, "name": null, "text": "九条有力地点了点头。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 260, "speaker": null, "name": null, "text": "如果天也在的话也许也能帮上忙……\\n但我已经说了让她待在我的房间里等着。", "plain": ["如果天也在的话也许也能帮上忙……\\n但我已经说了让她待在我的房间里等着。", "如果天也在的话也许也能帮上忙……\\n但我已经说了让她待在我的房间里等着。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 261, "speaker": null, "name": null, "text": "虽然天对此很不满……不过自那场火灾过后才过了一个星期。\\n万一发生了什么事情，我可不想让她遭遇不测啊。", "plain": ["虽然天对此很不满……不过自那场火灾过后才过了一个星期。\\n万一发生了什么事情，我可不想让她遭遇不测啊。", "虽然天对此很不满……不过自那场火灾过后才过了一个星期。\\n万一发生了什么事情，我可不想让她遭遇不测啊。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 262, "speaker": "都", "name": "都", "text": "「那我就从后面进去了。」", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 263, "speaker": "翔", "name": "翔", "text": "「嗯，我先进去咯。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 264, "speaker": "都", "name": "都", "text": "「嗯」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 265, "speaker": null, "name": null, "text": "在店前与九条道别后，我先行一步进到店里。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 266, "speaker": null, "name": null, "text": "店里客人寥寥无几。", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 267, "speaker": null, "name": null, "text": "……。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 268, "speaker": null, "name": null, "text": "离入口最远的，靠墙的座位。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 269, "speaker": null, "name": null, "text": "有了……。是香坂学姐。", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 270, "speaker": null, "name": null, "text": "拒绝了来到我身边的店员的带路，我走近前去。", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 271, "speaker": null, "name": null, "text": "拉开学姐对面的椅子，坐了下去。", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 272, "speaker": "春風", "name": "ㄔㄨㄣㄈㄥ", "text": "「诶，啊……？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 273, "speaker": "翔", "name": "翔", "text": "「是香坂学姐吧。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 274, "speaker": "春風", "name": "ㄔㄨㄣㄈㄥ", "text": "「是，是你吗……？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 275, "speaker": "翔", "name": "翔", "text": "「正是。是我给你发了消息。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 276, "speaker": "春風", "name": "ㄔㄨㄣㄈㄥ", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 277, "speaker": null, "name": null, "text": "她低下头，扭扭捏捏地。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 278, "speaker": null, "name": null, "text": "以轻若细蚊般的声音嘟囔了一声。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 279, "speaker": "春風", "name": "ㄔㄨㄣㄈㄥ", "text": "「我……我还以为会是个女孩子……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 280, "speaker": null, "name": null, "text": "……啊，因为信上的字是天所写的、\\n所以使她误会了吗。", "plain": ["……啊，因为信上的字是天所写的、\\n所以使她误会了吗。", "……啊，因为信上的字是天所写的、\\n所以使她误会了吗。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 281, "speaker": null, "name": null, "text": "不过……。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 282, "speaker": "春風", "name": "ㄔㄨㄣㄈㄥ", "text": "「…………」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 283, "speaker": null, "name": null, "text": "她低着头，丝毫不敢看这边。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 284, "speaker": null, "name": null, "text": "该说是同早上的她完全不同……还是说，回到原本的她了吗。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 285, "speaker": null, "name": null, "text": "我一开始见到的学姐，就是这般怯生生的模样。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 286, "speaker": "都", "name": "都", "text": "「欢迎光临。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 287, "speaker": null, "name": null, "text": "九条将我的那份杯子放在桌上。", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 288, "speaker": null, "name": null, "text": "是匆忙之间换装的吧。\\n一反平日里的工整不苟，九条的制服上添了几丝褶皱。", "plain": ["是匆忙之间换装的吧。\\n一反平日里的工整不苟，九条的制服上添了几丝褶皱。", "是匆忙之间换装的吧。\\n一反平日里的工整不苟，九条的制服上添了几丝褶皱。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 289, "speaker": "都", "name": "都", "text": "「如果决定好点什么了的话，请招呼我。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 290, "speaker": "翔", "name": "翔", "text": "「啊，现在可以点单吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 291, "speaker": "都", "name": "都", "text": "「好的。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 292, "speaker": "翔", "name": "翔", "text": "「学姐也要点些什么吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 293, "speaker": "春風", "name": "ㄔㄨㄣㄈㄥ", "text": "「诶？　啊、啊。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 294, "speaker": null, "name": null, "text": "她急忙抬起头，将手伸向菜单\\n却又不知为何像触电一样收了回去。", "plain": ["她急忙抬起头，将手伸向菜单\\n却又不知为何像触电一样收了回去。", "她急忙抬起头，将手伸向菜单\\n却又不知为何像触电一样收了回去。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 295, "speaker": null, "name": null, "text": "……真是不知所措得让人都觉得可怜了呢。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 296, "speaker": null, "name": null, "text": "我不觉得这个人会是杀人犯……不过、\\n现在尚且不能妄下定论。", "plain": ["我不觉得这个人会是杀人犯……不过、\\n现在尚且不能妄下定论。", "我不觉得这个人会是杀人犯……不过、\\n现在尚且不能妄下定论。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 297, "speaker": "翔", "name": "翔", "text": "「啊……那就来两份冰红茶。\\n　学姐，这样行吗？」", "plain": ["「啊……那就来两份冰红茶。\\n　学姐，这样行吗？」", "「啊……那就来两份冰红茶。\\n　学姐，这样行吗？」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 298, "speaker": "春風", "name": "ㄔㄨㄣㄈㄥ", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 299, "speaker": null, "name": null, "text": "像吉娃娃一般瑟瑟发抖着，她点了点头。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 300, "speaker": null, "name": null, "text": "总让人有一种我是在威胁她的罪恶感啊……。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 301, "speaker": "翔", "name": "翔", "text": "「冰红茶两份。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 302, "speaker": "都", "name": "都", "text": "「了解了，请你稍等。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 303, "speaker": null, "name": null, "text": "九条低下头去，快速与我交流了眼神。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 304, "speaker": null, "name": null, "text": "我注意不被学姐察觉，轻轻点了点头。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 305, "speaker": null, "name": null, "text": "待九条离去，我开口道。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 306, "speaker": "翔", "name": "翔", "text": "「不好意思今天突然耽误你的时间。\\n　那封信，让你受惊了吧。」", "plain": ["「不好意思今天突然耽误你的时间。\\n　那封信，让你受惊了吧。」", "「不好意思今天突然耽误你的时间。\\n　那封信，让你受惊了吧。」"], "flag": 80}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 307, "speaker": "春風", "name": "ㄔㄨㄣㄈㄥ", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 308, "speaker": "翔", "name": "翔", "text": "「其实我……看了揭示板的内容。\\n　关于阿揭斯塔之叶的事情，请问你知道吗？」", "plain": ["「其实我……看了揭示板的内容。\\n　关于阿揭斯塔之叶的事情，请问你知道吗？」", "「其实我……看了揭示板的内容。\\n　关于阿揭斯塔之叶的事情，请问你知道吗？」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 309, "speaker": "春風", "name": "ㄔㄨㄣㄈㄥ", "text": "「…………」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 310, "speaker": "翔", "name": "翔", "text": "「因为每天早上都看见，所以就想着你莫非是……。\\n　于是我使用了能力，给你送了信。」", "plain": ["「因为每天早上都看见，所以就想着你莫非是……。\\n　于是我使用了能力，给你送了信。」", "「因为每天早上都看见，所以就想着你莫非是……。\\n　于是我使用了能力，给你送了信。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 311, "speaker": "春風", "name": "ㄔㄨㄣㄈㄥ", "text": "「……、能，力……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 312, "speaker": "翔", "name": "翔", "text": "「信件神不知鬼不觉地就到了你的口袋里吧，\\n　我指的就是这个。」", "plain": ["「信件神不知鬼不觉地就到了你的口袋里吧，\\n　我指的就是这个。」", "「信件神不知鬼不觉地就到了你的口袋里吧，\\n　我指的就是这个。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 313, "speaker": "春風", "name": "ㄔㄨㄣㄈㄥ", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 314, "speaker": "翔", "name": "翔", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 315, "speaker": null, "name": null, "text": "……对话根本无法成立。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 316, "speaker": null, "name": null, "text": "对不善言谈的我来说这种情况真是太糟糕了。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 317, "speaker": null, "name": null, "text": "果然应该让天跟过来的吗。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 318, "speaker": "翔", "name": "翔", "text": "「啊……对了。还没做自我介绍呢。\\n　我叫作新海翔。」", "plain": ["「啊……对了。还没做自我介绍呢。\\n　我叫作新海翔。」", "「啊……对了。还没做自我介绍呢。\\n　我叫作新海翔。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 319, "speaker": "春風", "name": "ㄔㄨㄣㄈㄥ", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 320, "speaker": "春風", "name": "ㄔㄨㄣㄈㄥ", "text": "「…………」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 321, "speaker": "春風", "name": "ㄔㄨㄣㄈㄥ", "text": "「我，我，我叫作……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 322, "speaker": "春風", "name": "ㄔㄨㄣㄈㄥ", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 323, "speaker": "春風", "name": "ㄔㄨㄣㄈㄥ", "text": "「…………」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 324, "speaker": "春風", "name": "ㄔㄨㄣㄈㄥ", "text": "「香……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 325, "speaker": "春風", "name": "ㄔㄨㄣㄈㄥ", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 326, "speaker": "春風", "name": "ㄔㄨㄣㄈㄥ", "text": "「香，香香……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 327, "speaker": "春風", "name": "ㄔㄨㄣㄈㄥ", "text": "「…………」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 328, "speaker": null, "name": null, "text": "不断结巴着，她叹了口气，低下头去。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 329, "speaker": null, "name": null, "text": "……是怕生吗？", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 330, "speaker": null, "name": null, "text": "如果熟悉了的话就会变成那副盛气凌人的性格吗。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 331, "speaker": null, "name": null, "text": "这下子……看来要打持久战了。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 332, "speaker": "春風", "name": "ㄔㄨㄣㄈㄥ", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 333, "speaker": "翔", "name": "翔", "text": "「……？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 334, "speaker": null, "name": null, "text": "违和感。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 335, "speaker": null, "name": null, "text": "虽然不好表达……但感觉环绕学姐的气氛，发生了改变。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 336, "speaker": null, "name": null, "text": "那并非是我的错觉。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 337, "speaker": "春風", "name": "ㄔㄨㄣㄈㄥ", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 338, "speaker": null, "name": null, "text": "从抬起头的学姐的眼中，原先的胆怯和紧张消散一空。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 339, "speaker": "春風", "name": "春風", "text": "「小女子名叫香坂春风，以后望多多海涵。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 340, "speaker": "翔", "name": "翔", "text": "「啊，好，好的。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 341, "speaker": null, "name": null, "text": "……小女子？", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 342, "speaker": null, "name": null, "text": "不，奇怪的语气无所谓了。\\n……这个突然间的变化是怎么回事。", "plain": ["不，奇怪的语气无所谓了。\\n……这个突然间的变化是怎么回事。", "不，奇怪的语气无所谓了。\\n……这个突然间的变化是怎么回事。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 343, "speaker": null, "name": null, "text": "和之前宛若两人……。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 344, "speaker": null, "name": null, "text": "两人……另一个人格。\\n这该不会也是能力吧？", "plain": ["两人……另一个人格。\\n这该不会也是能力吧？", "两人……另一个人格。\\n这该不会也是能力吧？"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 345, "speaker": null, "name": null, "text": "魅惑与多重人格……。\\n同时拥有多个能力的可能性变大了。", "plain": ["魅惑与多重人格……。\\n同时拥有多个能力的可能性变大了。", "魅惑与多重人格……。\\n同时拥有多个能力的可能性变大了。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 346, "speaker": null, "name": null, "text": "即便是在警戒着，我在心中还是断定\\n，她应该不会持有着多个能力的吧。", "plain": ["即便是在警戒着，我在心中还是断定\\n，她应该不会持有着多个能力的吧。", "即便是在警戒着，我在心中还是断定\\n，她应该不会持有着多个能力的吧。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 347, "speaker": null, "name": null, "text": "……果然我还是太轻率了吗。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 348, "speaker": "都", "name": "都", "text": "「让你们久等了。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 349, "speaker": null, "name": null, "text": "九条将杯子和吸管，以及糖浆与奶精，\\n分别放到学姐与我的面前。", "plain": ["九条将杯子和吸管，以及糖浆与奶精，\\n分别放到学姐与我的面前。", "九条将杯子和吸管，以及糖浆与奶精，\\n分别放到学姐与我的面前。"], "flag": 80}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 350, "speaker": "都", "name": "都", "text": "「请问你要点的就是这些了吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 351, "speaker": "春風", "name": "春風", "text": "「是的，就这些。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 352, "speaker": "都", "name": "都", "text": "「……。请慢用。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 353, "speaker": null, "name": null, "text": "尽管对于学姐雍容大方的语气显露出一瞬间的动摇，\\n但她立刻回过神来，放下发票低头离开。", "plain": ["尽管对于学姐雍容大方的语气显露出一瞬间的动摇，\\n但她立刻回过神来，放下发票低头离开。", "尽管对于学姐雍容大方的语气显露出一瞬间的动摇，\\n但她立刻回过神来，放下发票低头离开。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 354, "speaker": null, "name": null, "text": "这期间，虽然九条转过头来向我投来担心的视线，\\n然而我却没有办法给出明了的应答、\\n只好暂且将吸管插入杯中。", "plain": ["这期间，虽然九条转过头来向我投来担心的视线，\\n然而我却没有办法给出明了的应答、\\n只好暂且将吸管插入杯中。", "这期间，虽然九条转过头来向我投来担心的视线，\\n然而我却没有办法给出明了的应答、\\n只好暂且将吸管插入杯中。"], "flag": 80}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 355, "speaker": null, "name": null, "text": "学姐也以非常优雅的举止倒入糖浆，\\n用吸管轻轻地拌着。", "plain": ["学姐也以非常优雅的举止倒入糖浆，\\n用吸管轻轻地拌着。", "学姐也以非常优雅的举止倒入糖浆，\\n用吸管轻轻地拌着。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 356, "speaker": "春風", "name": "春風", "text": "「阁下说曾阅过妾身在揭示板上所写的文章？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 357, "speaker": "翔", "name": "翔", "text": "「啊，是的。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 358, "speaker": "春風", "name": "春風", "text": "「那么，妾身之所患，想必无需多言了吧。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 359, "speaker": "翔", "name": "翔", "text": "「是。你被能力所扰%p-1;%fＭＳ ゴシック;――%p;%fuser;」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 360, "speaker": "春風", "name": "春風", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 361, "speaker": null, "name": null, "text": "悄然无声，而又举止轻柔地，学姐将掌心朝向我。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 362, "speaker": "春風", "name": "春風", "text": "「在那样的揭示板上所写的文章……\\n　是不可在这样的地方谈论的。」", "plain": ["「在那样的揭示板上所写的文章……\\n　是不可在这样的地方谈论的。」", "「在那样的揭示板上所写的文章……\\n　是不可在这样的地方谈论的。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 363, "speaker": "翔", "name": "翔", "text": "「啊啊……对此我很抱歉。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 364, "speaker": "春風", "name": "春風", "text": "「 不，毋须谢罪，\\n　你能向我伸出援手，实在是非常感谢。」", "plain": ["「 不，毋须谢罪，\\n　你能向我伸出援手，实在是非常感谢。」", "「 不，毋须谢罪，\\n　你能向我伸出援手，实在是非常感谢。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 365, "speaker": "春風", "name": "春風", "text": "「阁下……与只知向我搭讪的诸位不同\\n　……是个非常温柔的人。」", "plain": ["「阁下……与只知向我搭讪的诸位不同\\n　……是个非常温柔的人。」", "「阁下……与只知向我搭讪的诸位不同\\n　……是个非常温柔的人。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 366, "speaker": "翔", "name": "翔", "text": "「啊……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 367, "speaker": null, "name": null, "text": "这回，轮到我一时失语了。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 368, "speaker": null, "name": null, "text": "……什么啊这个“我超受欢迎的”的，\\n从全身涌出来的自信。", "plain": ["……什么啊这个“我超受欢迎的”的，\\n从全身涌出来的自信。", "……什么啊这个“我超受欢迎的”的，\\n从全身涌出来的自信。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 369, "speaker": null, "name": null, "text": "性格一百八十度地大翻转。\\n完全是判若两人啊。", "plain": ["性格一百八十度地大翻转。\\n完全是判若两人啊。", "性格一百八十度地大翻转。\\n完全是判若两人啊。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 370, "speaker": "春風", "name": "春風", "text": "「可否请教你一件事呢？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 371, "speaker": "翔", "name": "翔", "text": "「啊……好的。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 372, "speaker": "春風", "name": "春風", "text": "「缘何……要向我伸出援手呢？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 373, "speaker": "翔", "name": "翔", "text": "「这个嘛……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 374, "speaker": null, "name": null, "text": "……我该老实回答是在搜寻魔眼的使用者吗？", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 375, "speaker": null, "name": null, "text": "不，那可就遭了。她就是魔眼使用者本人的可能性尚不能排除。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 376, "speaker": null, "name": null, "text": "那样的话……。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 377, "speaker": "翔", "name": "翔", "text": "「我是在寻找同伴。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 378, "speaker": "春風", "name": "春風", "text": "「同伴……吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 379, "speaker": "翔", "name": "翔", "text": "「是的。我们这些人，该说是非现实性吗，……对。\\n　阿揭斯塔之叶。就仿佛误闯进了梅比乌斯的世界里一般，\\n　就是这样一个状况。」", "plain": ["「是的。我们这些人，该说是非现实性吗，……对。\\n　阿揭斯塔之叶。就仿佛误闯进了梅比乌斯的世界里一般，\\n　就是这样一个状况。」", "「是的。我们这些人，该说是非现实性吗，……对。\\n　阿揭斯塔之叶。就仿佛误闯进了梅比乌斯的世界里一般，\\n　就是这样一个状况。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 380, "speaker": "春風", "name": "春風", "text": "「对，的确如此。十分让人不知所措呢。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 381, "speaker": "翔", "name": "翔", "text": "「对吧。所以我想要结识下与自己处境相同的同伴，\\n　就在那时，看到了内容就仿佛和真的一样的文章……」", "plain": ["「对吧。所以我想要结识下与自己处境相同的同伴，\\n　就在那时，看到了内容就仿佛和真的一样的文章……」", "「对吧。所以我想要结识下与自己处境相同的同伴，\\n　就在那时，看到了内容就仿佛和真的一样的文章……」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 382, "speaker": "春風", "name": "春風", "text": "「你说的是，妾身所写的文章？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 383, "speaker": "翔", "name": "翔", "text": "「正是如此……。就是这样的。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 384, "speaker": "春風", "name": "春風", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 385, "speaker": "春風", "name": "春風", "text": "「这可真是命运使然啊。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 386, "speaker": "翔", "name": "翔", "text": "「请问？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 387, "speaker": "春風", "name": "春風", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 388, "speaker": "翔", "name": "翔", "text": "「……嗯？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 389, "speaker": null, "name": null, "text": "她不知道要干什么，将制服的领结松开，\\n解开扣子、将胸口敞露开来。", "plain": ["她不知道要干什么，将制服的领结松开，\\n解开扣子、将胸口敞露开来。", "她不知道要干什么，将制服的领结松开，\\n解开扣子、将胸口敞露开来。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 390, "speaker": null, "name": null, "text": "……突然间要干什么啊这个人。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 391, "speaker": "春風", "name": "春風", "text": "「我们……换个地方吧？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 392, "speaker": "翔", "name": "翔", "text": "「你说地方吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 393, "speaker": "春風", "name": "春風", "text": "「可以的话……尽量找个能两个人独处的地方。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 394, "speaker": "翔", "name": "翔", "text": "「哎，诶？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 395, "speaker": null, "name": null, "text": "学姐将手同我伸向杯子的手相重合。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 396, "speaker": null, "name": null, "text": "不明白其意图。\\n。撩着我，让我有点害怕被九条所看到。", "plain": ["不明白其意图。\\n。撩着我，让我有点害怕被九条所看到。", "不明白其意图。\\n。撩着我，让我有点害怕被九条所看到。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 397, "speaker": null, "name": null, "text": "到，到底在想些什么啊这个人……！", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 398, "speaker": "春風", "name": "春風", "text": "「阁下是白马的骑士……。\\n　招待至妾身的乐园再适合不过了…」", "plain": ["「阁下是白马的骑士……。\\n　招待至妾身的乐园再适合不过了…」", "「阁下是白马的骑士……。\\n　招待至妾身的乐园再适合不过了…」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 399, "speaker": "翔", "name": "翔", "text": "「哈，你，你的意思是？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 400, "speaker": "春風", "name": "春風", "text": "「成为亚当与夏娃吧。\\n　由我们两个，来创造理想乡吧。」", "plain": ["「成为亚当与夏娃吧。\\n　由我们两个，来创造理想乡吧。」", "「成为亚当与夏娃吧。\\n　由我们两个，来创造理想乡吧。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 401, "speaker": "翔", "name": "翔", "text": "「哎呀，我稍微有些不明白状况……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 402, "speaker": "春風", "name": "春風", "text": "「看着妾身的眼睛。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 403, "speaker": "翔", "name": "翔", "text": "「诶，啊……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 0, "label": "*start", "row": 404, "speaker": null, "name": null, "text": "……？　怎么了这是，总感觉，脑袋里一片模糊……。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 2, "label": "*a06_1_a", "row": 0, "speaker": "春風", "name": "春風", "text": "「我们换个地方吧？」", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 2, "label": "*a06_1_a", "row": 1, "speaker": "翔", "name": "翔", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 2, "label": "*a06_1_a", "row": 2, "speaker": "春風", "name": "春風", "text": "「哎呀。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 2, "label": "*a06_1_a", "row": 3, "speaker": null, "name": null, "text": "刹那间，我甩开了学姐的手。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 2, "label": "*a06_1_a", "row": 4, "speaker": null, "name": null, "text": "刚才……不会错的。\\n她是要对我施加什么能力……！", "plain": ["刚才……不会错的。\\n她是要对我施加什么能力……！", "刚才……不会错的。\\n她是要对我施加什么能力……！"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 2, "label": "*a06_1_a", "row": 5, "speaker": "春風", "name": "春風", "text": "「真遗憾，妾身被甩了呢。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 2, "label": "*a06_1_a", "row": 6, "speaker": null, "name": null, "text": "学姐有恃无恐地笑着。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 2, "label": "*a06_1_a", "row": 7, "speaker": null, "name": null, "text": "这个人……尽管言谈举止温文尔雅，感觉不到敌意……。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 2, "label": "*a06_1_a", "row": 8, "speaker": null, "name": null, "text": "其实是个相当危险的人物吧？", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 2, "label": "*a06_1_a", "row": 9, "speaker": "都", "name": "都", "text": "「请问需要倒水吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 2, "label": "*a06_1_a", "row": 10, "speaker": null, "name": null, "text": "是察觉到了异样了吧\\。n九条来到桌边，担心地瞥了我一眼。", "plain": ["是察觉到了异样了吧\\。n九条来到桌边，担心地瞥了我一眼。", "是察觉到了异样了吧\\。n九条来到桌边，担心地瞥了我一眼。"], "flag": 80}
+{"script": "a06.txt.scn", "scene": 2, "label": "*a06_1_a", "row": 11, "speaker": "翔", "name": "翔", "text": "「不，不用了（没事了）。多谢。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 2, "label": "*a06_1_a", "row": 12, "speaker": null, "name": null, "text": "虽然不能明面上回应，但借拒绝倒水\\n我传达了自己的无恙。", "plain": ["虽然不能明面上回应，但借拒绝倒水\\n我传达了自己的无恙。", "虽然不能明面上回应，但借拒绝倒水\\n我传达了自己的无恙。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 2, "label": "*a06_1_a", "row": 13, "speaker": null, "name": null, "text": "九条说着『打扰了』，低下头去，回到原处。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 2, "label": "*a06_1_a", "row": 14, "speaker": "春風", "name": "春風", "text": "「……是吗。她是你的同伴吧。」", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 2, "label": "*a06_1_a", "row": 15, "speaker": "翔", "name": "翔", "text": "「诶？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 2, "label": "*a06_1_a", "row": 16, "speaker": "春風", "name": "春風", "text": "「她也是使用者吧？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 2, "label": "*a06_1_a", "row": 17, "speaker": "翔", "name": "翔", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 2, "label": "*a06_1_a", "row": 18, "speaker": null, "name": null, "text": "这么容易就暴露无遗了。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 2, "label": "*a06_1_a", "row": 19, "speaker": null, "name": null, "text": "……我的演技真是烂透了。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 2, "label": "*a06_1_a", "row": 20, "speaker": "春風", "name": "春風", "text": "「妾身是合格了吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 2, "label": "*a06_1_a", "row": 21, "speaker": "翔", "name": "翔", "text": "「诶？　啊啊，不、我并不是想要试你……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 2, "label": "*a06_1_a", "row": 22, "speaker": "春風", "name": "春風", "text": "「呵呵，开玩笑的。\\n　虽然想要和你们再亲近些\\n　……不过今天就到此散会吧。」", "plain": ["「呵呵，开玩笑的。\\n　虽然想要和你们再亲近些\\n　……不过今天就到此散会吧。」", "「呵呵，开玩笑的。\\n　虽然想要和你们再亲近些\\n　……不过今天就到此散会吧。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 2, "label": "*a06_1_a", "row": 23, "speaker": "春風", "name": "春風", "text": "「被那么可怕的眼神盯着，\\n　难得的谈笑风生，也让人难以沉迷其中了呢。」", "plain": ["「被那么可怕的眼神盯着，\\n　难得的谈笑风生，也让人难以沉迷其中了呢。」", "「被那么可怕的眼神盯着，\\n　难得的谈笑风生，也让人难以沉迷其中了呢。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 2, "label": "*a06_1_a", "row": 24, "speaker": "翔", "name": "翔", "text": "「……可怕？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 2, "label": "*a06_1_a", "row": 25, "speaker": "春風", "name": "春風", "text": "「呵呵，那么，在此告辞。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 0, "speaker": "春風", "name": "春風", "text": "「我们换个地方吧？」", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 1, "speaker": "翔", "name": "翔", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 2, "speaker": null, "name": null, "text": "这是……能力吗？", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 3, "speaker": null, "name": null, "text": "我现在，在被什么能力所施加着？", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 4, "speaker": "春風", "name": "春風", "text": "「我们走吧？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 5, "speaker": "翔", "name": "翔", "text": "「…………」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 6, "speaker": null, "name": null, "text": "我能够甩开她的手。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 7, "speaker": null, "name": null, "text": "然而，想要一睹究竟是怎样的能力、\\n想要在九条面前表现出好的一面。\\n这样的想法……反而适得其反，导致了不好的结果。", "plain": ["然而，想要一睹究竟是怎样的能力、\\n想要在九条面前表现出好的一面。\\n这样的想法……反而适得其反，导致了不好的结果。", "然而，想要一睹究竟是怎样的能力、\\n想要在九条面前表现出好的一面。\\n这样的想法……反而适得其反，导致了不好的结果。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 8, "speaker": "春風", "name": "春風", "text": "「好嘛？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 9, "speaker": null, "name": null, "text": "她的话语……是那么地甜美。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 10, "speaker": null, "name": null, "text": "震动我的鼓膜，映入我的脑内……。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 11, "speaker": "春風", "name": "春風", "text": "「我们走吧。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 12, "speaker": "翔", "name": "翔", "text": "「啊，好的……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 13, "speaker": "都", "name": "都", "text": "「打，打扰了。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 14, "speaker": "翔", "name": "翔", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 15, "speaker": null, "name": null, "text": "听到九条的声音，千钧一发之际，我回过神来。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 16, "speaker": "都", "name": "都", "text": "「请，请问，要倒水吗？」", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 17, "speaker": "春風", "name": "春風", "text": "「不，不用了。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 18, "speaker": null, "name": null, "text": "学姐微笑着回答。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 19, "speaker": null, "name": null, "text": "顺着九条的视线，我察觉到了我的手还被学姐握着、\\n我赶紧抽开。", "plain": ["顺着九条的视线，我察觉到了我的手还被学姐握着、\\n我赶紧抽开。", "顺着九条的视线，我察觉到了我的手还被学姐握着、\\n我赶紧抽开。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 20, "speaker": null, "name": null, "text": "魅惑的能力……。\\n还真是危险至极。", "plain": ["魅惑的能力……。\\n还真是危险至极。", "魅惑的能力……。\\n还真是危险至极。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 21, "speaker": "都", "name": "都", "text": "「请问还有其他……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 22, "speaker": "春風", "name": "春風", "text": "「不用了」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 23, "speaker": "都", "name": "都", "text": "「这，这样吗，打扰了……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 24, "speaker": null, "name": null, "text": "目送着九条低下头回到原位、\\n学姐轻轻地微笑道。", "plain": ["目送着九条低下头回到原位、\\n学姐轻轻地微笑道。", "目送着九条低下头回到原位、\\n学姐轻轻地微笑道。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 25, "speaker": "春風", "name": "春風", "text": "「……是吗，已经有同伴在了吗。」", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 26, "speaker": "翔", "name": "翔", "text": "「诶……？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 27, "speaker": "春風", "name": "春風", "text": "「她也是使用者吧？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 28, "speaker": "翔", "name": "翔", "text": "「啊～……这个嘛。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 3, "label": "*a06_1_b", "row": 29, "speaker": "春風", "name": "春風", "text": "「这次……就到这里吧。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 4, "label": "*a06_1_c", "row": 0, "speaker": null, "name": null, "text": "取过发票，学姐站起身来。", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 4, "label": "*a06_1_c", "row": 1, "speaker": "翔", "name": "翔", "text": "「哎，啊，我来……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 4, "label": "*a06_1_c", "row": 2, "speaker": "春風", "name": "春風", "text": "「今天就由我来付吧。\\n　作为对你向我伸出援手的道谢。」", "plain": ["「今天就由我来付吧。\\n　作为对你向我伸出援手的道谢。」", "「今天就由我来付吧。\\n　作为对你向我伸出援手的道谢。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 4, "label": "*a06_1_c", "row": 3, "speaker": "翔", "name": "翔", "text": "「啊，那就……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 4, "label": "*a06_1_c", "row": 4, "speaker": "春風", "name": "春風", "text": "「能再联系你吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 4, "label": "*a06_1_c", "row": 5, "speaker": "翔", "name": "翔", "text": "「是，是的，当然可以。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 4, "label": "*a06_1_c", "row": 6, "speaker": "春風", "name": "春風", "text": "「非常感谢。\\n　下次再会的时候，我就会阐明我的能力。」", "plain": ["「非常感谢。\\n　下次再会的时候，我就会阐明我的能力。」", "「非常感谢。\\n　下次再会的时候，我就会阐明我的能力。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 4, "label": "*a06_1_c", "row": 7, "speaker": "春風", "name": "春風", "text": "「请把它当作对于我先前的非礼的道歉。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 4, "label": "*a06_1_c", "row": 8, "speaker": "翔", "name": "翔", "text": "「非礼……。你果然……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 4, "label": "*a06_1_c", "row": 9, "speaker": "春風", "name": "春風", "text": "「那么，妾身在此告辞。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 4, "label": "*a06_1_c", "row": 10, "speaker": null, "name": null, "text": "嫣然一笑，她将包挂在腕上向着前台去了。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 4, "label": "*a06_1_c", "row": 11, "speaker": null, "name": null, "text": "九条受理了她，之后也再没什么可说的，\\n马上就结完了账。", "plain": ["九条受理了她，之后也再没什么可说的，\\n马上就结完了账。", "九条受理了她，之后也再没什么可说的，\\n马上就结完了账。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 4, "label": "*a06_1_c", "row": 12, "speaker": null, "name": null, "text": "到门前又冲我回眸微微一笑，就此离店。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 4, "label": "*a06_1_c", "row": 13, "speaker": null, "name": null, "text": "……。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 4, "label": "*a06_1_c", "row": 14, "speaker": null, "name": null, "text": "这到底……是怎么一回事。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 4, "label": "*a06_1_c", "row": 15, "speaker": null, "name": null, "text": "一开始怯生生地。", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 4, "label": "*a06_1_c", "row": 16, "speaker": null, "name": null, "text": "接下来，变得如同高贵的公主大人一般。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 4, "label": "*a06_1_c", "row": 17, "speaker": null, "name": null, "text": "而早上，又是盛气凌人的女王大人。", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 4, "label": "*a06_1_c", "row": 18, "speaker": null, "name": null, "text": "然后她对我施加的能力是……。", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 4, "label": "*a06_1_c", "row": 19, "speaker": null, "name": null, "text": "虽然已经大致有些眉目了……要下一次才能交代吗。", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 4, "label": "*a06_1_c", "row": 20, "speaker": null, "name": null, "text": "看起来……是个特点十足的人呢。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 5, "label": "*a06_2_a", "row": 0, "speaker": "都", "name": "都", "text": "「你没事吧？」", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 5, "label": "*a06_2_a", "row": 1, "speaker": null, "name": null, "text": "九条坐在了刚才学姐所坐的座位上。", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 5, "label": "*a06_2_a", "row": 2, "speaker": "翔", "name": "翔", "text": "「这样好吗？　你还在工作时间呢」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 5, "label": "*a06_2_a", "row": 3, "speaker": "都", "name": "都", "text": "「嗯，嗯。因为担心……。\\n　总感觉就有些异样啊？」", "plain": ["「嗯，嗯。因为担心……。\\n　总感觉就有些异样啊？」", "「嗯，嗯。因为担心……。\\n　总感觉就有些异样啊？」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 5, "label": "*a06_2_a", "row": 4, "speaker": "翔", "name": "翔", "text": "「稍微有点麻烦……。\\n　脑子里一片空白。」", "plain": ["「稍微有点麻烦……。\\n　脑子里一片空白。」", "「稍微有点麻烦……。\\n　脑子里一片空白。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 5, "label": "*a06_2_a", "row": 5, "speaker": "都", "name": "都", "text": "「你还好吧？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 5, "label": "*a06_2_a", "row": 6, "speaker": "翔", "name": "翔", "text": "「嗯，我已经没事了。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 5, "label": "*a06_2_a", "row": 7, "speaker": "都", "name": "都", "text": "「太好了……。让我松了口气。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 5, "label": "*a06_2_a", "row": 8, "speaker": "翔", "name": "翔", "text": "「真是不好意思，让你担心了。我稍微有些轻敌了。\\n　没想到居然会被施加能力……」", "plain": ["「真是不好意思，让你担心了。我稍微有些轻敌了。\\n　没想到居然会被施加能力……」", "「真是不好意思，让你担心了。我稍微有些轻敌了。\\n　没想到居然会被施加能力……」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 5, "label": "*a06_2_a", "row": 9, "speaker": "都", "name": "都", "text": "「啊，嗯，虽然那也是我所担心的……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 5, "label": "*a06_2_a", "row": 10, "speaker": "翔", "name": "翔", "text": "「也是？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 5, "label": "*a06_2_a", "row": 11, "speaker": "都", "name": "都", "text": "「也是……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 5, "label": "*a06_2_a", "row": 12, "speaker": "都", "name": "都", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 5, "label": "*a06_2_a", "row": 13, "speaker": "都", "name": "都", "text": "「也是？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 5, "label": "*a06_2_a", "row": 14, "speaker": "翔", "name": "翔", "text": "「嗯？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 5, "label": "*a06_2_a", "row": 15, "speaker": "都", "name": "都", "text": "「咦？　我……到底对什么感到松了口气啊。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 5, "label": "*a06_2_a", "row": 16, "speaker": "翔", "name": "翔", "text": "「哎，我不清楚。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 5, "label": "*a06_2_a", "row": 17, "speaker": "都", "name": "都", "text": "「…………？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 5, "label": "*a06_2_a", "row": 18, "speaker": "翔", "name": "翔", "text": "「你没事吧？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 5, "label": "*a06_2_a", "row": 19, "speaker": "都", "name": "都", "text": "「唔嗯……怎么说呢。感觉心里郁闷难受……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 5, "label": "*a06_2_a", "row": 20, "speaker": "翔", "name": "翔", "text": "「如果身体不舒服的话，还是回去比较好……、\\n　话虽这么说，工作期间也抽不开身吧。」", "plain": ["「如果身体不舒服的话，还是回去比较好……、\\n　话虽这么说，工作期间也抽不开身吧。」", "「如果身体不舒服的话，还是回去比较好……、\\n　话虽这么说，工作期间也抽不开身吧。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 5, "label": "*a06_2_a", "row": 21, "speaker": "都", "name": "都", "text": "「是的……。啊，该回去工作了。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 5, "label": "*a06_2_a", "row": 22, "speaker": "翔", "name": "翔", "text": "「千万别太勉强了。\\n　我喝完这杯就走了。」", "plain": ["「千万别太勉强了。\\n　我喝完这杯就走了。」", "「千万别太勉强了。\\n　我喝完这杯就走了。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 5, "label": "*a06_2_a", "row": 23, "speaker": "都", "name": "都", "text": "「嗯，啊……新海君。你身后。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 6, "label": "*a06_2_b", "row": 0, "speaker": "都", "name": "都", "text": "「……」", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 6, "label": "*a06_2_b", "row": 1, "speaker": "翔", "name": "翔", "text": "「哦？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 6, "label": "*a06_2_b", "row": 2, "speaker": null, "name": null, "text": "九条一下子坐到先前学姐所坐的座位上。", "plain": ["九条一下子坐到先前学姐所坐的座位上。", "九条一下子坐到先前学姐所坐的座位上。"], "flag": 80}
+{"script": "a06.txt.scn", "scene": 6, "label": "*a06_2_b", "row": 3, "speaker": "都", "name": "都", "text": "「……你没事吧？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 6, "label": "*a06_2_b", "row": 4, "speaker": "翔", "name": "翔", "text": "「嗯……那个，怎么说。\\n　等你工作结束后，我会给你发消息的。」", "plain": ["「嗯……那个，怎么说。\\n　等你工作结束后，我会给你发消息的。」", "「嗯……那个，怎么说。\\n　等你工作结束后，我会给你发消息的。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 6, "label": "*a06_2_b", "row": 5, "speaker": "都", "name": "都", "text": "「啊……嗯。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 6, "label": "*a06_2_b", "row": 6, "speaker": "都", "name": "都", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 6, "label": "*a06_2_b", "row": 7, "speaker": "都", "name": "都", "text": "「为什么，你要握她的手？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 6, "label": "*a06_2_b", "row": 8, "speaker": "翔", "name": "翔", "text": "「是对方猝不及防突然间握过来的。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 6, "label": "*a06_2_b", "row": 9, "speaker": "都", "name": "都", "text": "「突然间？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 6, "label": "*a06_2_b", "row": 10, "speaker": "翔", "name": "翔", "text": "「对，突然间。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 6, "label": "*a06_2_b", "row": 11, "speaker": "都", "name": "都", "text": "「新海君，你也握回去了吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 6, "label": "*a06_2_b", "row": 12, "speaker": "翔", "name": "翔", "text": "「诶？　我可没那么做……。\\n　太焦急了也没有那个余力。」", "plain": ["「诶？　我可没那么做……。\\n　太焦急了也没有那个余力。」", "「诶？　我可没那么做……。\\n　太焦急了也没有那个余力。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 6, "label": "*a06_2_b", "row": 13, "speaker": "都", "name": "都", "text": "「焦急……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 6, "label": "*a06_2_b", "row": 14, "speaker": "都", "name": "都", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 6, "label": "*a06_2_b", "row": 15, "speaker": "翔", "name": "翔", "text": "「诶？　怎么了？　你好像……生气了？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 6, "label": "*a06_2_b", "row": 16, "speaker": "都", "name": "都", "text": "「生气了？　我吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 6, "label": "*a06_2_b", "row": 17, "speaker": "翔", "name": "翔", "text": "「稍微给人那样的感觉……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 6, "label": "*a06_2_b", "row": 18, "speaker": "都", "name": "都", "text": "「生气吗……？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 6, "label": "*a06_2_b", "row": 19, "speaker": "都", "name": "都", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 6, "label": "*a06_2_b", "row": 20, "speaker": "都", "name": "都", "text": "「啊……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 6, "label": "*a06_2_b", "row": 21, "speaker": "翔", "name": "翔", "text": "「对不起，我没能套出什么有用的情报。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 6, "label": "*a06_2_b", "row": 22, "speaker": "都", "name": "都", "text": "「不，没关系。谢谢你。\\n　我才是，没能好好配合你演戏真是对不起。」", "plain": ["「不，没关系。谢谢你。\\n　我才是，没能好好配合你演戏真是对不起。」", "「不，没关系。谢谢你。\\n　我才是，没能好好配合你演戏真是对不起。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 6, "label": "*a06_2_b", "row": 23, "speaker": "翔", "name": "翔", "text": "「不，帮大忙了。\\n　被什么奇怪的能力……啊，在这里和我说话没关系吗？」", "plain": ["「不，帮大忙了。\\n　被什么奇怪的能力……啊，在这里和我说话没关系吗？」", "「不，帮大忙了。\\n　被什么奇怪的能力……啊，在这里和我说话没关系吗？」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 6, "label": "*a06_2_b", "row": 24, "speaker": "都", "name": "都", "text": "「啊，不，不好。\\n　我得回去工作了。」", "plain": ["「啊，不，不好。\\n　我得回去工作了。」", "「啊，不，不好。\\n　我得回去工作了。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 6, "label": "*a06_2_b", "row": 25, "speaker": "翔", "name": "翔", "text": "「我喝完这杯就走。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 6, "label": "*a06_2_b", "row": 26, "speaker": "都", "name": "都", "text": "「嗯，啊……新海君，你身后，她来了。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 0, "speaker": "翔", "name": "翔", "text": "「？　……啊啊」", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 1, "speaker": null, "name": null, "text": "刚想回头，在中途就明白过来。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 2, "speaker": null, "name": null, "text": "……是说女王吗。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 3, "speaker": "翔", "name": "翔", "text": "「什么时候开始的？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 4, "speaker": "都", "name": "都", "text": "「新海君你与学姐开始谈话后的片刻左右吧。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 5, "speaker": "翔", "name": "翔", "text": "「也就是说……被看到了吗。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 6, "speaker": null, "name": null, "text": "回过头去。", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 7, "speaker": "希亜", "name": "？？？", "text": "「……」", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 8, "speaker": null, "name": null, "text": "与女王四目相交。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 9, "speaker": null, "name": null, "text": "我撇开视线，她却又回瞪过来。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 10, "speaker": "翔", "name": "翔", "text": "「事已至此……这便是顺手牵羊吗。\\n　……啊，说的不是这个吗。」", "plain": ["「事已至此……这便是顺手牵羊吗。\\n　……啊，说的不是这个吗。」", "「事已至此……这便是顺手牵羊吗。\\n　……啊，说的不是这个吗。」"], "flag": 80}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 11, "speaker": "都", "name": "都", "text": "「哎，新海君？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 12, "speaker": "翔", "name": "翔", "text": "「交给我吧。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 13, "speaker": null, "name": null, "text": "我拿起冰红茶的杯子站了起来，前去女王的席位。", "plain": ["我拿起冰红茶的杯子站了起来，前去女王的席位。", "我拿起冰红茶的杯子站了起来，前去女王的席位。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 14, "speaker": null, "name": null, "text": "然后就同先前在对学姐所做的一样、\\n我不由分说地在她正面坐了下来。", "plain": ["然后就同先前在对学姐所做的一样、\\n我不由分说地在她正面坐了下来。", "然后就同先前在对学姐所做的一样、\\n我不由分说地在她正面坐了下来。"], "flag": 80}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 15, "speaker": "希亜", "name": "？？？", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 16, "speaker": null, "name": null, "text": "即使状况如此，女王依旧不动如山。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 17, "speaker": null, "name": null, "text": "……这女孩可真是处变不惊啊。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 18, "speaker": "希亜", "name": "？？？", "text": "「……你坐错位子了。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 19, "speaker": "翔", "name": "翔", "text": "「不，并没有。\\n　你一直在盯着我们吧？」", "plain": ["「不，并没有。\\n　你一直在盯着我们吧？」", "「不，并没有。\\n　你一直在盯着我们吧？」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 20, "speaker": "希亜", "name": "？？？", "text": "「……对啊」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 21, "speaker": null, "name": null, "text": "轻拂刘海，她冷淡地作答道。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 22, "speaker": null, "name": null, "text": "……那么快就承认了啊。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 23, "speaker": "翔", "name": "翔", "text": "「我有做什么惹恼你的事情了吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 24, "speaker": "希亜", "name": "？？？", "text": "「……不，并没有。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 25, "speaker": "翔", "name": "翔", "text": "「那你为何要盯着我不放\\n　使我不能静下心来喝茶了。」", "plain": ["「那你为何要盯着我不放\\n　使我不能静下心来喝茶了。」", "「那你为何要盯着我不放\\n　使我不能静下心来喝茶了。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 26, "speaker": "希亜", "name": "？？？", "text": "「……你也在警戒着我。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 27, "speaker": "翔", "name": "翔", "text": "「被你盯着我当然会警戒了。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 28, "speaker": "希亜", "name": "？？？", "text": "「……并没有那么简单。\\n　你我就不要彼此试探了。\\n　这是在浪费时间。」", "plain": ["「……并没有那么简单。\\n　你我就不要彼此试探了。\\n　这是在浪费时间。」", "「……并没有那么简单。\\n　你我就不要彼此试探了。\\n　这是在浪费时间。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 29, "speaker": "希亜", "name": "？？？", "text": "「不好意思，我并不是石化能力者。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 30, "speaker": "翔", "name": "翔", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 31, "speaker": null, "name": null, "text": "这单刀直入的发言，令我一时语塞。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 32, "speaker": null, "name": null, "text": "强忍住内心的动摇，我强装镇定开口道。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 33, "speaker": "翔", "name": "翔", "text": "「你果然是使用者吗。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 34, "speaker": "希亜", "name": "？？？", "text": "「……你们这些人神经太大条了。\\n　居然那么大声地谈论能力的事情。」", "plain": ["「……你们这些人神经太大条了。\\n　居然那么大声地谈论能力的事情。」", "「……你们这些人神经太大条了。\\n　居然那么大声地谈论能力的事情。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 35, "speaker": "希亜", "name": "？？？", "text": "「尤其是你，九条都同学。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 36, "speaker": "都", "name": "都", "text": "「让你久等了%p-1;%fＭＳ ゴシック;――%p;%fuser;诶？」", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 37, "speaker": null, "name": null, "text": "端来芭菲的九条僵住了。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 38, "speaker": null, "name": null, "text": "……这家伙。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 39, "speaker": "都", "name": "都", "text": "「你……为何会……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 40, "speaker": "希亜", "name": "？？？", "text": "「……可乐娜集团的董事长千金。\\n　可谓是家喻户晓呢。\\n　作为贵店的常客的话就更不用多说了。」", "plain": ["「……可乐娜集团的董事长千金。\\n　可谓是家喻户晓呢。\\n　作为贵店的常客的话就更不用多说了。」", "「……可乐娜集团的董事长千金。\\n　可谓是家喻户晓呢。\\n　作为贵店的常客的话就更不用多说了。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 41, "speaker": "希亜", "name": "？？？", "text": "「……倘若将能力的存在公之于众的话，定生大乱。\\n　希望你们这种神经大条的行为能有所自重。」", "plain": ["「……倘若将能力的存在公之于众的话，定生大乱。\\n　希望你们这种神经大条的行为能有所自重。」", "「……倘若将能力的存在公之于众的话，定生大乱。\\n　希望你们这种神经大条的行为能有所自重。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 42, "speaker": "都", "name": "都", "text": "「说得对……。我们会注意的。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 43, "speaker": null, "name": null, "text": "九条瞥了我一眼。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 44, "speaker": null, "name": null, "text": "『能力』", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 45, "speaker": null, "name": null, "text": "从这个词就能明白一切了吧。\\n她朝向我的眼神中，浮现出警戒之色。", "plain": ["从这个词就能明白一切了吧。\\n她朝向我的眼神中，浮现出警戒之色。", "从这个词就能明白一切了吧。\\n她朝向我的眼神中，浮现出警戒之色。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 46, "speaker": "都", "name": "都", "text": "「你听到了我们的对话了吧。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 47, "speaker": "希亜", "name": "？？？", "text": "「……那么大的动静，当然会听了。\\n　你们连石化的能力者就近在咫尺的可能性都没有考虑到，实在是够武断的。」", "plain": ["「……那么大的动静，当然会听了。\\n　你们连石化的能力者就近在咫尺的可能性都没有考虑到，实在是够武断的。」", "「……那么大的动静，当然会听了。\\n　你们连石化的能力者就近在咫尺的可能性都没有考虑到，实在是够武断的。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 48, "speaker": "翔", "name": "翔", "text": "「那你现在这么说，就没关系了吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 49, "speaker": "希亜", "name": "？？？", "text": "「还会有谁在听着呢？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 50, "speaker": null, "name": null, "text": "扫视四周，她轻蔑般地轻哼道。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 51, "speaker": null, "name": null, "text": "嘛……确实周围并没有客人。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 52, "speaker": "希亜", "name": "？？？", "text": "「……总而言之，不要给我添乱。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 53, "speaker": "翔", "name": "翔", "text": "「添乱？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 54, "speaker": "希亜", "name": "？？？", "text": "「……石化的能力者就由我来制裁。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 55, "speaker": "翔", "name": "翔", "text": "「制裁……你这话说的好夸张啊。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 56, "speaker": "都", "name": "都", "text": "「那个，那样的话，要不要合作呢？\\n　我的能力，肯定会派上%p-1;%fＭＳ ゴシック;――%p;%fuser;」", "plain": ["「那个，那样的话，要不要合作呢？\\n　我的能力，肯定会派上%p-1;%fＭＳ ゴシック;――%p;%fuser;」", "「那个，那样的话，要不要合作呢？\\n　我的能力，肯定会派上%p-1;%fＭＳ ゴシック;――%p;%fuser;」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 57, "speaker": "希亜", "name": "？？？", "text": "「你别误会了。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 58, "speaker": null, "name": null, "text": "九条的提议被女王斩钉截铁地拒绝了。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 59, "speaker": "希亜", "name": "？？？", "text": "「……我并不需要依靠他人。\\n　仅凭我的能力就足够了。」", "plain": ["「……我并不需要依靠他人。\\n　仅凭我的能力就足够了。」", "「……我并不需要依靠他人。\\n　仅凭我的能力就足够了。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 60, "speaker": "希亜", "name": "？？？", "text": "「而且你们也只不过是我的监视对象而已。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 61, "speaker": "翔", "name": "翔", "text": "「又是监视吗……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 62, "speaker": "希亜", "name": "？？？", "text": "「所有能力者的胡作非为，就由我来制裁。\\n　所以，请你们务必不要偏离正道。」", "plain": ["「所有能力者的胡作非为，就由我来制裁。\\n　所以，请你们务必不要偏离正道。」", "「所有能力者的胡作非为，就由我来制裁。\\n　所以，请你们务必不要偏离正道。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 63, "speaker": "都", "name": "都", "text": "「怎么会……我们怎么会干坏事……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 64, "speaker": "希亜", "name": "？？？", "text": "「芭菲」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 65, "speaker": "都", "name": "都", "text": "「诶……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 66, "speaker": "希亜", "name": "？？？", "text": "「我想快点吃到。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 67, "speaker": "都", "name": "都", "text": "「啊，是，是是、万分抱歉……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 68, "speaker": null, "name": null, "text": "九条毕恭毕敬地道歉后，将芭菲与勺子摆到桌上。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 69, "speaker": "都", "name": "都", "text": "「请问你要点的就是这些了吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 70, "speaker": "希亜", "name": "？？？", "text": "「是的，谢谢。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 71, "speaker": "都", "name": "都", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 72, "speaker": "都", "name": "都", "text": "「那个，请问尊姓大名……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 73, "speaker": "希亜", "name": "？？？", "text": "「我并没有告诉你我的名字，还有我的能力的打算。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 74, "speaker": null, "name": null, "text": "她冷漠地回答道，拿起勺子。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 75, "speaker": "希亜", "name": "？？？", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 76, "speaker": "都", "name": "都", "text": "「……。请慢用……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 77, "speaker": null, "name": null, "text": "我看着我行我素地吃起芭菲的女王、\\n又看看回到工作中的九条的背影……", "plain": ["我看着我行我素地吃起芭菲的女王、\\n又看看回到工作中的九条的背影……", "我看着我行我素地吃起芭菲的女王、\\n又看看回到工作中的九条的背影……"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 78, "speaker": "翔", "name": "翔", "text": "「唉……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 79, "speaker": null, "name": null, "text": "我叹了口气，喝一口冰红茶。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 80, "speaker": "希亜", "name": "？？？", "text": "「……」", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 81, "speaker": null, "name": null, "text": "女王完全无视着我的存在，自顾自吃着芭菲。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 82, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「结城　希亚。\\n　同春风一样，我不知道字是怎么写的。\\n　与你同岁。」", "plain": ["「结城　希亚。\\n　同春风一样，我不知道字是怎么写的。\\n　与你同岁。」", "「结城　希亚。\\n　同春风一样，我不知道字是怎么写的。\\n　与你同岁。」"], "flag": 80}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 83, "speaker": "翔", "name": "翔", "text": "「原来如此，她叫作希亚啊。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 84, "speaker": null, "name": null, "text": "依靠着索菲的活跃\\n我很轻易地就知道了芭菲女王的本名。", "plain": ["依靠着索菲的活跃\\n我很轻易地就知道了芭菲女王的本名。", "依靠着索菲的活跃\\n我很轻易地就知道了芭菲女王的本名。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 85, "speaker": null, "name": null, "text": "之后就剩能力了……。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 86, "speaker": null, "name": null, "text": "那家伙还真是对自己的力量自信十足呢。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 87, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「她也在找魔眼的使用者吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 88, "speaker": "翔", "name": "翔", "text": "「她说要由自己来制裁。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 89, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「……这可就麻烦了呢。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 90, "speaker": "翔", "name": "翔", "text": "「为什么啊，有谁来帮忙不也挺好的吗。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 91, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「她的目的不是回收对吧？\\n　倘若魔眼的使用者被杀死了的话，事情会变得很麻烦的。」", "plain": ["「她的目的不是回收对吧？\\n　倘若魔眼的使用者被杀死了的话，事情会变得很麻烦的。」", "「她的目的不是回收对吧？\\n　倘若魔眼的使用者被杀死了的话，事情会变得很麻烦的。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 92, "speaker": "翔", "name": "翔", "text": "「杀死……？\\n　唔，她不会干那么过激的事情的吧……」", "plain": ["「杀死……？\\n　唔，她不会干那么过激的事情的吧……」", "「杀死……？\\n　唔，她不会干那么过激的事情的吧……」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 93, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「这你能保证吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 94, "speaker": "翔", "name": "翔", "text": "「唔……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 95, "speaker": null, "name": null, "text": "我完全无法断言。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 96, "speaker": null, "name": null, "text": "我对那个女孩尚且一无所知。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 97, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「嘛，杀死倒不是问题。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 98, "speaker": "翔", "name": "翔", "text": "「这不算问题啊。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 99, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「问题在那之后，使用者倘若死了的话、\\n　Artifact就会放任自流，向着下一任使用者移动。\\n　这要找到是谁就难了。」", "plain": ["「问题在那之后，使用者倘若死了的话、\\n　Artifact就会放任自流，向着下一任使用者移动。\\n　这要找到是谁就难了。」", "「问题在那之后，使用者倘若死了的话、\\n　Artifact就会放任自流，向着下一任使用者移动。\\n　这要找到是谁就难了。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 100, "speaker": "翔", "name": "翔", "text": "「啊……是这样啊。向着持有者的身边移动……。\\n　有这样的习性么。」", "plain": ["「啊……是这样啊。向着持有者的身边移动……。\\n　有这样的习性么。」", "「啊……是这样啊。向着持有者的身边移动……。\\n　有这样的习性么。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 101, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「准确来说，是向着能操控自己的人的身边移动，\\n　连世界都能横跨。」", "plain": ["「准确来说，是向着能操控自己的人的身边移动，\\n　连世界都能横跨。」", "「准确来说，是向着能操控自己的人的身边移动，\\n　连世界都能横跨。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 102, "speaker": "翔", "name": "翔", "text": "「魔眼的使用者位于这座城市的可能性很高……。\\n　所以被杀掉的话就麻烦了吗。」", "plain": ["「魔眼的使用者位于这座城市的可能性很高……。\\n　所以被杀掉的话就麻烦了吗。」", "「魔眼的使用者位于这座城市的可能性很高……。\\n　所以被杀掉的话就麻烦了吗。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 103, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「就是这样。\\n　你需要与希亚成为同伴，或者就抢先下手，\\n　必须先她一步找到魔眼」", "plain": ["「就是这样。\\n　你需要与希亚成为同伴，或者就抢先下手，\\n　必须先她一步找到魔眼」", "「就是这样。\\n　你需要与希亚成为同伴，或者就抢先下手，\\n　必须先她一步找到魔眼」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 104, "speaker": "翔", "name": "翔", "text": "「成为同伴或者趁机抢先下手吗……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 105, "speaker": null, "name": null, "text": "前者……看来是很难做到了呢。\\n她并没有交好的意思。", "plain": ["前者……看来是很难做到了呢。\\n她并没有交好的意思。", "前者……看来是很难做到了呢。\\n她并没有交好的意思。"], "flag": 80}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 106, "speaker": null, "name": null, "text": "说起同伴的话，香坂学姐要更为友好一些……\\n不过她要对我施加什么%p-1;%fＭＳ ゴシック;――%p;%fuser;恐怕是魅惑%p-1;%fＭＳ ゴシック;――%p;%fuser;\\n的能力。", "plain": ["说起同伴的话，香坂学姐要更为友好一些……\\n不过她要对我施加什么%p-1;%fＭＳ ゴシック;――%p;%fuser;恐怕是魅惑%p-1;%fＭＳ ゴシック;――%p;%fuser;\\n的能力。", "说起同伴的话，香坂学姐要更为友好一些……\\n不过她要对我施加什么%p-1;%fＭＳ ゴシック;――%p;%fuser;恐怕是魅惑%p-1;%fＭＳ ゴシック;――%p;%fuser;\\n的能力。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 107, "speaker": null, "name": null, "text": "……也是个不可大意的人物。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 108, "speaker": null, "name": null, "text": "真是的……使用者还真是没几个省油的灯呢。", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 109, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「你有在听吗？\\n　绝对要找到魔眼哦？」", "plain": ["「你有在听吗？\\n　绝对要找到魔眼哦？」", "「你有在听吗？\\n　绝对要找到魔眼哦？」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 110, "speaker": "翔", "name": "翔", "text": "「知道了啦。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 111, "speaker": null, "name": null, "text": "我抱着胳膊，敷衍地回答道。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 112, "speaker": null, "name": null, "text": "确实，如果现在的使用者死去导致魔眼不知下落的话\\n事情就变得麻烦了。", "plain": ["确实，如果现在的使用者死去导致魔眼不知下落的话\\n事情就变得麻烦了。", "确实，如果现在的使用者死去导致魔眼不知下落的话\\n事情就变得麻烦了。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 113, "speaker": null, "name": null, "text": "话说如此，这同使用者离开这座城市也差不多……。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 114, "speaker": null, "name": null, "text": "……。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 115, "speaker": "翔", "name": "翔", "text": "「对了，索菲。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 116, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「怎么了？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 117, "speaker": "翔", "name": "翔", "text": "「还有其他的吗？\\n　使用者舍弃Artifact的方法，\\n　或者说条件。」", "plain": ["「还有其他的吗？\\n　使用者舍弃Artifact的方法，\\n　或者说条件。」", "「还有其他的吗？\\n　使用者舍弃Artifact的方法，\\n　或者说条件。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 118, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「Artifact的契约，是像一种诅咒那样的东西哟。\\n　单方面地，基本是到死为止都在一起的。」", "plain": ["「Artifact的契约，是像一种诅咒那样的东西哟。\\n　单方面地，基本是到死为止都在一起的。」", "「Artifact的契约，是像一种诅咒那样的东西哟。\\n　单方面地，基本是到死为止都在一起的。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 119, "speaker": "翔", "name": "翔", "text": "「基本是？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 120, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「有一种名为安布罗西亚的灵药。\\n　通过进入假死状态，从而瞒过Artifact。」", "plain": ["「有一种名为安布罗西亚的灵药。\\n　通过进入假死状态，从而瞒过Artifact。」", "「有一种名为安布罗西亚的灵药。\\n　通过进入假死状态，从而瞒过Artifact。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 121, "speaker": "翔", "name": "翔", "text": "「也就是说不管怎样，都必须得死一次是吗。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 7, "label": "*a06_2_c", "row": 122, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「是那样的呢。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 0, "speaker": "翔", "name": "翔", "text": "「那么……只好让犯人喝下这个叫做安布罗西亚的东西、\\n　或者通过九条的力量夺过来交给索菲回收%p-1;%fＭＳ ゴシック;――%p;%fuser;」", "plain": ["「那么……只好让犯人喝下这个叫做安布罗西亚的东西、\\n　或者通过九条的力量夺过来交给索菲回收%p-1;%fＭＳ ゴシック;――%p;%fuser;」", "「那么……只好让犯人喝下这个叫做安布罗西亚的东西、\\n　或者通过九条的力量夺过来交给索菲回收%p-1;%fＭＳ ゴシック;――%p;%fuser;」"], "flag": 80}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 1, "speaker": "翔", "name": "翔", "text": "「哎呀。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 2, "speaker": null, "name": null, "text": "急促的短信提示音，打断了我的话语。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 3, "speaker": null, "name": null, "text": "我立刻打开手机确认。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 4, "speaker": null, "name": null, "text": "是九条发来的消息。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 5, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「于是？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 6, "speaker": "翔", "name": "翔", "text": "「嗯？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 7, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「要说的话已经说完了吗？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 8, "speaker": "翔", "name": "翔", "text": "「啊。是的。谢谢。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 9, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「那么，我回去了。\\n　快点找到魔眼的使用者吧。」", "plain": ["「那么，我回去了。\\n　快点找到魔眼的使用者吧。」", "「那么，我回去了。\\n　快点找到魔眼的使用者吧。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 10, "speaker": "翔", "name": "翔", "text": "「嗯～……好的好的。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 11, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「……真是见色忘他啊。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 12, "speaker": null, "name": null, "text": "望着满脑子想着该如何回复九条而心不在焉的我，\\n索菲叹气道。", "plain": ["望着满脑子想着该如何回复九条而心不在焉的我，\\n索菲叹气道。", "望着满脑子想着该如何回复九条而心不在焉的我，\\n索菲叹气道。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 13, "speaker": null, "name": null, "text": "当我再抬起头的时候，索菲已经不在了。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 14, "speaker": null, "name": null, "text": "稍微有些过意不去……没办法。\\n九条那边更重要。", "plain": ["稍微有些过意不去……没办法。\\n九条那边更重要。", "稍微有些过意不去……没办法。\\n九条那边更重要。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 15, "speaker": null, "name": null, "text": "『今天辛苦了。\\n　被施加了能力后你有什么后遗症吗？\\n　我很点担心。』", "plain": ["『今天辛苦了。\\n　被施加了能力后你有什么后遗症吗？\\n　我很点担心。』", "『今天辛苦了。\\n　被施加了能力后你有什么后遗症吗？\\n　我很点担心。』"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 16, "speaker": null, "name": null, "text": "九条那直接的牵挂。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 17, "speaker": null, "name": null, "text": "从刻板的用词来看，也仿佛只是社交辞令一般。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 18, "speaker": null, "name": null, "text": "即便如此，我依然对于九条她能给我发消息\\n这件事而感到欣喜。", "plain": ["即便如此，我依然对于九条她能给我发消息\\n这件事而感到欣喜。", "即便如此，我依然对于九条她能给我发消息\\n这件事而感到欣喜。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 19, "speaker": null, "name": null, "text": "我的胸中在澎湃着，不由自主地去思考着该如何回复是好。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 20, "speaker": null, "name": null, "text": "……。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 21, "speaker": null, "name": null, "text": "被说见色忘他了吗。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 22, "speaker": null, "name": null, "text": "我们的成长环境相差太大了，\\n九条对我这种人不会有兴趣的吧，\\n最多不过是个同伴而已。", "plain": ["我们的成长环境相差太大了，\\n九条对我这种人不会有兴趣的吧，\\n最多不过是个同伴而已。", "我们的成长环境相差太大了，\\n九条对我这种人不会有兴趣的吧，\\n最多不过是个同伴而已。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 23, "speaker": null, "name": null, "text": "想用软弱涂满内心的想法。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 24, "speaker": null, "name": null, "text": "想不去意识、不去直视的想法。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 25, "speaker": null, "name": null, "text": "写了回信而又删去，写了而又删去。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 26, "speaker": null, "name": null, "text": "这样不像样地恶心的举动反反复复地重复的话……\\n即便是不情愿，最终也会正视。\\n变得无可隐瞒。", "plain": ["这样不像样地恶心的举动反反复复地重复的话……\\n即便是不情愿，最终也会正视。\\n变得无可隐瞒。", "这样不像样地恶心的举动反反复复地重复的话……\\n即便是不情愿，最终也会正视。\\n变得无可隐瞒。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 27, "speaker": null, "name": null, "text": "我……喜欢九条啊。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 28, "speaker": null, "name": null, "text": "是不想被对方察觉到吗……。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 29, "speaker": null, "name": null, "text": "到最后，我给予的回复仅仅是单纯的一句『没事』。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 30, "speaker": null, "name": null, "text": "这样的话，是不会有接下来的回信的吧。我对此十分后悔。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 31, "speaker": null, "name": null, "text": "想到九条的事情，时而高兴时而忧郁。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 32, "speaker": null, "name": null, "text": "大概，我的想法是传达不到的吧。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 33, "speaker": null, "name": null, "text": "我比我自己所想的还要怯懦。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 34, "speaker": null, "name": null, "text": "所以，至少。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 35, "speaker": null, "name": null, "text": "我想要在九条身边，尽可能多陪伴她一些时光……。", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 8, "label": "*a06_3_a", "row": 36, "speaker": null, "name": null, "text": "做好能够让九条信赖下去的自己。我这么热切地想着。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 0, "speaker": "翔", "name": "翔", "text": "「那么……就只好让犯人喝下那个名为安布罗西亚的东西了、\\n　或者靠九条的力量夺取，然后交给索菲回收这两种办法了吗。」", "plain": ["「那么……就只好让犯人喝下那个名为安布罗西亚的东西了、\\n　或者靠九条的力量夺取，然后交给索菲回收这两种办法了吗。」", "「那么……就只好让犯人喝下那个名为安布罗西亚的东西了、\\n　或者靠九条的力量夺取，然后交给索菲回收这两种办法了吗。」"], "flag": 80}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 1, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「那不是一回事嘛。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 2, "speaker": "翔", "name": "翔", "text": "「诶？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 3, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「除非将其杀死或者让其喝下安布罗西亚、\\n　不然是回收不了的哦。」", "plain": ["「除非将其杀死或者让其喝下安布罗西亚、\\n　不然是回收不了的哦。」", "「除非将其杀死或者让其喝下安布罗西亚、\\n　不然是回收不了的哦。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 4, "speaker": "翔", "name": "翔", "text": "「为什么这么说，火灾的那时候\\n　九条不是回收了吗。」", "plain": ["「为什么这么说，火灾的那时候\\n　九条不是回收了吗。」", "「为什么这么说，火灾的那时候\\n　九条不是回收了吗。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 5, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「因为，那时使用者已经死了呀。」", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 6, "speaker": "翔", "name": "翔", "text": "「……你说什么？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 7, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「哎呀，果然你没有察觉到呢。」", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 8, "speaker": "翔", "name": "翔", "text": "「……等下，等下等下。这到底是怎么一回事。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 9, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「因为被都夺取了Artifect，\\n　力量失去了控制。」", "plain": ["「因为被都夺取了Artifect，\\n　力量失去了控制。」", "「因为被都夺取了Artifect，\\n　力量失去了控制。」"], "flag": 88}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 10, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「所导致的结果，就是被自身的火焰所烧却，灵魂化为浮炭。」", "plain": [], "flag": 72}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 11, "speaker": "翔", "name": "翔", "text": "「……。你说的属实吗？　那些。」", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 12, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「Artifact还在我手里就是证明，\\n　如果还活着的话已经回到主人的身边了。」", "plain": ["「Artifact还在我手里就是证明，\\n　如果还活着的话已经回到主人的身边了。」", "「Artifact还在我手里就是证明，\\n　如果还活着的话已经回到主人的身边了。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 13, "speaker": "翔", "name": "翔", "text": "「死了……？　那家伙？」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 14, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「间接性地，被都杀死了呢。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 15, "speaker": "翔", "name": "翔", "text": "「啧」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 16, "speaker": null, "name": null, "text": "终于对不假思索的发言反应过来，我瞪着索菲。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 17, "speaker": null, "name": null, "text": "然而索菲是不会被我的眼神所怯的。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 18, "speaker": null, "name": null, "text": "从容地接过我的眼神，她哼了一声。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 19, "speaker": "翔", "name": "翔", "text": "「……这件事，不要对九条说。」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 20, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「即使说了也没用的吧？\\n　因为必须让都派上用场。\\n　会打击到她的这种话，我是不可能说的。」", "plain": ["「即使说了也没用的吧？\\n　因为必须让都派上用场。\\n　会打击到她的这种话，我是不可能说的。」", "「即使说了也没用的吧？\\n　因为必须让都派上用场。\\n　会打击到她的这种话，我是不可能说的。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 21, "speaker": "翔", "name": "翔", "text": "「那样就好……」", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 22, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「那么，我这就走了。\\n　希亚那孩子，你要注意。」", "plain": ["「那么，我这就走了。\\n　希亚那孩子，你要注意。」", "「那么，我这就走了。\\n　希亚那孩子，你要注意。」"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 23, "speaker": null, "name": null, "text": "空间扭曲开来，索菲消失了。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 24, "speaker": null, "name": null, "text": "……和两个使用者的接触。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 25, "speaker": null, "name": null, "text": "之后该如何是好的烦忧……\\n那样的想法，在脑海里一扫而空。", "plain": ["之后该如何是好的烦忧……\\n那样的想法，在脑海里一扫而空。", "之后该如何是好的烦忧……\\n那样的想法，在脑海里一扫而空。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 26, "speaker": null, "name": null, "text": "间接性地……九条杀了人。", "plain": [], "flag": 88}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 27, "speaker": null, "name": null, "text": "然后直到我问为止……索菲都没有向我阐明我安布罗西亚的存在。", "plain": ["然后直到我问为止……索菲都没有向我阐明我安布罗西亚的存在。", "然后直到我问为止……索菲都没有向我阐明我安布罗西亚的存在。"], "flag": 80}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 28, "speaker": null, "name": null, "text": "……她在期待着吗？\\n九条在无意中杀死魔眼的使用者。", "plain": ["……她在期待着吗？\\n九条在无意中杀死魔眼的使用者。", "……她在期待着吗？\\n九条在无意中杀死魔眼的使用者。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 29, "speaker": null, "name": null, "text": "九条她，还没有意识到自己\\n在无意识中夺去了使用者的生命……。", "plain": ["九条她，还没有意识到自己\\n在无意识中夺去了使用者的生命……。", "九条她，还没有意识到自己\\n在无意识中夺去了使用者的生命……。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 30, "speaker": null, "name": null, "text": "……。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 31, "speaker": null, "name": null, "text": "可能还是让九条收手比较好吧。", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 32, "speaker": null, "name": null, "text": "……至少，不要让她再去夺走Artifact了。", "plain": ["……至少，不要让她再去夺走Artifact了。", "……至少，不要让她再去夺走Artifact了。"], "flag": 64}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 33, "speaker": null, "name": null, "text": "以及……索菲。", "plain": [], "flag": 80}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 34, "speaker": null, "name": null, "text": "我可以相信你吗？", "plain": [], "flag": 64}
+{"script": "a06.txt.scn", "scene": 9, "label": "*a06_3_b", "row": 35, "speaker": null, "name": null, "text": "……尽是不安，该死的。", "plain": [], "flag": 80}

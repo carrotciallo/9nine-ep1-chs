@@ -1,0 +1,415 @@
+{
+ "base": "resource/official_jp",
+ "problems": [],
+ "scripts": {
+  "a01.txt": {
+   "base_rows": 378,
+   "base_scenes": 10,
+   "base_selects": 2,
+   "issues": [],
+   "markup_base": {
+    "color": 0,
+    "newline": 169,
+    "reset": 0,
+    "ruby": 2,
+    "voice": 0
+   },
+   "markup_row_mismatch": 0,
+   "markup_target": {
+    "color": 0,
+    "newline": 163,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "target_rows": 378,
+   "target_scenes": 10,
+   "target_selects": 2
+  },
+  "a02.txt": {
+   "base_rows": 654,
+   "base_scenes": 7,
+   "base_selects": 2,
+   "issues": [],
+   "markup_base": {
+    "color": 0,
+    "newline": 216,
+    "reset": 0,
+    "ruby": 1,
+    "voice": 0
+   },
+   "markup_row_mismatch": 0,
+   "markup_target": {
+    "color": 0,
+    "newline": 198,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "target_rows": 654,
+   "target_scenes": 7,
+   "target_selects": 2
+  },
+  "a03.txt": {
+   "base_rows": 407,
+   "base_scenes": 1,
+   "base_selects": 0,
+   "issues": [],
+   "markup_base": {
+    "color": 0,
+    "newline": 128,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "markup_row_mismatch": 0,
+   "markup_target": {
+    "color": 0,
+    "newline": 117,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "target_rows": 407,
+   "target_scenes": 1,
+   "target_selects": 0
+  },
+  "a04.txt": {
+   "base_rows": 1019,
+   "base_scenes": 4,
+   "base_selects": 2,
+   "issues": [],
+   "markup_base": {
+    "color": 0,
+    "newline": 309,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "markup_row_mismatch": 0,
+   "markup_target": {
+    "color": 0,
+    "newline": 214,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "target_rows": 1019,
+   "target_scenes": 4,
+   "target_selects": 2
+  },
+  "a05.txt": {
+   "base_rows": 674,
+   "base_scenes": 4,
+   "base_selects": 0,
+   "issues": [],
+   "markup_base": {
+    "color": 0,
+    "newline": 306,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "markup_row_mismatch": 0,
+   "markup_target": {
+    "color": 0,
+    "newline": 184,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "target_rows": 674,
+   "target_scenes": 4,
+   "target_selects": 0
+  },
+  "a06.txt": {
+   "base_rows": 729,
+   "base_scenes": 9,
+   "base_selects": 2,
+   "issues": [],
+   "markup_base": {
+    "color": 0,
+    "newline": 229,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "markup_row_mismatch": 0,
+   "markup_target": {
+    "color": 0,
+    "newline": 210,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "target_rows": 729,
+   "target_scenes": 9,
+   "target_selects": 2
+  },
+  "a07.txt": {
+   "base_rows": 594,
+   "base_scenes": 13,
+   "base_selects": 0,
+   "issues": [],
+   "markup_base": {
+    "color": 0,
+    "newline": 204,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "markup_row_mismatch": 0,
+   "markup_target": {
+    "color": 0,
+    "newline": 166,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "target_rows": 594,
+   "target_scenes": 13,
+   "target_selects": 0
+  },
+  "a08.txt": {
+   "base_rows": 544,
+   "base_scenes": 6,
+   "base_selects": 0,
+   "issues": [],
+   "markup_base": {
+    "color": 0,
+    "newline": 166,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "markup_row_mismatch": 0,
+   "markup_target": {
+    "color": 0,
+    "newline": 125,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "target_rows": 544,
+   "target_scenes": 6,
+   "target_selects": 0
+  },
+  "a09.txt": {
+   "base_rows": 93,
+   "base_scenes": 1,
+   "base_selects": 0,
+   "issues": [],
+   "markup_base": {
+    "color": 0,
+    "newline": 19,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "markup_row_mismatch": 0,
+   "markup_target": {
+    "color": 0,
+    "newline": 17,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "target_rows": 93,
+   "target_scenes": 1,
+   "target_selects": 0
+  },
+  "a10.txt": {
+   "base_rows": 449,
+   "base_scenes": 1,
+   "base_selects": 1,
+   "issues": [],
+   "markup_base": {
+    "color": 0,
+    "newline": 103,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "markup_row_mismatch": 0,
+   "markup_target": {
+    "color": 0,
+    "newline": 81,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "target_rows": 449,
+   "target_scenes": 1,
+   "target_selects": 1
+  },
+  "a11.txt": {
+   "base_rows": 473,
+   "base_scenes": 1,
+   "base_selects": 0,
+   "issues": [],
+   "markup_base": {
+    "color": 0,
+    "newline": 116,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "markup_row_mismatch": 0,
+   "markup_target": {
+    "color": 0,
+    "newline": 104,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "target_rows": 473,
+   "target_scenes": 1,
+   "target_selects": 0
+  },
+  "a12.txt": {
+   "base_rows": 414,
+   "base_scenes": 1,
+   "base_selects": 0,
+   "issues": [],
+   "markup_base": {
+    "color": 0,
+    "newline": 118,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "markup_row_mismatch": 0,
+   "markup_target": {
+    "color": 0,
+    "newline": 106,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "target_rows": 414,
+   "target_scenes": 1,
+   "target_selects": 0
+  },
+  "a13.txt": {
+   "base_rows": 857,
+   "base_scenes": 4,
+   "base_selects": 0,
+   "issues": [],
+   "markup_base": {
+    "color": 0,
+    "newline": 171,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "markup_row_mismatch": 0,
+   "markup_target": {
+    "color": 0,
+    "newline": 165,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "target_rows": 857,
+   "target_scenes": 4,
+   "target_selects": 0
+  },
+  "a14.txt": {
+   "base_rows": 871,
+   "base_scenes": 3,
+   "base_selects": 0,
+   "issues": [],
+   "markup_base": {
+    "color": 0,
+    "newline": 239,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "markup_row_mismatch": 0,
+   "markup_target": {
+    "color": 0,
+    "newline": 205,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "target_rows": 871,
+   "target_scenes": 3,
+   "target_selects": 0
+  },
+  "a15.txt": {
+   "base_rows": 625,
+   "base_scenes": 1,
+   "base_selects": 0,
+   "issues": [],
+   "markup_base": {
+    "color": 0,
+    "newline": 199,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "markup_row_mismatch": 0,
+   "markup_target": {
+    "color": 0,
+    "newline": 154,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "target_rows": 625,
+   "target_scenes": 1,
+   "target_selects": 0
+  },
+  "a16.txt": {
+   "base_rows": 235,
+   "base_scenes": 1,
+   "base_selects": 0,
+   "issues": [],
+   "markup_base": {
+    "color": 0,
+    "newline": 66,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "markup_row_mismatch": 0,
+   "markup_target": {
+    "color": 0,
+    "newline": 53,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "target_rows": 235,
+   "target_scenes": 1,
+   "target_selects": 0
+  },
+  "a17.txt": {
+   "base_rows": 311,
+   "base_scenes": 3,
+   "base_selects": 0,
+   "issues": [],
+   "markup_base": {
+    "color": 0,
+    "newline": 85,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "markup_row_mismatch": 0,
+   "markup_target": {
+    "color": 0,
+    "newline": 83,
+    "reset": 0,
+    "ruby": 0,
+    "voice": 0
+   },
+   "target_rows": 311,
+   "target_scenes": 3,
+   "target_selects": 0
+  }
+ },
+ "target": "resource/chs_text"
+}

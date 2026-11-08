@@ -1,0 +1,311 @@
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 0, "speaker": "都", "name": "都", "text": "「来~，久等了。\\n照烧鸡排套餐~」", "plain": ["「来~，久等了。\\n照烧鸡排套餐~」", "「来~，久等了。\\n照烧鸡排套餐~」"], "flag": 80}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 1, "speaker": null, "name": null, "text": "菜被一道道摆放到桌上。", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 2, "speaker": null, "name": null, "text": "看上去就很好吃。", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 3, "speaker": null, "name": null, "text": "也许是因为都穿着打工时的制服，\\n让我比平时更加这么觉得。", "plain": ["也许是因为都穿着打工时的制服，\\n让我比平时更加这么觉得。", "也许是因为都穿着打工时的制服，\\n让我比平时更加这么觉得。"], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 4, "speaker": "翔", "name": "翔", "text": "「忍到都打工结束才吃饭真是太好了……」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 5, "speaker": "都", "name": "都", "text": "「哼哼，抱歉呢。\\n能再早点结束就好了……」", "plain": ["「哼哼，抱歉呢。\\n能再早点结束就好了……」", "「哼哼，抱歉呢。\\n能再早点结束就好了……」"], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 6, "speaker": "翔", "name": "翔", "text": "「不，是我任性说想让你在家里也穿着制服的。\\n我这边才是抱歉，勉强你了。」", "plain": ["「不，是我任性说想让你在家里也穿着制服的。\\n我这边才是抱歉，勉强你了。」", "「不，是我任性说想让你在家里也穿着制服的。\\n我这边才是抱歉，勉强你了。」"], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 7, "speaker": "都", "name": "都", "text": "「没关系，只要能让翔君开心我什么都做。\\n而且这件衣服正好要送去洗衣店洗。」", "plain": ["「没关系，只要能让翔君开心我什么都做。\\n而且这件衣服正好要送去洗衣店洗。」", "「没关系，只要能让翔君开心我什么都做。\\n而且这件衣服正好要送去洗衣店洗。」"], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 8, "speaker": "翔", "name": "翔", "text": "「这次土下座真是值了。」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 9, "speaker": "都", "name": "都", "text": "「真是莫名地拼命呢，翔君，呵呵。\\n趁菜还没凉赶快吃吧。」", "plain": ["「真是莫名地拼命呢，翔君，呵呵。\\n趁菜还没凉赶快吃吧。」", "「真是莫名地拼命呢，翔君，呵呵。\\n趁菜还没凉赶快吃吧。」"], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 10, "speaker": "翔", "name": "翔", "text": "「嗯嗯，谢谢你总是给我做饭。我开动了。」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 11, "speaker": "都", "name": "都", "text": "「不用谢。我开动了」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 12, "speaker": null, "name": null, "text": "我们一起合掌后，然后拿起筷子。", "plain": [], "flag": 80}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 13, "speaker": "翔", "name": "翔", "text": "「嗯，好吃。」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 14, "speaker": "都", "name": "都", "text": "「饭，会不会有些硬呀？\\n好像水放得有点少了的样子……」", "plain": ["「饭，会不会有些硬呀？\\n好像水放得有点少了的样子……」", "「饭，会不会有些硬呀？\\n好像水放得有点少了的样子……」"], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 15, "speaker": "翔", "name": "翔", "text": "「不会，很好吃哦。」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 16, "speaker": "都", "name": "都", "text": "「太好了」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 17, "speaker": null, "name": null, "text": "这是已经重复了许多次的，我们俩人的饭桌。", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 18, "speaker": null, "name": null, "text": "平淡无奇的每一天。", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 19, "speaker": null, "name": null, "text": "以及，最棒的，无可替代的幸福。", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 20, "speaker": null, "name": null, "text": "索菲暂时离开了，石化事件也姑且算是收尾了。", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 21, "speaker": null, "name": null, "text": "日后……也许也会有吵架之类的事情发生。", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 22, "speaker": null, "name": null, "text": "但是，我却从心底希望\\n……能像这样永远两人一起，过着安稳的日子。", "plain": ["但是，我却从心底希望\\n……能像这样永远两人一起，过着安稳的日子。", "但是，我却从心底希望\\n……能像这样永远两人一起，过着安稳的日子。"], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 23, "speaker": "都", "name": "都", "text": "「啊，拿个勺子比较好吧？」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 24, "speaker": "翔", "name": "翔", "text": "「嗯？啊，汤？用筷子就可以了」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 25, "speaker": "都", "name": "都", "text": "「我姑且去拿一下吧。\\n洋葱我切得很细才放进去的，吃起来可能不方便。」", "plain": ["「我姑且去拿一下吧。\\n洋葱我切得很细才放进去的，吃起来可能不方便。」", "「我姑且去拿一下吧。\\n洋葱我切得很细才放进去的，吃起来可能不方便。」"], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 26, "speaker": null, "name": null, "text": "都站起来，回到厨房。", "plain": [], "flag": 80}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 27, "speaker": null, "name": null, "text": "都来这个房间，已经成为理所当然的事情了。", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 28, "speaker": null, "name": null, "text": "从今以后，我们也永远在一起。", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 29, "speaker": null, "name": null, "text": "我真的，从心底想着……\\n希望有一天，甚至不会再去想这是理所当然的那一天能够到来就好了。", "plain": ["我真的，从心底想着……\\n希望有一天，甚至不会再去想这是理所当然的那一天能够到来就好了。", "我真的，从心底想着……\\n希望有一天，甚至不会再去想这是理所当然的那一天能够到来就好了。"], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 30, "speaker": "都", "name": "都", "text": "「那个、勺子勺子……」", "plain": [], "flag": 80}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 31, "speaker": "都", "name": "都", "text": "「啊」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 32, "speaker": "都", "name": "都", "text": "「啊~，糟了……」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 33, "speaker": "翔", "name": "翔", "text": "「怎么了~？」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 34, "speaker": "都", "name": "都", "text": "「没事~，就是勺子掉进了缝里而已~」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 35, "speaker": "都", "name": "都", "text": "「那~个……怎么办呢。」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 36, "speaker": "都", "name": "都", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 37, "speaker": "都", "name": "都", "text": "「虽然这种用法……不太好……。\\n对不起，为了自己，让我使用吧」", "plain": ["「虽然这种用法……不太好……。\\n对不起，为了自己，让我使用吧」", "「虽然这种用法……不太好……。\\n对不起，为了自己，让我使用吧」"], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 38, "speaker": "都", "name": "都", "text": "「……」", "plain": [], "flag": 80}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 39, "speaker": "都", "name": "都", "text": "「嗯~…………，嗯，拿到了拿到了。\\n得好好洗洗干净才……行……？」", "plain": ["「嗯~…………，嗯，拿到了拿到了。\\n得好好洗洗干净才……行……？」", "「嗯~…………，嗯，拿到了拿到了。\\n得好好洗洗干净才……行……？」"], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 40, "speaker": "都", "name": "都", "text": "「……？」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 41, "speaker": "都", "name": "都", "text": "都】\\n「咦？」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 42, "speaker": "都", "name": "都", "text": "都】\\n「…………」", "plain": [], "flag": 88}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 43, "speaker": "都", "name": "都", "text": "都】\\n「这不是……错觉，吧」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 1, "label": "*a17_1_a", "row": 44, "speaker": "都", "name": "都", "text": "都】\\n「刻印……在扩张…………？」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 0, "speaker": "都", "name": "都", "text": "「啊……、哈啊……、啊、啊……、啊……」", "plain": [], "flag": 80}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 1, "speaker": "都", "name": "都", "text": "「啊、嗯……、哈、啊、啊……、嗯嗯、啊……っ、\\n　哈啊……嗯嗯」", "plain": ["「啊、嗯……、哈、啊、啊……、嗯嗯、啊……っ、\\n　哈啊……嗯嗯」", "「啊、嗯……、哈、啊、啊……、嗯嗯、啊……っ、\\n　哈啊……嗯嗯」"], "flag": 88}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 2, "speaker": "翔", "name": "翔", "text": "「好像」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 3, "speaker": "都", "name": "都", "text": "「……啊、哈啊……、……、什么~？」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 4, "speaker": "翔", "name": "翔", "text": "「都，变得习惯了呢」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 5, "speaker": "都", "name": "都", "text": "「真是的~，是谁让我习惯的啊~？」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 6, "speaker": "翔", "name": "翔", "text": "「咦？好像是都来引诱我的次数比较多吧……」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 7, "speaker": "都", "name": "都", "text": "「哼哼，虽然现在有些从容了……嗯，……哈啊、\\n但还是很害羞的啦」", "plain": ["「哼哼，虽然现在有些从容了……嗯，……哈啊、\\n但还是很害羞的啦」", "「哼哼，虽然现在有些从容了……嗯，……哈啊、\\n但还是很害羞的啦」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 8, "speaker": "都", "name": "都", "text": "「现在……穿的又是这衣服」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 9, "speaker": "翔", "name": "翔", "text": "「弄脏了会很不妙吧？」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 10, "speaker": "都", "name": "都", "text": "「我会送到洗衣店去洗的，所以稍微弄脏点也……。\\n但是……会有罪恶感……」", "plain": ["「我会送到洗衣店去洗的，所以稍微弄脏点也……。\\n但是……会有罪恶感……」", "「我会送到洗衣店去洗的，所以稍微弄脏点也……。\\n但是……会有罪恶感……」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 11, "speaker": "翔", "name": "翔", "text": "「不正是因为这样，才会感到兴奋吗？」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 12, "speaker": "都", "name": "都", "text": "「我才不像翔君那么厚脸皮呢」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 13, "speaker": "翔", "name": "翔", "text": "「什么呀这个~」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 14, "speaker": "都", "name": "都", "text": "「呀嗯、哼哼、真的不~行，不要动了」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 15, "speaker": null, "name": null, "text": "她轻轻地抓住了我伸向她的胸口的手，\\n缠住我的手指，把手牵起来。", "plain": ["她轻轻地抓住了我伸向她的胸口的手，\\n缠住我的手指，把手牵起来。", "她轻轻地抓住了我伸向她的胸口的手，\\n缠住我的手指，把手牵起来。"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 16, "speaker": null, "name": null, "text": "只要不用打工的休息日，她就一整天都待在我家。\\n要是有打工的话，也会在打工开始之前或结束之后过来。", "plain": ["只要不用打工的休息日，她就一整天都待在我家。\\n要是有打工的话，也会在打工开始之前或结束之后过来。", "只要不用打工的休息日，她就一整天都待在我家。\\n要是有打工的话，也会在打工开始之前或结束之后过来。"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 17, "speaker": null, "name": null, "text": "我们就像这样亲亲热热，欢声笑语地，互相结合。", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 18, "speaker": "都", "name": "都", "text": "「啊、嗯……，这个体位……啊、插得……好深……。\\n嗯嗯、啊、哈啊、啊、嗯嗯、哈啊……、\\n啊、啊、啊……」", "plain": ["「啊、嗯……，这个体位……啊、插得……好深……。\\n嗯嗯、啊、哈啊、啊、嗯嗯、哈啊……、\\n啊、啊、啊……」", "「啊、嗯……，这个体位……啊、插得……好深……。\\n嗯嗯、啊、哈啊、啊、嗯嗯、哈啊……、\\n啊、啊、啊……」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 19, "speaker": null, "name": null, "text": "都骑在我身上，扭动着腰。", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 20, "speaker": null, "name": null, "text": "虽然还多少留有些羞涩，\\n她的动作已经不会像以前那样不自然了。", "plain": ["虽然还多少留有些羞涩，\\n她的动作已经不会像以前那样不自然了。", "虽然还多少留有些羞涩，\\n她的动作已经不会像以前那样不自然了。"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 21, "speaker": null, "name": null, "text": "由于初次留下的伤口也已经愈合了，\\n她纯粹地追求着快感，享受着性交。", "plain": ["由于初次留下的伤口也已经愈合了，\\n她纯粹地追求着快感，享受着性交。", "由于初次留下的伤口也已经愈合了，\\n她纯粹地追求着快感，享受着性交。"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 22, "speaker": "都", "name": "都", "text": "「啊，……嗯、哈啊……、制服……是不是、\\n嗯嗯，有味道……在上面。\\n不会，介意吗？」", "plain": ["「啊，……嗯、哈啊……、制服……是不是、\\n嗯嗯，有味道……在上面。\\n不会，介意吗？」", "「啊，……嗯、哈啊……、制服……是不是、\\n嗯嗯，有味道……在上面。\\n不会，介意吗？」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 23, "speaker": "翔", "name": "翔", "text": "「味道？」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 24, "speaker": "都", "name": "都", "text": "「食物，之类的」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 25, "speaker": "翔", "name": "翔", "text": "「没有呀。都的味道可好闻了」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 26, "speaker": "都", "name": "都", "text": "「是吗？我自己，不是……嗯、特别清楚……\\n啊、嗯」", "plain": ["「是吗？我自己，不是……嗯、特别清楚……\\n啊、嗯」", "「是吗？我自己，不是……嗯、特别清楚……\\n啊、嗯」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 27, "speaker": "翔", "name": "翔", "text": "「难得穿着制服……\\n你说一些，比较像店员的话看看」", "plain": ["「难得穿着制服……\\n你说一些，比较像店员的话看看」", "「难得穿着制服……\\n你说一些，比较像店员的话看看」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 28, "speaker": "都", "name": "都", "text": "「比，比较像店员的？」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 29, "speaker": "翔", "name": "翔", "text": "「什么都可以啦」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 30, "speaker": "都", "name": "都", "text": "「呜……就算你突然这么说……」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 31, "speaker": "都", "name": "都", "text": "「……」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 32, "speaker": "都", "name": "都", "text": "「请问您今天、要来点……我吗？之类的？」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 33, "speaker": "翔", "name": "翔", "text": "「啊，好像不错」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 34, "speaker": "都", "name": "都", "text": "「别让我说这么害羞的话啦……」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 35, "speaker": "翔", "name": "翔", "text": "「不过我的目标是让你说更加下流的话呢」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 36, "speaker": "都", "name": "都", "text": "「下，下流是指……」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 37, "speaker": "翔", "name": "翔", "text": "「就是如果在电视里放的话会有一声“哔——”的声音出来的话」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 38, "speaker": "都", "name": "都", "text": "「我~才~不~说」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 39, "speaker": null, "name": null, "text": "她红着脸，轻轻地地敲打我的胸口。", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 40, "speaker": null, "name": null, "text": "即使都已经习惯了做爱，\\n对黄段子的耐性还很不足。", "plain": ["即使都已经习惯了做爱，\\n对黄段子的耐性还很不足。", "即使都已经习惯了做爱，\\n对黄段子的耐性还很不足。"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 41, "speaker": "都", "name": "都", "text": "「感觉会被你要求做一些奇怪的事情的……所以赶快让我结束吧」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 42, "speaker": "翔", "name": "翔", "text": "「诶~，多可惜啊」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 43, "speaker": "都", "name": "都", "text": "「本店的格言是……嗯，\\n不会让客人久等的」", "plain": ["「本店的格言是……嗯，\\n不会让客人久等的」", "「本店的格言是……嗯，\\n不会让客人久等的」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 44, "speaker": "翔", "name": "翔", "text": "「明明让客人尽情享受会比较好的说」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 45, "speaker": "都", "name": "都", "text": "「因为很害羞所以不~行，哼哼」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 46, "speaker": "都", "name": "都", "text": "「……啊、嗯、哈啊、啊、啊、呜、哈啊、\\n　啊啊、……嗯嗯~、啊、哈啊、翔君觉得、\\n舒服的、地方、我全都、知道的……」", "plain": ["「……啊、嗯、哈啊、啊、啊、呜、哈啊、\\n　啊啊、……嗯嗯~、啊、哈啊、翔君觉得、\\n舒服的、地方、我全都、知道的……」", "「……啊、嗯、哈啊、啊、啊、呜、哈啊、\\n　啊啊、……嗯嗯~、啊、哈啊、翔君觉得、\\n舒服的、地方、我全都、知道的……」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 47, "speaker": "都", "name": "都", "text": "「快……、嗯、射吧、嗯嗯、啊、……呜、\\n我会、接受、的……哈啊、啊」", "plain": ["「快……、嗯、射吧、嗯嗯、啊、……呜、\\n我会、接受、的……哈啊、啊」", "「快……、嗯、射吧、嗯嗯、啊、……呜、\\n我会、接受、的……哈啊、啊」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 48, "speaker": "翔", "name": "翔", "text": "「是都比较有感觉吧」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 49, "speaker": "都", "name": "都", "text": "「因，因为……」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 50, "speaker": "都", "name": "都", "text": "「……」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 51, "speaker": "都", "name": "都", "text": "「很舒服的嘛……」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 52, "speaker": null, "name": null, "text": "她红着脸，撇开视线，低着头。", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 53, "speaker": null, "name": null, "text": "她又大胆，又积极，而且意外地挺冲动，但是又很怕羞。", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 54, "speaker": null, "name": null, "text": "这样的都，我实在是太喜欢了。", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 55, "speaker": "翔", "name": "翔", "text": "「那么，就让你更舒服吧」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 56, "speaker": "都", "name": "都", "text": "「诶？啊，噫呀」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 57, "speaker": null, "name": null, "text": "我用力往上一顶，伴随着可爱的娇喘声，纤细的身体往上浮动。", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 58, "speaker": "都", "name": "都", "text": "「啊，嗯……！真是的，都说了今天由我来主导的……\\n啊，啊，……！」", "plain": ["「啊，嗯……！真是的，都说了今天由我来主导的……\\n啊，啊，……！」", "「啊，嗯……！真是的，都说了今天由我来主导的……\\n啊，啊，……！」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 59, "speaker": "翔", "name": "翔", "text": "「我这是包含了平时累积的对店员的感谢呀」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 60, "speaker": "都", "name": "都", "text": "「要感谢的，是这边……啊啊啊嗯、啊、啊！\\n翔君、等、啊、没法说话了……啊、啊！」", "plain": ["「要感谢的，是这边……啊啊啊嗯、啊、啊！\\n翔君、等、啊、没法说话了……啊、啊！」", "「要感谢的，是这边……啊啊啊嗯、啊、啊！\\n翔君、等、啊、没法说话了……啊、啊！」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 61, "speaker": "翔", "name": "翔", "text": "「我才不等」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 62, "speaker": "都", "name": "都", "text": "「啊、啊、啊、……你从来就没乖乖的、嗯、\\n　不动过……啊、啊！」", "plain": ["「啊、啊、啊、……你从来就没乖乖的、嗯、\\n　不动过……啊、啊！」", "「啊、啊、啊、……你从来就没乖乖的、嗯、\\n　不动过……啊、啊！」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 63, "speaker": "翔", "name": "翔", "text": "「都也觉得这样子比较舒服吧？」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 64, "speaker": "都", "name": "都", "text": "「…………嗯」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 65, "speaker": "翔", "name": "翔", "text": "「那么我就不停下了」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 66, "speaker": "都", "name": "都", "text": "「啊、啊、啊、但是、声音……忍不住、呀、啊！\\n嗯嗯嗯嗯！」", "plain": ["「啊、啊、啊、但是、声音……忍不住、呀、啊！\\n嗯嗯嗯嗯！」", "「啊、啊、啊、但是、声音……忍不住、呀、啊！\\n嗯嗯嗯嗯！」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 67, "speaker": "翔", "name": "翔", "text": "「没关系嘛，不用忍嘛」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 68, "speaker": "都", "name": "都", "text": "「上次，隔壁的，啊，类似大学生？ 的那个女生，说，\\n啊，呼啊，啊！」", "plain": ["「上次，隔壁的，啊，类似大学生？ 的那个女生，说，\\n啊，呼啊，啊！」", "「上次，隔壁的，啊，类似大学生？ 的那个女生，说，\\n啊，呼啊，啊！」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 69, "speaker": "翔", "name": "翔", "text": "「被她说了什么了？」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 70, "speaker": "都", "name": "都", "text": "「没，没被说什么，但是，她露出一副、\\n害羞，的表情……啊！」", "plain": ["「没，没被说什么，但是，她露出一副、\\n害羞，的表情……啊！」", "「没，没被说什么，但是，她露出一副、\\n害羞，的表情……啊！」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 71, "speaker": "翔", "name": "翔", "text": "「啊~，被听见了啊~」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 72, "speaker": "都", "name": "都", "text": "「我也，很好害羞……啊，啊，啊！\\n啊啊啊！！」", "plain": ["「我也，很好害羞……啊，啊，啊！\\n啊啊啊！！」", "「我也，很好害羞……啊，啊，啊！\\n啊啊啊！！」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 73, "speaker": "翔", "name": "翔", "text": "「毕竟你发出那么大的声音啊」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 74, "speaker": "都", "name": "都", "text": "「明明是翔君，让我发出来的、呼啊、啊！」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 75, "speaker": "翔", "name": "翔", "text": "「那，要停下来吗？」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 76, "speaker": "都", "name": "都", "text": "「不要，不要停，不能停下来~、\\n啊、啊！」", "plain": ["「不要，不要停，不能停下来~、\\n啊、啊！」", "「不要，不要停，不能停下来~、\\n啊、啊！」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 77, "speaker": null, "name": null, "text": "都开始自己激烈地扭动起腰。", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 78, "speaker": null, "name": null, "text": "我也配合她的动作，有节奏地往上突刺。", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 79, "speaker": "都", "name": "都", "text": "「～～～～～！　啊、呼啊、啊、嗯嗯嗯！」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 80, "speaker": "翔", "name": "翔", "text": "「你喜欢，这种比较用力的吧」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 81, "speaker": "都", "name": "都", "text": "「嗯、喜欢……呜、啊！～～～！\\n啊啊、啊、啊！嗯嗯~~~！」", "plain": ["「嗯、喜欢……呜、啊！～～～！\\n啊啊、啊、啊！嗯嗯~~~！」", "「嗯、喜欢……呜、啊！～～～！\\n啊啊、啊、啊！嗯嗯~~~！」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 82, "speaker": "翔", "name": "翔", "text": "「都，真的变得下流了呢」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 83, "speaker": "都", "name": "都", "text": "「是翔，把我变得，下流的……嗯、啊、嗯嗯！」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 84, "speaker": "翔", "name": "翔", "text": "「那么下流的店员，你想要怎样的小费？」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 85, "speaker": "都", "name": "都", "text": "「嗯、啊……、呜呜……、不能，不说吗？」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 86, "speaker": "翔", "name": "翔", "text": "「不行」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 87, "speaker": "都", "name": "都", "text": "「呜呜……、……。翔的那个、射在……我、里面吧」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 88, "speaker": null, "name": null, "text": "我小声说了声『好』，握紧了拳头。", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 89, "speaker": null, "name": null, "text": "计划达成。", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 90, "speaker": null, "name": null, "text": "在做爱的时候，让都说一些稍微有些色情的台词，让她逐渐逐渐地适应。\\n 我宏伟的计划很顺利啊。", "plain": ["在做爱的时候，让都说一些稍微有些色情的台词，让她逐渐逐渐地适应。\\n 我宏伟的计划很顺利啊。", "在做爱的时候，让都说一些稍微有些色情的台词，让她逐渐逐渐地适应。\\n 我宏伟的计划很顺利啊。"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 91, "speaker": "都", "name": "都", "text": "「……这种地方，像大叔一样……」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 92, "speaker": "翔", "name": "翔", "text": "「真失礼呢，所有男的都是这样啊，啊」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 93, "speaker": "都", "name": "都", "text": "「啊、嗯嗯嗯！啊、哈啊、啊！」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 94, "speaker": "翔", "name": "翔", "text": "「我会，射在里面的」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 95, "speaker": "都", "name": "都", "text": "「嗯、可以哦、快射~、啊、啊、呼啊、啊！\\n　～～、哈啊、啊、嗯嗯～～っ！」", "plain": ["「嗯、可以哦、快射~、啊、啊、呼啊、啊！\\n　～～、哈啊、啊、嗯嗯～～っ！」", "「嗯、可以哦、快射~、啊、啊、呼啊、啊！\\n　～～、哈啊、啊、嗯嗯～～っ！」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 96, "speaker": "都", "name": "都", "text": "「啊、啊、我、已经、已经、啊、不行了、啊、啊、\\n　不行、那么、用力的话、呼啊、啊！」", "plain": ["「啊、啊、我、已经、已经、啊、不行了、啊、啊、\\n　不行、那么、用力的话、呼啊、啊！」", "「啊、啊、我、已经、已经、啊、不行了、啊、啊、\\n　不行、那么、用力的话、呼啊、啊！」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 97, "speaker": "都", "name": "都", "text": "「啊、啊、啊、啊、啊～～～っ！\\n　～～～～っ！　呼啊、啊、啊、啊！」", "plain": ["「啊、啊、啊、啊、啊～～～っ！\\n　～～～～っ！　呼啊、啊、啊、啊！」", "「啊、啊、啊、啊、啊～～～っ！\\n　～～～～っ！　呼啊、啊、啊、啊！」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 98, "speaker": "翔", "name": "翔", "text": "「……呜！」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 99, "speaker": "都", "name": "都", "text": "「啊啊、啊啊啊、啊～～～呜、呜！\\n　～～～～～～～～～～呜！！」", "plain": ["「啊啊、啊啊啊、啊～～～呜、呜！\\n　～～～～～～～～～～呜！！」", "「啊啊、啊啊啊、啊～～～呜、呜！\\n　～～～～～～～～～～呜！！」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 100, "speaker": "都", "name": "都", "text": "「啊、啊、啊……、……、啊、……、哈啊、……、啊、\\n　……呜、呜」", "plain": ["「啊、啊、啊……、……、啊、……、哈啊、……、啊、\\n　……呜、呜」", "「啊、啊、啊……、……、啊、……、哈啊、……、啊、\\n　……呜、呜」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 101, "speaker": "翔", "name": "翔", "text": "「……、哈啊……、出汗了……」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 102, "speaker": "都", "name": "都", "text": "「我也是……、……、哈啊……、翔君……」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 103, "speaker": "翔", "name": "翔", "text": "「……嗯？」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 104, "speaker": "都", "name": "都", "text": "「……我要亲~亲」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 105, "speaker": "翔", "name": "翔", "text": "「过来」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 106, "speaker": "都", "name": "都", "text": "「嗯……、啾、啾、……、嗯、嗯」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 107, "speaker": null, "name": null, "text": "都将身体向我这倾倒，吸住我的嘴唇。", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 108, "speaker": null, "name": null, "text": "我一边吸住她伸进来的舌头，一边喝下\\n流进来的都的口水。", "plain": ["我一边吸住她伸进来的舌头，一边喝下\\n流进来的都的口水。", "我一边吸住她伸进来的舌头，一边喝下\\n流进来的都的口水。"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 109, "speaker": "都", "name": "都", "text": "「……、嗯、啾露、啾」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 110, "speaker": null, "name": null, "text": "就在我们亲吻的时间里，都的腔内一下一下抽动着。", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 111, "speaker": null, "name": null, "text": "我喜欢这种，精液被完全绞干的感觉。", "plain": ["我喜欢这种，精液被完全绞干的感觉。", "我喜欢这种，精液被完全绞干的感觉。"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 112, "speaker": null, "name": null, "text": "虽然有时觉得Artifact令人心烦，\\n我还是利用着Artifact贪婪地享受着原本不被容许的快感。", "plain": ["虽然有时觉得Artifact令人心烦，\\n我还是利用着Artifact贪婪地享受着原本不被容许的快感。", "虽然有时觉得Artifact令人心烦，\\n我还是利用着Artifact贪婪地享受着原本不被容许的快感。"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 113, "speaker": null, "name": null, "text": "我真是个自私的人呢。", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 114, "speaker": "都", "name": "都", "text": "「嗯……」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 115, "speaker": null, "name": null, "text": "都好像是满足了，坐起身子，想要站起来。", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 116, "speaker": "都", "name": "都", "text": "「啊……、哈……」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 117, "speaker": null, "name": null, "text": "沾满爱液的阴茎从蜜穴里滑溜溜地拔了出来。", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 118, "speaker": "翔", "name": "翔", "text": "「多谢款待」", "plain": [], "flag": 80}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 119, "speaker": "都", "name": "都", "text": "「好吃吗？」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 120, "speaker": "翔", "name": "翔", "text": "「我还想吃」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 121, "speaker": "都", "name": "都", "text": "「可以哦，随时都行。只要给我小费的话。」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 122, "speaker": null, "name": null, "text": "她恶作剧般地笑了一下，然后马上撇开了视线。", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 123, "speaker": null, "name": null, "text": "……好像是对自己说过的话感到害羞了的样子。\\n这种地方也好可爱。", "plain": ["……好像是对自己说过的话感到害羞了的样子。\\n这种地方也好可爱。", "……好像是对自己说过的话感到害羞了的样子。\\n这种地方也好可爱。"], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 124, "speaker": "都", "name": "都", "text": "「得换衣服才行……」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 125, "speaker": "翔", "name": "翔", "text": "「明明再稍微保持一会也行」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 126, "speaker": "都", "name": "都", "text": "「嗯~……但是，出汗了……」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 127, "speaker": "都", "name": "都", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 128, "speaker": "翔", "name": "翔", "text": "「嗯？怎么了？」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 129, "speaker": "都", "name": "都", "text": "「没有……汗臭味吗？」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 130, "speaker": "翔", "name": "翔", "text": "「啊？没呀」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 131, "speaker": "都", "name": "都", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 132, "speaker": "翔", "name": "翔", "text": "「要是臭的话，不应该是我吗？出了那么多汗」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 133, "speaker": "都", "name": "都", "text": "「翔君并不臭啦……」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 134, "speaker": "翔", "name": "翔", "text": "「都也没什么味道啊」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 135, "speaker": "都", "name": "都", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 136, "speaker": "都", "name": "都", "text": "「可以借下浴室，冲个澡吗？」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 137, "speaker": "翔", "name": "翔", "text": "「明明真的没味道」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 138, "speaker": "都", "name": "都", "text": "「我不想抱着这种不安跟你在一起呀。\\n在男朋友的面前，一定要干干净净的」", "plain": ["「我不想抱着这种不安跟你在一起呀。\\n在男朋友的面前，一定要干干净净的」", "「我不想抱着这种不安跟你在一起呀。\\n在男朋友的面前，一定要干干净净的」"], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 139, "speaker": "翔", "name": "翔", "text": "「那么，一起去洗吧」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 140, "speaker": "都", "name": "都", "text": "「嗯」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 141, "speaker": "都", "name": "都", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 142, "speaker": "都", "name": "都", "text": "「嗯？」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 143, "speaker": "翔", "name": "翔", "text": "「好，脱吧脱吧」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 144, "speaker": "都", "name": "都", "text": "「诶、等下等下等下」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 145, "speaker": "翔", "name": "翔", "text": "「你说了嗯了」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 146, "speaker": "都", "name": "都", "text": "「说，说是说了但是……」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 147, "speaker": "翔", "name": "翔", "text": "「好了嘛，脱吧脱吧」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 148, "speaker": "都", "name": "都", "text": "「啊啊……真是的」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 149, "speaker": null, "name": null, "text": "我把都制服的扣子解开了几颗之后，\\n她放弃了般地露出笑容，开始脱起自己的衣服了。", "plain": ["我把都制服的扣子解开了几颗之后，\\n她放弃了般地露出笑容，开始脱起自己的衣服了。", "我把都制服的扣子解开了几颗之后，\\n她放弃了般地露出笑容，开始脱起自己的衣服了。"], "flag": 80}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 150, "speaker": null, "name": null, "text": "我也急急忙忙地把衣服胡乱地脱了下来。", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 151, "speaker": null, "name": null, "text": "因为都平时都不太肯脱光，\\n 所以我还挺激动的。", "plain": ["因为都平时都不太肯脱光，\\n 所以我还挺激动的。", "因为都平时都不太肯脱光，\\n 所以我还挺激动的。"], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 152, "speaker": "翔", "name": "翔", "text": "「好了，别遮了」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 153, "speaker": "都", "name": "都", "text": "「……呜呜，好害羞……」", "plain": [], "flag": 80}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 154, "speaker": "翔", "name": "翔", "text": "「很漂亮哦」", "plain": [], "flag": 80}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 155, "speaker": "都", "name": "都", "text": "「别，别死盯着看啊……」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 156, "speaker": "翔", "name": "翔", "text": "「那么这样，就看不见了」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 157, "speaker": "都", "name": "都", "text": "「啊、嗯……」", "plain": [], "flag": 80}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 158, "speaker": null, "name": null, "text": "我抱紧她，亲了上去。", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 159, "speaker": "都", "name": "都", "text": "「嗯啾、嗯嗯、嗯、啾、嗯嗯」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 160, "speaker": null, "name": null, "text": "不等我要求，都就一边回应着接吻\\n一边握住勃起的阴茎，开始温柔地套弄起来。", "plain": ["不等我要求，都就一边回应着接吻\\n一边握住勃起的阴茎，开始温柔地套弄起来。", "不等我要求，都就一边回应着接吻\\n一边握住勃起的阴茎，开始温柔地套弄起来。"], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 161, "speaker": "都", "name": "都", "text": "「……哈啊、嗯、啾、嗯啾、嗯」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 162, "speaker": null, "name": null, "text": "就这样，我们以不自然地姿势走向了浴室。", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 163, "speaker": null, "name": null, "text": "名义上，姑且是一起洗澡。", "plain": [], "flag": 80}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 164, "speaker": null, "name": null, "text": "但是……两个人都裸着身子，在那么狭小的地方，", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 165, "speaker": null, "name": null, "text": "是不可能……仅仅冲个澡就结束的。", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 166, "speaker": "都", "name": "都", "text": "「啊、嗯、啊、啊……」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 167, "speaker": "翔", "name": "翔", "text": "「……可以吧？」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 168, "speaker": "都", "name": "都", "text": "「……嗯，来吧……？」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 169, "speaker": "都", "name": "都", "text": "「啊、啊、啊……」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 170, "speaker": "都", "name": "都", "text": "「呼啊啊……」", "plain": [], "flag": 88}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 171, "speaker": null, "name": null, "text": "当然，会变成这样子。", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 172, "speaker": null, "name": null, "text": "在被热水淋湿而满脸通红的都的色气面前，\\n我根本无法抑制住自己的欲望。", "plain": ["在被热水淋湿而满脸通红的都的色气面前，\\n我根本无法抑制住自己的欲望。", "在被热水淋湿而满脸通红的都的色气面前，\\n我根本无法抑制住自己的欲望。"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 173, "speaker": "都", "name": "都", "text": "「啊、啊、呜、又、出汗了……」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 174, "speaker": "翔", "name": "翔", "text": "「只要马上冲掉，就没事吧？」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 175, "speaker": "都", "name": "都", "text": "「啊、呼啊、啊、啊、啊！！」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 176, "speaker": null, "name": null, "text": "我从后面抱住她，一边揉搓着她的胸部，\\n一边用力地抽动着腰。", "plain": ["我从后面抱住她，一边揉搓着她的胸部，\\n一边用力地抽动着腰。", "我从后面抱住她，一边揉搓着她的胸部，\\n一边用力地抽动着腰。"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 177, "speaker": null, "name": null, "text": "都的娇喘声在浴室里回响，\\n 这声音让我愈加兴奋。", "plain": ["都的娇喘声在浴室里回响，\\n 这声音让我愈加兴奋。", "都的娇喘声在浴室里回响，\\n 这声音让我愈加兴奋。"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 178, "speaker": "都", "name": "都", "text": "「啊、呜……、啊、啊、脚、下……っ」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 179, "speaker": "翔", "name": "翔", "text": "「怎么了？」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 180, "speaker": "都", "name": "都", "text": "「挺、挺滑的、你注意点、哦……、啊」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 181, "speaker": null, "name": null, "text": "正做得热火朝天的时候居然还会这样关心我、\\n我不禁笑了出来。", "plain": ["正做得热火朝天的时候居然还会这样关心我、\\n我不禁笑了出来。", "正做得热火朝天的时候居然还会这样关心我、\\n我不禁笑了出来。"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 182, "speaker": null, "name": null, "text": "但是……居然还有这样担心我的从容，这是个问题。", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 183, "speaker": "翔", "name": "翔", "text": "「我会小心的」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 184, "speaker": "都", "name": "都", "text": "「嗯、嗯……、啊、啊、啊呜、～～～っ！\\n等、等等、啊、啊……！」", "plain": ["「嗯、嗯……、啊、啊、啊呜、～～～っ！\\n等、等等、啊、啊……！」", "「嗯、嗯……、啊、啊、啊呜、～～～っ！\\n等、等等、啊、啊……！」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 185, "speaker": "翔", "name": "翔", "text": "「怎么了？」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 186, "speaker": "都", "name": "都", "text": "「明明说了，会小心的……啊！为什么、\\n……嗯、变得、更激烈了……呜？」", "plain": ["「明明说了，会小心的……啊！为什么、\\n……嗯、变得、更激烈了……呜？」", "「明明说了，会小心的……啊！为什么、\\n……嗯、变得、更激烈了……呜？」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 187, "speaker": "翔", "name": "翔", "text": "「我想看你更加淫荡的样子」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 188, "speaker": "都", "name": "都", "text": "「不要啊……呜，好，害羞……！\\n呼啊、啊、～～～～！啊啊啊！」", "plain": ["「不要啊……呜，好，害羞……！\\n呼啊、啊、～～～～！啊啊啊！」", "「不要啊……呜，好，害羞……！\\n呼啊、啊、～～～～！啊啊啊！」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 189, "speaker": "翔", "name": "翔", "text": "「回响的声音，很响哦」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 190, "speaker": "都", "name": "都", "text": "「～～～～」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 191, "speaker": "翔", "name": "翔", "text": "「别忍着啊」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 192, "speaker": "都", "name": "都", "text": "「啊呜呜、噫呜呜呜呜！　啊啊啊嗯！」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 193, "speaker": null, "name": null, "text": "我一边稍稍用力地刺激她的乳头，一边捣腾她的最里面。", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 194, "speaker": null, "name": null, "text": "都在我怀里，一阵阵地抽搐着。", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 195, "speaker": "都", "name": "都", "text": "「这个、不行……呜、不行~~……！」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 196, "speaker": "翔", "name": "翔", "text": "「不喜欢？」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 197, "speaker": "都", "name": "都", "text": "「喜欢可是……嗯！啊啊、啊！呼啊啊！」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 198, "speaker": "翔", "name": "翔", "text": "「那么，就继续吧」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 199, "speaker": "都", "name": "都", "text": "「不行～～……！声音，控制不住、呜呜呜……嗯！\\n呼啊！啊～～～！」", "plain": ["「不行～～……！声音，控制不住、呜呜呜……嗯！\\n呼啊！啊～～～！」", "「不行～～……！声音，控制不住、呜呜呜……嗯！\\n呼啊！啊～～～！」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 200, "speaker": null, "name": null, "text": "娇喘声回响着。", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 201, "speaker": null, "name": null, "text": "啪啪啪地，身体与身体相撞的声音。", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 202, "speaker": null, "name": null, "text": "在浴室里的做爱……好像不错。\\n感觉会上瘾。", "plain": ["在浴室里的做爱……好像不错。\\n感觉会上瘾。", "在浴室里的做爱……好像不错。\\n感觉会上瘾。"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 203, "speaker": "都", "name": "都", "text": "「啊、啊、……呜、不行……呜、啊……っ！\\n　要、去……了、呜、呜」", "plain": ["「啊、啊、……呜、不行……呜、啊……っ！\\n　要、去……了、呜、呜」", "「啊、啊、……呜、不行……呜、啊……っ！\\n　要、去……了、呜、呜」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 204, "speaker": "翔", "name": "翔", "text": "「要去了？」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 205, "speaker": "都", "name": "都", "text": "「……嗯、……嗯」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 206, "speaker": "翔", "name": "翔", "text": "「这个体位，不知道能不能碰到都喜欢的地方呢」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 207, "speaker": "都", "name": "都", "text": "「不，不知道……呜、啊！呜、呜！\\n啊啊！～～～～～！」", "plain": ["「不，不知道……呜、啊！呜、呜！\\n啊啊！～～～～～！」", "「不，不知道……呜、啊！呜、呜！\\n啊啊！～～～～～！」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 208, "speaker": null, "name": null, "text": "都全身用力，开始痉挛。", "plain": [], "flag": 88}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 209, "speaker": null, "name": null, "text": "然后几秒之后放松下来、\\n如果我不支撑着她好像会倒下来一样。", "plain": ["然后几秒之后放松下来、\\n如果我不支撑着她好像会倒下来一样。", "然后几秒之后放松下来、\\n如果我不支撑着她好像会倒下来一样。"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 210, "speaker": "都", "name": "都", "text": "「呼……、哈啊……、哈啊……、……、哈啊……」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 211, "speaker": "翔", "name": "翔", "text": "「你太敏感了吧。」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 212, "speaker": "都", "name": "都", "text": "「因为嘛~~……」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 213, "speaker": "翔", "name": "翔", "text": "「我会让你更舒服的」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 214, "speaker": "都", "name": "都", "text": "「诶、等……啊啊啊、啊～～～～！」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 215, "speaker": null, "name": null, "text": "我毫无怜悯地插入了刚高潮过的，还在一下下痉挛的蜜穴。", "plain": ["我毫无怜悯地插入了刚高潮过的，还在一下下痉挛的蜜穴。", "我毫无怜悯地插入了刚高潮过的，还在一下下痉挛的蜜穴。"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 216, "speaker": null, "name": null, "text": "每次阴茎抽动，都都会高兴地扭动身子。", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 217, "speaker": "都", "name": "都", "text": "「～～～～呜、啊、呼啊啊啊！\\n不行呀……呜、这种、呼啊、\\n啊啊啊啊！」", "plain": ["「～～～～呜、啊、呼啊啊啊！\\n不行呀……呜、这种、呼啊、\\n啊啊啊啊！」", "「～～～～呜、啊、呼啊啊啊！\\n不行呀……呜、这种、呼啊、\\n啊啊啊啊！」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 218, "speaker": "都", "name": "都", "text": "「我……、要变得、不行了……呜！\\n　呼啊！　啊、啊！　啊啊啊！」", "plain": ["「我……、要变得、不行了……呜！\\n　呼啊！　啊、啊！　啊啊啊！」", "「我……、要变得、不行了……呜！\\n　呼啊！　啊、啊！　啊啊啊！」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 219, "speaker": "翔", "name": "翔", "text": "「舒服吗？」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 220, "speaker": "都", "name": "都", "text": "「嗯、嗯……呜、舒、服、舒服、的啦……、\\n　所以、饶了我吧……！」", "plain": ["「嗯、嗯……呜、舒、服、舒服、的啦……、\\n　所以、饶了我吧……！」", "「嗯、嗯……呜、舒、服、舒服、的啦……、\\n　所以、饶了我吧……！」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 221, "speaker": "都", "name": "都", "text": "「再这样、下去、要变得、不行了啦啊啊……！\\n　呼啊、啊……！」", "plain": ["「再这样、下去、要变得、不行了啦啊啊……！\\n　呼啊、啊……！」", "「再这样、下去、要变得、不行了啦啊啊……！\\n　呼啊、啊……！」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 222, "speaker": "翔", "name": "翔", "text": "「变得不行了、……呜、也没事的」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 223, "speaker": "都", "name": "都", "text": "「不要~~、那种样子、不想……、被、啊、你……看见！\\n　呼啊、啊、啊、～～～！」", "plain": ["「不要~~、那种样子、不想……、被、啊、你……看见！\\n　呼啊、啊、啊、～～～！」", "「不要~~、那种样子、不想……、被、啊、你……看见！\\n　呼啊、啊、啊、～～～！」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 224, "speaker": "都", "name": "都", "text": "「射吧、快点、射吧~~……呜！\\n射在里面、也可以的啦……呜！\\n快点……射吧……呜、啊、啊、啊！」", "plain": ["「射吧、快点、射吧~~……呜！\\n射在里面、也可以的啦……呜！\\n快点……射吧……呜、啊、啊、啊！」", "「射吧、快点、射吧~~……呜！\\n射在里面、也可以的啦……呜！\\n快点……射吧……呜、啊、啊、啊！」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 225, "speaker": "都", "name": "都", "text": "「已经、不行、了啦……嗯！　快、给、我……呜！\\n啊、啊、不、行、又要……、啊！\\n、要、……嗯、去了……嗯！」", "plain": ["「已经、不行、了啦……嗯！　快、给、我……呜！\\n啊、啊、不、行、又要……、啊！\\n、要、……嗯、去了……嗯！」", "「已经、不行、了啦……嗯！　快、给、我……呜！\\n啊、啊、不、行、又要……、啊！\\n、要、……嗯、去了……嗯！」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 226, "speaker": "都", "name": "都", "text": "「啊、啊、去、了……呜、对不、起……っ！\\n要、不行了……嗯、啊、啊、啊！\\n　呼啊、……嗯、啊啊、……呜！」", "plain": ["「啊、啊、去、了……呜、对不、起……っ！\\n要、不行了……嗯、啊、啊、啊！\\n　呼啊、……嗯、啊啊、……呜！」", "「啊、啊、去、了……呜、对不、起……っ！\\n要、不行了……嗯、啊、啊、啊！\\n　呼啊、……嗯、啊啊、……呜！」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 227, "speaker": "都", "name": "都", "text": "「呼啊、嗯、～～～～～～～～～～～っ！」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 228, "speaker": "都", "name": "都", "text": "「啊、啊、啊……嗯、嗯、啊、……嗯」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 229, "speaker": null, "name": null, "text": "伴随着都第二次的高潮，我也射精了。", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 230, "speaker": null, "name": null, "text": "刚才才注入过精液的子宫，\\n再一次用我的欲望……填满。", "plain": ["刚才才注入过精液的子宫，\\n再一次用我的欲望……填满。", "刚才才注入过精液的子宫，\\n再一次用我的欲望……填满。"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 231, "speaker": "都", "name": "都", "text": "「啊、……、啊……、哈啊……、啊……」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 232, "speaker": "翔", "name": "翔", "text": "「又……出汗了……」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 233, "speaker": "都", "name": "都", "text": "「好多汗……」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 234, "speaker": "翔", "name": "翔", "text": "「特别是……下半身」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 235, "speaker": "都", "name": "都", "text": "「果然……像个大叔一样」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 236, "speaker": "翔", "name": "翔", "text": "「诶～」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 237, "speaker": "都", "name": "都", "text": "「哼哼」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 238, "speaker": null, "name": null, "text": "我紧紧抱着她，亲吻着她的后颈。", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 239, "speaker": null, "name": null, "text": "都好像怕痒一样，缩起肩膀。", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 240, "speaker": "都", "name": "都", "text": "「这次真的……好好地冲一下澡吧」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 241, "speaker": "翔", "name": "翔", "text": "「嗯～……」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 242, "speaker": "都", "name": "都", "text": "「真是的~、翔君」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 243, "speaker": "翔", "name": "翔", "text": "「我还想摸摸胸……」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 244, "speaker": "都", "name": "都", "text": "「哼哼、偶尔像个小孩一样」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 245, "speaker": "翔", "name": "翔", "text": "「总比大叔要好呐」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 246, "speaker": "都", "name": "都", "text": "「翔君~？来洗澡澡了哦~？」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 247, "speaker": "翔", "name": "翔", "text": "「啊、好可爱。再来一次」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 248, "speaker": "都", "name": "都", "text": "「真是的、讨厌~」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 249, "speaker": "翔", "name": "翔", "text": "「来一次嘛~」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 250, "speaker": "都", "name": "都", "text": "「就算装成小孩也不~行。\\n快，赶紧把汗冲了吧。否则要感冒了。」", "plain": ["「就算装成小孩也不~行。\\n快，赶紧把汗冲了吧。否则要感冒了。」", "「就算装成小孩也不~行。\\n快，赶紧把汗冲了吧。否则要感冒了。」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 251, "speaker": "翔", "name": "翔", "text": "「再稍微……」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 2, "label": "*a17_1_b", "row": 252, "speaker": "都", "name": "都", "text": "「不行的啦。啊、……啊嗯、呼啊啊」", "plain": ["「不行的啦。啊、……啊嗯、呼啊啊」", "「不行的啦。啊、……啊嗯、呼啊啊」"], "flag": 72}
+{"script": "a17.txt.scn", "scene": 3, "label": "*dummy1", "row": 0, "speaker": "都", "name": "都", "text": "「我先出去了哦~」", "plain": [], "flag": 80}
+{"script": "a17.txt.scn", "scene": 3, "label": "*dummy1", "row": 1, "speaker": "翔", "name": "翔", "text": "「咦？这就出去了？」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 3, "label": "*dummy1", "row": 2, "speaker": "都", "name": "都", "text": "「因为，呆在这里反而会出更多的汗嘛」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 3, "label": "*dummy1", "row": 3, "speaker": "翔", "name": "翔", "text": "「无法反驳。」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 3, "label": "*dummy1", "row": 4, "speaker": "都", "name": "都", "text": "「翔君慢慢洗哦。」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 3, "label": "*dummy1", "row": 5, "speaker": "都", "name": "都", "text": "「……呼、真爽快」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 3, "label": "*dummy1", "row": 6, "speaker": "都", "name": "都", "text": "「……啊、对了」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 3, "label": "*dummy1", "row": 7, "speaker": "都", "name": "都", "text": "「虽然这种用法……不是很好……。\\n不过不从身体里……弄出来的话。」", "plain": ["「虽然这种用法……不是很好……。\\n不过不从身体里……弄出来的话。」", "「虽然这种用法……不是很好……。\\n不过不从身体里……弄出来的话。」"], "flag": 64}
+{"script": "a17.txt.scn", "scene": 3, "label": "*dummy1", "row": 8, "speaker": "都", "name": "都", "text": "「……」", "plain": [], "flag": 80}
+{"script": "a17.txt.scn", "scene": 3, "label": "*dummy1", "row": 9, "speaker": "都", "name": "都", "text": "「…………咦？」", "plain": [], "flag": 64}
+{"script": "a17.txt.scn", "scene": 3, "label": "*dummy1", "row": 10, "speaker": "都", "name": "都", "text": "「…………」", "plain": [], "flag": 88}
+{"script": "a17.txt.scn", "scene": 3, "label": "*dummy1", "row": 11, "speaker": "都", "name": "都", "text": "「不是……错觉吧。」", "plain": [], "flag": 72}
+{"script": "a17.txt.scn", "scene": 3, "label": "*dummy1", "row": 12, "speaker": "都", "name": "都", "text": "「刻印在……扩张…………？」", "plain": [], "flag": 72}

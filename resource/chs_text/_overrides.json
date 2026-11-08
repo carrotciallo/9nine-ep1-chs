@@ -1,0 +1,60 @@
+{
+ "_note": "民汉包（樱空 Ver1.0）的选择支文本仍是官方繁中，初版补丁也没翻。这里按繁->简机械转换，只改字形不改语义；键为 <脚本>:<选项序号>。writeback.py 会在回写前套用。",
+ "selects": {
+  "a01.txt": {
+   "0": {
+    "text": "过去帮忙解围。",
+    "searchtext": "过去帮忙解围。",
+    "speechtext": "过去帮忙解围。"
+   },
+   "1": {
+    "text": "不多管闲事。",
+    "searchtext": "不多管闲事。",
+    "speechtext": "不多管闲事。"
+   }
+  },
+  "a02.txt": {
+   "0": {
+    "text": "那等下就到校门口集合。",
+    "searchtext": "那等下就到校门口集合。",
+    "speechtext": "那等下就到校门口集合。"
+   },
+   "1": {
+    "text": "需要我送你回家吗？",
+    "searchtext": "需要我送你回家吗？",
+    "speechtext": "需要我送你回家吗？"
+   }
+  },
+  "a04.txt": {
+   "0": {
+    "text": "迅速趴下。",
+    "searchtext": "迅速趴下。",
+    "speechtext": "迅速趴下。"
+   },
+   "1": {
+    "text": "挺身保护九条。",
+    "searchtext": "挺身保护九条。",
+    "speechtext": "挺身保护九条。"
+   }
+  },
+  "a06.txt": {
+   "0": {
+    "text": "甩开她的手。",
+    "searchtext": "甩开她的手。",
+    "speechtext": "甩开她的手。"
+   },
+   "1": {
+    "text": "听从她的指示。",
+    "searchtext": "听从她的指示。",
+    "speechtext": "听从她的指示。"
+   }
+  },
+  "a10.txt": {
+   "0": {
+    "text": "从头来过。",
+    "searchtext": "从头来过。",
+    "speechtext": "从头来过。"
+   }
+  }
+ }
+}

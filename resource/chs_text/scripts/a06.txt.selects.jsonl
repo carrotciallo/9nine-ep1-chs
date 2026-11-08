@@ -1,0 +1,2 @@
+{"script": "a06.txt.scn", "scene": 1, "label": "*dummyselect1", "index": 0, "target": "*a06_1_a", "storage": "a06.txt", "text": "甩開她的手。", "searchtext": "甩開她的手。", "speechtext": "甩開她的手。"}
+{"script": "a06.txt.scn", "scene": 1, "label": "*dummyselect1", "index": 1, "target": "*a06_1_b", "storage": "a06.txt", "text": "聽從她的指示。", "searchtext": "聽從她的指示。", "speechtext": "聽從她的指示。"}

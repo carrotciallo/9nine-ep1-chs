@@ -1,0 +1,2 @@
+{"script": "a02.txt.scn", "scene": 1, "label": "*dummyselect1", "index": 0, "target": "*a02_1_a", "storage": "a02.txt", "text": "那等下就到校門口集合。", "searchtext": "那等下就到校門口集合。", "speechtext": "那等下就到校門口集合。"}
+{"script": "a02.txt.scn", "scene": 1, "label": "*dummyselect1", "index": 1, "target": "*a02_1_b", "storage": "a02.txt", "text": "需要我送妳回家嗎？", "searchtext": "需要我送妳回家嗎？", "speechtext": "需要我送妳回家嗎？"}

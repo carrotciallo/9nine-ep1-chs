@@ -1,0 +1,167 @@
+{
+  "lang": "cn",
+  "scripts": {
+    "a01.txt": {
+      "chars": 8370,
+      "empty_texts": 0,
+      "hash": "e5e3d287a628bc77b418a148132da1f5",
+      "messages": 378,
+      "scenes": 11,
+      "selects": 2,
+      "source": "scn/a01.txt.scn"
+    },
+    "a02.txt": {
+      "chars": 12275,
+      "empty_texts": 0,
+      "hash": "62ef5a3bf4b9749a067b777591a84787",
+      "messages": 654,
+      "scenes": 8,
+      "selects": 2,
+      "source": "scn/a02.txt.scn"
+    },
+    "a03.txt": {
+      "chars": 7378,
+      "empty_texts": 0,
+      "hash": "c3029fe5750d1f78aca764ac9d331eaf",
+      "messages": 407,
+      "scenes": 1,
+      "selects": 0,
+      "source": "scn/a03.txt.scn"
+    },
+    "a04.txt": {
+      "chars": 18534,
+      "empty_texts": 0,
+      "hash": "aca088ada6c2fc899e459586ad290c47",
+      "messages": 1019,
+      "scenes": 5,
+      "selects": 2,
+      "source": "scn/a04.txt.scn"
+    },
+    "a05.txt": {
+      "chars": 14029,
+      "empty_texts": 0,
+      "hash": "815d9fc91cf3f1b355c41d80dab1a452",
+      "messages": 674,
+      "scenes": 4,
+      "selects": 0,
+      "source": "scn/a05.txt.scn"
+    },
+    "a06.txt": {
+      "chars": 13139,
+      "empty_texts": 0,
+      "hash": "ec01dd5290eb67db7d21d19da9e5cccf",
+      "messages": 729,
+      "scenes": 10,
+      "selects": 2,
+      "source": "scn/a06.txt.scn"
+    },
+    "a07.txt": {
+      "chars": 11401,
+      "empty_texts": 0,
+      "hash": "329ff0678197632520f36790207cb69e",
+      "messages": 594,
+      "scenes": 13,
+      "selects": 0,
+      "source": "scn/a07.txt.scn"
+    },
+    "a08.txt": {
+      "chars": 9987,
+      "empty_texts": 0,
+      "hash": "624e923bfebd67cdee9873a4fceafe5f",
+      "messages": 544,
+      "scenes": 6,
+      "selects": 0,
+      "source": "scn/a08.txt.scn"
+    },
+    "a09.txt": {
+      "chars": 1481,
+      "empty_texts": 0,
+      "hash": "a75afcfde489757fa5f17b56da6a2853",
+      "messages": 93,
+      "scenes": 1,
+      "selects": 0,
+      "source": "scn/a09.txt.scn"
+    },
+    "a10.txt": {
+      "chars": 7190,
+      "empty_texts": 0,
+      "hash": "1d7b0da75c5dd2067670b4974d37d5a0",
+      "messages": 449,
+      "scenes": 3,
+      "selects": 1,
+      "source": "scn/a10.txt.scn"
+    },
+    "a11.txt": {
+      "chars": 7878,
+      "empty_texts": 0,
+      "hash": "534379bd4d62f25be47433de37137e13",
+      "messages": 473,
+      "scenes": 2,
+      "selects": 0,
+      "source": "scn/a11.txt.scn"
+    },
+    "a12.txt": {
+      "chars": 7358,
+      "empty_texts": 0,
+      "hash": "6a517e69d0e5c22bc5615392d2eeced4",
+      "messages": 414,
+      "scenes": 1,
+      "selects": 0,
+      "source": "scn/a12.txt.scn"
+    },
+    "a13.txt": {
+      "chars": 14164,
+      "empty_texts": 0,
+      "hash": "d3f711643881093393701e2a440d3ceb",
+      "messages": 857,
+      "scenes": 4,
+      "selects": 0,
+      "source": "scn/a13.txt.scn"
+    },
+    "a14.txt": {
+      "chars": 15301,
+      "empty_texts": 0,
+      "hash": "61b942e00d5af8b62ec9b169f5e5c566",
+      "messages": 871,
+      "scenes": 4,
+      "selects": 0,
+      "source": "scn/a14.txt.scn"
+    },
+    "a15.txt": {
+      "chars": 10819,
+      "empty_texts": 0,
+      "hash": "cddb3c0021456f0a4043ce8c14572c48",
+      "messages": 625,
+      "scenes": 1,
+      "selects": 0,
+      "source": "scn/a15.txt.scn"
+    },
+    "a16.txt": {
+      "chars": 4100,
+      "empty_texts": 0,
+      "hash": "d4420ca48b17b9acaadd5e38e3172f05",
+      "messages": 235,
+      "scenes": 1,
+      "selects": 0,
+      "source": "scn/a16.txt.scn"
+    },
+    "a17.txt": {
+      "chars": 5435,
+      "empty_texts": 0,
+      "hash": "d9336956972fe10da004fe8b98efdb93",
+      "messages": 311,
+      "scenes": 5,
+      "selects": 0,
+      "source": "scn/a17.txt.scn"
+    }
+  },
+  "set": "chs_text",
+  "source": "D:\\My_Code\\tmp\\GamePatch\\9nine\\ep1\\nine_kokoiro_Retranslation_Patch\\archive\\releases\\unencrypted.xp3",
+  "source_kind": "xp3",
+  "totals": {
+    "chars": 168839,
+    "messages": 9327,
+    "scripts": 17,
+    "selects": 9
+  }
+}

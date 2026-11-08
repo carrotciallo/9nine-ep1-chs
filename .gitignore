@@ -1,7 +1,18 @@
-*.7z
-unencrypted.xp3
-unencrypted/
-version.dll
-.DS_Store
-
 __pycache__/
+*.pyc
+tmp/
+releases/
+archive/
+
+# 官方解包/提取产物（游戏本体内容，可用 unpack_xp3.py + extract_text.py 重建）
+resource/official_scn/
+resource/official_tjs/
+resource/official_jp/
+resource/official_en/
+resource/official_cn/
+
+.mcp.json
+*.local.*
+.pi
+.zcode*
+.workbuddy*

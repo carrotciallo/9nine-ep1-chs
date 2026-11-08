@@ -1,0 +1,2 @@
+{"script": "a01.txt.scn", "scene": 1, "label": "*dummyselect1", "index": 0, "target": "*a01_1_a", "storage": "a01.txt", "text": "過去幫忙解圍。", "searchtext": "過去幫忙解圍。", "speechtext": "過去幫忙解圍。"}
+{"script": "a01.txt.scn", "scene": 1, "label": "*dummyselect1", "index": 1, "target": "*a01_1_b", "storage": "a01.txt", "text": "不多管閒事。", "searchtext": "不多管閒事。", "speechtext": "不多管閒事。"}

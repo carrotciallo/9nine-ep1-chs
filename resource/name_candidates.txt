@@ -1,0 +1,14 @@
+# 官方 data.xp3 索引名是 md5(UTF-16LE 路径)，名字需要反查；
+# 这里登记已确认的路径（script/unpack_xp3.py --only <前缀> 会连同它一起尝试）。
+appconfig.tjs
+startup.tjs
+system/initialize.tjs
+system/conductor.tjs
+system/mainwindow.tjs
+main/custom.tjs
+main/default.tjs
+main/config.tjs
+main/syslangtext_cn.ini
+main/help_conf_cn.txt
+main/storages.tjs
+font/embfontlist.tjs

@@ -3,25 +3,28 @@
 用法（从项目根执行）：
 
     mamba run -n GalRev python script/build_patch.py \\
-        --scn-dir tmp/build/scn \\
-        --official-steam "E:/SteamLibrary/steamapps/common/nine_kokoiro/steam.xp3.orig" \\
-        --out releases
+        --scn-dir tmp/build/lang4/scn \\
+        --out releases          # 官方原件默认取 resource/official_steam/steam.xp3
 
 两个产物：
 
-1. `steam.xp3`（约 19 KB）—— 只做 hook 注入
+1. `steam.xp3`（约 19 KB）—— 只做注入，不含简中逻辑
    * 官方 4 个条目原样保留（`steam.tjs` / `achievement.ini` / 警告文本 / `steam_r18hack.tjs`）
-   * `steam_r18hack.tjs` 换成 TJS 源码钩子（先转发官方原逻辑，再注册剧本搜索路径）
+   * `steam_r18hack.tjs` 换成 TJS 源码钩子：转发官方原逻辑 → 注册 `patch3.xp3` 的
+     `scn/ main/ uipsd/sc/ image/` 子域与松散 `font/` → `KAGLoadScript("sc_hook.tjs")`
    * 官方 `steam_r18hack.tjs` 的字节码原样改名为 `steam_r18hack_orig.tjs` 保留
 
-2. `patch3.xp3`（约 2 MB）—— 只装 `scn/*.scn`（17 个简中剧本），日常更新只需替换它
+2. `patch3.xp3`（约 13 MB）—— 装 `scn/*.scn`（17 个简中剧本）+ UI 语料
+   （`main/syslangtext_sc.ini`、`main/help_conf_sc.txt`、`main/help_exch_sc.txt`、
+   `uipsd/sc/*_sc.pimg`、`image/*_sc.png`）+ **简中运行期逻辑 `sc_hook.tjs`（归档根）**。
+   日常改脚本/语料都只需重打它，`steam.xp3` 不再需要动（见 doc/engine-mechanics.md §4.1）
 
 为什么必须动 `steam.xp3`：见 `doc/engine-mechanics.md` §0/§3/§4
 （`addArchive` 系注册的是绝对路径，压不住 `data.xp3`；只有启动流程内手动
 `addAutoPath("<相对路径>scn/")` 才能覆盖，而本作可用的注入点只有 `steam_r18hack.tjs`）。
 
 闸（任一不过就不写出）：官方条目字节不变、钩子内容正确、原字节码副本一致、
-`patch3.xp3` 回读逐条与源 scn 一致。
+`patch3.xp3` 回读逐条与源文件一致。
 """
 
 from __future__ import annotations
@@ -42,26 +45,16 @@ from tool import cx, krkr_text, xp3
 
 PROT = 0x80000000
 HOOK_LINES = [
-    "// 简中补丁钩子：patch3 子域（scn）+ 四轨语言表 + 松散 font/ 的思源黑体 CN",
+    "// 钩子只做两件事：转发官方、按引擎的补丁槽位逐个「注册根域 + 加载该槽位的引导脚本」。",
+    "// 目录名不写死：每个槽位的子目录由它自己的 <slot>_boot.tjs 决定（本补丁是 patch3_boot.tjs），",
+    "// 所以第三方补丁只需自带 patch_boot.tjs / patch2_boot.tjs，彼此不代劳、不用改 steam.xp3。",
+    "// 优先级 = 注册顺序（后注册优先，见 doc/engine-mechanics.md §3），槽位顺序即 patch → patch2 → patch3。",
     'Scripts.execStorage("steam_r18hack_orig.tjs");',
-    "// 归档索引为「每文件一条 hnfn」，patch3.xp3>scn/ 才能覆盖全部 scn",
-    'try { Storages.addAutoPath("patch3.xp3>scn/"); } catch(e) {}',
-    "// 字体必须是松散文件：运行期注册走的 System.addFont 只能读真实文件，读不了 archive://",
-    'try { Storages.addAutoPath(System.exePath + "font/"); } catch(e) {}',
-    "// 第三方补丁位",
-    'try { Storages.addAutoPath("patch.xp3>scn/"); } catch(e) {}',
-    'try { Storages.addAutoPath("patch2.xp3>scn/"); } catch(e) {}',
-    "// 1) 语言表加第 4 条（sc）",
-    'try { if (SystemConfig.multiLangLanguageTags.find("sc") < 0) SystemConfig.multiLangLanguageTags.add("sc"); } catch(e) {}',
-    'try { SystemConfig.multiLangParamsMap["sc"] = %[ "menu_caption" => "&Simplified Chinese" ]; } catch(e) {}',
-    'try { if (typeof global.LanguageTags != "undefined" && LanguageTags.find("sc") < 0) LanguageTags.add("sc"); } catch(e) {}',
-    "// 2) 字体：after-init 注册松散 font/ 里的思源黑体 CN（Bold 正文 / Medium 名字）",
-    "//    注册失败不设硬编码回落：别名解析不到时由引擎自己的默认字体承载",
-    "var __fontReady = false;",
-    'function __ensureFonts() { if (__fontReady) return true; try { PreRenderFontEx.AddTrueTypeFont("9nineSC-B", "Source Han Sans CN", "SourceHanSansCN-Bold.otf", 0); PreRenderFontEx.AddTrueTypeFont("9nineSC-M", "Source Han Sans CN", "SourceHanSansCN-Medium.otf", 0); __fontReady = true; } catch(e) { __fontReady = false; } return __fontReady; }',
-    'function __chsFontBold() { __ensureFonts(); return "9nineSC-B"; }',
-    'function __chsFontMedium() { __ensureFonts(); return "9nineSC-M"; }',
-    'try { addAfterInitCallback(function() { try { global.LanguageDefaultFontFaceMap["sc"] = __chsFontBold(); } catch(e) {} try { global.LanguageNameFontFaceMap["sc"] = __chsFontMedium(); } catch(e) {} try { objectHookInjection(%[ target: global.kag, method: "setMessageLayerUserFont", func: function(orig, *) { try { if (global.kag.languageType == 3) { var f = __chsFontBold(); global.kag.chDefaultFace = f; try { global.kag.scflags["langUserFontFace3"] = f; } catch(e2) {} } } catch(e) {} return orig(*); } ]); } catch(e) {} }); } catch(e) {}',
+    'var __slots = ["patch", "patch2", "patch3"];',
+    'for (var __i = 0; __i < __slots.count; __i++) {',
+    '    try { Storages.addAutoPath(__slots[__i] + ".xp3>"); } catch(e) {}',
+    '    try { if (Storages.isExistentStorage(__slots[__i] + "_boot.tjs")) KAGLoadScript(__slots[__i] + "_boot.tjs"); } catch(e) {}',
+    '}',
 ]
 HOOK = chr(10).join(HOOK_LINES) + chr(10)
 def md5_name(path: str) -> str:
@@ -309,6 +302,35 @@ def collect_font_payload(root: str) -> list[tuple[str, bytes]]:
     return out
 
 
+def collect_ui_files(root: str) -> list[tuple[str, bytes]]:
+    """把 `resource/ui_sc/` 下的 UI 语料装进 `patch3.xp3`，条目名 = 目标逻辑路径。
+
+    `main/syslangtext_sc.ini`、`main/help_conf_sc.txt` 这类文本必须编成 TVP 加扰
+    形态（与官方 `syslangtext_cn.ini` 同构）；`uipsd/sc/*_sc.pimg`、`image/*_sc.png`
+    是二进制，原样装。
+    """
+    TEXT_EXT = (".ini", ".txt", ".func")   # .func 是 KAG 的 UI 布局脚本，同样是 TVP 加扰文本
+    TJS_EXT = (".tjs",)                     # 脚本按 UTF-16LE+BOM 存（与钩子同构）
+    out = []
+    if not root or not os.path.isdir(root):
+        return out
+    for dirpath, _dirs, names in os.walk(root):
+        for name in sorted(names):
+            if name.endswith(".kmode"):
+                continue
+            path = os.path.join(dirpath, name)
+            rel = os.path.relpath(path, root).replace(os.sep, "/")
+            if name.lower().endswith(TJS_EXT):
+                text = open(path, encoding="utf-8-sig", newline="").read()
+                out.append((rel, bytes([0xFF, 0xFE]) + text.encode("utf-16-le")))
+            elif name.lower().endswith(TEXT_EXT):
+                text = open(path, encoding="utf-8-sig", newline="").read()
+                out.append((rel, krkr_text.encode_bytes(text, 1)))
+            else:
+                out.append((rel, open(path, "rb").read()))
+    return out
+
+
 def verify(steam_path: str, patch_path: str, patch_files: list[tuple[str, bytes]], crypt) -> list[str]:
     problems = []
     # steam.xp3：官方 3 条不变 + 钩子正确 + 原字节码一致
@@ -328,6 +350,15 @@ def verify(steam_path: str, patch_path: str, patch_files: list[tuple[str, bytes]
         problems.append("钩子缺少 addAutoPath")
     if "steam_r18hack_orig.tjs" not in hook_text:
         problems.append("钩子缺少转发")
+    for need in ('__slots = ["patch", "patch2", "patch3"]',
+                 'Storages.addAutoPath(__slots[__i] + ".xp3>")',
+                 'KAGLoadScript(__slots[__i] + "_boot.tjs")'):
+        if need not in hook_text:
+            problems.append(f"钩子缺少槽位注册/引导加载：{need}")
+    for leaked in ("LoadSysLangText", "drawTextKinsokuRect", "AddTrueTypeFont",
+                   "patch3.xp3>scn/", "patch3.xp3>main/", "System.exePath"):
+        if leaked in hook_text:
+            problems.append(f"钩子夹带了本该在 patch3_boot.tjs / sc_hook.tjs 里的逻辑：{leaked}")
     for keep in ("steam.tjs", "achievement.ini"):
         if md5_name(keep) not in ents:
             problems.append(f"steam.xp3 缺少官方条目 {keep}")
@@ -359,13 +390,17 @@ def verify(steam_path: str, patch_path: str, patch_files: list[tuple[str, bytes]
 
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--scn-dir", default="tmp/build/scn", help="writeback 产物目录（含 aXX.txt.scn）")
-    ap.add_argument("--official-steam", required=True, help="官方 steam.xp3（未改动的原版）")
+    ap.add_argument("--scn-dir", default="tmp/build/lang4/scn",
+                    help="四轨产物目录（extend_lang.py 的输出，含 aXX.txt.scn）")
+    ap.add_argument("--official-steam", default="resource/official_steam/steam.xp3",
+                    help="官方 steam.xp3 原件（放仓库 resource/official_steam/，不从游戏目录取）")
     ap.add_argument("--profile", default="resource/cx/profile_9nine.json")
     ap.add_argument("--tjs-dir", default="resource/tjs_patch",
                     help="要覆盖进 patch3.xp3 的 tjs/文本源目录（UTF-8，按相对路径落条目；空字符串禁用）")
     ap.add_argument("--font-dir", default="resource/fonts_sc",
                     help="要随包发布的字体文件目录（空的或不存在则跳过）；会复制成 <out>/font/")
+    ap.add_argument("--ui-dir", default="resource/ui_sc",
+                    help="UI 语料目录（main/*_sc.ini|txt、uipsd/sc/*_sc.pimg、image/*_sc.png），按相对路径装进 patch3.xp3")
     ap.add_argument("--allow-probe", action="store_true",
                     help="测试构建：允许 HOOK 里带 System.inform 等探针（不得用于发布）")
     ap.add_argument("--out", default="releases")
@@ -381,7 +416,8 @@ def main(argv=None) -> int:
     if not scn_files:
         raise SystemExit(f"{args.scn_dir} 里没有 .scn")
     tjs_files = collect_text_overrides(args.tjs_dir) if args.tjs_dir else []
-    patch_files = scn_files + tjs_files
+    ui_files = collect_ui_files(args.ui_dir)
+    patch_files = scn_files + tjs_files + ui_files
 
     crypt = cx.CxCrypt.load(args.profile)
     os.makedirs(args.out, exist_ok=True)
@@ -408,7 +444,7 @@ def main(argv=None) -> int:
 
     patch_out = os.path.join(args.out, "patch3.xp3")
     n_patch = write_archive(patch_out, patch_files, crypt)
-    print(f"patch3.xp3  {n_patch} B  ({len(scn_files)} 个 scn)")
+    print(f"patch3.xp3  {n_patch} B  ({len(scn_files)} 个 scn + {len(tjs_files)} 个覆盖 + {len(ui_files)} 个 UI)")
 
     n_steam, n_orig = build_steam(args.official_steam, steam_out, crypt)
     print(f"steam.xp3   {n_steam} B  (官方 4 条 + 钩子 + 原字节码 {n_orig} B)")

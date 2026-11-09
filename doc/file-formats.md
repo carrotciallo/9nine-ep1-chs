@@ -63,3 +63,30 @@ PSB 头 `0x28` 处 4 字节是 checksum。**注意**：初版补丁包里的 scn
 ## 4. 名字反查
 
 官方索引名是哈希，要按路径取文件就必须先算出 md5。可用的候选名登记在 `resource/name_candidates.txt`；`script/unpack_xp3.py --only scn/` 会连同内置候选一起尝试。
+
+## 5. `.pimg`：PSB v3 + TLG5 位图 chunk
+
+界面贴图（`uipsd/*.pimg`）是 PSB v3，对象图里 `layers[]` 描述图层，位图本身放在**chunk 资源区**：每个图层一份，键名 `<layer_id>.tlg`，内容是该层位图的 TLG5。
+
+PSB 的 chunk 表在对象图之后：`chunk_offsets`（相对 chunk 数据区起点）、`chunk_lengths`、然后 chunk 数据区。**官方打包器把每个 chunk 起点按 4 字节对齐**，两张表后面还有一段对齐填充（例：`uipsd/conf_lang.pimg` 表区 35 字节 = 17 + 18，chunk 起点 0/704/1412/…，全部 4 的倍数）。改资源时对齐和填充都要照抄，否则「原样替换」都不能逐字节往返。`tool/psb.PsbFile.replace_resources()`实现这套重排（零改动往返、同内容替换都逐字节一致）。
+
+### 5.1 TLG5（`TLG5.0\0raw\x1a`）
+
+```
+"TLG5.0\0raw" (10) | 0x1a | colors | width u32 | height u32 | blockheight u32
+blocksize[nblocks] u32 × nblocks
+逐块、逐颜色平面：
+    u8 mark        0 = LZSS 压缩，非 0 = 原始字节
+    u32 size
+    payload
+```
+
+- 平面数据是「行差分 + 颜色相关」：`g` 直接累加，`b`/`r` 先加 `g` 再累加，累加值再加**上一行**
+  同列像素；alpha 单独累加。首行与其它行一样以 0 为基准（GARbro 的首行 alpha 写死 `0xff`是移植偏差，引擎实测按 0 基准）。
+- LZSS 的 4096 字节滑窗在整张图的所有块、所有平面之间**连续**复用；匹配允许与当前位置重叠
+  （逐字节复制的 run-length）。**不是 zlib**，第一次实现时踩过这个坑。
+- `colors` 是 3（BGR）或 4（BGRA）；TLG5 内部通道顺序是 **BGRA**。
+- 归档里也可能出现 **TLG6**（`TLG0.0\0sds\x1a` + `TLG6.0…`，Golomb 编码）：初版补丁包（民汉素材）的 20 张 `pimg` 就是 TLG6，本项目只实现 TLG5 的编解码（`tool/tlg.py`），写出去的 `_sc` 贴图一律 TLG5；引擎两种都读，实测 TLG5 产物能正常显示。依据：`resource/ui_sc/uipsd/sc/*.pimg` 里 `TLG6` 魔数计数 24 次（民汉）vs 我们产出的 `conf_lang_sc.pimg` 全是 TLG5。
+
+
+解码/编码实现：`tool/tlg.py`（GARbro `ArcFormats/KiriKiri/ImageTLG.cs` TLG5 分支的 Python 移植，编码侧是自写的 LZSS）；PNG 读写：`tool/pngio.py`。

@@ -489,6 +489,62 @@ class PsbFile:
             body[pos + 1:pos + 1 + width] = value.to_bytes(width, "little")
         return bytes(body)
 
+    def resource_bytes(self, index: int) -> bytes:
+        """取出 chunk 资源（`*.pimg` 里的 TLG 等）的原始字节。"""
+        start = self.offset_chunk_data + self.chunk_offsets[index]
+        return self.body[start: start + self.chunk_lengths[index]]
+
+    def replace_resources(self, mapping: dict[int, bytes]) -> bytes:
+        """替换 chunk 资源内容（长度可变），重排 chunk 表；对象图与字符串池原样保留。
+
+        只动 `offset_chunk_offsets` 之后的部分：头部重算 chunk 表/数据偏移与 `0x28`
+        checksum。`mapping` 为空时直接返回原字节（零改动往返）。
+        """
+        if not mapping:
+            return self.body
+        br = io.BytesIO(self.body)
+        br.seek(self.offset_chunk_offsets)
+        _offs, cw1, ew1 = _read_array_style(br)
+        br.seek(self.offset_chunk_lengths)
+        _lens, cw2, ew2 = _read_array_style(br)
+
+        data = bytearray()
+        offsets: list[int] = []
+        lengths: list[int] = []
+        for i in range(len(self.chunk_offsets)):
+            blob = mapping.get(i)
+            if blob is None:
+                blob = self.resource_bytes(i)
+            offsets.append(len(data))
+            lengths.append(len(blob))
+            data += blob
+            if i != len(self.chunk_offsets) - 1:      # 官方按 4 字节对齐下一个 chunk
+                data += bytes(-len(data) % 4)
+        offs_blob = _pack_array_styled(offsets, cw1, ew1)
+        lens_blob = _pack_array_styled(lengths, cw2, ew2)
+        # 官方打包器在两张表后面留对齐填充；照抄同样的空隙长度，保证零改动可往返
+        orig_tables = self.offset_chunk_data - self.offset_chunk_offsets
+        pad = orig_tables - (len(offs_blob) + len(lens_blob))
+        if pad > 0:
+            lens_blob += bytes(pad)
+
+        prefix = self.body[: self.offset_chunk_offsets]
+        offset_chunk_lengths = self.offset_chunk_offsets + len(offs_blob)
+        offset_chunk_data = offset_chunk_lengths + len(lens_blob)
+        header = bytearray(self.body[: self.header_length])
+        struct.pack_into("<I", header, 0x18, self.offset_chunk_offsets)
+        struct.pack_into("<I", header, 0x1C, offset_chunk_lengths)
+        struct.pack_into("<I", header, 0x20, offset_chunk_data)
+        checksum = zlib.adler32(bytes(header[8:40])) & 0xFFFFFFFF
+        struct.pack_into("<I", header, 0x28, checksum)
+        # 文件尾若还有不属于任何 chunk 的尾巴字节，原样带过去（data 已含 chunk 间对齐）
+        orig_end = self.offset_chunk_data + max(o + l for o, l in zip(self.chunk_offsets, self.chunk_lengths))
+        trailing = self.body[orig_end:]
+        out = bytes(header) + prefix[self.header_length:] + offs_blob + lens_blob + bytes(data) + trailing
+        if self.is_mdf:
+            return MDF_SIG + struct.pack("<I", len(out)) + zlib.compress(out, 9)
+        return out
+
     # ---------------------------------------------------------------- helpers
     def iter_strings(self, node=_ROOT, path: str = "$"):
         """Yield (path, PsbString) for every string slot in the graph.

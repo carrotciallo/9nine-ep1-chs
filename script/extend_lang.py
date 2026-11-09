@@ -11,7 +11,8 @@
   * 第 4 块 = 民汉简中（`name` / `text` / `plain`），结构照抄 cn 块的 arity；
   * 选择支 `language` 追加第 4 项（`text`/`searchtext`/`speechtext` 同值）。
 
-说明：本脚本**不做** cn 轨替换（那是 `script/writeback.py` 的事）。两者叠加顺序：
+说明：本脚本直接读官方 scn（jp/en/cn 三块）+ 简中语料，追加第 4 块 `sc`，官方三块一个字节都不动。
+早期"覆盖 cn 轨"的三轨路径已废弃（`writeback.py` / `verify_patch.py` / `verify_roundtrip.py` 均已删除，只在 git 历史留档）。原叠加顺序是：
 先 `writeback.py` 产出 3 块简体版，再 `extend_lang.py` 在其上追加 chs 块（前 3 块保持不变）。
 
 闸（任一不过就不写文件）：
@@ -33,7 +34,7 @@ from tool.psb import PsbGraph, split_path
 
 
 def plain_of(text: str) -> str:
-    """plain 变体：去掉 `\\n`，ruby 只保留基字（与 writeback.py 保持一致）。"""
+    """plain 变体：去掉 `\\n`，ruby 只保留基字（与 `tool/mdf.py` 的取值规则一致）。"""
     import re
     return re.sub(r"\[([^\[\]]+),(\d+)\]", lambda m: m.group(1), text).replace("\\n", "")
 

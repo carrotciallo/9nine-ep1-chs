@@ -1,4 +1,11 @@
-"""把一条语言轨的脚本正文提取成按脚本分片的文本集。
+"""一次性提取脚本（**仅留档，不要用来覆盖 resource/**）。
+
+> ⚠️ 语料是唯一来源：`resource/chs_text` 与 `resource/official_{jp,en,cn}` 已入库并经人工修订
+> （繁体字形、显示名、选项译文，见 `doc/text-model.md` §4/§6）。重跑 `--lang cn` 会把 `resource/chs_text`
+> 覆盖回民汉原件，重跑官方侧会覆盖 `resource/official_*`；要改文本请直接改语料。
+> 需要重新提取时再看这个脚本，它是从 `archive/releases/unencrypted.xp3` / 官方 scn 出发的参考实现。
+
+实现：把一条语言轨的脚本正文提取成按脚本分片的文本集。
 
 用法（从项目根执行）：
 

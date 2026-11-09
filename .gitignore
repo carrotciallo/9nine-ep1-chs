@@ -13,6 +13,10 @@ resource/official_cn/
 resource/official_fonts/
 resource/fonts_sc/
 
+# 官方 uipsd 解包产物（游戏本体内容，可用 unpack_xp3.py 重建）
+resource/official_uipsd/
+resource/official_steam/
+
 .mcp.json
 *.local.*
 .pi

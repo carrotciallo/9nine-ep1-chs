@@ -1,7 +1,6 @@
 # 引擎机制与补丁形态
 
-格式见 `file-formats.md`，文本模型见 `text-model.md`；本文 §0 是「补丁生效 SOP」（通用决策流程）。
-本文只写当前**成立**的结论；每条都可用文中命令/内存判据复跑。
+格式见 `file-formats.md`，文本模型见 `text-model.md`；本文 §0 是「补丁生效 SOP」（通用决策流程）。本文只写当前**成立**的结论；每条都可用文中命令/内存判据复跑。
 
 ## 0. 补丁生效 SOP（决策树）
 
@@ -81,7 +80,7 @@ Storages.addAutoPath(System.exePath + "scn/");   // 松散目录，热更新
 
 ### 0.2 调试通道：探针只进测试构建，不进发布物
 
-运行期判据默认用 `System.inform` 弹窗（`script/probe_dialogs.ps1` 会自动抓文字并关掉，支持 `-Seconds`）。**测试构建允许任意探针**（`System.inform` / `Debug.notice` / `Storages.getPlacedPath` 输出），做法是临时改 `script/build_patch.py::HOOK_LINES` 后构建到临时目录，例如：
+运行期判据默认用 `System.inform` 弹窗，弹出后**由人工截图/读文字**再手动关掉（不再有自动点击脚本：模拟鼠标/按键驱动游戏不可靠，实测出现过把 Config 点成 End Game 的情况，见 `lessons-learned.md` §16）。**测试构建允许任意探针**（`System.inform` / `Debug.notice` / `Storages.getPlacedPath` 输出），做法是临时改 `script/build_patch.py::HOOK_LINES` 后构建到临时目录，例如：
 
 ```powershell
 mamba run -n GalRev python script/build_patch.py --scn-dir tmp/build/lang4/scn `
@@ -151,6 +150,8 @@ nine_kokoiro.exe（加壳；脱壳版仅供 IDA 静态分析）
 
 即：**"后注册优先"只在同为相对路径的注册之间成立**；`addArchive` 注册的绝对路径整体劣于 `data.xp3` 的相对路径。这就是 `patch.xp3` 注册成功却压不住官方文本的原因。
 
+**相对路径之间本身的顺序也实测过了**（同一归档、两个子域、同名文件；示例里的 `sc/` 只是任意子域名，本补丁现在不用它）：钩子里先 `addAutoPath("patch3.xp3>main/")`，再 `addAutoPath("patch3.xp3>sc/")`，`Storages.getPlacedPath("order_probe.txt")` 返回`archive://patch3.xp3/sc/order_probe.txt`（后注册的那份赢）。复跑方式：`tmp/probe/{main,sc}/order_probe.txt` 两个同名文件 + 上面两条注册 + 探针打印 `getPlacedPath`（测试构建 `--allow-probe`）。所以「注册顺序 = 优先级」在同一个钩子里可以直接拿来排序，见 §4.1。
+
 > 因此「注册成功但正文不变」的现象全部源于此；`addAutoPath` 的**重排无效**（`removeAutoPath` + 重新注册也压不过 `data.xp3`）。
 
 ### 3.1 根因：归档索引的 `hnfn` 必须「每个文件一条」，否则子域别名只认第一个文件
@@ -182,6 +183,21 @@ autopath 的解析只有一条规则：**把 autopath 字符串和请求名直�
 
 叠加 §3.1：归档子域覆盖多个文件的前提是索引「每文件一条 `hnfn`」；`main/`、`uipsd/` 这类目前没有走归档覆盖，必要时用松散目录（钩子里注册目录型 autopath）最省事。
 
+**根域 vs 子域（实测，`Storages.getPlacedPath` 四次采样）**
+
+| 钩子里注册的 autopath | `getPlacedPath("rootprobe.txt")`（归档根条目） | `getPlacedPath("a01.txt.scn")`（裸名） | `getPlacedPath("scn/a01.txt.scn")`（全路径） |
+|---|---|---|---|
+| 只有 `patch3.xp3>` | `archive://patch3.xp3/rootprobe.txt` ✓ | `data.xp3/scn/a01.txt.scn` ✗ | `data.xp3/scn/a01.txt.scn` ✗ |
+| 再加 `patch3.xp3>scn/`、`>main/` | — | `archive://patch3.xp3/scn/a01.txt.scn` ✓ | — |
+
+三条结论：
+
+1. autopath 是**纯前缀**：`patch3.xp3>` 的前缀就是 `patch3.xp3>`，只能命中「条目名 = 请求名」的归档根条目；`scn/…`、`uipsd/…` 这类**目录下的条目必须用带目录的前缀**（`patch3.xp3>scn/`）。反过来说，**归档根下的条目确实能被根域命中**：把 `a01.txt.scn` 直接放在 `patch3.xp3` 根、只注册 `patch3.xp3>`，`getPlacedPath("a01.txt.scn")` 返回 `archive://patch3.xp3/a01.txt.scn` —— 这正是 §4.1 里「引导脚本 `<slot>_boot.tjs` 放在归档根、由根域加载」能成立的原因。
+2. 注册根域**不能**覆盖 `data.xp3` 里已有的同名条目——即使请求方给的是全路径 `scn/a01.txt.scn` 也一样（exe 硬编码的 `data.xp3` 仍然赢）。想覆盖只能走子域：`patch3.xp3>scn/` 既能命中裸名、又能压过 `data.xp3`。
+3. 这条结论与归档无关、**对所有 xp3 通用**：`system/initialize.tjs` 的 `addArchiveWithSubFolder(name, subs[])`就是**逐个子目录**注册两种写法（`name/sub/` 与 `name.xp3>sub/`），可见「一个归档的每个目录一条 autopath」是引擎设计本身；`main/storages.tjs` 的 `setupSubFolders(["uipsd/en", "uipsd/cn", …])` 同理。
+
+复跑方式（测试构建，`--allow-probe`）：在两个目录放同名文件（如 `rootprobe.txt` 放归档根、`scn/` 下放`order_probe.txt`），钩子里只注册根域 → 探针打印 `getPlacedPath`；再加子域 → 再打印一次，对比即可。
+
 ## 4. 本作采用的补丁形态：hook 注入
 
 唯一稳定可控的注入点：`steam_r18hack.tjs`（由 `steam.tjs` 的 `KAGLoadScript` 触发，启动流程内必然执行；替换为 TJS 源码后 `System.inform` 弹窗成功）。
@@ -211,6 +227,52 @@ Storages.addAutoPath(System.exePath + "scn/");   // 松散目录，热更新
 * 注册顺序 = 优先级（后注册优先），所以自己的路径放在兼容名之后。
 * `patch3.xp3` 用**官方 `steam.xp3` 索引 + 追加**的形态，不用纯自建索引。
 
+
+### 4.1 补丁槽位约定：`steam.xp3` 只「转发 + 逐槽位注册根域 + 加载 `<slot>_boot.tjs`」
+
+`steam.xp3` 里的 `steam_r18hack.tjs` 全文：
+
+```tjs
+Scripts.execStorage("steam_r18hack_orig.tjs");                 // 转发官方原逻辑
+var __slots = ["patch", "patch2", "patch3"];                   // 引擎侧补丁槽位（顺序=优先级，后注册优先）
+for (var __i = 0; __i < __slots.count; __i++) {
+    try { Storages.addAutoPath(__slots[__i] + ".xp3>"); } catch(e) {}          // 只注册根域
+    try { if (Storages.isExistentStorage(__slots[__i] + "_boot.tjs"))          // 该槽位自带引导脚本就加载
+              KAGLoadScript(__slots[__i] + "_boot.tjs"); } catch(e) {}
+}
+```
+
+**约定本身**（钩子里**不写任何目录名**）：
+
+- **模板**：`resource/patch_boot.tjs.template`（含用法、编码要求、禁止事项），第三方复制成 `patch_boot.tjs` / `patch2_boot.tjs` 即可；README 的「新增合法名」一节按扩展点列出成本（改目录/加内容/叠加他人 = 只重打自己的包；新增槽位 = 一次性重建 `steam.xp3`）。
+- 谁提供 `<slot>.xp3`，谁就负责在同名归档的**根目录**放 `<slot>_boot.tjs`；boot 里注册自己需要的目录。
+  本补丁是 `patch3.xp3` + `patch3_boot.tjs`（源语料 `resource/ui_sc/patch3_boot.tjs`）。
+- 第三方补丁照抄这个形状即可，例如 `patch.xp3` 里放 `patch_boot.tjs`：
+
+```tjs
+try { Storages.addAutoPath("patch.xp3>scn/"); } catch(e) {}
+try { Storages.addAutoPath("patch.xp3>uipsd/cn/"); } catch(e) {}
+```
+
+- - boot 只注册**当前包里真的有**的目录：四个主目录（`scn/ main/ uipsd/sc/ image/`）+ 松散 `font/` + 加载 `sc_hook.tjs`；`sound/ voice/ bgimage/ fgimage/ rule/ others/ uipsd/{cn,en}/` 以注释形式留在文件里当模板，真要替换时去掉注释并重打 `patch3.xp3`。理由：boot 是给第三方看的**可读路径清单**，多余的一行会让人误以为包里有那个目录；而注册一个空目录既无收益也掩盖真实布局。
+本补丁的 `patch3_boot.tjs` 做四件事：注册 `patch3.xp3>scn/ main/ uipsd/sc/ image/` → 注册松散 `font/`（字体只能读真实文件，放最后=最高）→ `KAGLoadScript("sc_hook.tjs")` 进简中逻辑（语言表、`LoadSysLangText(["sc"])`、字体钩子）。
+
+**为什么这样拆**：`steam.xp3` 是唯一不可被第三方替换的注入点，里面越少越好；把「目录布局/优先级/新子域」都下放到各补丁自己的 boot 后——改这些只重打 `patch3.xp3`（或第三方重打自己的包），`steam.xp3` 不必再动，也不必替别人做决定。代价是槽位名（`patch`/`patch2`/`patch3`）与 `<slot>_boot.tjs` 的命名是**引擎侧约定**，写死在钩子里；增加第 4 个槽位需要重建一次 `steam.xp3`（这是注入点本身的成本，不是设计缺陷）。
+
+**优先级不属于冲突**：注册顺序即优先级（§3 实测后注册优先），槽位顺序 `patch → patch2 → patch3`、boot 内部按各补丁自己的书写顺序，都是**明确的、可预期的**引擎语义；不同补丁写同名文件时由这个顺序决定归属，不需要仲裁机制。
+
+可行性与实测（测试构建 `--allow-probe`，钩子加了 `System.inform` 探针）：
+
+- `P0 hook start` → `P2 no boot patch` → `P2 no boot patch2` → `P2 boot loaded patch3` → `P3 after loop, sc=取消`：槽位循环逐个注册根域、只有 patch3 有 boot 并被加载，`sc` 语的 UI 文案随即可读。
+- 只注册根域时 `getPlacedPath("patch3_boot.tjs")`、`("a01.txt.scn")`（归档根条目）都能命中 patch3；`scn/…` 这类子目录条目必须由 boot 再加 `patch3.xp3>scn/` 才命中（§3.2）。
+- 实机：设置页与确认框全部简中（`patch3_boot.tjs` → `sc_hook.tjs` 链路生效）。
+
+其它约定：
+
+- 归档里的脚本/文本编码：`.ini`/`.txt`/`.func` 用 TVP 加扰文本（`FE FE` + mode 1，`krkr_text.encode_bytes(text, 1)`），`.tjs` 用 **UTF-16LE + BOM**（与钩子同构，引擎按内容自识别）；`.tjs` 当明文 UTF-8 塞进归档会报 `Cannot convert given narrow string to wide string`。依据：`script/build_patch.py::collect_ui_files` 的 `TEXT_EXT`/`TJS_EXT` 分支 + `doc/lessons-learned.md` §13。
+- `steam.xp3` 仍需重建**一次**：本作唯一会被启动流程执行、且我们能改的脚本是 `steam_r18hack.tjs`（§0 ③）。官方原件放仓库 `resource/official_steam/steam.xp3`（`build_patch.py` 默认值，不再从游戏目录取；该目录 gitignore，可用 `<游戏>/steam.xp3.orig` 重建）。
+- 发布闸（`build_patch.py` / `verify_ui_sc.py`）：钩子必须含槽位数组、`Storages.addAutoPath(__slots[__i] + ".xp3>")`、`KAGLoadScript(__slots[__i] + "_boot.tjs")`，且**不得**出现 `LoadSysLangText` / `drawTextKinsokuRect` / `AddTrueTypeFont` / `patch3.xp3>scn/` / `System.exePath`；`patch3_boot.tjs` 必须含四条启用子域 + `font/` + `KAGLoadScript("sc_hook.tjs")`；任何产物都不许带探针。
+
 ## 5. 语言轨：新增第 4 轨 `sc`（简中），官方 jp/en/cn 三轨原样保留
 
 `main/default.tjs` 是**加扰 TJS 源码**（`FE FE 01` + mode 1 奇偶位交换，`tool/krkr_text.py` 可解码/编码，往返逐字节一致），关键字段：
@@ -238,8 +300,7 @@ LanguageTags.add("sc");                                                         
 
 ### 5.2 `patch3.xp3` 不能用来覆盖 `*.tjs`
 
-`Storages.addAutoPath("patch3.xp3>main/")` 对 `main/` 域**完全无效**：注册返回 ok，但 `Storages.getPlacedPath("default.tjs")` 仍指向 `data.xp3/main/default.tjs`，新名字（`ml_chs.tjs`）一律解析为空。
-同一归档的 `patch3.xp3>scn/` 域却正常（`a01.txt.scn` → `archive://patch3.xp3/scn/a01.txt.scn`）。
+`Storages.addAutoPath("patch3.xp3>main/")` 对 `main/` 域**完全无效**：注册返回 ok，但 `Storages.getPlacedPath("default.tjs")` 仍指向 `data.xp3/main/default.tjs`，新名字（`ml_chs.tjs`）一律解析为空。同一归档的 `patch3.xp3>scn/` 域却正常（`a01.txt.scn` → `archive://patch3.xp3/scn/a01.txt.scn`）。
 
 排除过的变体（均在游戏内读 `getPlacedPath` / `isExistentStorage` 判定）：
 
@@ -313,6 +374,39 @@ mamba run -n GalRev python tool/tjs2.py tmp/multilang.tjs --strings             
 ### 5.6 探针文字别用 `[...]`
 
 行内 `[...]` 是 ruby 语法，探针前缀写成 `[CHS]` 会被渲染成注音（显示成 `{有:CHS}` 之类），排查时先怀疑自己的标记。
+
+### 5.7 UI 文案：`syslangtext` / `help` / 界面贴图（`_<tag>` 变体名）
+
+UI 文案与剧情脚本走**两套完全不同**的通路，别混着排查。
+
+**① 文本（`syslangtext_<tag>.ini` / `help_conf_<tag>.txt` / `help_exch_<tag>.txt`）**
+
+- 加载者是 `sysscn/syslangtext.tjs`（字节码）：`sysscn/multilang.tjs` 顶层 `KAGLoadScript("syslangtext.tjs")` 之后调用 `LoadSysLangText()`。签名大致为 `LoadSysLangText(name="syslangtext_", ext=".ini", tags=LanguageTags, parse?, ?)`：对 `tags` 里每个非空 tag 拼 `<name><tag><ext>`，先用 `Storages.isExistentStorage` 判存在再解析。
+- **时机坑**：`multilang.tjs` 由 `main/custom.tjs` 顶层 `KAGLoadScript` 载入，而我们的钩子 `steam_r18hack.tjs` 在同一文件末尾的 `switch (System.getArgument("-steam"))` 里，**晚于**它。所以钩子里加完 `sc` 后必须再补一次 `LoadSysLangText("syslangtext_", ".ini", ["sc"])`，否则 `sc` 永远读不到。探针依据：补载前 `GetSysLangText("DialogCancel","sc")` 为空，补载后为 `取消`。
+- `help_conf` / `help_exch` 不预加载，是打开设置页时 `CustomHelpTextManager` → `loadHelpTexts` 被 `objectHookInjection` 转成 `GetUIFile(name, ".txt")` 按需读取；钩子里注册好路径就够。
+- 侧栏快捷存读提示语是 `EzSaveHelpText`，`main/ezsave.tjs` 会 `text.replace(/,/, "\\n")`，**值里的逗号不能删**。
+
+**② 界面贴图（`uipsd/*.pimg` + `uipsd/*.func`）**
+
+- `.pimg` = PSB v3：`layers` 里每个图层的位图是一份 chunk 资源，键名 = `<layer_id>.tlg`（结构见 `file-formats.md` §5）。
+- `.func` 是 KAG 的 UI 布局脚本，**同样是 TVP 加扰文本（mode 1）**，首行 `psd,<名字>` 决定用哪张图；写成 `psd,&GetUIFile("名字")` 才按当前 UI 语言找变体。
+- 变体规则即 `custom.tjs` 的 `GetUIFile`：`<chop>_<CurrentLanguageUITag><ext>` 存在则用，否则回落原名。目录子域由 `system/initialize.tjs` 的 `setupSubFolders(["uipsd/en", "uipsd/cn", ...])` 注册（只注册**目录**，不注册同名 xp3）。
+- 因此第 4 轨要新增 `uipsd/sc/<名>_sc.pimg`，并在钩子里 `addAutoPath("patch3.xp3>uipsd/sc/")`；`main/`（syslangtext、help）与 `image/`（`attention_sc.png`）同理。运行时逻辑（含 `LoadSysLangText` 补载、字体）在 `patch3.xp3` 的 `sc_hook.tjs`（归档根），见 §4.1。
+
+**③ `conf_lang` 特例：语言选择页的标题是「一张英文位图」**
+
+- 官方 `uipsd/conf_lang.pimg` 的 `@caps_lang/layer`（221×199，资源 `14.tlg`）把 `System Language / Main Text Language / Sub Text Language` 直接烘在图上；`data.xp3` 全文与所有脚本字符串池搜 `System Language` 命中 **0**，改 `syslangtext` 无效。验证：把 `14.tlg` 换成别的图，标题随之变化。
+- `conf_lang.func` 首行是 `psd,conf_lang`（不经过 `&GetUIFile`），且官方没有 `conf_lang_{jp,en,cn}.pimg` —— **官方三条语言轨看到的本来就是同一张英文图**，不是补丁「强制成英文」。
+- sc 轨要中文只能自造图：`script/make_ui_lang_caption.py`（取官方 `14.tlg` → 保留左侧圆点、清掉英文 → GDI+ 渲染简中标题 → 重编码 TLG → 替换进 pimg）+ `script/gen_ui_func.py`（`psd,conf_lang` → `psd,&GetUIFile("conf_lang")`）。后者对 jp/en/cn 语义中性：找不到 `conf_lang_<tag>.pimg` 就回落官方原图。
+- 字形按**民汉贴图**的实测量选定：同一句「简易保存、读取功能」16 px 下量「每像素墨覆盖率」（把不同背景归一化后可比），民汉 art = 0.400、华康圆体 W9(P) = 0.437、W7/W5 ≈ 0.30、思源圆黑体（Gen Jyuu Gothic）≈ 0.20、思源黑体 ≈ 0.22。所以用**华康圆体 W9**（真实字重，非合成），并以 2 倍超采样渲染后盒式降采样，让边缘与 art 一样柔。对照图与实机截图属一次性产物，不进 `resource/`；需要复核时按本节方法重跑 `script/make_ui_lang_caption.py` 并用 GDI+ 重渲染候选即可。
+- **字体文件不入库**（第三方商业字体）：`resource/ui_sc/conf_lang_labels.json` 的 `font` 指到本机路径，缺失时脚本直接报错而不是悄悄换字体；`--font/--style/--scale` 可覆盖。仓库默认回退是随包思源黑体（字形不完美但可构建）。
+- **禁止用 GDI+ 合成粗体凑字重**：`FontStyle::Bold` 在字体没有粗体面时会被 GDI+ 硬加粗（笔画变钝、字宽变化），和真实粗体不是一回事。`script/render_ui_labels.ps1` 现在对「非该字体真实字重」的请求直接 `exit 2`。
+- 标题摆放与页面其它标签对齐：文字左边缘 x=25、三行行带顶端 y=1/90/179（脚本会打印实测行带），字号 16 px、颜色 `(19,86,130)`（从民汉简中标签实色量出来）。官方英文原图行带是 1/90/179、文字左边缘 25，两者一致。
+
+**④ UI 里硬编码的日文字体别名**
+
+`main/custom.tjs` 有几处写死 `fontface:"源ノ明朝B"`（语言名标签）与 `"マルベリ"`（帮助提示、鉴赏页名字）。这两个是 JP 子集：`sourcehanserifjp-bold.otf` 缺 `简/苏/亚`，`mtlmr3m.ttf` 缺 `简/苏/亚/风/戏/设`（`script/check_font_coverage.py` 读 cmap 可复现），sc 下会画成「口」。钩子因此在 after-init 里包了 `global.drawTextKinsokuRect`：UI 语言或正文语言为 `sc` 且 `elm.fontface` 命中这些别名时换成随包思源黑体 CN（Bold/Medium），画完还原 `fontface`，jp/en/cn 三轨不受影响。
+
 
 ## 6. 字体：运行期注册松散 `font/` 里的思源黑体 CN（可用）
 

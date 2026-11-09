@@ -1,0 +1,41 @@
+// 简中（第 4 轨 sc）运行期逻辑。
+//
+// 加载方式：steam.xp3 里的钩子（steam_r18hack.tjs）只做三件事——
+//   1) 转发官方原逻辑（steam_r18hack_orig.tjs）
+//   2) 注册搜索路径（patch3.xp3>scn/ main/ uipsd/sc/ image/ sc/ 与松散 font/）
+//   3) KAGLoadScript("sc_hook.tjs") —— 也就是本文件，打包进 patch3.xp3 的 sc/ 子域
+// 所以日常改简中行为只需要改这个文件、重打 patch3.xp3，不用碰 steam.xp3。
+//
+// 依据与坑见 doc/engine-mechanics.md §4（钩子形态）、§5.7（UI 文案链路）、§6（字体）。
+
+//--------------------------------------------------------------- 1) 语言表加第 4 条（sc）
+try { if (SystemConfig.multiLangLanguageTags.find("sc") < 0) SystemConfig.multiLangLanguageTags.add("sc"); } catch(e) {}
+try { SystemConfig.multiLangParamsMap["sc"] = %[ "menu_caption" => "&Simplified Chinese" ]; } catch(e) {}
+try { if (typeof global.LanguageTags != "undefined" && LanguageTags.find("sc") < 0) LanguageTags.add("sc"); } catch(e) {}
+
+//--------------------------------------------------------------- 2) UI 文案补载
+// main/custom.tjs 里的 KAGLoadScript("multilang.tjs") 比钩子先执行，它启动时那次
+// LoadSysLangText() 只覆盖 jp/en/cn，sc 必须在这里补一次；否则 sc 永远读不到 syslangtext。
+try { LoadSysLangText("syslangtext_", ".ini", ["sc"]); } catch(e) {}
+try { if (typeof global.ResetAllMenuLangText == "Object") ResetAllMenuLangText(); } catch(e) {}
+
+//--------------------------------------------------------------- 3) 字体：注册松散 font/ 的思源黑体 CN
+// System.addFont / PreRenderFontEx.AddTrueTypeFont 只能读真实文件，读不了 archive://，
+// 所以字体文件必须留在 <游戏目录>/font/（钩子已注册该目录）。
+// 注册失败不设硬编码系统字体回落：别名解析不到时由引擎自己的默认字体承载。
+var __fontReady = false;
+function __ensureFonts() { if (__fontReady) return true; try { PreRenderFontEx.AddTrueTypeFont("9nineSC-B", "Source Han Sans CN", "SourceHanSansCN-Bold.otf", 0); PreRenderFontEx.AddTrueTypeFont("9nineSC-M", "Source Han Sans CN", "SourceHanSansCN-Medium.otf", 0); __fontReady = true; } catch(e) { __fontReady = false; } return __fontReady; }
+function __chsFontBold() { __ensureFonts(); return "9nineSC-B"; }
+function __chsFontMedium() { __ensureFonts(); return "9nineSC-M"; }
+
+//--------------------------------------------------------------- 4) UI 里硬编码的日文字体别名
+// main/custom.tjs 里写死了 fontface:"源ノ明朝B"（语言名标签）和 "マルベリ"（帮助提示、鉴赏页名字）。
+// 这两个是 JP 子集：sourcehanserifjp-bold.otf 缺 简/苏/亚，mtlmr3m.ttf 缺 简/苏/亚/风/戏/设，
+// sc 下会画成「口」。sc 生效时换成随包思源黑体，画完还原，jp/en/cn 三轨不动。
+function __mapScFont(f) { if (!__ensureFonts()) return ""; if (f == "源ノ明朝B" || f == "源ノ角ゴシックB" || f == "源ノ角ゴシックH" || f == "シーダ") return __chsFontBold(); if (f == "マルベリ" || f == "源ノ角ゴシックM") return __chsFontMedium(); return ""; }
+function __scFontAliasHook(orig, layer, text, elm, *) { var old = null; try { if (elm) { var act = false; try { act = (CurrentLanguageUITag == "sc") || (CurrentLanguageTag == "sc"); } catch(e1) { act = false; } if (act) { var nf = __mapScFont(elm.fontface); if (nf != "") { old = elm.fontface; elm.fontface = nf; } } } } catch(e) {} var r = orig(layer, text, elm, *); try { if (old !== null) elm.fontface = old; } catch(e2) {} return r; }
+function __installScFontAlias() { try { objectHookInjection(%[ target: global, method: "drawTextKinsokuRect", func: __scFontAliasHook ]); return true; } catch(e) { return false; } }
+try { if (!__installScFontAlias()) addAfterInitCallback(function() { __installScFontAlias(); }); } catch(e) {}
+
+//--------------------------------------------------------------- 5) 字体映射与消息层字体
+try { addAfterInitCallback(function() { try { global.LanguageDefaultFontFaceMap["sc"] = __chsFontBold(); } catch(e) {} try { global.LanguageNameFontFaceMap["sc"] = __chsFontMedium(); } catch(e) {} try { objectHookInjection(%[ target: global.kag, method: "setMessageLayerUserFont", func: function(orig, *) { try { if (global.kag.languageType == 3) { var f = __chsFontBold(); global.kag.chDefaultFace = f; try { global.kag.scflags["langUserFontFace3"] = f; } catch(e2) {} } } catch(e) {} return orig(*); } ]); } catch(e) {} }); } catch(e) {}

@@ -38,7 +38,7 @@
 | 块内 `[2]`/`[3]` 同槽 | 4836 / 4839 | 同时指向新 plain |
 | 显示名槽跨行共享 | 常见 | 只在值真的不同时才改；765 行需改（5 种显示名，民汉源是繁中字形，见 §6） |
 
-同槽 = PSB 里**同一个偏移数组元素**（解析后两个路径指向同一字节位置）。这类位置无法只改一处指向，必须重建父列表（需要偏移加宽/重算，等价于完整序列化器）。这条限制只约束「覆盖 cn 轨」的三轨回写路径：该路径对这类行**保留官方原文**，影响 3 行（`a01` scene0 row62、`a05` scene0 row62、`a13` scene0 row156）；四轨路径（§7）不动官方三块、只追加新块，不受此限。依据：`script/writeback.py` 的 `conflicted` 判定与 `skipped_shared` 记录（写到产物目录的 `_skipped_shared.json`）—— 同一字节位置被非 cn 路径引用即跳过，`script/verify_patch.py` 以 `cn_text_skip` 复核这些行；未被共享的槽走「追加新串 + 就地改指向」（`script/writeback.py` 模块 docstring）。
+同槽 = PSB 里**同一个偏移数组元素**（解析后两个路径指向同一字节位置）。这类位置无法只改一处指向，必须重建父列表（需要偏移加宽/重算，等价于完整序列化器）。这条限制只约束「覆盖 cn 轨」的三轨回写路径：该路径对这类行**保留官方原文**，影响 3 行（`a01` scene0 row62、`a05` scene0 row62、`a13` scene0 row156）；四轨路径（§7）不动官方三块、只追加新块，不受此限。这条限制只出现在已废弃的三轨路径里：同一字节位置被非 cn 路径引用就跳过（对应脚本 `writeback.py` / `verify_patch.py` / `verify_roundtrip.py` 已随路径废弃删除，需要复核时看 git 历史）。当前交付只走四轨，不受此限。
 
 ## 4. 选择支 `scenes[].selects[i]`
 
@@ -48,7 +48,7 @@ text       = 日文选项文本
 language   = [null, {searchtext,speechtext,text}(en), {searchtext,speechtext,text}(cn)]
 ```
 
-全作共 9 条。依据：`resource/official_jp/_index.json` 的 `selects` 合计 9。**cn 轨的选项文本在民汉源里就是官方繁中**（民汉初版补丁未翻选项），本项目依日文原文**就地翻译一份简中，直接写进语料**（`resource/chs_text/scripts/*.selects.jsonl` 的 `text`/`searchtext`/`speechtext` 三字段同值）；回写只是照语料取值，**不存在旁路覆盖表**。产物侧 27 个槽（9 条 × text/searchtext/speechtext）逐值校验，依据：`script/verify_patch.py` 的 `select_slots` 统计。
+全作共 9 条。依据：`resource/official_jp/_index.json` 的 `selects` 合计 9。**cn 轨的选项文本在民汉源里就是官方繁中**（民汉初版补丁未翻选项），本项目依日文原文**就地翻译一份简中，直接写进语料**（`resource/chs_text/scripts/*.selects.jsonl` 的 `text`/`searchtext`/`speechtext` 三字段同值）；回写只是照语料取值，**不存在旁路覆盖表**。产物侧 27 个槽（9 条 × text/searchtext/speechtext）逐值校验，依据：`script/verify_lang4.py` 的 `selects` 校验。
 
 | 脚本 | 索引 | 日文原文 | 简中译文 |
 |---|---|---|---|
@@ -79,7 +79,7 @@ language   = [null, {searchtext,speechtext,text}(en), {searchtext,speechtext,tex
 
 判定方法（可复跑）：用 Windows 自带的 `Microsoft.VisualBasic.Strings.StrConv(…, SimplifiedChinese)` 逐字转换，转换结果与自身不同的字即繁体字形候选；本语料命中 27 字：`亞來別動嗎圍妳學幫從條現發結聽與著蘇話護過門開閒間頭風`。其中 `著` 在简体里合法（`原著`），只做词级替换。
 
-> `script/extract_text.py` 是**一次性**步骤：重跑 `--lang cn` 会把语料覆盖回民汉原件，须 `git checkout -- resource/chs_text` 取回修订版再回写。
+> 语料（`resource/chs_text`、`resource/official_{jp,en,cn}`）已入库并经人工修订，是**唯一来源**；`script/extract_text.py` 仅留档，重跑 `--lang cn` 会把语料覆盖回民汉原件，须 `git checkout -- resource/chs_text` 取回修订版。
 
 ## 7. 四轨方案
 

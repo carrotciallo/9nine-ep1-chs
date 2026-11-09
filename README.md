@@ -97,3 +97,4 @@ mamba run -n GalRev python script/verify_ui_sc.py --patch releases/patch3.xp3 --
 | 汉化文本 | 樱空汉化组 Ver1.0 |
 | 引擎分析 | `GalRev`（krkr/MDF 卷） |
 | 工程架构 | `MashiroiroSymphonyFHD_Retranslation_Patch` |
+| 当前主线实现（Hook 注入机制、简中第 4 轨 `sc`、Cx 加解密复现与构建管线） | [Madao-1639](https://github.com/Madao-1639)（PR #1） |

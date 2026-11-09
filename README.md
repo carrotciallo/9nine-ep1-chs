@@ -1,97 +1,99 @@
 # 9-nine-:Episode 1 简中补丁
 
-Steam 版《9-nine-:Episode 1》（九次九日九重色）的简体中文补丁。
+Steam 版《9-nine-:Episode 1》（appid 976390）的简体中文文本补丁。
 
-[![Release](https://img.shields.io/github/v/release/carrotciallo/9nine-ep1-chs)](https://github.com/carrotciallo/9nine-ep1-chs/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/carrotciallo/9nine-ep1-chs/total)](https://github.com/carrotciallo/9nine-ep1-chs/releases)
+- 文本来源：樱空汉化组 Ver1.0（经初版补丁归档转手）+ 官方简中界面素材
+- 目标：**四语言轨**——官方 `jp` / `en` / `cn`（繁中）三轨原样保留，新增第 4 轨 `sc`（简中，正文 + 选项 + UI 文案 + 界面贴图）
+- 不替换 `nine_kokoiro.exe` / `steam_api.dll` / `.sig`，也不带第三方 DLL，从 Steam 正常启动
 
-- 文本基于樱空汉化组 Ver1.0，正文、设置页与菜单均为简体中文，字体为思源黑体
-- 不替换 `nine_kokoiro.exe` 和 `steam_api.dll`，从 Steam 正常启动，成就和云存档照常可用
+> 本仓库只包含分析与构建工具，不含游戏本体资源。补丁仅供已购买正版的用户使用。
 
-## 下载
-
-**[⬇ 下载 v1.2.0（7z，约 86 MB）](https://github.com/carrotciallo/9nine-ep1-chs/releases/download/v1.2.0/9nine-ep1-chs-v1.2.0.7z)**
-
-历史版本见 [Releases](https://github.com/carrotciallo/9nine-ep1-chs/releases)。
-
-## 安装
-
-Windows 可以一键安装：解压下载的 7z 后双击 `install.bat`，脚本会自动定位 Steam 游戏目录、备份将被覆盖的文件并完成安装。手动安装：
-
-1. 在 Steam 库里右键游戏 →「管理」→「浏览本地文件」，打开游戏目录。
-2. 把解压出的三项直接放进游戏目录，和 `nine_kokoiro.exe` 放在同一层，提示覆盖时选覆盖：
-   - `version.dll`
-   - `unencrypted.xp3`
-   - `unencrypted` 文件夹
-3. 从 Steam 启动游戏。游戏里能选字体时，选思源黑体。
-
-### Linux / Steam Deck（Proton）
-
-在游戏的启动选项里，把下面这行加在原有内容的最前面（Windows 不用加）：
+## 目录
 
 ```
-WINEDLLOVERRIDES="version=n,b" %command%
+tool/        长期复用库（xp3 / cx / psb / mdf / scn / tlg / pngio / textset / krkr_text / tjs2）
+script/      流程脚本（解包、提取、校验、回写、UI 语料、打包）
+resource/    文本集、UI 语料、名称清单、校验字表、第三方模板
+doc/         格式、文本模型、引擎机制、教训、验收标准
+releases/    交付物（不入库）
+archive/     初版补丁作者的归档（只读，不入库）
 ```
 
-## 注意事项
+补丁产物（`releases/*.xp3`、`releases/font/`）**不入库**（二进制 + 含游戏素材），按上面管线在本地构建；发行说明按需临时书写，不入库。
 
-- 别对游戏点「验证游戏文件完整性」，Steam 会把补丁文件顶回官方原版；真点了，重新按上面步骤拷一遍即可。
-- 自动更新建议改成「仅在启动时更新」，避免更新把补丁覆盖掉。
-- 补丁不包含 R18 的 `adult.xp3`，已有这个文件的自己放进游戏目录。
+## 补丁形态
 
-## 卸载
+| 文件 | 大小 | 作用 |
+|---|---|---|
+| `releases/steam.xp3` | 19 KB | **hook 注入**：官方 4 条 + `steam_r18hack.tjs`（源码钩子：转发官方 → 逐槽位注册根域并加载 `<slot>_boot.tjs`）+ 官方原字节码副本 |
+| `releases/patch3.xp3` | 12.2 MB | **简中内容归档**：17 个四块 scn（jp/en/cn 官方原文 + 第 4 块简中）+ UI 语料（`main/syslangtext_sc.ini`、`main/help_conf_sc.txt`、`main/help_exch_sc.txt`）+ 21 张 `uipsd/sc/*_sc.pimg` + 2 张 `image/attention*_sc.png` + 运行期逻辑 `sc_hook.tjs`（归档根） + 路径清单 `patch3_boot.tjs`（都在归档里，日常更新只换这个包） |
+| `releases/font/` | 17 MB | **思源黑体 CN**（Bold/Medium，OFL）：运行期注册成 `9nineSC-B/M`；字体只能放松散文件，复制成 `<游戏目录>/font/` |
+| 安装 | 官方 `steam.xp3` 改名 `steam.xp3.orig`；复制 `steam.xp3` + `patch3.xp3` 进游戏目录；`releases/font/` 整目录复制成 `<游戏目录>/font/` |
+| 卸载 | 删 `patch3.xp3` 与 `<游戏目录>/font/`，把 `steam.xp3.orig` 改名回 `steam.xp3` |
 
-删掉装进去的三项（`version.dll`、`unencrypted.xp3`、`unencrypted` 文件夹），Proton 用户再把启动选项里的 `WINEDLLOVERRIDES` 清掉。
+`patch.xp3` / `patch2.xp3` 留给第三方补丁：钩子按 `patch → patch2 → patch3` 的顺序注册根域并加载各自的`<slot>_boot.tjs`，所以第三方只要遵循同一约定即可叠加，不需要改 `steam.xp3`（见下一节）。
 
-## 常见问题
+为什么必须动 `steam.xp3`：本作引擎只注册固定名单的归档，且 `addArchive` 系相对 `data.xp3` 优先级不足；唯一稳定做法是在「会被执行的脚本」（`steam_r18hack.tjs`）里注入一次注册 + 引导加载。详见 `doc/engine-mechanics.md` §0/§3/§4.1。
 
-**点开始游戏没反应，或报错缺 `VCRUNTIME140.dll` / `MSVCP140.dll`？**
-这是 1.0 版的问题：旧版 `version.dll` 需要微软 VC++ 运行库，系统里没装就起不来。更新到 v1.1.0 即可（1.1 起不再需要运行库）；暂时不想更新的话，装一下 [VC++ 2015–2022 运行库（x86 版）](https://aka.ms/vs/17/release/vc_redist.x86.exe) 再开游戏，注意要 x86 版。
+## 新增合法名：`<slot>.xp3>` 与 `<slot>_boot.tjs`
 
-**装完进游戏还是日文？**
-先看三项是不是和 `nine_kokoiro.exe` 在同一层目录，放进子文件夹不会生效；Linux / Deck 再检查启动选项有没有加对。
+本作引擎只会自动注册固定名单的归档名（`data`/`steam`/`system`/`patch`/…）。这套约定做的事就是**在不改引擎的前提下扩展合法名**，并**提升目标归档的优先级**：任何补丁只要提供 `<名>.xp3` + 该归档根目录的 `<名>_boot.tjs`，就等于向引擎新增了一个可用的归档名，且加载路径/优先级由它自己声明。
 
-**游戏更新后汉化没了？**
-更新覆盖了补丁文件，重新解压拷一遍三项就行，存档不受影响。
+钩子（`steam.xp3` 里的 `steam_r18hack.tjs`）只做两件事：转发官方、对每个补丁槽位 `patch` / `patch2` / `patch3` 依次「注册 `<slot>.xp3>` 根域 + 加载归档内存在的 `<slot>_boot.tjs`」。**它不注册任何子目录**——目录布局由各补丁自己在 boot 里决定，互不代劳。
 
-**`version.dll` 被杀毒软件隔离了？**
-这个 DLL 没有数字签名，个别杀软会误报。先核对它的 SHA-256，对得上就从杀软的隔离区恢复，并把游戏目录加入白名单：
+- 模板：[`resource/patch_boot.tjs.template`](resource/patch_boot.tjs.template)。复制成 `patch_boot.tjs` / `patch2_boot.tjs` / `patch3_boot.tjs`，放在**补丁归档的根目录**，文件存成 **UTF-16LE + BOM**，打包成同名 `patch*.xp3` 即可。
+- 必须自己注册的内容：归档内每个**子目录**（`scn/`、`main/`、`image/`、`uipsd/cn/` …）；归档**根**下的条目靠根域就能被裸名命中（扁平包零配置）。
+- 优先级 = 注册顺序（后注册优先）：槽位顺序 `patch < patch2 < patch3`，boot 内部的先后由你决定。
+- 限制：槽位名是引擎侧约定，新增第 4 个槽位需要重建一次 `steam.xp3`；字体只能放松散目录（`System.addFont` 读不了 `archive://`）；不要让 `main/*.tjs` 或 `ConfigEx.tjs` 之类"更早加载"的脚本走覆盖（实测无效 / 会崩）。
 
+### 扩展点与成本
+
+| 想扩展什么 | 怎么改 | 成本 |
+|---|---|---|
+| 新增/调整包内目录（`scn/`、`foo/`…） | 改自己归档里的 `<slot>_boot.tjs`，加一行 `addAutoPath("<slot>.xp3>foo/")` | 重打自己的包，**不动** `steam.xp3` |
+| 新增内容（文本/贴图/字体映射/运行期逻辑） | 只改自己的包（逻辑脚本用 `KAGLoadScript` 从包内加载） | 重打自己的包 |
+| 与其它补丁叠加 | 各自提供 `<slot>_boot.tjs`，互不代劳；冲突由槽位顺序（`patch < patch2 < patch3`）表达 | 同上 |
+| 新增第 4 个槽位（`patch4`…）或换槽位名 | 改钩子里的 `__slots` 数组 | **一次性**重建 `steam.xp3` |
+| 让补丁用任意归档名（连槽位名也不约定） | 需要"运行时读取清单/扫描目录"能力：TJS 能否读游戏目录文本**待验证**；彻底方案是 DLL 在 open 层拦截（`KirikiriTools` 的做法，本项目不采用） | 现状边界，见下 |
+
+**已知边界**：槽位名与 `<slot>_boot.tjs` 的命名是引擎侧约定、写死在钩子里；`main/*.tjs` 这类"更早执行"的脚本无法通过覆盖生效（官方脚本在钩子之前就跑完了）；字体只能放松散 `<游戏目录>/font/`（`System.addFont` 读不了 `archive://`）。
+
+机制与实测依据见 `doc/engine-mechanics.md` §3.2（autopath = 纯前缀）、§4.1（槽位约定、探针输出）。
+
+## 快速开始
+
+```powershell
+mamba run -n GalRev python script/selftest.py        # 工程自检
+mamba run -n GalRev python script/verify_cx.py       # Cx 解密黄金向量
 ```
-09d19ed2c5f472a7aaef893f7380ba44b65ea5d8bf416d67b65c100446d55270
+
+完整构建管线（需要自备正版游戏文件）：
+
+> 语料（`resource/chs_text`、`resource/official_{jp,en,cn}`、`resource/ui_sc` 的文本与贴图）**不在本仓库内**（见 NOTICE），并已被 `.gitignore` 排除：构建前请自备并放入上述本地路径。下面两条 `extract_text.py` 是语料的生成方式（从自备的正版游戏文件与初版补丁包提取）。
+
+```powershell
+mamba run -n GalRev python script/unpack_xp3.py "E:/SteamLibrary/steamapps/common/nine_kokoiro/data.xp3" --cx-profile resource/cx/profile_9nine.json --only scn/ --out resource/official_scn
+mamba run -n GalRev python script/extract_text.py --from-xp3 archive/releases/unencrypted.xp3 --lang cn --out resource/chs_text
+foreach ($l in "cn","jp","en") { mamba run -n GalRev python script/extract_text.py --from-dir resource/official_scn --lang $l --out "resource/official_$l" }
+mamba run -n GalRev python script/verify_extract.py --base resource/official_jp --target resource/chs_text --out resource/verify
+mamba run -n GalRev python script/extend_lang.py --official resource/official_scn/scn --text resource/chs_text --out tmp/build/lang4
+mamba run -n GalRev python script/verify_lang4.py --official resource/official_scn/scn --built tmp/build/lang4/scn --text resource/chs_text
+# UI 语料（可从初版补丁包抽取贴图；标题贴图需要本机装有华康圆体 W9，见 doc/engine-mechanics.md §5.7）
+mamba run -n GalRev python script/extract_ui_sc.py                  # 20 张 pimg + 2 张 attention -> resource/ui_sc/
+mamba run -n GalRev python script/gen_ui_func.py                    # conf_lang.func 覆盖（psd 行改 GetUIFile）
+mamba run -n GalRev python script/make_ui_lang_caption.py           # 语言页三行标题 conf_lang_sc.pimg
+mamba run -n GalRev python script/gen_ui_trad_chars.py              # 繁中残留字表（校验用）
+# 打包（官方 steam.xp3 默认取 resource/official_steam/steam.xp3）
+mamba run -n GalRev python script/build_patch.py --scn-dir tmp/build/lang4/scn --out releases
+mamba run -n GalRev python script/verify_ui_sc.py --patch releases/patch3.xp3 --steam releases/steam.xp3
 ```
 
-## 更新日志
+详细约定见 `AGENTS.md`，技术结论见 `doc/`。
 
-### v1.2.0
-
-- 剧本重构：补丁只覆盖繁体中文轨道（游戏里该轨道的显示名已改为「简体中文」），日语、英语轨道恢复官方原文。主/副语言可以混搭，例如日语主文本＋简中副文本。
-- 设置页全部简体化：顶部菜单、六个设置页的选项文字、帮助说明、确认弹窗均为简体中文。
-- 修复启动警告屏：樱空汉化组的警告页此前因文件名对不上从未生效，现在会正常显示；其余界面贴图同理按语言变体名对齐。
-- 新增一键安装脚本 `install.bat`（自动定位游戏目录、安装前备份）。
-- 构建工具开源：剧本重构、文本编解码、解包与打包脚本及格式文档见 `tools/`、`docs/`。
-
-### v1.1.0
-
-- 换了新的 `version.dll`：不再依赖微软 VC++ 运行库，没装运行库的电脑也能直接启动（1.0 最常见的起不来就是这个）。
-- 修复繁体中文轨道的字体：繁中轨之前用不上补丁自带的思源简中、会掉回系统繁体字体，现在会正确加载简体思源。
-- 剧本内容与 1.0 相同（三条语言轨仍都显示简体中文），设置页仍是官方繁体。这两处放到 v1.2：剧本改为只覆盖繁中轨（日/英轨恢复官方原文）、设置页简体化。
-
-## 来源
+## 来源与致谢
 
 | 内容 | 出处 |
-| --- | --- |
+|---|---|
 | 汉化文本 | 樱空汉化组 Ver1.0 |
-| 字体 | [思源黑体](https://github.com/adobe-fonts/source-han-sans) |
-| `version.dll` | [KirikiriTools](https://github.com/arcusmaximus/KirikiriTools) |
-
-## 免责声明
-
-非官方补丁，与游戏开发商、发行商无关。游戏本体请自行在 Steam 购买。汉化文本版权归原汉化组所有，如有侵权请联系删除。
-
-## 构建工具
-
-本仓库同时提供从头构建本补丁的工具与格式文档（`tools/`、`docs/`）：
-剧本重构、系统文本编解码、樱空汉化包解包与打包脚本。需要自备正版游戏
-文件与樱空原汉化包，仓库不包含游戏素材。管线说明见 `docs/building.md`；
-工具代码以 MIT 许可证开源，范围说明见 `LICENSE` 与 `NOTICE`。
+| 引擎分析 | `GalRev`（krkr/MDF 卷） |
+| 工程架构 | `MashiroiroSymphonyFHD_Retranslation_Patch` |

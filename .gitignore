@@ -1,7 +1,34 @@
-*.7z
-unencrypted.xp3
-unencrypted/
-version.dll
-.DS_Store
-
 __pycache__/
+*.pyc
+tmp/
+releases/
+archive/
+
+# 官方解包/提取产物（游戏本体内容，可用 unpack_xp3.py + extract_text.py 重建）
+resource/official_scn/
+resource/official_tjs/
+resource/official_jp/
+resource/official_en/
+resource/official_cn/
+resource/official_fonts/
+resource/fonts_sc/
+
+# 官方 uipsd 解包产物（游戏本体内容，可用 unpack_xp3.py 重建）
+resource/official_uipsd/
+resource/official_steam/
+
+.mcp.json
+*.local.*
+.pi
+.zcode*
+.workbuddy*
+
+# 译文与 UI 语料（樱空译文与游戏素材，见 NOTICE；本地构建时自备至对应路径）
+resource/chs_text/
+resource/ui_sc/main/help_conf_sc.txt
+resource/ui_sc/main/help_exch_sc.txt
+resource/ui_sc/main/syslangtext_sc.ini
+resource/ui_sc/uipsd/sc/*.pimg
+resource/ui_sc/image/*.png
+resource/verify/
+resource/name_candidates.txt

@@ -1,0 +1,31 @@
+// 本补丁的槽位引导脚本（patch3.xp3 的**归档根**，名字必须是 `patch3_boot.tjs`）。
+//
+// 约定（见 doc/engine-mechanics.md §4.1）：steam.xp3 的钩子对每个引擎侧补丁槽位只做两件事——
+// 注册 `<slot>.xp3>` 根域、加载 `<slot>_boot.tjs`（若存在）。**子目录名由各补丁自己在这个 boot 里决定**。
+// 所以这个文件是"路径清单"：只注册当前真正用到的目录，其它按需去掉注释。
+// 归档根下的条目（含 `sc_hook.tjs` 这种脚本）靠钩子已注册的根域直接命中，不用在这里重复注册。
+
+//--------------------------------------------------------------- 1) 当前启用的目录（只留必需的四条）
+try { Storages.addAutoPath("patch3.xp3>scn/"); } catch(e) {}      // 17 个四块 scn
+try { Storages.addAutoPath("patch3.xp3>main/"); } catch(e) {}     // syslangtext_sc.ini / help_conf_sc.txt / help_exch_sc.txt
+try { Storages.addAutoPath("patch3.xp3>uipsd/sc/"); } catch(e) {} // 21 张界面贴图 <名>_sc.pimg
+try { Storages.addAutoPath("patch3.xp3>image/"); } catch(e) {}    // image/attention*_sc.png
+
+//--------------------------------------------------------------- 2) 需要时再启用的目录（默认注释）
+// 用法：真要替换该目录下的资源时，去掉对应行的注释并重打 patch3.xp3；没有的文件注册了也无害，但没必要。
+//try { Storages.addAutoPath("patch3.xp3>sound/"); } catch(e) {}      // 音效 sysse/ 之外的声音
+//try { Storages.addAutoPath("patch3.xp3>voice/"); } catch(e) {}      // 语音
+//try { Storages.addAutoPath("patch3.xp3>bgimage/"); } catch(e) {}    // 背景图
+//try { Storages.addAutoPath("patch3.xp3>fgimage/"); } catch(e) {}    // 立绘
+//try { Storages.addAutoPath("patch3.xp3>rule/"); } catch(e) {}       // rule/ 下的规则图
+//try { Storages.addAutoPath("patch3.xp3>others/"); } catch(e) {}     // 其它散资源
+//try { Storages.addAutoPath("patch3.xp3>uipsd/cn/"); } catch(e) {}   // 想覆盖繁中轨的界面贴图时
+//try { Storages.addAutoPath("patch3.xp3>uipsd/en/"); } catch(e) {}   // 想覆盖英文轨的界面贴图时
+
+//--------------------------------------------------------------- 3) 字体：只能放松散文件
+// System.addFont / PreRenderFontEx.AddTrueTypeFont 读不了 archive://，字体留在 <游戏目录>/font/。
+// 放最后注册 = 优先级最高，散文件永远盖过归档里的同名文件。
+try { Storages.addAutoPath(System.exePath + "font/"); } catch(e) {}
+
+//--------------------------------------------------------------- 4) 简中运行期逻辑（脚本在归档根，靠根域命中）
+try { KAGLoadScript("sc_hook.tjs"); } catch(e) {}

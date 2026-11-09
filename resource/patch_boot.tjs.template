@@ -1,0 +1,56 @@
+// ============================================================================
+// patch_boot.tjs —— 第三方补丁的「槽位引导脚本」模板（复制走用，不参与本仓库构建）
+// ============================================================================
+//
+// 怎么用
+//   1. 复制成 `patch_boot.tjs`（或 `patch2_boot.tjs` / `patch3_boot.tjs`）；
+//   2. 放到你的补丁归档的**根目录**（不要放子目录），连同你的资源一起打包成
+//      `patch.xp3` / `patch2.xp3` / `patch3.xp3`，与游戏主程序同目录；
+//   3. 把下面示例里的 `patch.xp3` 换成你自己的归档名，按你包的目录结构逐条注册；
+//   4. 文件保存成 **UTF-16LE + BOM**（和 steam.xp3 里的钩子同构）。放明文 UTF-8 会报
+//      `Cannot convert given narrow string to wide string`。
+//
+// 引擎侧的约定（钩子在 steam.xp3 里，不需要你改）
+//   * 槽位顺序 `patch → patch2 → patch3`，逐个：注册 `<slot>.xp3>` 根域 → 若存在
+//     `<slot>_boot.tjs` 就 `KAGLoadScript` 它。**钩子不注册任何子目录**，全靠这里。
+//   * autopath 是「字符串前缀」：`patch.xp3>` 只能命中归档根下的条目（如扁平包里的
+//     `a01.txt.scn`）；`scn/a01.txt.scn` 这种带目录的条目，必须再注册 `patch.xp3>scn/`。
+//   * 注册顺序 = 优先级（后注册优先）。槽位之间 `patch < patch2 < patch3`；
+//     同一 boot 内你自己决定先后。想压过别人，就在你的槽位里更晚注册（槽位更靠后）。
+//   * 只有这几个槽位名是引擎侧固定约定；要新增槽位（如 patch4）必须重建一次 steam.xp3，
+//     所以请优先复用现有槽位。
+//
+// 机制细节：doc/engine-mechanics.md §3.2（autopath 模型）、§4.1（槽位与 boot 约定）
+// ============================================================================
+
+// --- 1) 归档根（扁平包）：让归档根下的条目能被裸名请求命中 ----------------
+// 钩子已经注册过一次根域，这里再注册一次是无害的（自包含，便于单独调试）。
+try { Storages.addAutoPath("patch.xp3>"); } catch(e) {}
+
+// --- 2) 子目录：只注册你包里真正有的，其余保持注释 ------------------------
+// 没注册的目录里的文件永远解析不到；但也不要为了"以后可能用到"全注册一遍——
+// boot 就是一份可读的路径清单，多余的行只会让人误以为包里有那个目录。
+// 四个主目录（本仓库简中补丁的口径）：
+try { Storages.addAutoPath("patch.xp3>scn/"); } catch(e) {}       // 剧本 aXX.txt.scn
+try { Storages.addAutoPath("patch.xp3>main/"); } catch(e) {}      // syslangtext_xx.ini / help_conf_xx.txt
+try { Storages.addAutoPath("patch.xp3>image/"); } catch(e) {}     // image/attention_xx.png
+try { Storages.addAutoPath("patch.xp3>uipsd/cn/"); } catch(e) {}  // 界面贴图 <名>_<tag>.pimg
+// 需要替换下面这些资源时，去掉对应行的注释并重打你的包：
+//try { Storages.addAutoPath("patch.xp3>sound/"); } catch(e) {}     // 音效
+//try { Storages.addAutoPath("patch.xp3>voice/"); } catch(e) {}     // 语音
+//try { Storages.addAutoPath("patch.xp3>bgimage/"); } catch(e) {}   // 背景
+//try { Storages.addAutoPath("patch.xp3>fgimage/"); } catch(e) {}   // 立绘
+//try { Storages.addAutoPath("patch.xp3>rule/"); } catch(e) {}      // 规则图
+//try { Storages.addAutoPath("patch.xp3>others/"); } catch(e) {}    // 其它散资源
+
+// --- 3) 需要运行期做的事，写在这里或是再加载一个脚本 -----------------------
+// 例：把一个更细的逻辑脚本也放进你的包（同款 UTF-16LE+BOM），再加载：
+//try { KAGLoadScript("my_logic.tjs"); } catch(e) {}
+
+// --- 不要做这些 ------------------------------------------------------------
+// * 不要 `addAutoPath(System.exePath + "...")` 去接管游戏目录的任意散目录：
+//   松散路径优先级最高，容易意外盖掉官方资源（字体是唯一天然需要松散目录的例外）。
+// * 不要注册 `System.exePath + "font/"` 之外的方式来提供字体：System.addFont 读不了
+//   archive://，字体必须是真实文件。
+// * 不要依赖「覆盖 main/*.tjs 来更早注入」：官方 main 脚本在钩子之前就已执行，覆盖无效。
+// * 不要提供 `ConfigEx.tjs` 这类"新名字的早期脚本"：本作实测会直接 Access Violation。

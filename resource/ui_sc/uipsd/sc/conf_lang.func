@@ -1,0 +1,33 @@
+psd,&GetUIFile("conf_lang")
+ui,言語選択/@caps_lang_layer,		@caps_lang/layer
+#
+ui,言語選択/@language:rect,		@language:rect
+ui,言語選択/@language:over,		@language:over
+ui,言語選択/@language:off,		@language:off/button
+#
+ui,言語選択/@language:rect,		#lang
+ui,言語選択/ボタン/@_gauge_r:over,	$lang@_r:over
+ui,言語選択/ボタン/@_gauge_r:off,	$lang@_r:off
+ui,言語選択/ボタン/@_gauge_l:over,	$lang@_l:over
+ui,言語選択/ボタン/@_gauge_l:off,	$lang@_l:off
+ui,言語選択/@language:rect,		$lang@:rect
+ui,言語選択/@language:over,		$lang@:over
+ui,言語選択/@language:off,		$lang@:off/button
+#
+ui,言語選択/@language:rect,		<lang>lang_ui
+ui,言語選択/#language1,			<lang>lang_main
+ui,言語選択/#language2,			<lang>lang_sub
+#
+part,remove,language
+#
+func,lang_main,		exp,Current.cmd("moveMainLanguage")
+func,lang_sub,		exp,Current.cmd("moveSubLanguage")
+func,lang_ui,		exp,Current.cmd("moveUILanguage"),	target,*page
+#
+func,lang_main_l,	exp,Current.cmd("moveMainLanguage/-1")
+func,lang_sub_l,	exp,Current.cmd("moveSubLanguage/-1")
+func,lang_ui_l,		exp,Current.cmd("moveUILanguage/-1"),	target,*page
+#
+func,lang_main_r,	exp,Current.cmd("moveMainLanguage/1")
+func,lang_sub_r,	exp,Current.cmd("moveSubLanguage/1")
+func,lang_ui_r,		exp,Current.cmd("moveUILanguage/1"),	target,*page

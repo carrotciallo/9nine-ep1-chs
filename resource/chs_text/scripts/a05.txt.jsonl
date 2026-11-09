@@ -209,7 +209,7 @@
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 65, "speaker": "都", "name": "都", "text": "「啊～……原来如此……也对。\\n　没有有关动画的知识的话……」", "plain": ["「啊～……原来如此……也对。\\n　没有有关动画的知识的话……」", "「啊～……原来如此……也对。\\n　没有有关动画的知识的话……」"], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 66, "speaker": "天", "name": "天", "text": "「对对。说不定可能会漏掉什么重要情报了～之类的。\\n　所以我就想，还是问问好了～」", "plain": ["「对对。说不定可能会漏掉什么重要情报了～之类的。\\n　所以我就想，还是问问好了～」", "「对对。说不定可能会漏掉什么重要情报了～之类的。\\n　所以我就想，还是问问好了～」"], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 67, "speaker": "翔", "name": "翔", "text": "「姑且，全都看过一遍了么？」", "plain": [], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 68, "speaker": "都", "name": "都", "text": "「嗯。全二十五話都看过了」", "plain": [], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 68, "speaker": "都", "name": "都", "text": "「嗯。全二十五话都看过了」", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 69, "speaker": "天", "name": "天", "text": "「这样的动画还放了两季啊……」", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 70, "speaker": "都", "name": "都", "text": "「因为好像是下了血本的吧。\\n　虽然我也不是很懂……是作画吗？，质量据说是得到了一些肯定。」", "plain": ["「因为好像是下了血本的吧。\\n　虽然我也不是很懂……是作画吗？，质量据说是得到了一些肯定。」", "「因为好像是下了血本的吧。\\n　虽然我也不是很懂……是作画吗？，质量据说是得到了一些肯定。」"], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 71, "speaker": "翔", "name": "翔", "text": "「内容呢？」", "plain": [], "flag": 64}
@@ -566,94 +566,94 @@
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 422, "speaker": "翔", "name": "翔", "text": "「……嗯？」", "plain": [], "flag": 80}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 423, "speaker": null, "name": null, "text": "明明已经关掉的灯又亮了起来。", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 424, "speaker": null, "name": null, "text": "天么？　这么一想……不对。", "plain": [], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 425, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「哎呀，欢迎回来。」", "plain": [], "flag": 80}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 425, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「哎呀，欢迎回来。」", "plain": [], "flag": 80}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 426, "speaker": null, "name": null, "text": "……果然是这样。", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 427, "speaker": "翔", "name": "翔", "text": "「如果在这房间呆的话，就把那边的灯关上啊。」", "plain": ["「如果在这房间呆的话，就把那边的灯关上啊。」", "「如果在这房间呆的话，就把那边的灯关上啊。」"], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 428, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「为什么？」", "plain": [], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 428, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「为什么？」", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 429, "speaker": "翔", "name": "翔", "text": "「浪费电费。」", "plain": [], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 430, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「电费。\\n　用电的话要花钱啊。\\n　这个世界的规则我还不是很懂啊。」", "plain": ["「电费。\\n　用电的话要花钱啊。\\n　这个世界的规则我还不是很懂啊。」", "「电费。\\n　用电的话要花钱啊。\\n　这个世界的规则我还不是很懂啊。」"], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 430, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「电费。\\n　用电的话要花钱啊。\\n　这个世界的规则我还不是很懂啊。」", "plain": ["「电费。\\n　用电的话要花钱啊。\\n　这个世界的规则我还不是很懂啊。」", "「电费。\\n　用电的话要花钱啊。\\n　这个世界的规则我还不是很懂啊。」"], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 431, "speaker": "翔", "name": "翔", "text": "「你擅自用的电脑，也不是免费运转的。」", "plain": [], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 432, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「真复杂啊……」", "plain": [], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 432, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「真复杂啊……」", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 433, "speaker": null, "name": null, "text": "但是索菲她的视线并没有从画面上挪开，似乎是很嫌我烦，\\n叹了口气。", "plain": ["但是索菲她的视线并没有从画面上挪开，似乎是很嫌我烦，\\n叹了口气。", "但是索菲她的视线并没有从画面上挪开，似乎是很嫌我烦，\\n叹了口气。"], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 434, "speaker": null, "name": null, "text": "我也故意夸张地叹了口气，走到漂浮着的索菲身边坐了下来。", "plain": ["我也故意夸张地叹了口气，走到漂浮着的索菲身边坐了下来。", "我也故意夸张地叹了口气，走到漂浮着的索菲身边坐了下来。"], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 435, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「还挺便利的嘛。\\n　这个世界不依靠Artifact，也能独立发展啊，有点意思。」", "plain": ["「还挺便利的嘛。\\n　这个世界不依靠Artifact，也能独立发展啊，有点意思。」", "「还挺便利的嘛。\\n　这个世界不依靠Artifact，也能独立发展啊，有点意思。」"], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 435, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「还挺便利的嘛。\\n　这个世界不依靠Artifact，也能独立发展啊，有点意思。」", "plain": ["「还挺便利的嘛。\\n　这个世界不依靠Artifact，也能独立发展啊，有点意思。」", "「还挺便利的嘛。\\n　这个世界不依靠Artifact，也能独立发展啊，有点意思。」"], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 436, "speaker": "翔", "name": "翔", "text": "「你在干什么啊？」", "plain": [], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 437, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「我在看都说过的那个叫做动画？　的东西。\\n　 有Artifact登场的那个。」", "plain": ["「我在看都说过的那个叫做动画？　的东西。\\n　 有Artifact登场的那个。」", "「我在看都说过的那个叫做动画？　的东西。\\n　 有Artifact登场的那个。」"], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 437, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「我在看都说过的那个叫做动画？　的东西。\\n　 有Artifact登场的那个。」", "plain": ["「我在看都说过的那个叫做动画？　的东西。\\n　 有Artifact登场的那个。」", "「我在看都说过的那个叫做动画？　的东西。\\n　 有Artifact登场的那个。」"], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 438, "speaker": "翔", "name": "翔", "text": "「啊……莫比乌斯啊。」", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 439, "speaker": null, "name": null, "text": "电脑的画面中，正播放着令人眼花缭乱的战斗。", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 440, "speaker": null, "name": null, "text": "确实，作画很赞。", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 441, "speaker": null, "name": null, "text": "我申请了会员的网站只要是发布了的动画就能够随意看，\\n虽然我也教过索菲如何使用……没想到，她真的会去看啊。", "plain": ["我申请了会员的网站只要是发布了的动画就能够随意看，\\n虽然我也教过索菲如何使用……没想到，她真的会去看啊。", "我申请了会员的网站只要是发布了的动画就能够随意看，\\n虽然我也教过索菲如何使用……没想到，她真的会去看啊。"], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 442, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「虽然不明所以的话很多，不过还挺还原的嘛。」", "plain": [], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 442, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「虽然不明所以的话很多，不过还挺还原的嘛。」", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 443, "speaker": "翔", "name": "翔", "text": "「还原……？\\n　啊啊……毕竟是基于这里的传统制作的」", "plain": ["「还原……？\\n　啊啊……毕竟是基于这里的传统制作的」", "「还原……？\\n　啊啊……毕竟是基于这里的传统制作的」"], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 444, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「挺有意思的嘛。这能动的画也让我很有兴趣。」", "plain": [], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 444, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「挺有意思的嘛。这能动的画也让我很有兴趣。」", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 445, "speaker": "翔", "name": "翔", "text": "「没想到会被异世界的人夸奖啊……。\\n　没准该播放的世界错了呢。」", "plain": ["「没想到会被异世界的人夸奖啊……。\\n　没准该播放的世界错了呢。」", "「没想到会被异世界的人夸奖啊……。\\n　没准该播放的世界错了呢。」"], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 446, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「不过，伊莉丝的别称和能力都不对啊」", "plain": [], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 446, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「不过，伊莉丝的别称和能力都不对啊」", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 447, "speaker": "翔", "name": "翔", "text": "「不对？　嗯？　这人物实际存在么？」", "plain": [], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 448, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「在我们世界可是名人哦。」", "plain": [], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 448, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「在我们世界可是名人哦。」", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 449, "speaker": "翔", "name": "翔", "text": "「诶……」", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 450, "speaker": null, "name": null, "text": "原来如此……九条的推测没错。", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 451, "speaker": null, "name": null, "text": "过去那场灾难，与Artifact和索菲所在的世界的住民们紧密相关。", "plain": ["过去那场灾难，与Artifact和索菲所在的世界的住民们紧密相关。", "过去那场灾难，与Artifact和索菲所在的世界的住民们紧密相关。"], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 452, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「嘛，那些无所谓啦。」", "plain": [], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 452, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「嘛，那些无所谓啦。」", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 453, "speaker": null, "name": null, "text": "话题中转，索菲看向了我。", "plain": [], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 454, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「有什么进展了吗？」", "plain": [], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 454, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「有什么进展了吗？」", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 455, "speaker": "翔", "name": "翔", "text": "「也不是一点都没。\\n　下次等她们俩都在的时候，你再过来吧。\\n节省功夫。」", "plain": ["「也不是一点都没。\\n　下次等她们俩都在的时候，你再过来吧。\\n节省功夫。」", "「也不是一点都没。\\n　下次等她们俩都在的时候，你再过来吧。\\n节省功夫。」"], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 456, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「才不要呢。我讨厌吵闹。\\n　尤其是你妹妹，是我不擅长的那类人。」", "plain": ["「才不要呢。我讨厌吵闹。\\n　尤其是你妹妹，是我不擅长的那类人。」", "「才不要呢。我讨厌吵闹。\\n　尤其是你妹妹，是我不擅长的那类人。」"], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 456, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「才不要呢。我讨厌吵闹。\\n　尤其是你妹妹，是我不擅长的那类人。」", "plain": ["「才不要呢。我讨厌吵闹。\\n　尤其是你妹妹，是我不擅长的那类人。」", "「才不要呢。我讨厌吵闹。\\n　尤其是你妹妹，是我不擅长的那类人。」"], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 457, "speaker": "翔", "name": "翔", "text": "「……对于这件事，身为哥哥，我只能向你道歉了啊。」", "plain": [], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 458, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「那？　进展呢？」", "plain": [], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 458, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「那？　进展呢？」", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 459, "speaker": "翔", "name": "翔", "text": "「有两个像是使用者的人。\\n　你来帮个忙吧。」", "plain": ["「有两个像是使用者的人。\\n　你来帮个忙吧。」", "「有两个像是使用者的人。\\n　你来帮个忙吧。」"], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 460, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「什么忙？」", "plain": [], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 460, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「什么忙？」", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 461, "speaker": "翔", "name": "翔", "text": "「帮我看看他们是不是使用者。\\n　索菲你能看出谁是使用者的吧？」", "plain": ["「帮我看看他们是不是使用者。\\n　索菲你能看出谁是使用者的吧？」", "「帮我看看他们是不是使用者。\\n　索菲你能看出谁是使用者的吧？」"], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 462, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「你这话是听谁说的？」", "plain": [], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 462, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「你这话是听谁说的？」", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 463, "speaker": "翔", "name": "翔", "text": "「哈？　不是你自己说的么」", "plain": [], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 464, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「我可没说过。」", "plain": [], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 464, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「我可没说过。」", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 465, "speaker": "翔", "name": "翔", "text": "「你不是说过么，我是使用者什么的。」", "plain": [], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 466, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「不是我找到的你，\\n　而是你先找到的我。」", "plain": ["「不是我找到的你，\\n　而是你先找到的我。」", "「不是我找到的你，\\n　而是你先找到的我。」"], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 466, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「不是我找到的你，\\n　而是你先找到的我。」", "plain": ["「不是我找到的你，\\n　而是你先找到的我。」", "「不是我找到的你，\\n　而是你先找到的我。」"], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 467, "speaker": "翔", "name": "翔", "text": "「……麻烦说的再明白点。」", "plain": [], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 468, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 468, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「……」", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 469, "speaker": null, "name": null, "text": "深深地叹了口气。", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 470, "speaker": null, "name": null, "text": "这个女人%p-1;%fＭＳ ゴシック;――%p;%fuser;当然也有可能是男人%p-1;%fＭＳ ゴシック;――\\n%p;%fuser;只要自己明白的事就觉得别人理所当然也应该理解，\\n完全不替别人考虑下。", "plain": ["这个女人%p-1;%fＭＳ ゴシック;――%p;%fuser;当然也有可能是男人%p-1;%fＭＳ ゴシック;――\\n%p;%fuser;只要自己明白的事就觉得别人理所当然也应该理解，\\n完全不替别人考虑下。", "这个女人%p-1;%fＭＳ ゴシック;――%p;%fuser;当然也有可能是男人%p-1;%fＭＳ ゴシック;――\\n%p;%fuser;只要自己明白的事就觉得别人理所当然也应该理解，\\n完全不替别人考虑下。"], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 471, "speaker": null, "name": null, "text": "对话的秘诀就是……让她冷静下来好好说。", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 472, "speaker": null, "name": null, "text": "过了这么一周，我才明白这一点。", "plain": [], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 473, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「我的幻体……啊，你好像还不知道呢。\\n　假的身体里，佩戴着好几个Artifact。」", "plain": ["「我的幻体……啊，你好像还不知道呢。\\n　假的身体里，佩戴着好几个Artifact。」", "「我的幻体……啊，你好像还不知道呢。\\n　假的身体里，佩戴着好几个Artifact。」"], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 474, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「里面的其中一个……对，简单来说就是\\n　隐藏身姿的魔法。」", "plain": ["「里面的其中一个……对，简单来说就是\\n　隐藏身姿的魔法。」", "「里面的其中一个……对，简单来说就是\\n　隐藏身姿的魔法。」"], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 473, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「我的幻体……啊，你好像还不知道呢。\\n　假的身体里，佩戴着好几个Artifact。」", "plain": ["「我的幻体……啊，你好像还不知道呢。\\n　假的身体里，佩戴着好几个Artifact。」", "「我的幻体……啊，你好像还不知道呢。\\n　假的身体里，佩戴着好几个Artifact。」"], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 474, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「里面的其中一个……对，简单来说就是\\n　隐藏身姿的魔法。」", "plain": ["「里面的其中一个……对，简单来说就是\\n　隐藏身姿的魔法。」", "「里面的其中一个……对，简单来说就是\\n　隐藏身姿的魔法。」"], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 475, "speaker": "翔", "name": "翔", "text": "「……可我看得见你啊？」", "plain": [], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 476, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「当然啦。这对使用者不起作用。」", "plain": [], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 476, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「当然啦。这对使用者不起作用。」", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 477, "speaker": "翔", "name": "翔", "text": "「啊啊……这么回事啊。」", "plain": [], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 478, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「即使是只能欺骗猴子的低级的Artifact的能力，\\n    好好利用的话也可以派上用场。」", "plain": ["「即使是只能欺骗猴子的低级的Artifact的能力，\\n    好好利用的话也可以派上用场。」", "「即使是只能欺骗猴子的低级的Artifact的能力，\\n    好好利用的话也可以派上用场。」"], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 478, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「即使是只能欺骗猴子的低级的Artifact的能力，\\n    好好利用的话也可以派上用场。」", "plain": ["「即使是只能欺骗猴子的低级的Artifact的能力，\\n    好好利用的话也可以派上用场。」", "「即使是只能欺骗猴子的低级的Artifact的能力，\\n    好好利用的话也可以派上用场。」"], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 479, "speaker": "翔", "name": "翔", "text": "「能看到自己身姿的话，就是使用者么。」", "plain": [], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 480, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「没错。一开始发现我的就是你，\\n　而且最初打乱我计划的也是你。」", "plain": ["「没错。一开始发现我的就是你，\\n　而且最初打乱我计划的也是你。」", "「没错。一开始发现我的就是你，\\n　而且最初打乱我计划的也是你。」"], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 480, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「没错。一开始发现我的就是你，\\n　而且最初打乱我计划的也是你。」", "plain": ["「没错。一开始发现我的就是你，\\n　而且最初打乱我计划的也是你。」", "「没错。一开始发现我的就是你，\\n　而且最初打乱我计划的也是你。」"], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 481, "speaker": "翔", "name": "翔", "text": "「我并没有拿着Artifact啊。」", "plain": [], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 482, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「不。是因为你对这么可爱的我视而不见。\\n　害的我陷入了得自力到达这里的窘况。」", "plain": ["「不。是因为你对这么可爱的我视而不见。\\n　害的我陷入了得自力到达这里的窘况。」", "「不。是因为你对这么可爱的我视而不见。\\n　害的我陷入了得自力到达这里的窘况。」"], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 482, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「不。是因为你对这么可爱的我视而不见。\\n　害的我陷入了得自力到达这里的窘况。」", "plain": ["「不。是因为你对这么可爱的我视而不见。\\n　害的我陷入了得自力到达这里的窘况。」", "「不。是因为你对这么可爱的我视而不见。\\n　害的我陷入了得自力到达这里的窘况。」"], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 483, "speaker": "翔", "name": "翔", "text": "「……不对，带回来才奇怪吧。\\n　为什么要把丢在地上的玩偶带回家来啊。」", "plain": ["「……不对，带回来才奇怪吧。\\n　为什么要把丢在地上的玩偶带回家来啊。」", "「……不对，带回来才奇怪吧。\\n　为什么要把丢在地上的玩偶带回家来啊。」"], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 484, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「捡到的东西不就是自己的么？　这是常识啊。」", "plain": [], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 484, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「捡到的东西不就是自己的么？　这是常识啊。」", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 485, "speaker": "翔", "name": "翔", "text": "「……你那世界的常识谁懂啊。」", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 486, "speaker": null, "name": null, "text": "垂头丧气。", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 487, "speaker": null, "name": null, "text": "那样太乱了吧……。\\n就没警察去管管么。", "plain": ["那样太乱了吧……。\\n就没警察去管管么。", "那样太乱了吧……。\\n就没警察去管管么。"], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 488, "speaker": "翔", "name": "翔", "text": "「嘛……算了。\\n　总之，麻烦你去试试，看看那两个人能不能看到你。」", "plain": ["「嘛……算了。\\n　总之，麻烦你去试试，看看那两个人能不能看到你。」", "「嘛……算了。\\n　总之，麻烦你去试试，看看那两个人能不能看到你。」"], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 489, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「我拒绝。」", "plain": [], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 489, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「我拒绝。」", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 490, "speaker": "翔", "name": "翔", "text": "「喂喂，稍微帮点忙啊。」", "plain": [], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 491, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「帮助可以，但不能现身。\\n　我们被禁止不能过多地干扰其他世界，\\n　所以那种要求可不行。」", "plain": ["「帮助可以，但不能现身。\\n　我们被禁止不能过多地干扰其他世界，\\n　所以那种要求可不行。」", "「帮助可以，但不能现身。\\n　我们被禁止不能过多地干扰其他世界，\\n　所以那种要求可不行。」"], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 491, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「帮助可以，但不能现身。\\n　我们被禁止不能过多地干扰其他世界，\\n　所以那种要求可不行。」", "plain": ["「帮助可以，但不能现身。\\n　我们被禁止不能过多地干扰其他世界，\\n　所以那种要求可不行。」", "「帮助可以，但不能现身。\\n　我们被禁止不能过多地干扰其他世界，\\n　所以那种要求可不行。」"], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 492, "speaker": "翔", "name": "翔", "text": "「那你能帮什么忙？」", "plain": [], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 493, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「帮你调查下她们。」", "plain": [], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 493, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「帮你调查下她们。」", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 494, "speaker": "翔", "name": "翔", "text": "「能做到么？」", "plain": [], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 495, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「我拥有好几个Artifact，\\n　这样回答足够了吧？」", "plain": ["「我拥有好几个Artifact，\\n　这样回答足够了吧？」", "「我拥有好几个Artifact，\\n　这样回答足够了吧？」"], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 495, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「我拥有好几个Artifact，\\n　这样回答足够了吧？」", "plain": ["「我拥有好几个Artifact，\\n　这样回答足够了吧？」", "「我拥有好几个Artifact，\\n　这样回答足够了吧？」"], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 496, "speaker": "翔", "name": "翔", "text": "「……原来如此啊。想让你调查的是，早上经常见到的一位女生，\\n　看起来和天并不同级，大概是三年级的吧，\\n　她成天被男生们围着开逆后宫。」", "plain": ["「……原来如此啊。想让你调查的是，早上经常见到的一位女生，\\n　看起来和天并不同级，大概是三年级的吧，\\n　她成天被男生们围着开逆后宫。」", "「……原来如此啊。想让你调查的是，早上经常见到的一位女生，\\n　看起来和天并不同级，大概是三年级的吧，\\n　她成天被男生们围着开逆后宫。」"], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 497, "speaker": "翔", "name": "翔", "text": "「另一个是九条爷爷的店，『ＮINE　ＢALL』咖啡馆里的常客。\\n　不知为何总敌视着我和九条。」", "plain": ["「另一个是九条爷爷的店，『ＮINE　ＢALL』咖啡馆里的常客。\\n　不知为何总敌视着我和九条。」", "「另一个是九条爷爷的店，『ＮINE　ＢALL』咖啡馆里的常客。\\n　不知为何总敌视着我和九条。」"], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 498, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「为何指的是？」", "plain": [], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 498, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「为何指的是？」", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 499, "speaker": "翔", "name": "翔", "text": "「啊～……我们是使用者这件事，大概已经暴露了。」", "plain": [], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 500, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「真是粗心大意啊……。算了，告诉我她们的外貌特点。」", "plain": ["「真是粗心大意啊……。算了，告诉我她们的外貌特点。」", "「真是粗心大意啊……。算了，告诉我她们的外貌特点。」"], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 500, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「真是粗心大意啊……。算了，告诉我她们的外貌特点。」", "plain": ["「真是粗心大意啊……。算了，告诉我她们的外貌特点。」", "「真是粗心大意啊……。算了，告诉我她们的外貌特点。」"], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 501, "speaker": "翔", "name": "翔", "text": "「三年级的那个……怎么说呢。头发比九条长。\\n　另一个穿着和我们不一样的校服。\\n　该说是齐颈短发吗？　头发大概垂到下颚」", "plain": ["「三年级的那个……怎么说呢。头发比九条长。\\n　另一个穿着和我们不一样的校服。\\n　该说是齐颈短发吗？　头发大概垂到下颚」", "「三年级的那个……怎么说呢。头发比九条长。\\n　另一个穿着和我们不一样的校服。\\n　该说是齐颈短发吗？　头发大概垂到下颚」"], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 502, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「足够了。给我一天的时间。」", "plain": [], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 502, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「足够了。给我一天的时间。」", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 503, "speaker": "翔", "name": "翔", "text": "「太快了吧，一天就够了吗。」", "plain": [], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 504, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「我跟花了一周还没什么进展的你可不一样。」", "plain": [], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 504, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「我跟花了一周还没什么进展的你可不一样。」", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 505, "speaker": "翔", "name": "翔", "text": "「……那你自己去找啊。」", "plain": [], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 506, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「我做不到才拜托你们嘛，白痴啊。」", "plain": [], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 506, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「我做不到才拜托你们嘛，白痴啊。」", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 507, "speaker": "翔", "name": "翔", "text": "「……」", "plain": [], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 508, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「我在调查你的事啊。\\n　那个特殊的Artifact。」", "plain": ["「我在调查你的事啊。\\n　那个特殊的Artifact。」", "「我在调查你的事啊。\\n　那个特殊的Artifact。」"], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 508, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「我在调查你的事啊。\\n　那个特殊的Artifact。」", "plain": ["「我在调查你的事啊。\\n　那个特殊的Artifact。」", "「我在调查你的事啊。\\n　那个特殊的Artifact。」"], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 509, "speaker": "翔", "name": "翔", "text": "「啊啊，这样啊。有什么收获了么？」", "plain": [], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 510, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「使用者自己都没发觉的情况，没有前例。\\n　越来越觉得不能对你置之不理了。」", "plain": ["「使用者自己都没发觉的情况，没有前例。\\n　越来越觉得不能对你置之不理了。」", "「使用者自己都没发觉的情况，没有前例。\\n　越来越觉得不能对你置之不理了。」"], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 510, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「使用者自己都没发觉的情况，没有前例。\\n　越来越觉得不能对你置之不理了。」", "plain": ["「使用者自己都没发觉的情况，没有前例。\\n　越来越觉得不能对你置之不理了。」", "「使用者自己都没发觉的情况，没有前例。\\n　越来越觉得不能对你置之不理了。」"], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 511, "speaker": "翔", "name": "翔", "text": "「……你那边不也什么收获都没有么。」", "plain": [], "flag": 64}
-{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 512, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「废话真多。\\n　那么再见了，我要回去了，你给我老实点哦。」", "plain": ["「废话真多。\\n　那么再见了，我要回去了，你给我老实点哦。」", "「废话真多。\\n　那么再见了，我要回去了，你给我老实点哦。」"], "flag": 64}
+{"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 512, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「废话真多。\\n　那么再见了，我要回去了，你给我老实点哦。」", "plain": ["「废话真多。\\n　那么再见了，我要回去了，你给我老实点哦。」", "「废话真多。\\n　那么再见了，我要回去了，你给我老实点哦。」"], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 513, "speaker": null, "name": null, "text": "索菲在扭曲的空间中消失了。", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 514, "speaker": null, "name": null, "text": "那也是Artifact的能力么？", "plain": [], "flag": 64}
 {"script": "a05.txt.scn", "scene": 3, "label": "*a05_1_c", "row": 515, "speaker": null, "name": null, "text": "世界间的移动……。", "plain": [], "flag": 64}

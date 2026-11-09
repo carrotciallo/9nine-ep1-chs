@@ -1,7 +1,7 @@
-# 引擎机制与补丁形态（实测结论）
+# 引擎机制与补丁形态
 
 格式见 `file-formats.md`，文本模型见 `text-model.md`；本文 §0 是「补丁生效 SOP」（通用决策流程）。
-本文只写**本项目实测成立**的结论；每条都可用文中命令/内存判据复跑。
+本文只写当前**成立**的结论；每条都可用文中命令/内存判据复跑。
 
 ## 0. 补丁生效 SOP（决策树）
 
@@ -11,18 +11,18 @@
 
 合法名的来源**只有三处**，逐个查：
 
-| 来源 | 查法 | 本作实测结果 |
+| 来源 | 查法 | 本作结论 |
 |---|---|---|
 | **exe 硬编码** | 搜脱壳 exe 的字符串/反编译初始化代码 | `data.xp3`（唯一，加 `-forcedataxp3` 参数） |
-| **启动脚本（TJS）** | 解包 `main/storages.tjs`、`system/initialize.tjs`（可能是字节码，用第 5 节的 TJS2 反汇编） | `steam.xp3`、`system.xp3`、`sysscn.xp3`、`k2compat.xp3`（`addTools = addArchive`）、`patch.xp3`（`initialize.tjs` 第 325 行无条件）、`debug.xp3`（debug 分支） |
+| **启动脚本（TJS）** | 解包 `main/storages.tjs`、`system/initialize.tjs`（可能是字节码，用 §5.5.1 的 TJS2 反汇编） | `steam.xp3`、`system.xp3`、`sysscn.xp3`、`k2compat.xp3`（`addTools = addArchive`）、`patch.xp3`（`initialize.tjs` 第 325 行无条件）、`debug.xp3`（debug 分支） |
 | **配置项** | 搜 `AppendDataConfig`、`subfolders`、`addArchive("...")` | append：`patch_append0 => adult`（只认配置项）；subfolders 只注册**目录**，不注册 xp3 |
 
 **验证「名字是否合法」的判据（不要用文本是否替换成功当判据）**：
 
-- 首选：**内存判据**（第 4 节）—— 注册成功时进程内存里会出现 `<name>.xp3>`，数量 ≈ 该归档条目数；
+- 首选：**内存判据**（§0.1）—— 注册成功时进程内存里会出现 `<name>.xp3>`，数量 ≈ 该归档条目数；
 - 兜底：放一个**含弹窗的 TJS**（`main/default.tjs` 之类晚期加载的脚本），看是否有 `System.inform`。**不要用正文判断**，正文同时受「注册」和「优先级」两个变量影响。
 
-**本作被排除的名字**（真放过、真重启过、内存确认未注册）：
+**本作被排除的名字**（内存确认未注册）：
 
 `patch.xp3`(25 行注册成功但优先级低) / `patch2` `patch3`（源码里 `addAutoPath` 被注释）/ `uipsd/cn.xp3`、`uipsd/en.xp3`、`scenario/staffroll.xp3`（subfolder 只注册目录）/ `debug.xp3`（debug 分支，`debugWindowEnabled` 是编译期常量，release 恒 false）/ `unencrypted.xp3`（需 DLL）
 
@@ -31,9 +31,7 @@
 同名文件冲突时谁赢，**必须实测**（引擎版本的 autopath 排序不可假设）。判据同样用内存：
 
 - 搜「你的包内独有文本」是否进内存 —— 进了说明你的条目被打开；没进说明被对手包先命中。
-- 本作结论：**`data.xp3`（exe 相对路径注册，最早）> `addArchive` 系（绝对路径注册）**；
-  而**在启动流程内用相对路径 `addAutoPath` 注册的路径，能赢过 `data.xp3`**。
-  这就是为什么 `steam.xp3>scn/` 生效、而 `patch.xp3>`（绝对路径）不生效。
+- 本作结论：**`data.xp3`（exe 相对路径注册，最早）> `addArchive` 系（绝对路径注册）**；**在启动流程内注册的路径能赢过 `data.xp3`**。归档子域能否覆盖多个同名文件取决于索引是否「每文件一条 `hnfn`」（§3.1）；写对了 `addAutoPath("patch3.xp3>scn/")` 就能全覆盖。
 
 ### ③ 借高优先级归档做 hook 注入（推荐的最终形态）
 
@@ -45,7 +43,7 @@
 | **官方补丁/附加归档内的脚本** | 该归档内的脚本会被 `KAGLoadScript` | ✓ `steam.xp3` 的 `steam_r18hack.tjs`（由 `steam.tjs` 加载） |
 | 「data 里不存在、但会被可选加载」的脚本 | `KAGLoadScriptIfExists` 之类 | ✗ 唯一候选 `scntranstempl.tjs` 在 `@if (DEBUG)` 里，release 被剔除 |
 
-**钩子写法要点**（本作亲测有效）：
+**钩子写法要点**（落地见 §4）：
 
 ```tjs
 // 1) 先执行官方原逻辑（保持执行环境一致，避免影响语言/配置）
@@ -81,6 +79,19 @@ Storages.addAutoPath(System.exePath + "scn/");   // 松散目录，热更新
 
 这套判据把「注册」「优先级」「内容可读性」「分支是否执行」四个变量彻底分开，比"看文本变没变"可靠得多。
 
+### 0.2 调试通道：探针只进测试构建，不进发布物
+
+运行期判据默认用 `System.inform` 弹窗（`script/probe_dialogs.ps1` 会自动抓文字并关掉，支持 `-Seconds`）。**测试构建允许任意探针**（`System.inform` / `Debug.notice` / `Storages.getPlacedPath` 输出），做法是临时改 `script/build_patch.py::HOOK_LINES` 后构建到临时目录，例如：
+
+```powershell
+mamba run -n GalRev python script/build_patch.py --scn-dir tmp/build/lang4/scn `
+    --official-steam "E:/SteamLibrary/steamapps/common/nine_kokoiro/steam.xp3.orig" --out tmp/build/probe_test --allow-probe
+```
+
+发布闸：`build_patch.py` 的 `verify()` 会检查产物钩子里是否含 `System.inform` / `Debug.notice` / `getPlacedPath`，命中即判失败；只有显式 `--allow-probe` 才豁免（同时打印「不得作为发布物」）。所以正常 `--out releases` 的构建不可能夹带探针。
+
+探针注意：`after-init` 里弹窗可能让主窗口底部留一条白边（重启即恢复）；弹窗会阻塞初始化，抓取脚本要及时关掉。
+
 ## 1. 启动链（源码 + 字节码双证据）
 
 ```
@@ -104,20 +115,19 @@ nine_kokoiro.exe（加壳；脱壳版仅供 IDA 静态分析）
       └─ switch(System.getArgument("-steam")) case "yes":
              KAGLoadScript("steam.tjs")             → steam.xp3 里的 steam.tjs
                  └─ if (isExistentStorage("steam_r18hack.tjs")) KAGLoadScript("steam_r18hack.tjs")
-      └─ SetupAppendData()                          → append 机制（清单分支实测未执行）
+      └─ SetupAppendData()                          → append 机制（清单分支未执行）
 ```
 
 关键点：
 
 * **`@if (DEBUG)` 是编译期指令**，release 版整块剔除 —— `scntranstempl.tjs` 之类的 DEBUG-only 载体不可用。
-* `addArchive(name)` = `Storages.addAutoPath(name + "/")` + `useArchiveIfExists(name)`；
-  `useArchiveIfExists(name)` 里 `arcname = System.exePath + name + ".xp3"`（**绝对路径**）。
+* `addArchive(name)` = `Storages.addAutoPath(name + "/")` + `useArchiveIfExists(name)`；`useArchiveIfExists(name)` 里 `arcname = System.exePath + name + ".xp3"`（**绝对路径**）。
 * 本作字节码里**没有 `arcPath`**（0 次），只有 `exePath`（1 次）→ 旧版模板。
 * `.sig` **不参与引擎校验**：替换 `steam.xp3` 后游戏照常启动，`.sig` 仍是官方那份。
 
 ## 2. 合法归档名（引擎会注册的名字）
 
-| 名字 | 来源 | 实测 |
+| 名字 | 来源 | 结论 |
 |---|---|---|
 | `data.xp3` | exe 硬编码 | 注册（`data.xp3>` 内存 1076 处） |
 | `steam.xp3` | `addArchive("steam")` | 注册（4 处，= 4 条目） |
@@ -129,9 +139,9 @@ nine_kokoiro.exe（加壳；脱壳版仅供 IDA 静态分析）
 | `unencrypted.xp3` | 无（需 `version.dll`） | 需 DLL |
 | append 包（`adult.xp3`） | `AppendDataConfig` 配置项 | 注册（925 处），但**只认配置里登记的项** |
 
-## 3. 优先级实测（关键结论）
+## 3. 优先级（关键结论）
 
-同名文件冲突时谁赢，实测结论是**分组 + 注册时机**决定的：
+同名文件冲突时谁赢，由**分组 + 注册时机**决定：
 
 | 注册方式 | 例子 | 对 `data.xp3` 同名的覆盖能力 |
 |---|---|---|
@@ -139,13 +149,42 @@ nine_kokoiro.exe（加壳；脱壳版仅供 IDA 静态分析）
 | `addAutoPath(<绝对路径> + ">")`（`addArchive` 系） | `patch.xp3>`、`steam.xp3>`、`system.xp3>` | **输**（我们的简中文本在内存 0 处，官方繁中 15 处） |
 | `addAutoPath(<相对路径> + ">scn/")`（启动流程内手动注册） | `steam.xp3>scn/` | **赢** ✓ |
 
-即：**"后注册优先"只在同为相对路径的注册之间成立**；`addArchive` 注册的绝对路径整体劣于 `data.xp3` 的相对路径。这就是 `patch.xp3` 明明注册成功却压不住官方文本的原因。
+即：**"后注册优先"只在同为相对路径的注册之间成立**；`addArchive` 注册的绝对路径整体劣于 `data.xp3` 的相对路径。这就是 `patch.xp3` 注册成功却压不住官方文本的原因。
 
-> 这也解释了 13 轮实测里「注册成功但正文不变」的全部现象；`addAutoPath` 的**重排无效**（`removeAutoPath` + 重新注册也压不过 `data.xp3`）。
+> 因此「注册成功但正文不变」的现象全部源于此；`addAutoPath` 的**重排无效**（`removeAutoPath` + 重新注册也压不过 `data.xp3`）。
+
+### 3.1 根因：归档索引的 `hnfn` 必须「每个文件一条」，否则子域别名只认第一个文件
+
+现象：把 17 个四块 scn 打进 `patch3.xp3` 并用 `addAutoPath("patch3.xp3>scn/")` 注册后，只有 `a01.txt.scn` 命中，`a02` 起的裸名请求全部落到 `data.xp3`。换归档内顺序就换赢家（a02 排第一则只有 a02 命中），`getPlacedPath` 也一样；用真实名字（非 md5）重建、换成 `patch.xp3`（引擎启动时自己注册的归档）都一样。
+
+根因在**索引结构**：官方打包器写的是「**每个文件一条 `hnfn`**」，`hnfn` 全部在前、`File` 在后（`data.xp3`：943 条 hnfn / 944 个 File；`adult.xp3`：925/925）。本项目早期把全部名字塞进**一条** `hnfn`，引擎只认得出第一条条目的名字，于是子域别名只暴露一个文件。
+
+判据（可复跑）：`python tmp/index_layout.py` 的等价检查，或用 `tool/xp3.py` 解析索引后统计顶层块；修法见 `script/build_patch.py::write_archive`（每个 placed 文件各写一条 `hnfn`）。修复后 `patch3.xp3>scn/` 对 `a01/a02/a09/a17.txt.scn` 全部命中 `archive://patch3.xp3/scn/…`，并且给 a02 第 4 块加 `SC2|` 前缀后游戏内能看到该前缀（端到端确认）。
+
+⇒ 所以「patch 又能用了」不是改了注册写法，而是把**索引写对**：`patch3.xp3>scn/` 现在覆盖全部 17 个脚本，交付回到单 `patch3.xp3`。松散 `scn/` 目录**不进钩子**（避免多一条隐式兜底），只作为可选排障路线记录：临时把某个 scn 放进 `<游戏目录>/scn/` 并在钩子里加 `addAutoPath(System.exePath + "scn/")` 即可覆盖。
+
+⇒ 结论：**多文件归档本是正常可用的**（`adult.xp3` 的 925 条、`data.xp3` 的 17 个 scn 都是整包+子域全覆盖）；之前「只第一条」是本项目索引写法的 bug，不是引擎限制。scn 交付因此回到**单个 `patch3.xp3`**。
+
+### 3.2 解析模型：autopath 就是「字符串前缀」，归档条目名是 `md5(UTF-16LE 全路径)`
+
+autopath 的解析只有一条规则：**把 autopath 字符串和请求名直接拼起来**，再去存储里找这个拼接结果。
+
+* 目录型：`System.exePath + "scn/"` + `a02.txt.scn` = `<游戏目录>/scn/a02.txt.scn`，文件存在即命中，整目录都有效。
+* 归档型：`patch3.xp3>scn/` + `a02.txt.scn` = 归档内名字 `scn/a02.txt.scn`；而本作归档条目名是 **`md5(UTF-16LE 全路径)`**，拼接结果必须能 hash 命中索引项，否则继续试下一条 autopath。
+
+由此得到三类必错情形：
+
+| 情形 | 拼接结果 | 结果 |
+|---|---|---|
+| 请求名本身带目录（`scn/a02.txt.scn`） | `patch3.xp3>scn/scn/a02.txt.scn` | 前缀重复，未命中，落到 `data.xp3>scn/` |
+| 名字扩展名/大小写与打包时不一致 | `md5(...)` 不同 | 未命中（`getPlacedPath("a01.txt")` 恒空，`("a01.txt.scn")` 才有值） |
+| 归档用绝对路径注册（`addArchive("patch3")`） | 同名文件与 `data.xp3` 冲突 | `data.xp3`（exe 相对路径注册、最早）胜 |
+
+叠加 §3.1：归档子域覆盖多个文件的前提是索引「每文件一条 `hnfn`」；`main/`、`uipsd/` 这类目前没有走归档覆盖，必要时用松散目录（钩子里注册目录型 autopath）最省事。
 
 ## 4. 本作采用的补丁形态：hook 注入
 
-唯一稳定可控的注入点：`steam_r18hack.tjs`（由 `steam.tjs` 的 `KAGLoadScript` 触发，启动流程内必然执行；实测替换为 TJS 源码后弹窗成功）。
+唯一稳定可控的注入点：`steam_r18hack.tjs`（由 `steam.tjs` 的 `KAGLoadScript` 触发，启动流程内必然执行；替换为 TJS 源码后 `System.inform` 弹窗成功）。
 
 `steam.xp3`（19 KB）内容：
 
@@ -167,31 +206,146 @@ Storages.addAutoPath(System.exePath + "scn/");   // 松散目录，热更新
 
 要点：
 
-* **先转发、后注册**。先 `addAutoPath` 再转发曾导致语言回落英文（`multiLangFirstTag="en"`）。
+* **先转发、后注册**。先 `addAutoPath` 再转发会导致语言回落英文（`multiLangFirstTag="en"`）。
 * **只注册子域** `xxx.xp3>scn/`，不注册归档根，避免插手所有裸名解析。
 * 注册顺序 = 优先级（后注册优先），所以自己的路径放在兼容名之后。
-* `patch3.xp3` 用**官方 `steam.xp3` 索引 + 追加**的形态（已验证可读），不用纯自建索引。
+* `patch3.xp3` 用**官方 `steam.xp3` 索引 + 追加**的形态，不用纯自建索引。
 
-## 5. 语言轨：不新增第四条
+## 5. 语言轨：新增第 4 轨 `sc`（简中），官方 jp/en/cn 三轨原样保留
 
-`main/default.tjs`（TJS 源码）：
+`main/default.tjs` 是**加扰 TJS 源码**（`FE FE 01` + mode 1 奇偶位交换，`tool/krkr_text.py` 可解码/编码，往返逐字节一致），关键字段：
 
 ```tjs
 .multiLangLanguageTags = [ "jp", "en", "cn" ];
 .multiLangFirstTag     = "en";
 .multiLangParamsMap    = %[ en: %[...], cn: %[ "menu_caption" => "&Traditional Chinese" ] ];
+function GetScnConvertLangList() { var r = []; r.assign(SystemConfig.multiLangLanguageTags); r.shift(); return r.join(","); }
 ```
 
-* 每条对白的 `blocks` **恒为 3 个**（jp/en/cn），新增第四条需要给 9327 行各插一个列表元素（等价于完整 PSB 序列化器）→ 判定高风险，**采用覆盖 cn 轨**。
-* `multiLangFirstTag = "en"`：首次启动（或配置丢失）会回落**英文**，玩家切一次「繁體中文」后保持 —— 与补丁无关。
+`GetScnConvertLangList()` 没有任何 TJS 调用者 ⇒ 它由**引擎（M2 层）**调用，返回值就是「除 jp 之外要取的语言块列表」，这也说明 **row 的 `blocks` 是按 `multiLangLanguageTags` 的序号定位取块的**，加第四条必须给 9327 行各插一个块。
 
-## 6. 字体
+### 5.1 运行时注入语言表
 
-本轮未处理：换简中正文后沿用官方 cn 轨的字体映射，游戏内显示正常（未换字体）。
+在 `steam.xp3` 的钩子里执行下面三行，语言表在游戏内变成 4 条（依据：钩子内探针输出 `cfg=jp/en/cn/sc ui=jp/en/cn/sc scn=en,cn,sc`）：
+
+```tjs
+SystemConfig.multiLangLanguageTags.add("sc");                                              // 引擎侧（GetScnConvertLangList）
+SystemConfig.multiLangParamsMap["sc"] = %[ "menu_caption" => "&Simplified Chinese" ];      // 菜单 caption
+LanguageTags.add("sc");                                                                   // UI 侧（设置菜单语言项）
+```
+
+证据：钩子里 `System.inform("LANGPROBE cfg=" + … + " ui=" + LanguageTags.join("/") + " scn=" + GetScnConvertLangList())` 一次启动即可读出三处都是 4 条。**前提是 row 里已经有 `sc` 块**，否则引擎取第 4 块时无内容。
+
+### 5.2 `patch3.xp3` 不能用来覆盖 `*.tjs`
+
+`Storages.addAutoPath("patch3.xp3>main/")` 对 `main/` 域**完全无效**：注册返回 ok，但 `Storages.getPlacedPath("default.tjs")` 仍指向 `data.xp3/main/default.tjs`，新名字（`ml_chs.tjs`）一律解析为空。
+同一归档的 `patch3.xp3>scn/` 域却正常（`a01.txt.scn` → `archive://patch3.xp3/scn/a01.txt.scn`）。
+
+排除过的变体（均在游戏内读 `getPlacedPath` / `isExistentStorage` 判定）：
+
+| 尝试 | 结果 |
+|---|---|
+| `patch3.xp3>main/`（主域） | 覆盖 `default.tjs` 无效、新名字不可见 |
+| `patch3.xp3>main`（无尾斜杠） | 同上 |
+| `patch3.xp3>`（归档根） | 裸名/全路径都不可见，且仍指向 `data.xp3` |
+| `Storages.addAutoToolsPath("patch3.xp3>main/")` | 返回 ok，仍是不可见 |
+| 同域新增名字（`scn/zz5.txt.scn`、`scn/zz1..4.{txt,bin,tjs}`） | 全部解析为空；只有**已存在于 `data.xp3>scn/` 的 17 个 scn 名**能命中 patch3 |
+| `addArchive` / `System.addArchive` / `Storages.addArchive` | 都不存在（`Member ... does not exist`；全局 `addArchive` 内部报 `useArchiveIfExists` 缺失） |
+| 归档内放 `ml_chs.tjs` 再 `KAGLoadScript("ml_chs.tjs")` / `("main/ml_chs.tjs")` | `Cannot find storage …` |
+
+结论：**需要新名字的 tjs 只能放在 `steam.xp3`（钩子自身）或游戏目录的松散文件里**，patch3 只能用来替换 `data.xp3` 里已存在的同名资源（scn 就是这种情况）。注入逻辑因此写在钩子里（`HOOK_LINES`）。
+
+### 5.3 第 4 个块：整图重排（`tool/psb.PsbGraph`）
+
+PSB 的容器体是「相对偏移 + 顺序嵌套」布局（`LIST`/`OBJECTS` 读完 offsets 数组后，子对象紧跟基址顺序排布），插一个子对象会移动其后所有字节，因此必须整图重排。`tool/psb.py` 有 `PsbGraph`（`parse_graph()` → `PNode` 树 → `build()`），关键细节两条：
+
+* 字段宽度按原样记录（`PNode.style`），零改动重建才能逐字节一致；
+* **同一容器内结构相同的子对象共享偏移**（原始写出器就这么去重，例：`$.scenes[0].lines[0][1].env.action` 两个子项 offsets 都是 0），emit 时按「子对象字节」去重才能还原。
+
+闸：17 个官方 scn **全部逐字节一致**（`PsbFile(raw).parse_graph().build() == raw`）。
+
+`script/extend_lang.py` 用它给每行追加第 4 个语言块 + 给每个选择支追加第 4 项（前 3 块逐值不变，产物幂等）。依据：`a01` 378 行 + 2 选项扩成 4 块后，游戏内切到第 4 项，正文来自第 4 块 ⇒ 引擎按 `multiLangLanguageTags` 序号取块这一判断成立。
+
+### 5.4 字体：官方只带 JP/TC，简中字形覆盖不足
+
+`data.xp3` 里的字体是**小写路径**的 10 个 OTF：`font/sourcehansans{jp,tc}-{medium,bold,heavy}.otf`、`font/sourcehanserif{jp,tc}-{bold,heavy}.otf`，**没有 CN/SC 字体**。`font/embfontlist.tjs` 里 CN（简体）那一段本来就是注释掉的；民汉初版补丁的 `font/embfontlist.tjs` 与官方**完全一致**（他们只是把 TC 字体又打进了自己的包），也没有 CN 字体文件。
+
+**cmap 覆盖 ≠ 游戏内渲染正确**：`script/check_font_coverage.py` 读 cmap 会给出「TC 字体对 2460 个语料字符缺字 0」这种数字（JP 缺 613），但第 4 轨即使指向 TC 字体仍然乱码/缺字，离线覆盖率不能当作结论（见 `lessons-learned.md` §8.2）。
+
+⇒ **简中需要独立的 CN/SC 字体**（即官方注释掉的 `思源黑体{M,B,H}` / `思源宋体{B,H}` 那一段 + `sourcehansanscn-*.otf` 文件），按需引入（只引入实际用到的字重，不必全部）。字体注册与绑定见 §5.5、§6。
+
+### 5.5 第 4 轨的字体怎么设（落地见 §6）
+
+钩子作用域里 `kag` / `global.kag` 都还不存在（`Member "kag" does not exist`），必须用 `addAfterInitCallback` 在 KAG init 之后再动。after-init 里读到的状态（`AFTERINIT` 探针）：
+
+```
+set=ok ; f0=3 ; f1=源ノ角ゴシックB ; f2=思源黑體B ; f3=源ノ角ゴシックB
+```
+
+即 `kag.setLanguageFont(3, "思源黑體B")` 返回成功但 `getLanguageFont(3)` 仍是 JP 字体。
+
+**`sysscn/multilang.tjs` 的反汇编结果**（`tool/tjs2.py`，见 §5.5.1）：
+
+* `KAGWindow.getLanguageFont(index)` 的取值顺序：`scflags[ sprintf(multiLangUserFontFaceFmt, index) ]` → `MessageDefaultFontFaceMap[LanguageTags[index]]` → `chDefaultFace`；
+* 那个 `scflags` 是 **`kag.scflags`（KAGWindow 上的字典）**，不是 `SystemConfig.scflags` —— 写成 `SystemConfig["langUserFontFace3"]` / `SystemConfig.scflags[...]` 都不生效，就是这个原因（`SystemConfig.scflags` 是 void，被守卫条件跳过，静默无效）；
+* `kag` 在钩子作用域里不存在，必须在 `addAfterInitCallback` 回调里取 `global.kag`。
+
+⇒ 修法：after-init 里 `global.kag.scflags["langUserFontFace3"] = scflags["langUserFontFace2"]`（继承玩家给繁中轨选的字体），不要弹 `System.inform`（会留白边）。
+
+切到第 4 项（idx=3）时探针打印：`TAGS n=4 [jp|en|cn|sc] cur=sc kagLang=3 uiLang=3 cfgTags=jp|en|cn|sc MsgFace=思源黑体B chFace=源ノ角ゴシックB`
+
+* **语言轨本身完全正常**：`LanguageTags`/`CurrentLanguageTag`/`SystemConfig.multiLangLanguageTags` 都是 4 条，当前 tag 就是 `sc`；
+* `MessageDefaultFontFace`（消息层真正用的字体）= **`思源黑体B`** —— 官方 `main/config.tjs` 里 `LanguageDefaultFontFaceMap = %[ sc:"思源黑体B", cn:"思源黑體B" ]` 生效，但 **`思源黑体B` 这个 CN 字体本作没随包**（`data.xp3` 只有 JP/TC 十个 OTF，`embfontlist.tjs` 的 CN 段是注释掉的）⇒ 缺字；
+* `kag.chDefaultFace`（消息层直接取的字段）= `源ノ角ゴシックB`；
+* 在钩子**顶层**改 `LanguageDefaultFontFaceMap["sc"]` / `MessageDefaultFontFaceMap["sc"]` **不生效** —— `main/config.tjs` 在 `custom.tjs` 之后才执行，会把这两处重新写回；`MessageDefaultFontFaceMap` 还是个 getter，每次访问都用 `MakeFontFaceMap(LanguageDefaultFontFaceMap, …)` 重建，改了缓存也没用。
+
+### 5.5.1 `tool/tjs2.py`：TJS2 字节码读取 + 反汇编（自写，非移植代码）
+
+引擎脚本是 `TJS2100` 字节码，要读 `multilang.tjs` 这类逻辑只能反汇编。`tool/tjs2.py` 实现 DATA 常量池 + OBJS 对象表解析与逐指令反汇编（操作数布局按 TJS2 VM 的规则；跳转是相对词下标），命令行：
+
+```powershell
+mamba run -n GalRev python tool/tjs2.py tmp/multilang.tjs --out tmp/multilang.dis.txt   # 全量反汇编
+mamba run -n GalRev python tool/tjs2.py tmp/multilang.tjs --strings                       # 只列字符串池
+```
+
+遇到未知指令直接抛错（不猜长度），保证输出不会错位。参考实现 `xmoezzz/tjs2Decompiler`（Rust，未随附 license，只当格式参考，**没有拷贝其代码**）。
+
+### 5.6 探针文字别用 `[...]`
+
+行内 `[...]` 是 ruby 语法，探针前缀写成 `[CHS]` 会被渲染成注音（显示成 `{有:CHS}` 之类），排查时先怀疑自己的标记。
+
+## 6. 字体：运行期注册松散 `font/` 里的思源黑体 CN（可用）
+
+官方 `font/embfontlist.tjs` 由 `LoadEmbeddedFontList()`（位于 `data.xp3` 的一个 6.7 KB TJS 字节码里）在启动时读入，逐条调用 `EntryFont()`：`PreRenderFontEx.AddTrueTypeFont(name, face, file, 0)`（`.tft` 走 `AddFont`），`file` 先用 `Storages.isExistentStorage` 判存在。`PreRenderFontEx` 类由 `sysscn/PreRenderFontEx.tjs` 定义（该脚本全局初始化只把**类**挂到 `global.PreRenderFontEx`；实例由游戏启动流程创建）。
+
+可行做法（`script/build_patch.py::HOOK_LINES`）：
+
+* 松散字体目录：`Storages.addAutoPath(System.exePath + "font/")`（钩子里同时注册 `patch3.xp3>font/`，两者都用松散目录优先）；
+* `addAfterInitCallback` 里（此时 `global.PreRenderFontEx` 与 `System.addFont` 都已是 Object）：
+  `PreRenderFontEx.AddTrueTypeFont("9nineSC-B", "Source Han Sans CN", "SourceHanSansCN-Bold.otf", 0)`、Medium 同理注册 `9nineSC-M`；
+* 第 4 轨映射：`LanguageDefaultFontFaceMap["sc"] = "9nineSC-B"`、`LanguageNameFontFaceMap["sc"] = "9nineSC-M"`；消息层真正吃 `kag.chDefaultFace`，所以在 `setMessageLayerUserFont` 前置 hook 里 `if (kag.languageType == 3) { kag.chDefaultFace = "9nineSC-B"; kag.scflags["langUserFontFace3"] = "9nineSC-B"; }`（`scflags` 在 `kag` 上，不在 `SystemConfig` 上；`multiLangUserFontFaceFmt = "langUserFontFace%d"`）；
+* 要点：**注册调用要放在 after-init 之后**，且不要在钩子里重复 `KAGLoadScript("PreRenderFontEx.tjs")` 把实例换成类。
+**为什么字体必须放松散目录、不能塞进 patch3**：`PreRenderFontEx.AddTrueTypeFont` 最终调用 `System.addFont(file, 0)`（原生字体加载），它只认**真实文件**。归档内条目虽然 `Storages` 能看到（`isExistentStorage` = 1、`getPlacedPath` = `archive://patch3.xp3/font/…`），但原生加载器打不开 `archive://`，取不到字体信息（void），在内部 `.xxx` 上抛 `Cannot convert the variable type ((void) to Object)`；把 `placed`（`archive://…`）当 `file` 传进去同样失败。官方随包字体（JP/TC）能放在 `data.xp3` 里，是因为它们走**引擎启动时的原生嵌入字体机制**（`embfontlist.tjs` → 引擎侧加载），不是这条运行期 TJS 通道。
+
+**判定「别名 → 字体文件」真的生效**：把 `9nineSC-B` 临时注册到游戏自带的宋体（`SourceHanSerifTC-Bold.otf`，face 写 `Source Han Serif TC`），游戏内第 4 轨正文变成衬线即证明链路成立——只换文件、不改其它代码，排除了「其实还是官方字体」的可能。本作按此法确认过：默认（Sans CN）时是思源黑体的黑体形态，不是官方 TC 字体。
+
+* 回落策略：注册失败时第 4 轨用**系统字体 `Microsoft YaHei`**（保证字形完整、不出现缺字方框）。**不回落官方繁中字体**（`思源黑體B/M`）：它是繁体字形风格，且一旦遇到覆盖不到的字就会渲染成方框，属于不可接受的结果。
+
+字体载荷：`resource/fonts_sc/`（Adobe「Source Han Sans CN」SubsetOTF 的 Bold/Medium + `LICENSE.txt`，OFL，共约 17 MB），`build_patch.py` 默认复制成 `releases/font/`。字形覆盖用 `script/check_font_coverage.py` 复核（两个字重对语料 2460 字缺 0），最终以游戏内截图为准。
+
+### 6.1 更早注入点的调查结论：没有可用位置，字体只能松散放
+
+想把字体塞回 `patch3.xp3` 就需要比 `main/custom.tjs` 更早的执行点，实际排查结果：
+
+* **`patch3.xp3>main/` 现在能用**（逐文件 `hnfn` 修复后）：钩子里 `Storages.getPlacedPath("default.tjs")` 返回 `archive://patch3.xp3/main/default.tjs`。但把官方 `main/default.tjs` 加个 `System.inform("DEFHOOK")` 放进 patch3 后，游戏内**没有弹窗** ⇒ 这些 main 脚本在钩子注册之前就已加载，覆盖无效。
+* **`SystemConfig.EmbeddedFontList` 恒为 void**（钩子时、after-init 都是），说明 TJS 侧那个 `LoadEmbeddedFontList()` 清单并未生效，官方嵌入字体走的是引擎原生路径；没有可扩展的 TJS 清单。
+* **用 `steam.xp3` 做「新名字」早期脚本会崩**：`main/config.tjs` 里有 `if (Storages.isExistentStorage("ConfigEx.tjs")) KAGLoadScript(exconf)`，把 `ConfigEx.tjs` 放进 `steam.xp3`（该归档由 `main/storages.tjs` 在更早阶段 `addArchive("steam")` 注册）后，游戏启动即 **Access Violation**；换成空注释文件、或改用 `FE FE` 加扰编码，都一样崩 ⇒ 这条路不可用。
+
+⇒ 结论：**当前唯一可控的注入点是 `main/custom.tjs` 末尾的 `steam_r18hack.tjs`**，比它更早的位置要么不归我们控制、要么会崩。字体因此保持**松散 `font/`**，`patch3.xp3` 只装 scn。
 
 ## 7. 安装 / 卸载
 
-* 安装：把官方 `steam.xp3` 改名为 `steam.xp3.orig`（备份），再把 `releases/steam.xp3` + `releases/patch3.xp3` 复制进游戏目录。
+* 安装：把官方 `steam.xp3` 改名 `steam.xp3.orig`（备份），复制 `releases/steam.xp3` + `releases/patch3.xp3` 进游戏目录，再把 `releases/font/` 整目录复制成 `<游戏目录>/font/`。
 * 日常更新：只替换 `patch3.xp3`。
-* 卸载：删 `patch3.xp3`，把 `steam.xp3.orig` 改名回 `steam.xp3`。
+* 卸载：删 `patch3.xp3` 与 `<游戏目录>/font/`，把 `steam.xp3.orig` 改名回 `steam.xp3`。
 * 不替换 `nine_kokoiro.exe` / `steam_api.dll`，成就与云存档不受影响。

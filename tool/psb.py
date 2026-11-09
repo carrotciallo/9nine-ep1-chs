@@ -16,6 +16,7 @@ All integers inside PSB are little-endian.
 from __future__ import annotations
 
 import io
+import re
 import struct
 import zlib
 
@@ -514,3 +515,291 @@ class PsbFile:
 def load(path: str) -> PsbFile:
     with open(path, "rb") as fp:
         return PsbFile(fp.read())
+
+
+# --------------------------------------------------------------------------- 整图重排
+# PSB 的容器体是「相对偏移 + 顺序嵌套」布局：
+#   LIST    : type | offsets（相对 base 的数组） | base = 子对象 0 的起点 | 子对象按序紧排
+#   OBJECTS : type | name_refs 数组 | offsets（相对 base） | base | 子对象按序紧排
+# 因此「给列表加一个元素」会移动其后所有字节。`PNode` / `PsbGraph` 把整图读成可改写的树
+# 再重新序列化；字段宽度按原样记录，保证「零改动 = 逐字节一致」。
+
+_NUM_TYPES = range(NUMBER_N0, NUMBER_N8 + 1)
+_STR_TYPES = range(STRING_N1, STRING_N4 + 1)
+_RES_TYPES = range(RESOURCE_N1, RESOURCE_N4 + 1)
+_XRES_TYPES = range(EXTRA_CHUNK_N1, EXTRA_CHUNK_N4 + 1)
+
+
+class PNode:
+    """重排用的节点：保留原始类型字节与字段宽度，便于零改动逐字节还原。"""
+
+    __slots__ = ("kind", "type_byte", "value", "values", "name_refs", "children", "style")
+
+    def __init__(self, kind: str, type_byte: int = 0, value=None, values=None,
+                 name_refs=None, children=None, style=None):
+        self.kind = kind
+        self.type_byte = type_byte
+        self.value = value
+        self.values = values or []
+        self.name_refs = name_refs or []
+        self.children = children or []
+        self.style = style or {}
+
+    def clone(self) -> "PNode":
+        return PNode(self.kind, self.type_byte, self.value, list(self.values),
+                     list(self.name_refs), [c.clone() for c in self.children], dict(self.style))
+
+    def __repr__(self):
+        if self.kind in ("none", "null"):
+            return "None"
+        if self.kind in ("true", "false"):
+            return self.kind
+        if self.kind == "num":
+            return f"num({self.value})"
+        if self.kind in ("list", "objects"):
+            return f"{self.kind}[{len(self.children)}]"
+        return f"{self.kind}({self.value})"
+
+
+def _parse_node(br: io.BytesIO) -> PNode:
+    pos = br.tell()
+    t = br.read(1)[0]
+    if t == NONE:
+        return PNode("none", t)
+    if t == NULL:
+        return PNode("null", t)
+    if t == FALSE:
+        return PNode("false", t)
+    if t == TRUE:
+        return PNode("true", t)
+    if t in _NUM_TYPES:
+        width = t - NUMBER_N0
+        node = PNode("num", t, 0 if width == 0 else _read_le(br, width))
+        node.style["width"] = width
+        return node
+    if t in _STR_TYPES:
+        width = t - STRING_N1 + 1
+        node = PNode("str", t, _read_le(br, width))
+        node.style["width"] = width
+        return node
+    if t in _RES_TYPES:
+        width = t - RESOURCE_N1 + 1
+        node = PNode("res", t, _read_le(br, width))
+        node.style["width"] = width
+        return node
+    if t in _XRES_TYPES:
+        width = t - EXTRA_CHUNK_N1 + 1
+        node = PNode("xres", t, _read_le(br, width))
+        node.style["width"] = width
+        return node
+    if t == FLOAT0:
+        return PNode("float0", t, 0.0)
+    if t == FLOAT:
+        return PNode("float", t, struct.unpack("<f", br.read(4))[0])
+    if t == DOUBLE:
+        return PNode("double", t, struct.unpack("<d", br.read(8))[0])
+    if ARRAY_N1 <= t <= ARRAY_N8:
+        br.seek(pos)
+        values, cw, ew = _read_array_style(br)
+        node = PNode("array", t, None, values)
+        node.style.update(count_width=cw, entry_width=ew)
+        return node
+    if t == LIST:
+        offsets, cw, ew = _read_array_style(br)
+        base = br.tell()
+        kids = []
+        for off in offsets:
+            br.seek(base + off)
+            kids.append(_parse_node(br))
+        br.seek(base)
+        node = PNode("list", t, None, None, None, kids)
+        node.style.update(count_width=cw, entry_width=ew)
+        return node
+    if t == OBJECTS:
+        name_refs, ncw, new = _read_array_style(br)
+        offsets, cw, ew = _read_array_style(br)
+        base = br.tell()
+        kids = []
+        for off in offsets:
+            br.seek(base + off)
+            kids.append(_parse_node(br))
+        br.seek(base)
+        node = PNode("objects", t, None, None, name_refs, kids)
+        node.style.update(count_width=cw, entry_width=ew,
+                          name_count_width=ncw, name_entry_width=new)
+        return node
+    raise PsbError(f"unknown object type 0x{t:02x} at 0x{pos:x}")
+
+
+def _emit_node(node: PNode) -> bytes:
+    kind = node.kind
+    if kind == "none":
+        return bytes([NONE])
+    if kind == "null":
+        return bytes([NULL])
+    if kind == "false":
+        return bytes([FALSE])
+    if kind == "true":
+        return bytes([TRUE])
+    if kind == "num":
+        width = node.style.get("width", 0)
+        if width == 0:
+            return bytes([NUMBER_N0])
+        return bytes([NUMBER_N0 + width]) + int(node.value).to_bytes(width, "little")
+    if kind == "str":
+        width = node.style.get("width", 1)
+        return bytes([STRING_N1 + width - 1]) + int(node.value).to_bytes(width, "little")
+    if kind == "res":
+        width = node.style.get("width", 1)
+        return bytes([RESOURCE_N1 + width - 1]) + int(node.value).to_bytes(width, "little")
+    if kind == "xres":
+        width = node.style.get("width", 1)
+        return bytes([EXTRA_CHUNK_N1 + width - 1]) + int(node.value).to_bytes(width, "little")
+    if kind == "float0":
+        return bytes([FLOAT0])
+    if kind == "float":
+        return bytes([FLOAT]) + struct.pack("<f", node.value)
+    if kind == "double":
+        return bytes([DOUBLE]) + struct.pack("<d", node.value)
+    if kind == "array":
+        return _pack_array_styled(node.values, node.style.get("count_width"),
+                                  node.style.get("entry_width"))
+    if kind in ("list", "objects"):
+        # 同一容器内**结构相同的子对象共享同一位置**（原始写出器就是这么去重的：
+        # 例 scenes[0].lines[0][1].env.action 的两个子项 offsets 都是 0）。
+        parts, seen, offsets, acc = [], {}, [], 0
+        for child in node.children:
+            blob = _emit_node(child)
+            if blob in seen:
+                offsets.append(seen[blob])
+                continue
+            seen[blob] = acc
+            offsets.append(acc)
+            parts.append(blob)
+            acc += len(blob)
+        head = bytes([LIST if kind == "list" else OBJECTS])
+        if kind == "objects":
+            head += _pack_array_styled(node.name_refs, node.style.get("name_count_width"),
+                                       node.style.get("name_entry_width"))
+        head += _pack_array_styled(offsets, node.style.get("count_width"),
+                                   node.style.get("entry_width"))
+        return head + b"".join(parts)
+    raise PsbError(f"cannot emit node kind {kind}")
+
+
+def split_path(path: str) -> list:
+    """'$.scenes[0].texts[3][2]' -> ['scenes', 0, 'texts', 3, 2]"""
+    parts = []
+    for name, idx in re.findall(r"\.([A-Za-z_][A-Za-z0-9_]*)|\[(\d+)\]", path):
+        parts.append(name if name else int(idx))
+    return parts
+
+
+class PsbGraph:
+    """整图读写：`PsbFile.parse_graph()` 得到可改写的树，`build()` 重新拼回完整 PSB。"""
+
+    def __init__(self, psb_file: "PsbFile"):
+        self.file = psb_file
+        if psb_file.chunk_offsets or psb_file.chunk_lengths:
+            raise PsbError("带资源 chunk 的 PSB 暂不支持整图重排")
+        br = io.BytesIO(psb_file.body)
+        br.seek(psb_file.offset_entries)
+        self.root = _parse_node(br)
+        self.extra_strings: list[str] = []
+
+    # ---------------------------------------------------------------- 遍历
+    def walk(self, node: "PNode | None" = None, path: str = "$"):
+        node = self.root if node is None else node
+        yield path, node
+        if node.kind == "list":
+            for i, child in enumerate(node.children):
+                yield from self.walk(child, f"{path}[{i}]")
+        elif node.kind == "objects":
+            names = self.file.node_names(node)
+            for key, child in zip(names, node.children):
+                yield from self.walk(child, f"{path}.{key}")
+
+    def find(self, path: str) -> "PNode":
+        node = self.root
+        for part in split_path(path):
+            if isinstance(part, int):
+                node = node.children[part]
+            else:
+                node = node.children[self.file.node_names(node).index(part)]
+        return node
+
+    # -------------------------------------------------------------- 字符串
+    def add_string(self, value: str) -> int:
+        if value is None:
+            raise PsbError("add_string(None)")
+        idx = len(self.file.string_offsets) + len(self.extra_strings)
+        self.extra_strings.append(value)
+        return idx
+
+    def str_node(self, value: str, width: int | None = None) -> "PNode":
+        """新建一个字符串引用节点（指向追加进字符串池的新串）。"""
+        idx = self.add_string(value)
+        if width is None:
+            width = self.file.str_ref_width()
+        node = PNode("str", STRING_N1 + width - 1, idx)
+        node.style["width"] = width
+        return node
+
+    # ---------------------------------------------------------------- 输出
+    def build(self) -> bytes:
+        f = self.file
+        graph = _emit_node(self.root)
+        count = len(f.string_offsets)
+        data = bytearray()
+        offsets = []
+        for i in range(count + len(self.extra_strings)):
+            offsets.append(len(data))
+            if i >= count:
+                data += self.extra_strings[i - count].encode("utf-8") + b"\x00"
+                continue
+            start = f.offset_strings_data + f.string_offsets[i]
+            end = f.body.index(b"\x00", start)
+            data += f.body[start:end] + b"\x00"
+        offsets_blob = _pack_array_styled(offsets, f._str_count_width, f._str_entry_width)
+
+        prefix = f.body[f.header_length:f.offset_entries]
+        tail = f.body[f.offset_chunk_offsets:]
+        header = bytearray(f.body[:f.header_length])
+        offset_strings = f.header_length + len(prefix) + len(graph)
+        offset_strings_data = offset_strings + len(offsets_blob)
+        offset_chunk_offsets = offset_strings_data + len(data)
+        struct.pack_into(
+            "<8I", header, 8, f.header_length, f.offset_names, offset_strings,
+            offset_strings_data, offset_chunk_offsets,
+            offset_chunk_offsets + (f.offset_chunk_lengths - f.offset_chunk_offsets),
+            offset_chunk_offsets + (f.offset_chunk_data - f.offset_chunk_offsets),
+            f.offset_entries)
+        checksum = zlib.adler32(bytes(header[8:40])) & 0xFFFFFFFF
+        struct.pack_into("<I", header, 0x28, checksum)
+        body = bytes(header) + prefix + graph + offsets_blob + bytes(data) + tail
+        if f.is_mdf:
+            return MDF_SIG + struct.pack("<I", len(body)) + zlib.compress(body, 9)
+        return body
+
+
+# ---------------------------------------------------------------- PsbFile 侧入口
+def _psb_parse_graph(self):
+    return PsbGraph(self)
+
+
+def _psb_node_names(self, node: PNode) -> list:
+    return [self.names[i] for i in node.name_refs]
+
+
+def _psb_str_ref_width(self) -> int:
+    """字符串引用节点的最小安全宽度（保证追加后的下标放得下）。"""
+    total = len(self.string_offsets)
+    width = 1
+    while total >= (1 << (8 * width)):
+        width += 1
+    return width
+
+
+PsbFile.parse_graph = _psb_parse_graph
+PsbFile.node_names = _psb_node_names
+PsbFile.str_ref_width = _psb_str_ref_width

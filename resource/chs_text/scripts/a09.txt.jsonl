@@ -72,17 +72,17 @@
 {"script": "a09.txt.scn", "scene": 0, "label": "*start", "row": 71, "speaker": null, "name": null, "text": "伸出的手，并没有够到。", "plain": [], "flag": 64}
 {"script": "a09.txt.scn", "scene": 0, "label": "*start", "row": 72, "speaker": null, "name": null, "text": "九条继续在走廊中前进，进入厕所后消失了。", "plain": [], "flag": 80}
 {"script": "a09.txt.scn", "scene": 0, "label": "*start", "row": 73, "speaker": null, "name": null, "text": "……。", "plain": [], "flag": 64}
-{"script": "a09.txt.scn", "scene": 0, "label": "*start", "row": 74, "speaker": "与一", "name": "與一", "text": "「怎么了啊？　没事吧？」", "plain": [], "flag": 64}
+{"script": "a09.txt.scn", "scene": 0, "label": "*start", "row": 74, "speaker": "与一", "name": "与一", "text": "「怎么了啊？　没事吧？」", "plain": [], "flag": 64}
 {"script": "a09.txt.scn", "scene": 0, "label": "*start", "row": 75, "speaker": "翔", "name": "翔", "text": "「诶，啊、啊啊……」", "plain": [], "flag": 64}
-{"script": "a09.txt.scn", "scene": 0, "label": "*start", "row": 76, "speaker": "与一", "name": "與一", "text": "「该不会是和九条同学吵架了吧？」", "plain": [], "flag": 64}
+{"script": "a09.txt.scn", "scene": 0, "label": "*start", "row": 76, "speaker": "与一", "name": "与一", "text": "「该不会是和九条同学吵架了吧？」", "plain": [], "flag": 64}
 {"script": "a09.txt.scn", "scene": 0, "label": "*start", "row": 77, "speaker": "翔", "name": "翔", "text": "「不是……并不是这样……」", "plain": [], "flag": 64}
-{"script": "a09.txt.scn", "scene": 0, "label": "*start", "row": 78, "speaker": "与一", "name": "與一", "text": "「是吗？　从早上开始你们两个就很奇怪。」", "plain": [], "flag": 64}
+{"script": "a09.txt.scn", "scene": 0, "label": "*start", "row": 78, "speaker": "与一", "name": "与一", "text": "「是吗？　从早上开始你们两个就很奇怪。」", "plain": [], "flag": 64}
 {"script": "a09.txt.scn", "scene": 0, "label": "*start", "row": 79, "speaker": "翔", "name": "翔", "text": "「……」", "plain": [], "flag": 64}
-{"script": "a09.txt.scn", "scene": 0, "label": "*start", "row": 80, "speaker": "与一", "name": "與一", "text": "「果然是吵架？」", "plain": [], "flag": 64}
+{"script": "a09.txt.scn", "scene": 0, "label": "*start", "row": 80, "speaker": "与一", "name": "与一", "text": "「果然是吵架？」", "plain": [], "flag": 64}
 {"script": "a09.txt.scn", "scene": 0, "label": "*start", "row": 81, "speaker": "翔", "name": "翔", "text": "「或许我们的关系……还没有好到能吵架的地步呢。」", "plain": [], "flag": 64}
-{"script": "a09.txt.scn", "scene": 0, "label": "*start", "row": 82, "speaker": "与一", "name": "與一", "text": "「诶？　是吗？　明明你们已经是朋友之上恋人未满这样的感觉了。」", "plain": [], "flag": 64}
+{"script": "a09.txt.scn", "scene": 0, "label": "*start", "row": 82, "speaker": "与一", "name": "与一", "text": "「诶？　是吗？　明明你们已经是朋友之上恋人未满这样的感觉了。」", "plain": [], "flag": 64}
 {"script": "a09.txt.scn", "scene": 0, "label": "*start", "row": 83, "speaker": "翔", "name": "翔", "text": "「……回教室去吧。」", "plain": [], "flag": 64}
-{"script": "a09.txt.scn", "scene": 0, "label": "*start", "row": 84, "speaker": "与一", "name": "與一", "text": "「嗯？　嗯」", "plain": [], "flag": 64}
+{"script": "a09.txt.scn", "scene": 0, "label": "*start", "row": 84, "speaker": "与一", "name": "与一", "text": "「嗯？　嗯」", "plain": [], "flag": 64}
 {"script": "a09.txt.scn", "scene": 0, "label": "*start", "row": 85, "speaker": null, "name": null, "text": "我转个身，朝着教室走去。", "plain": [], "flag": 64}
 {"script": "a09.txt.scn", "scene": 0, "label": "*start", "row": 86, "speaker": null, "name": null, "text": "……。", "plain": [], "flag": 64}
 {"script": "a09.txt.scn", "scene": 0, "label": "*start", "row": 87, "speaker": null, "name": null, "text": "不会再给我添麻烦了，吗。", "plain": [], "flag": 64}

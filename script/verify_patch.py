@@ -72,12 +72,6 @@ def main(argv=None) -> int:
             if key is not None:
                 skipped_rows.setdefault(script_name, set()).add(key)
 
-    overrides = {}
-    ov_path = os.path.join(args.text, "_overrides.json")
-    if os.path.exists(ov_path):
-        with open(ov_path, encoding="utf-8") as fp:
-            overrides = json.load(fp).get("selects") or {}
-
     problems = []
     totals = {"rows": 0, "cn_text_ok": 0, "cn_text_skip": 0, "cn_plain_ok": 0, "cn_text_bad": 0}
     for fname in sorted(os.listdir(args.official)):
@@ -155,7 +149,6 @@ def main(argv=None) -> int:
         for sel in new.iter_selects():
             cn = (sel.langs.get("cn") or {})
             rec = dict(recs.get((sel.scene, sel.index)) or {})
-            rec.update((overrides.get(script) or {}).get(str(sel.index)) or {})
             for field in ("text", "searchtext", "speechtext"):
                 want = rec.get(field) or rec.get("text")
                 got = (cn.get(field) or {}).get("text")

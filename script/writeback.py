@@ -47,21 +47,11 @@ def scn_name_of(path: str) -> str:
     return os.path.basename(path).removesuffix(".scn")
 
 
-def load_overrides(text_dir: str) -> dict:
-    path = os.path.join(text_dir, "_overrides.json")
-    if not os.path.exists(path):
-        return {}
-    with open(path, encoding="utf-8") as fp:
-        return json.load(fp).get("selects") or {}
-
-
-def process(script_name: str, official_raw: bytes, rows: list[dict], selects: list[dict],
-            sel_overrides: dict | None = None):
+def process(script_name: str, official_raw: bytes, rows: list[dict], selects: list[dict]):
     psb_file = psb.PsbFile(official_raw)
     ints0, strs0 = psb_file.record_slots("$")
     by_key = {(r["scene"], r["row"]): r for r in rows}
     sel_by_key = {(s["scene"], s["index"]): s for s in selects}
-    sel_overrides = sel_overrides or {}
 
     appended: list[str] = []
     slot_of_value: dict[str, int] = {}
@@ -146,7 +136,6 @@ def process(script_name: str, official_raw: bytes, rows: list[dict], selects: li
         rec = dict(sel_by_key.get((sel.scene, sel.index)) or {})
         if not rec:
             raise psb.PsbError(f"{script_name}: 民汉侧缺少选项 selects[{sel.index}]")
-        rec.update(sel_overrides.get(str(sel.index)) or {})
         for field in ("text", "searchtext", "speechtext"):
             path = f"$.scenes[{sel.scene}].selects[{sel.index}].language[2].{field}"
             if path not in width_of:
@@ -198,7 +187,6 @@ def main(argv=None) -> int:
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")
 
-    sel_overrides = load_overrides(args.text)
     official_dir = args.official
     if not os.path.isdir(official_dir):
         raise SystemExit(f"官方 scn 目录不存在: {official_dir}")
@@ -223,7 +211,7 @@ def main(argv=None) -> int:
             raise SystemExit(f"民汉文本集里没有脚本 {script}（{args.text}）")
         selects = textset.records_for(args.text, script, textset.SELECTS)
         out_raw, stats, added, skipped_shared = process(
-            script, official_raw, rows, selects, sel_overrides.get(script))
+            script, official_raw, rows, selects)
         with open(os.path.join(scn_out, fname), "wb") as fp:
             fp.write(out_raw)
         if skipped_shared:

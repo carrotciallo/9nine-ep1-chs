@@ -60,55 +60,55 @@
 {"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 59, "speaker": "翔", "name": "翔", "text": "「那么去什么地方……啊，我每周都拉你出去玩呢。」", "plain": [], "flag": 64}
 {"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 60, "speaker": "都", "name": "都", "text": "「嘿嘿，我很开心，想去。」", "plain": [], "flag": 64}
 {"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 61, "speaker": "翔", "name": "翔", "text": "「上回已经看过了电影，这回%p-1;%fＭＳ ゴシック;――%p;%fuser;」", "plain": [], "flag": 64}
-{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 62, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「在你们吃饭的时候打扰了。」", "plain": [], "flag": 64}
+{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 62, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「在你们吃饭的时候打扰了。」", "plain": [], "flag": 64}
 {"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 63, "speaker": null, "name": null, "text": "索菲出现在了餐桌上。", "plain": [], "flag": 80}
 {"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 64, "speaker": null, "name": null, "text": "……这家伙，真的是完全不考虑我们这边的感受。", "plain": [], "flag": 64}
 {"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 65, "speaker": "都", "name": "都", "text": "「啊，索菲小姐真是好久不见」", "plain": [], "flag": 64}
-{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 66, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「好久不见。今天是来道别的。」", "plain": [], "flag": 64}
+{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 66, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「好久不见。今天是来道别的。」", "plain": [], "flag": 64}
 {"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 67, "speaker": "翔", "name": "翔", "text": "「道别……？」", "plain": [], "flag": 64}
-{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 68, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「是的，暂时而已。」", "plain": [], "flag": 64}
+{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 68, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「是的，暂时而已。」", "plain": [], "flag": 64}
 {"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 69, "speaker": "都", "name": "都", "text": "「抱歉了，我们没有出到什么力……」", "plain": [], "flag": 64}
-{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 70, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「没办法，因为魔眼使用者过于招摇的行动的缘故，\\n　仍然应该存在的其他的使用者们都不敢轻举妄动了」", "plain": ["「没办法，因为魔眼使用者过于招摇的行动的缘故，\\n　仍然应该存在的其他的使用者们都不敢轻举妄动了」", "「没办法，因为魔眼使用者过于招摇的行动的缘故，\\n　仍然应该存在的其他的使用者们都不敢轻举妄动了」"], "flag": 64}
-{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 71, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「魔眼的去向也是不明。就算那个男人是使用者，\\n　既然自杀以后Artifact消失了，那么新的魔眼使用者应该也诞生了。」", "plain": ["「魔眼的去向也是不明。就算那个男人是使用者，\\n　既然自杀以后Artifact消失了，那么新的魔眼使用者应该也诞生了。」", "「魔眼的去向也是不明。就算那个男人是使用者，\\n　既然自杀以后Artifact消失了，那么新的魔眼使用者应该也诞生了。」"], "flag": 64}
-{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 72, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「关于这个的线索完全没有。\\n　虽然静观其变了一段时间，\\n　看起来完全没有要行动的意思。」", "plain": ["「关于这个的线索完全没有。\\n　虽然静观其变了一段时间，\\n　看起来完全没有要行动的意思。」", "「关于这个的线索完全没有。\\n　虽然静观其变了一段时间，\\n　看起来完全没有要行动的意思。」"], "flag": 64}
-{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 73, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「我差不多也看透这个分支了。\\n　还是对于其他分支的你们抱以期待吧。」", "plain": ["「我差不多也看透这个分支了。\\n　还是对于其他分支的你们抱以期待吧。」", "「我差不多也看透这个分支了。\\n　还是对于其他分支的你们抱以期待吧。」"], "flag": 64}
+{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 70, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「没办法，因为魔眼使用者过于招摇的行动的缘故，\\n　仍然应该存在的其他的使用者们都不敢轻举妄动了」", "plain": ["「没办法，因为魔眼使用者过于招摇的行动的缘故，\\n　仍然应该存在的其他的使用者们都不敢轻举妄动了」", "「没办法，因为魔眼使用者过于招摇的行动的缘故，\\n　仍然应该存在的其他的使用者们都不敢轻举妄动了」"], "flag": 64}
+{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 71, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「魔眼的去向也是不明。就算那个男人是使用者，\\n　既然自杀以后Artifact消失了，那么新的魔眼使用者应该也诞生了。」", "plain": ["「魔眼的去向也是不明。就算那个男人是使用者，\\n　既然自杀以后Artifact消失了，那么新的魔眼使用者应该也诞生了。」", "「魔眼的去向也是不明。就算那个男人是使用者，\\n　既然自杀以后Artifact消失了，那么新的魔眼使用者应该也诞生了。」"], "flag": 64}
+{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 72, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「关于这个的线索完全没有。\\n　虽然静观其变了一段时间，\\n　看起来完全没有要行动的意思。」", "plain": ["「关于这个的线索完全没有。\\n　虽然静观其变了一段时间，\\n　看起来完全没有要行动的意思。」", "「关于这个的线索完全没有。\\n　虽然静观其变了一段时间，\\n　看起来完全没有要行动的意思。」"], "flag": 64}
+{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 73, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「我差不多也看透这个分支了。\\n　还是对于其他分支的你们抱以期待吧。」", "plain": ["「我差不多也看透这个分支了。\\n　还是对于其他分支的你们抱以期待吧。」", "「我差不多也看透这个分支了。\\n　还是对于其他分支的你们抱以期待吧。」"], "flag": 64}
 {"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 74, "speaker": "翔", "name": "翔", "text": "「那么……索菲你在这个分支上的工作，结束了吗。」", "plain": [], "flag": 64}
-{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 75, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「是啊。嘛，如果有什么发生的话还是会行动的。\\n　到那之前我就待机了。」", "plain": ["「是啊。嘛，如果有什么发生的话还是会行动的。\\n　到那之前我就待机了。」", "「是啊。嘛，如果有什么发生的话还是会行动的。\\n　到那之前我就待机了。」"], "flag": 64}
-{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 76, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「然而……真的是意外啊。\\n　这个世界的人类该说是有理性呢还是胆小呢……。\\n　好不容易得到了力量却不使用。」", "plain": ["「然而……真的是意外啊。\\n　这个世界的人类该说是有理性呢还是胆小呢……。\\n　好不容易得到了力量却不使用。」", "「然而……真的是意外啊。\\n　这个世界的人类该说是有理性呢还是胆小呢……。\\n　好不容易得到了力量却不使用。」"], "flag": 64}
-{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 77, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「都使用能力实在是太没效率了……。\\n　明明可以更加简单的回收Artifact的。\\n　我的评价也因此受到影响。」", "plain": ["「都使用能力实在是太没效率了……。\\n　明明可以更加简单的回收Artifact的。\\n　我的评价也因此受到影响。」", "「都使用能力实在是太没效率了……。\\n　明明可以更加简单的回收Artifact的。\\n　我的评价也因此受到影响。」"], "flag": 64}
+{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 75, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「是啊。嘛，如果有什么发生的话还是会行动的。\\n　到那之前我就待机了。」", "plain": ["「是啊。嘛，如果有什么发生的话还是会行动的。\\n　到那之前我就待机了。」", "「是啊。嘛，如果有什么发生的话还是会行动的。\\n　到那之前我就待机了。」"], "flag": 64}
+{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 76, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「然而……真的是意外啊。\\n　这个世界的人类该说是有理性呢还是胆小呢……。\\n　好不容易得到了力量却不使用。」", "plain": ["「然而……真的是意外啊。\\n　这个世界的人类该说是有理性呢还是胆小呢……。\\n　好不容易得到了力量却不使用。」", "「然而……真的是意外啊。\\n　这个世界的人类该说是有理性呢还是胆小呢……。\\n　好不容易得到了力量却不使用。」"], "flag": 64}
+{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 77, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「都使用能力实在是太没效率了……。\\n　明明可以更加简单的回收Artifact的。\\n　我的评价也因此受到影响。」", "plain": ["「都使用能力实在是太没效率了……。\\n　明明可以更加简单的回收Artifact的。\\n　我的评价也因此受到影响。」", "「都使用能力实在是太没效率了……。\\n　明明可以更加简单的回收Artifact的。\\n　我的评价也因此受到影响。」"], "flag": 64}
 {"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 78, "speaker": "都", "name": "都", "text": "「那，那么……至少把我的Artifact……」", "plain": [], "flag": 64}
-{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 79, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「啊是么？　谢谢了。」", "plain": [], "flag": 64}
-{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 80, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「%p-1;%fＭＳ ゴシック;――%p;%fuser;，虽然想这么说，\\n　但还是暂且先放在你这里吧。」", "plain": ["「%p-1;%fＭＳ ゴシック;――%p;%fuser;，虽然想这么说，\\n　但还是暂且先放在你这里吧。」", "「%p-1;%fＭＳ ゴシック;――%p;%fuser;，虽然想这么说，\\n　但还是暂且先放在你这里吧。」"], "flag": 64}
+{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 79, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「啊是么？　谢谢了。」", "plain": [], "flag": 64}
+{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 80, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「%p-1;%fＭＳ ゴシック;――%p;%fuser;，虽然想这么说，\\n　但还是暂且先放在你这里吧。」", "plain": ["「%p-1;%fＭＳ ゴシック;――%p;%fuser;，虽然想这么说，\\n　但还是暂且先放在你这里吧。」", "「%p-1;%fＭＳ ゴシック;――%p;%fuser;，虽然想这么说，\\n　但还是暂且先放在你这里吧。」"], "flag": 64}
 {"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 81, "speaker": "都", "name": "都", "text": "「……为了魔眼使用者再次行动的时候\\n　是么？」", "plain": ["「……为了魔眼使用者再次行动的时候\\n　是么？」", "「……为了魔眼使用者再次行动的时候\\n　是么？」"], "flag": 64}
-{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 82, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「是的。虽然寻找大量的使用者是低效率的，但如果是夺取一个Artifact的话……\\n　你的能力能派上大用场。」", "plain": ["「是的。虽然寻找大量的使用者是低效率的，但如果是夺取一个Artifact的话……\\n　你的能力能派上大用场。」", "「是的。虽然寻找大量的使用者是低效率的，但如果是夺取一个Artifact的话……\\n　你的能力能派上大用场。」"], "flag": 64}
-{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 83, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「所以，Artifact就放在你那里。\\n　小心不要被别人夺走了」", "plain": ["「所以，Artifact就放在你那里。\\n　小心不要被别人夺走了」", "「所以，Artifact就放在你那里。\\n　小心不要被别人夺走了」"], "flag": 64}
+{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 82, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「是的。虽然寻找大量的使用者是低效率的，但如果是夺取一个Artifact的话……\\n　你的能力能派上大用场。」", "plain": ["「是的。虽然寻找大量的使用者是低效率的，但如果是夺取一个Artifact的话……\\n　你的能力能派上大用场。」", "「是的。虽然寻找大量的使用者是低效率的，但如果是夺取一个Artifact的话……\\n　你的能力能派上大用场。」"], "flag": 64}
+{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 83, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「所以，Artifact就放在你那里。\\n　小心不要被别人夺走了」", "plain": ["「所以，Artifact就放在你那里。\\n　小心不要被别人夺走了」", "「所以，Artifact就放在你那里。\\n　小心不要被别人夺走了」"], "flag": 64}
 {"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 84, "speaker": "都", "name": "都", "text": "「好的」", "plain": [], "flag": 64}
-{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 85, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「然后，翔？」", "plain": [], "flag": 64}
+{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 85, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「然后，翔？」", "plain": [], "flag": 64}
 {"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 86, "speaker": "翔", "name": "翔", "text": "「啊啊」", "plain": [], "flag": 64}
-{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 87, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「结局还是不知道你的能力真是让人火大。\\n　有没有什么变化呢？」", "plain": ["「结局还是不知道你的能力真是让人火大。\\n　有没有什么变化呢？」", "「结局还是不知道你的能力真是让人火大。\\n　有没有什么变化呢？」"], "flag": 64}
+{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 87, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「结局还是不知道你的能力真是让人火大。\\n　有没有什么变化呢？」", "plain": ["「结局还是不知道你的能力真是让人火大。\\n　有没有什么变化呢？」", "「结局还是不知道你的能力真是让人火大。\\n　有没有什么变化呢？」"], "flag": 64}
 {"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 88, "speaker": "翔", "name": "翔", "text": "「完全没有」", "plain": [], "flag": 64}
-{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 89, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「身体哪里有刻印出来吗？」", "plain": [], "flag": 64}
+{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 89, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「身体哪里有刻印出来吗？」", "plain": [], "flag": 64}
 {"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 90, "speaker": "翔", "name": "翔", "text": "「没有啊。」", "plain": [], "flag": 64}
-{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 91, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「也许是在自己确认不到的地方呢。」", "plain": [], "flag": 64}
+{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 91, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「也许是在自己确认不到的地方呢。」", "plain": [], "flag": 64}
 {"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 92, "speaker": "翔", "name": "翔", "text": "「让都全看过了，没有。」", "plain": [], "flag": 64}
-{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 93, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「哎呀……你们已经成了能裸体而对的关系了？」", "plain": [], "flag": 64}
+{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 93, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「哎呀……你们已经成了能裸体而对的关系了？」", "plain": [], "flag": 64}
 {"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 94, "speaker": "翔", "name": "翔", "text": "「……」", "plain": [], "flag": 64}
 {"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 95, "speaker": "都", "name": "都", "text": "「……翔，翔君」", "plain": [], "flag": 64}
 {"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 96, "speaker": "翔", "name": "翔", "text": "「抱，抱歉……」", "plain": [], "flag": 64}
-{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 97, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「这种程度就如此狼狈，还是太年轻了呢。\\n　算了……无所谓了。」", "plain": ["「这种程度就如此狼狈，还是太年轻了呢。\\n　算了……无所谓了。」", "「这种程度就如此狼狈，还是太年轻了呢。\\n　算了……无所谓了。」"], "flag": 64}
-{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 98, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「虽然不能搞清楚你的能力是最大的遗憾……\\n　但也不能一直监视着。」", "plain": ["「虽然不能搞清楚你的能力是最大的遗憾……\\n　但也不能一直监视着。」", "「虽然不能搞清楚你的能力是最大的遗憾……\\n　但也不能一直监视着。」"], "flag": 64}
+{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 97, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「这种程度就如此狼狈，还是太年轻了呢。\\n　算了……无所谓了。」", "plain": ["「这种程度就如此狼狈，还是太年轻了呢。\\n　算了……无所谓了。」", "「这种程度就如此狼狈，还是太年轻了呢。\\n　算了……无所谓了。」"], "flag": 64}
+{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 98, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「虽然不能搞清楚你的能力是最大的遗憾……\\n　但也不能一直监视着。」", "plain": ["「虽然不能搞清楚你的能力是最大的遗憾……\\n　但也不能一直监视着。」", "「虽然不能搞清楚你的能力是最大的遗憾……\\n　但也不能一直监视着。」"], "flag": 64}
 {"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 99, "speaker": "翔", "name": "翔", "text": "「终于可以不在意你的视线了。」", "plain": [], "flag": 64}
-{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 100, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「你明明很寂寞吧。」", "plain": [], "flag": 64}
+{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 100, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「你明明很寂寞吧。」", "plain": [], "flag": 64}
 {"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 101, "speaker": null, "name": null, "text": "对于索菲的话，我移开了视线用耸肩膀来应对。", "plain": [], "flag": 64}
 {"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 102, "speaker": null, "name": null, "text": "鼻子哼笑了一声的索菲周围的空间开始扭曲了。", "plain": [], "flag": 64}
-{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 103, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「那么，电灯泡就这样告退了。」", "plain": [], "flag": 64}
+{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 103, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「那么，电灯泡就这样告退了。」", "plain": [], "flag": 64}
 {"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 104, "speaker": "都", "name": "都", "text": "「那个……还会再见面么？」", "plain": [], "flag": 64}
-{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 105, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「当然了。并没有打算将Artifact一直放在你们这里\\n　我还会回来回收的。」", "plain": ["「当然了。并没有打算将Artifact一直放在你们这里\\n　我还会回来回收的。」", "「当然了。并没有打算将Artifact一直放在你们这里\\n　我还会回来回收的。」"], "flag": 64}
-{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 106, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「我一定会回来的。」", "plain": [], "flag": 64}
+{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 105, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「当然了。并没有打算将Artifact一直放在你们这里\\n　我还会回来回收的。」", "plain": ["「当然了。并没有打算将Artifact一直放在你们这里\\n　我还会回来回收的。」", "「当然了。并没有打算将Artifact一直放在你们这里\\n　我还会回来回收的。」"], "flag": 64}
+{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 106, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「我一定会回来的。」", "plain": [], "flag": 64}
 {"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 107, "speaker": "翔", "name": "翔", "text": "「嘛，怎么说。无聊的时候就过来玩吧。」", "plain": [], "flag": 64}
-{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 108, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「你果然很寂寞不是么。」", "plain": [], "flag": 64}
+{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 108, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「你果然很寂寞不是么。」", "plain": [], "flag": 64}
 {"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 109, "speaker": "翔", "name": "翔", "text": "「真多嘴。」", "plain": [], "flag": 64}
-{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 110, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「呵呵，那么，再见了。」", "plain": [], "flag": 64}
+{"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 110, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「呵呵，那么，再见了。」", "plain": [], "flag": 64}
 {"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 111, "speaker": "都", "name": "都", "text": "「再，再见！」", "plain": [], "flag": 64}
 {"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 112, "speaker": null, "name": null, "text": "都和索菲相互挥手道别，索菲消失在了异空间中。", "plain": [], "flag": 64}
 {"script": "a16.txt.scn", "scene": 0, "label": "*start", "row": 113, "speaker": null, "name": null, "text": "……。", "plain": [], "flag": 64}

@@ -10,6 +10,8 @@ resource/official_tjs/
 resource/official_jp/
 resource/official_en/
 resource/official_cn/
+resource/official_fonts/
+resource/fonts_sc/
 
 .mcp.json
 *.local.*

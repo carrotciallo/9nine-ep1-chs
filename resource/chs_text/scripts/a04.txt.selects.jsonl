@@ -1,2 +1,2 @@
 {"script": "a04.txt.scn", "scene": 1, "label": "*dummyselect1", "index": 0, "target": "*a04_1_a", "storage": "a04.txt", "text": "迅速趴下。", "searchtext": "迅速趴下。", "speechtext": "迅速趴下。"}
-{"script": "a04.txt.scn", "scene": 1, "label": "*dummyselect1", "index": 1, "target": "*a04_1_b", "storage": "a04.txt", "text": "挺身保護九條。", "searchtext": "挺身保護九條。", "speechtext": "挺身保護九條。"}
+{"script": "a04.txt.scn", "scene": 1, "label": "*dummyselect1", "index": 1, "target": "*a04_1_b", "storage": "a04.txt", "text": "替九条挡下。", "searchtext": "替九条挡下。", "speechtext": "替九条挡下。"}

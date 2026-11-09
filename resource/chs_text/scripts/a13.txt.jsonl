@@ -51,7 +51,7 @@
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 50, "speaker": "翔", "name": "翔", "text": "「想吃哪个？」", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 51, "speaker": "都", "name": "都", "text": "「翔君你先选吧。」", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 52, "speaker": "翔", "name": "翔", "text": "「再见……」", "plain": [], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 53, "speaker": null, "name": null, "text": "我选了奶酪蛋糕，九條则拿了剩下的巧克力蛋糕。", "plain": [], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 53, "speaker": null, "name": null, "text": "我选了奶酪蛋糕，九条则拿了剩下的巧克力蛋糕。", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 54, "speaker": null, "name": null, "text": "“我开动了”双手合十祷告完毕后，我们拿起叉子。", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 55, "speaker": "都", "name": "都", "text": "「突然过来，真不好意思呢。」", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 56, "speaker": "翔", "name": "翔", "text": "「因为蛋糕什么的我自己也不会买，所以我也挺开心的。\\n　而且……今天也还没和都见过面呢。」", "plain": ["「因为蛋糕什么的我自己也不会买，所以我也挺开心的。\\n　而且……今天也还没和都见过面呢。」", "「因为蛋糕什么的我自己也不会买，所以我也挺开心的。\\n　而且……今天也还没和都见过面呢。」"], "flag": 64}
@@ -77,60 +77,60 @@
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 76, "speaker": null, "name": null, "text": "试着说出，“你嘴唇上有奶油哟”，之类的话。", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 77, "speaker": null, "name": null, "text": "然后慢慢地，距离缩短……。", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 78, "speaker": null, "name": null, "text": "接吻%p-1;%fＭＳ ゴシック;――", "plain": [], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 79, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「嗨，晚上好。」", "plain": [], "flag": 80}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 79, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「嗨，晚上好。」", "plain": [], "flag": 80}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 80, "speaker": "翔", "name": "翔", "text": "「……」", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 81, "speaker": null, "name": null, "text": "草泥马啊……。", "plain": [], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 82, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「……你那张脸什么意思啊。」", "plain": [], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 82, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「……你那张脸什么意思啊。」", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 83, "speaker": "翔", "name": "翔", "text": "「……没啥。」", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 84, "speaker": null, "name": null, "text": "……“明明最近都不来露个脸，为啥偏偏在这时候出现啊”\\n我才没想这些呢……你他妈的。", "plain": ["……“明明最近都不来露个脸，为啥偏偏在这时候出现啊”\\n我才没想这些呢……你他妈的。", "……“明明最近都不来露个脸，为啥偏偏在这时候出现啊”\\n我才没想这些呢……你他妈的。"], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 85, "speaker": "都", "name": "都", "text": "「索菲小姐……。好，好久不见了。」", "plain": [], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 86, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「好久不见。\\n　抱歉啦，打扰了二位的雅兴。」", "plain": ["「好久不见。\\n　抱歉啦，打扰了二位的雅兴。」", "「好久不见。\\n　抱歉啦，打扰了二位的雅兴。」"], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 86, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「好久不见。\\n　抱歉啦，打扰了二位的雅兴。」", "plain": ["「好久不见。\\n　抱歉啦，打扰了二位的雅兴。」", "「好久不见。\\n　抱歉啦，打扰了二位的雅兴。」"], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 87, "speaker": "翔", "name": "翔", "text": "「……」", "plain": [], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 88, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「……所以说你那张臭脸啥意思啊。」", "plain": [], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 88, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「……所以说你那张臭脸啥意思啊。」", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 89, "speaker": "翔", "name": "翔", "text": "「不……没啥意思。」", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 90, "speaker": null, "name": null, "text": "索菲瞥了一脸不爽的我一眼，扫兴地哼了一声。", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 91, "speaker": null, "name": null, "text": "……可恶，这家伙绝对是故意的。", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 92, "speaker": "翔", "name": "翔", "text": "「……有事吗？　明明这段时间都不来露脸。」", "plain": [], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 93, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「我来了解下情况。」", "plain": [], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 93, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「我来了解下情况。」", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 94, "speaker": "都", "name": "都", "text": "「啊……抱歉，这里没有什么进展……」", "plain": [], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 95, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「也是，我好几次也想来抱怨几句的\\n  今天原本是这么打算的……」", "plain": ["「也是，我好几次也想来抱怨几句的\\n  今天原本是这么打算的……」", "「也是，我好几次也想来抱怨几句的\\n  今天原本是这么打算的……」"], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 96, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「……」", "plain": [], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 95, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「也是，我好几次也想来抱怨几句的\\n  今天原本是这么打算的……」", "plain": ["「也是，我好几次也想来抱怨几句的\\n  今天原本是这么打算的……」", "「也是，我好几次也想来抱怨几句的\\n  今天原本是这么打算的……」"], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 96, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「……」", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 97, "speaker": "都", "name": "都", "text": "「？　怎么了吗？」", "plain": [], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 98, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「在这个“枝”里的都平安无事真是太好了。」", "plain": [], "flag": 80}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 98, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「在这个“枝”里的都平安无事真是太好了。」", "plain": [], "flag": 80}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 99, "speaker": "都", "name": "都", "text": "「……平安无事？」", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 100, "speaker": "翔", "name": "翔", "text": "「什么啊，那个“枝”。」", "plain": [], "flag": 80}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 101, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「指的就是这个世界流动着的时间本身。」", "plain": [], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 101, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「指的就是这个世界流动着的时间本身。」", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 102, "speaker": "翔", "name": "翔", "text": "「……请你说的能让人听明白些。」", "plain": [], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 103, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「真是猴子啊。」", "plain": [], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 103, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「真是猴子啊。」", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 104, "speaker": null, "name": null, "text": "索菲小姐故意似得叹了口气。", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 105, "speaker": null, "name": null, "text": "过了一段时间后她才不情愿地开始解释。", "plain": [], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 106, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「在这个世界里，各种各样的可能性相互交织着。\\n　就像你们在吃蛋糕这件事本身也是，\\n　也不过是这个世界众多可能性里的一个。」", "plain": ["「在这个世界里，各种各样的可能性相互交织着。\\n　就像你们在吃蛋糕这件事本身也是，\\n　也不过是这个世界众多可能性里的一个。」", "「在这个世界里，各种各样的可能性相互交织着。\\n　就像你们在吃蛋糕这件事本身也是，\\n　也不过是这个世界众多可能性里的一个。」"], "flag": 80}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 107, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「世界会根据可能性的数量，产生相应的分“枝”。\\n　能懂吗？」", "plain": ["「世界会根据可能性的数量，产生相应的分“枝”。\\n　能懂吗？」", "「世界会根据可能性的数量，产生相应的分“枝”。\\n　能懂吗？」"], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 106, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「在这个世界里，各种各样的可能性相互交织着。\\n　就像你们在吃蛋糕这件事本身也是，\\n　也不过是这个世界众多可能性里的一个。」", "plain": ["「在这个世界里，各种各样的可能性相互交织着。\\n　就像你们在吃蛋糕这件事本身也是，\\n　也不过是这个世界众多可能性里的一个。」", "「在这个世界里，各种各样的可能性相互交织着。\\n　就像你们在吃蛋糕这件事本身也是，\\n　也不过是这个世界众多可能性里的一个。」"], "flag": 80}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 107, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「世界会根据可能性的数量，产生相应的分“枝”。\\n　能懂吗？」", "plain": ["「世界会根据可能性的数量，产生相应的分“枝”。\\n　能懂吗？」", "「世界会根据可能性的数量，产生相应的分“枝”。\\n　能懂吗？」"], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 108, "speaker": "都", "name": "都", "text": "「啊……也就是说，平行世界吗？」", "plain": [], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 109, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「不错。果然还是都聪明啊。\\n　我将这些平行世界称呼为“枝”。」", "plain": ["「不错。果然还是都聪明啊。\\n　我将这些平行世界称呼为“枝”。」", "「不错。果然还是都聪明啊。\\n　我将这些平行世界称呼为“枝”。」"], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 109, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「不错。果然还是都聪明啊。\\n　我将这些平行世界称呼为“枝”。」", "plain": ["「不错。果然还是都聪明啊。\\n　我将这些平行世界称呼为“枝”。」", "「不错。果然还是都聪明啊。\\n　我将这些平行世界称呼为“枝”。」"], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 110, "speaker": "翔", "name": "翔", "text": "「……那请问？　那些“枝”怎么了？」", "plain": [], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 111, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「我能够知晓那些分“枝”里的可能性。\\n　通过Artifact『世界之眼』的力量。」", "plain": ["「我能够知晓那些分“枝”里的可能性。\\n　通过Artifact『世界之眼』的力量。」", "「我能够知晓那些分“枝”里的可能性。\\n　通过Artifact『世界之眼』的力量。」"], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 111, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「我能够知晓那些分“枝”里的可能性。\\n　通过Artifact『世界之眼』的力量。」", "plain": ["「我能够知晓那些分“枝”里的可能性。\\n　通过Artifact『世界之眼』的力量。」", "「我能够知晓那些分“枝”里的可能性。\\n　通过Artifact『世界之眼』的力量。」"], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 112, "speaker": "都", "name": "都", "text": "「世界之眼……。\\n　能够知晓平行世界里所发生的事情，是这样没错吧……？」", "plain": ["「世界之眼……。\\n　能够知晓平行世界里所发生的事情，是这样没错吧……？」", "「世界之眼……。\\n　能够知晓平行世界里所发生的事情，是这样没错吧……？」"], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 113, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「没错。虽然这仅限于我在别的“枝”里能经历的事情。\\n　今天是特例，我是专门前来\\n　将其他“枝”里所发生的事情告诉你们的」", "plain": ["「没错。虽然这仅限于我在别的“枝”里能经历的事情。\\n　今天是特例，我是专门前来\\n　将其他“枝”里所发生的事情告诉你们的」", "「没错。虽然这仅限于我在别的“枝”里能经历的事情。\\n　今天是特例，我是专门前来\\n　将其他“枝”里所发生的事情告诉你们的」"], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 113, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「没错。虽然这仅限于我在别的“枝”里能经历的事情。\\n　今天是特例，我是专门前来\\n　将其他“枝”里所发生的事情告诉你们的」", "plain": ["「没错。虽然这仅限于我在别的“枝”里能经历的事情。\\n　今天是特例，我是专门前来\\n　将其他“枝”里所发生的事情告诉你们的」", "「没错。虽然这仅限于我在别的“枝”里能经历的事情。\\n　今天是特例，我是专门前来\\n　将其他“枝”里所发生的事情告诉你们的」"], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 114, "speaker": "翔", "name": "翔", "text": "「……你确认了都是否安然无恙对吧。」", "plain": [], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 115, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「你在小细节方面挺敏锐的啊」", "plain": [], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 115, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「你在小细节方面挺敏锐的啊」", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 116, "speaker": "翔", "name": "翔", "text": "「都发生什么了吗？」", "plain": [], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 117, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「根本就不是发生了什么那么简单了。\\n　都。」", "plain": ["「根本就不是发生了什么那么简单了。\\n　都。」", "「根本就不是发生了什么那么简单了。\\n　都。」"], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 117, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「根本就不是发生了什么那么简单了。\\n　都。」", "plain": ["「根本就不是发生了什么那么简单了。\\n　都。」", "「根本就不是发生了什么那么简单了。\\n　都。」"], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 118, "speaker": "都", "name": "都", "text": "「是，是的」", "plain": [], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 119, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「两天前。在这个世界是叫“星期五”的那天吧。\\n　那天晚上……你被魔眼的使用者给杀害了。」", "plain": ["「两天前。在这个世界是叫“星期五”的那天吧。\\n　那天晚上……你被魔眼的使用者给杀害了。」", "「两天前。在这个世界是叫“星期五”的那天吧。\\n　那天晚上……你被魔眼的使用者给杀害了。」"], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 119, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「两天前。在这个世界是叫“星期五”的那天吧。\\n　那天晚上……你被魔眼的使用者给杀害了。」", "plain": ["「两天前。在这个世界是叫“星期五”的那天吧。\\n　那天晚上……你被魔眼的使用者给杀害了。」", "「两天前。在这个世界是叫“星期五”的那天吧。\\n　那天晚上……你被魔眼的使用者给杀害了。」"], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 120, "speaker": "都", "name": "都", "text": "「……什么？」", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 121, "speaker": null, "name": null, "text": "都眨了眨瞪大了的眼睛。", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 122, "speaker": null, "name": null, "text": "我也在一瞬间……感觉到时间停滞了。", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 123, "speaker": null, "name": null, "text": "都她？　被杀了……？", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 124, "speaker": "翔", "name": "翔", "text": "「等，等下！　这到底是怎么回事……！」", "plain": [], "flag": 80}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 125, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「声音小点。听我把话说完。」", "plain": [], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 125, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「声音小点。听我把话说完。」", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 126, "speaker": null, "name": null, "text": "索菲小姐再次叹了口气，继续说道。", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 127, "speaker": null, "name": null, "text": "在那条“枝”上，我和都并未成为恋人，\\n好像还闹了矛盾。", "plain": ["在那条“枝”上，我和都并未成为恋人，\\n好像还闹了矛盾。", "在那条“枝”上，我和都并未成为恋人，\\n好像还闹了矛盾。"], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 128, "speaker": null, "name": null, "text": "然后都她，选择了非特定对象，八成是咱们学校的学生\\n以这群人为中心，读取了他们的记忆。", "plain": ["然后都她，选择了非特定对象，八成是咱们学校的学生\\n以这群人为中心，读取了他们的记忆。", "然后都她，选择了非特定对象，八成是咱们学校的学生\\n以这群人为中心，读取了他们的记忆。"], "flag": 80}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 129, "speaker": null, "name": null, "text": "结果，以此确定了魔眼使用者的身份。", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 130, "speaker": null, "name": null, "text": "一个人先行，与魔眼使用者进行了接触。", "plain": [], "flag": 80}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 131, "speaker": null, "name": null, "text": "在那之后%p-1;%fＭＳ ゴシック;――", "plain": [], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 132, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「于是，等翔你找到都的时候，\\n　已经晚了。都已经被魔眼使用者杀害了」", "plain": ["「于是，等翔你找到都的时候，\\n　已经晚了。都已经被魔眼使用者杀害了」", "「于是，等翔你找到都的时候，\\n　已经晚了。都已经被魔眼使用者杀害了」"], "flag": 80}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 132, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「于是，等翔你找到都的时候，\\n　已经晚了。都已经被魔眼使用者杀害了」", "plain": ["「于是，等翔你找到都的时候，\\n　已经晚了。都已经被魔眼使用者杀害了」", "「于是，等翔你找到都的时候，\\n　已经晚了。都已经被魔眼使用者杀害了」"], "flag": 80}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 133, "speaker": "翔", "name": "翔", "text": "「……」", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 134, "speaker": "都", "name": "都", "text": "「……」", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 135, "speaker": null, "name": null, "text": "无话可说。", "plain": [], "flag": 64}
@@ -141,41 +141,41 @@
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 140, "speaker": null, "name": null, "text": "应该……是事实吧。", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 141, "speaker": null, "name": null, "text": "不是在这，而是在别的世界里。", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 142, "speaker": null, "name": null, "text": "都她……成了死于魔眼的第三人。", "plain": [], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 143, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「话就说到这。\\n　你们务必小心。魔眼的使用者，正在成长。」", "plain": ["「话就说到这。\\n　你们务必小心。魔眼的使用者，正在成长。」", "「话就说到这。\\n　你们务必小心。魔眼的使用者，正在成长。」"], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 143, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「话就说到这。\\n　你们务必小心。魔眼的使用者，正在成长。」", "plain": ["「话就说到这。\\n　你们务必小心。魔眼的使用者，正在成长。」", "「话就说到这。\\n　你们务必小心。魔眼的使用者，正在成长。」"], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 144, "speaker": "翔", "name": "翔", "text": "「……力量正在变得越发强大是吗。」", "plain": [], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 145, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「最初只有表皮才能被石化。\\n　而且其中的一部分不知是没能完全石化，还是能力被部分解除了，\\n　总之形成的是粗制滥造的石像。」", "plain": ["「最初只有表皮才能被石化。\\n　而且其中的一部分不知是没能完全石化，还是能力被部分解除了，\\n　总之形成的是粗制滥造的石像。」", "「最初只有表皮才能被石化。\\n　而且其中的一部分不知是没能完全石化，还是能力被部分解除了，\\n　总之形成的是粗制滥造的石像。」"], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 146, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「可是都却是连身体内部都被石化了。\\n　魔眼使用者她，正在渐渐地将Artifact里蕴藏的力量全部引出。」", "plain": ["「可是都却是连身体内部都被石化了。\\n　魔眼使用者她，正在渐渐地将Artifact里蕴藏的力量全部引出。」", "「可是都却是连身体内部都被石化了。\\n　魔眼使用者她，正在渐渐地将Artifact里蕴藏的力量全部引出。」"], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 145, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「最初只有表皮才能被石化。\\n　而且其中的一部分不知是没能完全石化，还是能力被部分解除了，\\n　总之形成的是粗制滥造的石像。」", "plain": ["「最初只有表皮才能被石化。\\n　而且其中的一部分不知是没能完全石化，还是能力被部分解除了，\\n　总之形成的是粗制滥造的石像。」", "「最初只有表皮才能被石化。\\n　而且其中的一部分不知是没能完全石化，还是能力被部分解除了，\\n　总之形成的是粗制滥造的石像。」"], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 146, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「可是都却是连身体内部都被石化了。\\n　魔眼使用者她，正在渐渐地将Artifact里蕴藏的力量全部引出。」", "plain": ["「可是都却是连身体内部都被石化了。\\n　魔眼使用者她，正在渐渐地将Artifact里蕴藏的力量全部引出。」", "「可是都却是连身体内部都被石化了。\\n　魔眼使用者她，正在渐渐地将Artifact里蕴藏的力量全部引出。」"], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 147, "speaker": "都", "name": "都", "text": "「身体内部都……」", "plain": [], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 148, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「对，不错。都的身体完全被石化，碎裂了。」", "plain": [], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 148, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「对，不错。都的身体完全被石化，碎裂了。」", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 149, "speaker": "都", "name": "都", "text": "「碎，裂……？」", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 150, "speaker": "翔", "name": "翔", "text": "「喂，索菲」", "plain": [], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 151, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「什么嘛，我只是实话实说好不好？\\n　我知道都在听到自己的死后会非常震惊\\n　但你们有必要知道」", "plain": ["「什么嘛，我只是实话实说好不好？\\n　我知道都在听到自己的死后会非常震惊\\n　但你们有必要知道」", "「什么嘛，我只是实话实说好不好？\\n　我知道都在听到自己的死后会非常震惊\\n　但你们有必要知道」"], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 152, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「为了能在这“枝”里不死去。」", "plain": [], "flag": 80}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 151, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「什么嘛，我只是实话实说好不好？\\n　我知道都在听到自己的死后会非常震惊\\n　但你们有必要知道」", "plain": ["「什么嘛，我只是实话实说好不好？\\n　我知道都在听到自己的死后会非常震惊\\n　但你们有必要知道」", "「什么嘛，我只是实话实说好不好？\\n　我知道都在听到自己的死后会非常震惊\\n　但你们有必要知道」"], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 152, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「为了能在这“枝”里不死去。」", "plain": [], "flag": 80}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 153, "speaker": "都", "name": "都", "text": "「……」", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 154, "speaker": null, "name": null, "text": "都将紧紧握着的叉子慢慢放到盘子上。", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 155, "speaker": null, "name": null, "text": "那双眼睛，没有焦点。", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 156, "speaker": null, "name": null, "text": "一片茫然。", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 157, "speaker": null, "name": null, "text": "我对找不到能说的话的自己感到真是火大。", "plain": [], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 158, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「你们打算怎么理解我的这番话是随便你们的\\n　不过也没必要这么消沉吧？」", "plain": ["「你们打算怎么理解我的这番话是随便你们的\\n　不过也没必要这么消沉吧？」", "「你们打算怎么理解我的这番话是随便你们的\\n　不过也没必要这么消沉吧？」"], "flag": 80}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 158, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「你们打算怎么理解我的这番话是随便你们的\\n　不过也没必要这么消沉吧？」", "plain": ["「你们打算怎么理解我的这番话是随便你们的\\n　不过也没必要这么消沉吧？」", "「你们打算怎么理解我的这番话是随便你们的\\n　不过也没必要这么消沉吧？」"], "flag": 80}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 159, "speaker": "翔", "name": "翔", "text": "「……这让人消沉的话明明是你说的。」", "plain": [], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 160, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「是这样没错，但话里也不全是让人消极的内容吧？」", "plain": [], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 161, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「都败给了魔眼使用者。\\n　那是在别的“枝”里。\\n　在这个“枝”里的都还活着。」", "plain": ["「都败给了魔眼使用者。\\n　那是在别的“枝”里。\\n　在这个“枝”里的都还活着。」", "「都败给了魔眼使用者。\\n　那是在别的“枝”里。\\n　在这个“枝”里的都还活着。」"], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 162, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「确定魔眼使用者的身份还是有可能的。」", "plain": [], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 160, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「是这样没错，但话里也不全是让人消极的内容吧？」", "plain": [], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 161, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「都败给了魔眼使用者。\\n　那是在别的“枝”里。\\n　在这个“枝”里的都还活着。」", "plain": ["「都败给了魔眼使用者。\\n　那是在别的“枝”里。\\n　在这个“枝”里的都还活着。」", "「都败给了魔眼使用者。\\n　那是在别的“枝”里。\\n　在这个“枝”里的都还活着。」"], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 162, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「确定魔眼使用者的身份还是有可能的。」", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 163, "speaker": "都", "name": "都", "text": "「啊……」", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 164, "speaker": null, "name": null, "text": "听了索菲小姐的话，都的眼睛稍稍恢复了生气。", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 165, "speaker": "都", "name": "都", "text": "「是啊……。被石化了也就代表……\\n　我和……魔眼使用者接触了是吧？」", "plain": ["「是啊……。被石化了也就代表……\\n　我和……魔眼使用者接触了是吧？」", "「是啊……。被石化了也就代表……\\n　我和……魔眼使用者接触了是吧？」"], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 166, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「不错。我不是说了吗？　是你自己调查出来的」", "plain": [], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 167, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「若是能够善用这些已知的条件，\\n　不也能在不丧命的情况下战胜魔眼使用者吗。」", "plain": ["「若是能够善用这些已知的条件，\\n　不也能在不丧命的情况下战胜魔眼使用者吗。」", "「若是能够善用这些已知的条件，\\n　不也能在不丧命的情况下战胜魔眼使用者吗。」"], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 166, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「不错。我不是说了吗？　是你自己调查出来的」", "plain": [], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 167, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「若是能够善用这些已知的条件，\\n　不也能在不丧命的情况下战胜魔眼使用者吗。」", "plain": ["「若是能够善用这些已知的条件，\\n　不也能在不丧命的情况下战胜魔眼使用者吗。」", "「若是能够善用这些已知的条件，\\n　不也能在不丧命的情况下战胜魔眼使用者吗。」"], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 168, "speaker": "都", "name": "都", "text": "「如果使用我的力量，我将能阻止这犯罪行为……」", "plain": [], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 169, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「希望你能做到那一步。」", "plain": [], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 169, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「希望你能做到那一步。」", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 170, "speaker": "都", "name": "都", "text": "「我一定……」", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 171, "speaker": null, "name": null, "text": "都握紧拳头。", "plain": [], "flag": 80}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 172, "speaker": null, "name": null, "text": "看着振作的都，索菲小姐满意地笑了。", "plain": [], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 173, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「具体实施就交给你了。\\n　在别的“枝”里面你是怎么做到的，我就不得而知了。」", "plain": ["「具体实施就交给你了。\\n　在别的“枝”里面你是怎么做到的，我就不得而知了。」", "「具体实施就交给你了。\\n　在别的“枝”里面你是怎么做到的，我就不得而知了。」"], "flag": 80}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 173, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「具体实施就交给你了。\\n　在别的“枝”里面你是怎么做到的，我就不得而知了。」", "plain": ["「具体实施就交给你了。\\n　在别的“枝”里面你是怎么做到的，我就不得而知了。」", "「具体实施就交给你了。\\n　在别的“枝”里面你是怎么做到的，我就不得而知了。」"], "flag": 80}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 174, "speaker": "都", "name": "都", "text": "「好，好的，我会试着去做的。」", "plain": [], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 175, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「翔你也用你那猴脑子，尽可能地帮助都吧。」", "plain": [], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 175, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「翔你也用你那猴脑子，尽可能地帮助都吧。」", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 176, "speaker": "翔", "name": "翔", "text": "「不用你说我也打算这么做。」", "plain": [], "flag": 64}
-{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 177, "speaker": "ソフィーティア", "name": "蘇菲堤雅", "text": "「很好。那再见啦，下次再来拜访。」", "plain": [], "flag": 64}
+{"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 177, "speaker": "ソフィーティア", "name": "苏菲堤雅", "text": "「很好。那再见啦，下次再来拜访。」", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 178, "speaker": null, "name": null, "text": "说完，索菲小姐消失在了空间裂缝之中。", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 179, "speaker": null, "name": null, "text": "……。", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 0, "label": "*start", "row": 180, "speaker": null, "name": null, "text": "别的“枝”……平行世界……。", "plain": [], "flag": 64}
@@ -335,7 +335,7 @@
 {"script": "a13.txt.scn", "scene": 1, "label": "*a13_1_a", "row": 30, "speaker": null, "name": null, "text": "回到房间，我横躺在床上。", "plain": [], "flag": 80}
 {"script": "a13.txt.scn", "scene": 1, "label": "*a13_1_a", "row": 31, "speaker": null, "name": null, "text": "平行世界……“枝”，这么一来。", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 1, "label": "*a13_1_a", "row": 32, "speaker": null, "name": null, "text": "在别的“枝”，我和都产生矛盾导致失和……大概，\\n是在那段我们关系暧昧的时期吧。", "plain": ["在别的“枝”，我和都产生矛盾导致失和……大概，\\n是在那段我们关系暧昧的时期吧。", "在别的“枝”，我和都产生矛盾导致失和……大概，\\n是在那段我们关系暧昧的时期吧。"], "flag": 64}
-{"script": "a13.txt.scn", "scene": 1, "label": "*a13_1_a", "row": 33, "speaker": null, "name": null, "text": "裂纹没有得到弥合，結果，都自己单独行动，\\n被犯人打败并杀害。", "plain": ["裂纹没有得到弥合，結果，都自己单独行动，\\n被犯人打败并杀害。", "裂纹没有得到弥合，結果，都自己单独行动，\\n被犯人打败并杀害。"], "flag": 64}
+{"script": "a13.txt.scn", "scene": 1, "label": "*a13_1_a", "row": 33, "speaker": null, "name": null, "text": "裂纹没有得到弥合，结果，都自己单独行动，\\n被犯人打败并杀害。", "plain": ["裂纹没有得到弥合，结果，都自己单独行动，\\n被犯人打败并杀害。", "裂纹没有得到弥合，结果，都自己单独行动，\\n被犯人打败并杀害。"], "flag": 64}
 {"script": "a13.txt.scn", "scene": 1, "label": "*a13_1_a", "row": 34, "speaker": null, "name": null, "text": "可在这“枝”里，有我在。", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 1, "label": "*a13_1_a", "row": 35, "speaker": null, "name": null, "text": "都的身边有我在。", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 1, "label": "*a13_1_a", "row": 36, "speaker": null, "name": null, "text": "情况应该可以避免。", "plain": [], "flag": 64}
@@ -435,7 +435,7 @@
 {"script": "a13.txt.scn", "scene": 2, "label": "*a13_1_b", "row": 91, "speaker": "都", "name": "都", "text": "「嗯嗯嗯…………」", "plain": [], "flag": 72}
 {"script": "a13.txt.scn", "scene": 2, "label": "*a13_1_b", "row": 92, "speaker": null, "name": null, "text": "嫩粉色的突起。", "plain": [], "flag": 72}
 {"script": "a13.txt.scn", "scene": 2, "label": "*a13_1_b", "row": 93, "speaker": null, "name": null, "text": "都时不时漏出的娇喘声……让我浑身泛热\\n阵阵犯晕。", "plain": ["都时不时漏出的娇喘声……让我浑身泛热\\n阵阵犯晕。", "都时不时漏出的娇喘声……让我浑身泛热\\n阵阵犯晕。"], "flag": 72}
-{"script": "a13.txt.scn", "scene": 2, "label": "*a13_1_b", "row": 94, "speaker": null, "name": null, "text": "对胸罩的执著心也瞬间消失，我现在急切地想要去触摸\\n那个本来绝对不会露出来的部位。", "plain": ["对胸罩的执著心也瞬间消失，我现在急切地想要去触摸\\n那个本来绝对不会露出来的部位。", "对胸罩的执著心也瞬间消失，我现在急切地想要去触摸\\n那个本来绝对不会露出来的部位。"], "flag": 72}
+{"script": "a13.txt.scn", "scene": 2, "label": "*a13_1_b", "row": 94, "speaker": null, "name": null, "text": "对胸罩的执着心也瞬间消失，我现在急切地想要去触摸\\n那个本来绝对不会露出来的部位。", "plain": ["对胸罩的执着心也瞬间消失，我现在急切地想要去触摸\\n那个本来绝对不会露出来的部位。", "对胸罩的执着心也瞬间消失，我现在急切地想要去触摸\\n那个本来绝对不会露出来的部位。"], "flag": 72}
 {"script": "a13.txt.scn", "scene": 2, "label": "*a13_1_b", "row": 95, "speaker": "都", "name": "都", "text": "「哈啊，……啊」", "plain": [], "flag": 72}
 {"script": "a13.txt.scn", "scene": 2, "label": "*a13_1_b", "row": 96, "speaker": null, "name": null, "text": "捏住乳头稍稍施加力道，\\n都的身体第一次有了剧烈反应。", "plain": ["捏住乳头稍稍施加力道，\\n都的身体第一次有了剧烈反应。", "捏住乳头稍稍施加力道，\\n都的身体第一次有了剧烈反应。"], "flag": 72}
 {"script": "a13.txt.scn", "scene": 2, "label": "*a13_1_b", "row": 97, "speaker": null, "name": null, "text": "小小的乳头充血变得饱满，耸立起来。", "plain": [], "flag": 72}
@@ -847,7 +847,7 @@
 {"script": "a13.txt.scn", "scene": 3, "label": "*dummy1", "row": 24, "speaker": null, "name": null, "text": "……。", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 3, "label": "*dummy1", "row": 25, "speaker": null, "name": null, "text": "平行世界……“枝”，这么一来。", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 3, "label": "*dummy1", "row": 26, "speaker": null, "name": null, "text": "在别的“枝”，我和都产生矛盾导致失和……大概，\\n是在那段我们关系暧昧的时期吧。", "plain": ["在别的“枝”，我和都产生矛盾导致失和……大概，\\n是在那段我们关系暧昧的时期吧。", "在别的“枝”，我和都产生矛盾导致失和……大概，\\n是在那段我们关系暧昧的时期吧。"], "flag": 80}
-{"script": "a13.txt.scn", "scene": 3, "label": "*dummy1", "row": 27, "speaker": null, "name": null, "text": "裂纹没有得到弥合，結果，都自己单独行动，\\n被犯人打败并杀害。", "plain": ["裂纹没有得到弥合，結果，都自己单独行动，\\n被犯人打败并杀害。", "裂纹没有得到弥合，結果，都自己单独行动，\\n被犯人打败并杀害。"], "flag": 64}
+{"script": "a13.txt.scn", "scene": 3, "label": "*dummy1", "row": 27, "speaker": null, "name": null, "text": "裂纹没有得到弥合，结果，都自己单独行动，\\n被犯人打败并杀害。", "plain": ["裂纹没有得到弥合，结果，都自己单独行动，\\n被犯人打败并杀害。", "裂纹没有得到弥合，结果，都自己单独行动，\\n被犯人打败并杀害。"], "flag": 64}
 {"script": "a13.txt.scn", "scene": 3, "label": "*dummy1", "row": 28, "speaker": null, "name": null, "text": "可在这“枝”里，有我在。", "plain": [], "flag": 80}
 {"script": "a13.txt.scn", "scene": 3, "label": "*dummy1", "row": 29, "speaker": null, "name": null, "text": "都的身边有我在。", "plain": [], "flag": 64}
 {"script": "a13.txt.scn", "scene": 3, "label": "*dummy1", "row": 30, "speaker": null, "name": null, "text": "即便我们交往时间尚短，\\n但我们之间缔结了强有力的羁绊。", "plain": ["即便我们交往时间尚短，\\n但我们之间缔结了强有力的羁绊。", "即便我们交往时间尚短，\\n但我们之间缔结了强有力的羁绊。"], "flag": 64}

@@ -45,7 +45,7 @@ from dataclasses import dataclass, field
 
 from . import psb
 
-LANGS = ("jp", "en", "cn")
+LANGS = ("jp", "en", "cn", "sc")  # 前三轨是官方；"sc" 是简中补丁新增的第 4 轨
 LANG_INDEX = {name: i for i, name in enumerate(LANGS)}
 
 
